@@ -11,6 +11,7 @@ import pymupdf
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from fin_evidence.store import list_datasets  # noqa: E402
+from fin_evidence import review  # noqa: E402
 from fin_evidence.subject import evaluate_fact  # noqa: E402
 from fin_evidence.extract import statement_unit  # noqa: E402
 
@@ -41,6 +42,7 @@ def variants(value: float):
 def main() -> int:
     errors, warnings = [], []
     material_failures = set()
+    reviewed_material = set()
     datasets = list_datasets(BASE)
     structured_datasets = 0
     structured_metrics = 0
@@ -192,8 +194,12 @@ def main() -> int:
             cc = (item.get('cross_check') or {}).get('status', 'missing')
             structured_cross[cc] = structured_cross.get(cc, 0) + 1
             if cc == 'restatement_material':
-                errors.append(f'{sid}: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策')
-                material_failures.add(f'{code}/{period}/{metric}')
+                item_id = f'{code}/{period}/{metric}'
+                if review.is_confirmed(BASE, code, period, metric):
+                    reviewed_material.add(item_id)
+                else:
+                    errors.append(f'{sid}: 结构化重大追溯差异未复核，仍需 fail')
+                    material_failures.add(item_id)
             elif cc == 'warning':
                 warnings.append(f'{sid}: 结构化值与年报解析值存在差异（{cc}），已保留两套口径')
             elif cc == 'missing':
@@ -232,8 +238,12 @@ def main() -> int:
             if status == 'verified_isolated':
                 errors.append(f'{sid}: verified 与两个结构化源均不一致，疑似抽取错误')
             elif status == 'restatement_material':
-                errors.append(f'{sid}: 三源比对为重大追溯差异，已升级为 fail')
-                material_failures.add(f'{code}/{period}/{metric}')
+                item_id = f'{code}/{period}/{metric}'
+                if review.is_confirmed(BASE, code, period, metric):
+                    reviewed_material.add(item_id)
+                else:
+                    errors.append(f'{sid}: 三源比对为重大追溯差异且未复核，仍需 fail')
+                    material_failures.add(item_id)
             elif status == 'warning':
                 warnings.append(f'{sid}: 三源比对差异（{status}），保留两套口径')
     if len(keys) != len(set(keys)):
@@ -249,6 +259,8 @@ def main() -> int:
         'second_source_cross_check': second_cross,
         'material_failures': sorted(material_failures),
         'material_failure_count': len(material_failures),
+        'reviewed_material_metrics': sorted(reviewed_material),
+        'reviewed_material_count': len(reviewed_material),
         'errors': errors,
         'warnings': warnings,
         'error_count': len(errors),
@@ -261,7 +273,7 @@ def main() -> int:
                                               'structured_metrics', 'structured_cross_check',
                                               'second_source_datasets', 'second_source_metrics',
                                               'second_source_cross_check',
-                                              'material_failure_count',
+                                              'material_failure_count', 'reviewed_material_count',
                                               'error_count', 'warning_count', 'pass')}, ensure_ascii=False))
     if errors:
         print('\n'.join(errors[:20]))

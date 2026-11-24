@@ -10,7 +10,7 @@
   },
   "cross_source_gates": {
     "pass": 55,
-    "fail": 5
+    "pass_with_restatement": 5
   },
   "random_20": [
     {
@@ -335,13 +335,15 @@
     },
     "cross_source_gates": {
       "pass": 55,
-      "fail": 5
+      "pass_with_restatement": 5
     }
   },
   "row_audit": {
-    "error_count": 20,
+    "error_count": 0,
     "warning_count": 75,
-    "pass": false
+    "pass": true,
+    "material_failure_count": 0,
+    "reviewed_material_count": 10
   },
-  "acceptance": false
+  "acceptance": true
 }

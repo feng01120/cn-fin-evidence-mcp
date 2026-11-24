@@ -12,6 +12,8 @@ from mcp.server.fastmcp import FastMCP
 from .store import (append_audit, find_fact, find_fact_by_metric,
                     find_sina_fact, find_structured_fact, list_datasets, load_dataset)
 from .subject import evaluate_fact
+from .structured import UNIT_FACTORS
+from . import review
 
 BASE = Path(os.environ.get('FIN_EVIDENCE_DATA', str(Path(__file__).resolve().parents[2] / 'data')))
 mcp = FastMCP('cn-fin-evidence')
@@ -56,12 +58,44 @@ def _subject_quality(fact: Dict[str, Any]):
     return evaluate_fact(fact)
 
 
-def _second_source_status(cross: Dict[str, Any]) -> str:
+def _material_metrics(ds: Dict[str, Any], structured_only: bool = False) -> set:
+    metrics = set()
+    if not structured_only:
+        for metric, row in (ds.get('second_source') or {}).items():
+            if (row or {}).get('status') == 'restatement_material':
+                metrics.add(metric)
+    structured = ds.get('structured') or {}
+    for metric, item in (structured.get('metrics', {}) if isinstance(structured, dict) else {}).items():
+        if (item.get('cross_check') or {}).get('status') == 'restatement_material':
+            metrics.add(metric)
+    return metrics
+
+
+def _review_split(ds: Dict[str, Any], structured_only: bool = False) -> Dict[str, List[str]]:
+    meta = ds.get('meta') or {}
+    code = (meta.get('company') or {}).get('code', '')
+    period = meta.get('period', '')
+    return review.material_metrics(BASE, code, period,
+                                   _material_metrics(ds, structured_only=structured_only))
+
+
+def _second_source_status(cross: Dict[str, Any],
+                          ds: Optional[Dict[str, Any]] = None) -> str:
     if not cross:
         return 'missing'
-    if cross.get('verified_isolated') or cross.get('restatement_material'):
+    if cross.get('verified_isolated'):
         return 'fail'
-    if any(cross.get(k) for k in ('warning',)):
+    if ds is not None:
+        split = _review_split(ds)
+        if split['unreviewed']:
+            return 'fail'
+        if split['reviewed']:
+            return 'pass_with_restatement'
+        if cross.get('restatement_material'):
+            return 'fail'
+    elif cross.get('restatement_material'):
+        return 'fail'
+    if cross.get('warning'):
         return 'warning'
     return 'pass'
 
@@ -232,7 +266,9 @@ def get_evidence(evidence_id: str = '', stock_code: str = '', period: str = '',
             'meta': {'dataset': ds['meta'].get('company', {}), 'dataset_path': ds['dir'],
                      'report_date': ds['meta'].get('report_date', ''),
                      'announce_date': ds['meta'].get('announce_date', ''),
-                     'evidence_level': fact.get('evidence_level', 'verified')},
+                     'evidence_level': fact.get('evidence_level', 'verified'),
+                     'reviewed_restatement': 'reviewed_restatement' in ((fact.get('quality') or {}).get('checks') or []),
+                     'review_ledger': str(review.ledger_path(BASE))},
             'quality': fact.get('quality', {})}
 
 
@@ -271,19 +307,66 @@ def verify_fact(stock_code: str, period: str, metric: str, claimed_value: float,
         return _err('INVALID_CLAIM', 'claimed_value 必须是有限数', claimed_value=claimed_value)
     diff = claimed_f - float(actual)
     ok = abs(diff) <= max(abs(actual) * tolerance_f, 1e-6)
+    structured = find_structured_fact(ds, metric)
+    restated = structured.get('value') if structured else None
+    reviewed_restatement = bool(structured) and (
+        'reviewed_restatement' in ((structured.get('quality') or {}).get('checks') or []))
+    restatement_match = False
+    restated_native = None
+    if (not ok and reviewed_restatement and restated is not None
+            and math.isfinite(float(restated))):
+        structured_unit = (structured.get('unit') or '元')
+        fact_unit = (fact.get('unit') or structured_unit)
+        restated_native = (float(restated) * UNIT_FACTORS.get(structured_unit, 1.0)
+                           / UNIT_FACTORS.get(fact_unit, 1.0))
+        restatement_match = abs(claimed_f - restated_native) <= max(abs(restated_native) * tolerance_f, 1e-6)
+    if restatement_match:
+        _audit('verify_fact', {'stock_code': stock_code, 'period': period, 'metric': metric,
+                               'claimed_value': claimed_f, 'tolerance': tolerance_f,
+                               'announce_date': announce_date}, 'restatement',
+               [fact['evidence_id'], structured['evidence_id']])
+        cross = structured.get('cross_check') or {}
+        return {'data': {'verdict': 'restatement_match',
+                         'metric': metric,
+                         'claimed_value': claimed_f,
+                         'actual_value': fact.get('value'),
+                         'restated_value': restated_native,
+                         'difference': claimed_f - restated_native,
+                         'tolerance': tolerance_f,
+                         'unit': fact.get('unit') or structured.get('unit'),
+                         'period': period,
+                         'notice_date': cross.get('api_notice_date')},
+                'evidence': _evidence_block(fact),
+                'meta': {'stock_code': stock_code, 'period': period,
+                         'report_date': ds['meta'].get('report_date', ''),
+                         'announce_date': ds['meta'].get('announce_date', ''),
+                         'evidence_level': 'verified',
+                         'restatement_evidence_id': structured['evidence_id'],
+                         'reviewed_restatement': True},
+                'quality': {'status': 'warning',
+                            'checks': ['restatement_not_current', 'reviewed_restatement'],
+                            'messages': [
+                                '声称值匹配后发披露的重述比较数，不匹配本报告原披露值',
+                                '该重述已逐项复核；原始 as_reported 与 restated_comparative 并列保存，不覆盖',
+                            ]}}
     _audit('verify_fact', {'stock_code': stock_code, 'period': period, 'metric': metric,
                            'claimed_value': claimed_f, 'tolerance': tolerance_f,
                            'announce_date': announce_date},
            'ok' if ok else 'mismatch', [fact['evidence_id']])
     is_structured = fact.get('evidence_level') == 'structured'
     if is_structured:
-        source_failed = (fact.get('quality') or {}).get('status') == 'fail'
+        source_quality = fact.get('quality') or {}
+        source_failed = source_quality.get('status') == 'fail'
+        reviewed = 'reviewed_restatement' in (source_quality.get('checks') or [])
         quality = {'status': 'fail' if source_failed or not ok else 'warning',
                    'checks': ['no_page_evidence', 'verdict_match'],
                    'messages': ['结构化接口数据；数值来自 API，无年报页码证据，不能替代 verified']}
         if source_failed:
             quality['checks'].append('cross_source_fail')
             quality['messages'].append('该结构化兜底值在三源比对中被标记为不可直接采用')
+        if reviewed:
+            quality['checks'].append('reviewed_restatement')
+            quality['messages'].append('该差异已逐项复核为真实追溯；按 pass_with_restatement 处理，但仍不提供页码证据')
     else:
         quality = {'status': 'pass' if ok else 'fail'}
     return {
@@ -322,7 +405,8 @@ def get_source_comparison(stock_code: str, period: str, metric: str = '',
                         metric=metric, available=sorted(rows))
         rows = {metric: rows[metric]}
     cross = sina.get('cross_check', {})
-    status = _second_source_status(cross)
+    status = _second_source_status(cross, ds)
+    material_review = _review_split(ds)
     _audit('get_source_comparison', {'stock_code': stock_code, 'period': period,
                                      'metric': metric, 'announce_date': announce_date},
            'ok', [metric] if metric else [])
@@ -334,13 +418,17 @@ def get_source_comparison(stock_code: str, period: str, metric: str = '',
         'value': (r.get('sina') or {}).get('value'),
         'unit': (r.get('sina') or {}).get('unit'),
     } for r in rows.values()]
-    return {'data': {'metrics': rows, 'cross_check': cross},
+    return {'data': {'metrics': rows, 'cross_check': cross,
+                     'material_review': material_review},
             'evidence': evidence,
             'meta': {'stock_code': stock_code, 'period': period,
                      'report_date': ds['meta'].get('report_date', ''),
                      'announce_date': ds['meta'].get('announce_date', ''),
-                     'provider': 'sina', 'dataset_path': ds['dir']},
-            'quality': {'status': status}}
+                     'provider': 'sina', 'dataset_path': ds['dir'],
+                     'review_ledger': str(review.ledger_path(BASE))},
+            'quality': {'status': status,
+                        'reviewed_material': material_review['reviewed'],
+                        'unreviewed_material': material_review['unreviewed']}}
 
 
 @mcp.tool()
@@ -360,13 +448,25 @@ def get_quality_report(stock_code: str, period: str,
                                   'announce_date': announce_date}, 'ok')
     structured_doc = ds.get('structured') or {}
     structured_cross = structured_doc.get('cross_check', {}) if isinstance(structured_doc, dict) else {}
-    structured_status = 'fail' if structured_cross.get('restatement_material') else (
-        'warning' if (structured_cross.get('warning') or structured_cross.get('missing')) else 'pass')
+    structured_split = _review_split(ds, structured_only=True)
+    if structured_cross.get('restatement_material'):
+        structured_status = 'fail' if structured_split['unreviewed'] or not structured_split['reviewed'] else 'pass_with_restatement'
+    else:
+        structured_status = 'warning' if (structured_cross.get('warning') or structured_cross.get('missing')) else 'pass'
     sina = ds.get('sina') or {}
     second_cross = sina.get('cross_check', {}) if isinstance(sina, dict) else {}
-    second_status = _second_source_status(second_cross)
-    status = 'fail' if counts['fail'] or subject_fail or second_status == 'fail' or structured_status == 'fail' else (
-        'warning' if counts['warning'] or second_status == 'warning' or structured_status == 'warning' else 'pass')
+    second_status = _second_source_status(second_cross, ds)
+    material_review = _review_split(ds)
+    if counts['fail'] or subject_fail or second_status == 'fail' or structured_status == 'fail':
+        status = 'fail'
+    elif second_status == 'warning' or structured_status == 'warning':
+        status = 'warning'
+    elif second_status == 'pass_with_restatement' or structured_status == 'pass_with_restatement':
+        status = 'pass_with_restatement'
+    elif counts['warning']:
+        status = 'warning'
+    else:
+        status = 'pass'
     return {'data': {'checks': checks, 'counts': counts, 'subject_fail': subject_fail,
                      'coverage': ds['meta'].get('coverage', {}),
                      'coverage_score': ds['meta'].get('coverage_score', 0),
@@ -378,7 +478,8 @@ def get_quality_report(stock_code: str, period: str,
                      'structured_quality': structured_status,
                      'second_source_count': len(sina.get('metrics', {})) if isinstance(sina, dict) else 0,
                      'second_source_cross_check': second_cross,
-                     'second_source_status': second_status},
+                     'second_source_status': second_status,
+                     'material_review': material_review},
             'evidence': [],
             'meta': {'stock_code': stock_code, 'period': period,
                      'report_date': ds['meta'].get('report_date', ''),
@@ -386,9 +487,12 @@ def get_quality_report(stock_code: str, period: str,
                      'evidence_level': ds['meta'].get('evidence_level', 'verified'),
                      'structured_count': len(ds.get('structured_facts', [])),
                      'second_source_count': len(sina.get('metrics', {})) if isinstance(sina, dict) else 0,
-                     'dataset_path': ds['dir']},
+                     'dataset_path': ds['dir'],
+                     'review_ledger': str(review.ledger_path(BASE))},
             'quality': {'status': status, 'structured_status': structured_status,
-                        'second_source_status': second_status}}
+                        'second_source_status': second_status,
+                        'reviewed_material': material_review['reviewed'],
+                        'unreviewed_material': material_review['unreviewed']}}
 
 
 def main():

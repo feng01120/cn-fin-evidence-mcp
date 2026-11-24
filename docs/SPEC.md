@@ -46,14 +46,23 @@
 - `get_source_comparison` 并排返回 verified / 东方财富 / 新浪三源值与差异；三源不一致不自动改写任何一方。
 - 科目拦截同时校验指标、报表归属、科目别名；错误报表直接返回 `SUBJECT_MISMATCH`。
 
-## 当前落地（v0.2.3 试点）
+## 当前落地（v0.2.4 试点）
 
-- 20 家非金融公司 × 2023–2025 年，60 个数据集；全部 `verified`、`quality_gate=pass`；5 个数据集 `cross_source_gate=fail`。
-- 2,016 条 facts、8,352 条 rows；60 份年报 PDF；46 项契约测试。
-- 验收：随机 20 条证据 20/20 命中；4 项硬勾稽 240/240 pass；行级审计 20 error / 75 warning；`acceptance=false`（10 个重大追溯指标未清零）。
-- structured：60/60 数据集、1,200 指标；1,123 一致、46 追溯、10 重大追溯（fail）、21 无法核对；普通条目无页码证据只作 warning。
-- 第二源：60/60 数据集、2,040 指标；1,960 一致、45 追溯、10 重大追溯（fail）、25 无 verified、0 无对应；`verified_isolated=0`。
+- 20 家非金融公司 × 2023–2025 年，60 个数据集；全部 `verified`、`quality_gate=pass`；5 个数据集 `cross_source_gate=pass_with_restatement`（10 个已复核真实追溯），其余 55 个 `pass`，fail 0。
+- 2,016 条 facts、8,352 条 rows；60 份年报 PDF；52 项契约测试。
+- 验收：随机 20 条证据 20/20 命中；4 项硬勾稽 240/240 pass；行级审计 0 error / 75 warning；`material_failure_count=0`、`reviewed_material_count=10`；`acceptance=true`。
+- structured：60/60 数据集、1,200 指标；1,123 一致、46 追溯、10 重大追溯（已复核，`pass_with_restatement`）、21 无法核对；普通条目无页码证据只作 warning。
+- 第二源：60/60 数据集、2,040 指标；1,960 一致、45 追溯、10 重大追溯（已复核）、25 无 verified、0 无对应；`verified_isolated=0`。
 - 跨章节一致性尚未做；科目拦截覆盖 10 个高频指标，尚未覆盖全部指标。
+
+## 质量门语义
+
+- `cross_source_gate` 取值：`pass`、`warning`、`pass_with_restatement`、`fail`。
+- `restatement_material` 且所有相关指标均在 `data/material_review.json` 中确认为真实追溯：`pass_with_restatement`。
+- `restatement_material` 有任一未复核：`fail`。
+- `verified_isolated`：始终 `fail`，不能被 review 豁免。
+- 原始 `structured.json` / `sina.json` 中的 `quality=fail` 保留为审计信号；加载到工具层时，已复核条目返回 `warning + reviewed_restatement`。
+- 原始 `as_reported` 与后发 `restated_comparative` 并列保存、不覆盖；后发季报比较数不能标成 `verified` 年报页证据。
 
 ## 校验
 
@@ -64,7 +73,7 @@
 - `growth_anomaly`：营收或净利同比超过 ±50% 时给 warning，要求人工复核口径/重述，不直接判 fail。
 - 0 值三分类：`零` / `未披露` / `不适用`。
 
-## 非目标（v0.2.3）
+## 非目标（v0.2.4）
 
 - 不做投资建议、估值、预测。
 - 不覆盖母公司报表、TTM、行业均值。

@@ -179,16 +179,24 @@
 - [官方 PDF](https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF) p2：`12 家标的公司股权` / `11 家标的公司` / `同一控制下的企业合并` / `903,830`
 - [官方 PDF](https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF) p14：`300,203`
 
-## 对质量门的影响
+## 门禁改造：改造前 / 改造后
 
-| 口径 | acceptance | error | material failure | 说明 |
-|---|---:|---:|---:|---|
-| 当前严格审计 | false | 20 | 10 | 原始审计仍按 >25% material 一律 fail；本台账不擅自改写原始审计。 |
-| 建议的已确认追溯口径 | true | 0 未复核 | 0 | 建议在门禁中将“已确认的真实追溯”记为 pass_with_restatement；原始 as_reported 值与 restated_comparative 仍并列返回。 |
+用户已明确批准按逐项审查结论修改门禁。下表不是“建议”，而是改造前后实际口径。
 
-当前没有擅自修改门禁：`data/audit_report.json` 仍是 20 error / 75 warning，`data/acceptance_report.json` 仍是 `acceptance=false`。这样原始审计仍然保留“差异存在”的信号，审查台账只负责回答“这 10 条差异是不是真实追溯”。
+| 口径 | acceptance | error | material failure | 已复核 | 说明 |
+|---|---:|---:|---:|---:|---|
+| 改造前严格审计 | false | 20 | 10 | 0 | 改造前：所有 >25% 的 restatement_material 一律 fail；东方财富与新浪两侧各记一次 error。 |
+| 改造后 | true | 0 | 0 | 10 | 改造后：已复核 material 记为 pass_with_restatement，不再计 error；未复核 material 仍 fail。原始 quality=fail 保留在结构化源文件中作为审计信号。 |
 
-建议的下一步：把 `restatement_material + reviewed=confirmed_restatement` 映射为 `pass_with_restatement`，只让未复核的 material 继续 fail；原始 `quality=fail` 的信息保留为审计信号，不升格为“数据错误”。
+改造后的质量门语义：
+
+- `restatement_material` 且 10 个指标全部在 `data/material_review.json` 中确认：数据集记为 `pass_with_restatement`。
+- 任一 material 未复核：仍记 `fail`，审计继续报 error。
+- `verified_isolated`：始终 `fail`，不因 review 豁免。
+- 原始 `structured.json` / `sina.json` 中的 `quality=fail` 不被覆盖，保留为审计信号；工具层对已复核条目返回 `warning + reviewed_restatement`。
+- 原始 `as_reported` 与后发 `restated_comparative` 并列保存，不写回、不覆盖。
+
+当前审计：`data/audit_report.json` 为 0 error / 75 warning、`material_failure_count=0`、`reviewed_material_count=10`、`pass=true`；验收脚本已按同一口径复跑。
 
 ## 复跑
 

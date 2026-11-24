@@ -184,6 +184,8 @@ def main() -> int:
             'error_count': row_audit.get('error_count'),
             'warning_count': row_audit.get('warning_count'),
             'pass': row_audit.get('pass'),
+            'material_failure_count': row_audit.get('material_failure_count'),
+            'reviewed_material_count': row_audit.get('reviewed_material_count'),
         },
         'acceptance': (
             len(results) == 20
@@ -192,6 +194,7 @@ def main() -> int:
             and all(v == 'EVIDENCE_NOT_FOUND' or v == 'METRIC_NOT_FOUND' or v == 'DATASET_NOT_FOUND'
                     for v in refusals.values())
             and row_audit.get('error_count') == 0
+            and row_audit.get('material_failure_count') == 0
             and structured_datasets == len(datasets)
             and structured_ok
             and second_datasets == len(datasets)

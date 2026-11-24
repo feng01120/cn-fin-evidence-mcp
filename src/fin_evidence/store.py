@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from .models import CheckResult, DatasetMeta, Evidence, Ratio, RawRow
+from . import review
 
 DATE_RE = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 
@@ -76,7 +77,8 @@ def _read(path: Path, default):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
-def structured_fact(meta: Dict[str, Any], entry: Dict[str, Any]) -> Dict[str, Any]:
+def structured_fact(meta: Dict[str, Any], entry: Dict[str, Any],
+                    reviewed: bool = False) -> Dict[str, Any]:
     """把结构化指标转成事实对象；页码/片段显式为空，quality=warning。"""
     company = meta.get('company', {})
     code = company.get('code', '')
@@ -86,6 +88,15 @@ def structured_fact(meta: Dict[str, Any], entry: Dict[str, Any]) -> Dict[str, An
         'status': 'warning', 'checks': ['no_page_evidence'],
         'messages': ['结构化接口数据，无年报页码证据'],
     }
+    if reviewed and (entry.get('cross_check') or {}).get('status') == 'restatement_material':
+        quality = {
+            'status': 'warning',
+            'checks': ['no_page_evidence', 'reviewed_restatement'],
+            'messages': [
+                '结构化接口数据，无年报页码证据；不得冒充 verified',
+                '该后发披露差异已逐项复核为真实追溯，按 pass_with_restatement 处理；原始 quality=fail 保留在 structured.json 中作为审计信号',
+            ],
+        }
     return {
         'evidence_id': '%s-%s-%s-structured' % (code, period, metric),
         'company': company,
@@ -121,11 +132,12 @@ def structured_fact(meta: Dict[str, Any], entry: Dict[str, Any]) -> Dict[str, An
 
 
 def sina_fact(meta: Dict[str, Any], entry: Dict[str, Any],
-              comparison: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+              comparison: Optional[Dict[str, Any]] = None,
+              reviewed: bool = False) -> Dict[str, Any]:
     """把新浪第二源转成事实对象；只在东方财富 structured 缺值后兜底。
 
     新浪同样没有年报页码，`evidence=[]`、`quality` 至少为 warning。若三源比对
-    把它判为重大差异/隔离，quality 直接 fail，避免把可疑值当普通兜底。
+    把它判为重大差异/隔离，quality 直接 fail；已复核的真实追溯除外。
     """
     company = meta.get('company', {})
     code = company.get('code', '')
@@ -133,10 +145,17 @@ def sina_fact(meta: Dict[str, Any], entry: Dict[str, Any],
     metric = entry.get('metric', '')
     status = (comparison or {}).get('status', 'unverified')
     failed = status in ('restatement_material', 'verified_isolated', 'warning')
+    if reviewed and status == 'restatement_material':
+        failed = False
     qstatus = 'fail' if failed else 'warning'
     messages = ['第二结构化源（新浪）数据；无年报页码证据，不能替代 verified']
+    checks = ['no_page_evidence']
     if failed:
         messages.append('三源比对状态为 %s；该兜底值不可直接采用' % status)
+        checks.append('cross_source_fail')
+    if reviewed and status == 'restatement_material':
+        messages.append('该后发披露差异已逐项复核为真实追溯，按 pass_with_restatement 处理')
+        checks.append('reviewed_restatement')
     return {
         'evidence_id': '%s-%s-%s-sina' % (code, period, metric),
         'company': company,
@@ -181,12 +200,18 @@ def load_dataset(base: Path, code: str, period: str, announce_date: str = '') ->
     meta = _read(d / 'meta.json', {})
     structured_doc = _read(d / 'structured.json', {})
     structured = structured_doc.get('metrics', {}) if isinstance(structured_doc, dict) else {}
-    structured_facts = [structured_fact(meta, e) for e in structured.values()]
+    structured_facts = [structured_fact(
+        meta, e, review.is_confirmed(base, meta.get('company', {}).get('code', ''),
+                                    meta.get('period', ''), metric))
+        for metric, e in structured.items()]
     sina_doc = _read(d / 'sina.json', {})
     sina_metrics = sina_doc.get('metrics', {}) if isinstance(sina_doc, dict) else {}
     sina_comparison = sina_doc.get('comparison', {}) if isinstance(sina_doc, dict) else {}
-    sina_facts = [sina_fact(meta, e, sina_comparison.get(metric))
-                  for metric, e in sina_metrics.items()]
+    sina_facts = [sina_fact(
+        meta, e, sina_comparison.get(metric),
+        review.is_confirmed(base, meta.get('company', {}).get('code', ''),
+                            meta.get('period', ''), metric))
+        for metric, e in sina_metrics.items()]
     return {
         'meta': meta,
         'facts': _read(d / 'facts.json', []),
@@ -223,8 +248,24 @@ def list_datasets(base: Path) -> List[Dict[str, Any]]:
         sina_doc = _read(d / 'sina.json', {})
         sina_count = len(sina_doc.get('metrics', {})) if isinstance(sina_doc, dict) else 0
         sina_cross = sina_doc.get('cross_check', {}) if isinstance(sina_doc, dict) else {}
-        if sina_cross.get('verified_isolated') or sina_cross.get('restatement_material'):
+        sina_comparison = sina_doc.get('comparison', {}) if isinstance(sina_doc, dict) else {}
+        structured_metrics = structured_doc.get('metrics', {}) if isinstance(structured_doc, dict) else {}
+        material = set()
+        for metric, item in structured_metrics.items():
+            if (item.get('cross_check') or {}).get('status') == 'restatement_material':
+                material.add(metric)
+        for metric, row in sina_comparison.items():
+            if (row or {}).get('status') == 'restatement_material':
+                material.add(metric)
+        split = review.material_metrics(
+            base, meta.get('company', {}).get('code', d.parent.name),
+            meta.get('period', ''), material)
+        if sina_cross.get('verified_isolated'):
             cross_source_gate = 'fail'
+        elif split['unreviewed']:
+            cross_source_gate = 'fail'
+        elif split['reviewed']:
+            cross_source_gate = 'pass_with_restatement'
         elif sina_cross.get('warning'):
             cross_source_gate = 'warning'
         else:
@@ -244,6 +285,7 @@ def list_datasets(base: Path) -> List[Dict[str, Any]]:
             'structured_count': structured_count,
             'second_source_count': sina_count,
             'cross_source_gate': cross_source_gate,
+            'cross_source_review': split,
             'path': str(d),
             'source_file': meta.get('source_file'),
         }

@@ -21,7 +21,9 @@
     "unverified": 25,
     "missing": 0
   },
-  "material_failures": [
+  "material_failures": [],
+  "material_failure_count": 0,
+  "reviewed_material_metrics": [
     "002594/2023/selling_expense",
     "300750/2023/selling_expense",
     "600690/2023/net_cash_increase",
@@ -33,29 +35,8 @@
     "601088/2025/total_equity",
     "601088/2025/total_liabilities"
   ],
-  "material_failure_count": 10,
-  "errors": [
-    "002594/2023/structured-selling_expense: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "002594/2023/sina-selling_expense: 三源比对为重大追溯差异，已升级为 fail",
-    "300750/2023/structured-selling_expense: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "300750/2023/sina-selling_expense: 三源比对为重大追溯差异，已升级为 fail",
-    "600690/2023/structured-net_cash_increase: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "600690/2023/sina-net_cash_increase: 三源比对为重大追溯差异，已升级为 fail",
-    "601088/2024/structured-finance_expense: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "601088/2024/sina-finance_expense: 三源比对为重大追溯差异，已升级为 fail",
-    "601088/2025/structured-cash: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "601088/2025/structured-accounts_receivable: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "601088/2025/structured-inventory: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "601088/2025/structured-total_assets: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "601088/2025/structured-total_liabilities: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "601088/2025/structured-total_equity: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策",
-    "601088/2025/sina-accounts_receivable: 三源比对为重大追溯差异，已升级为 fail",
-    "601088/2025/sina-cash: 三源比对为重大追溯差异，已升级为 fail",
-    "601088/2025/sina-inventory: 三源比对为重大追溯差异，已升级为 fail",
-    "601088/2025/sina-total_assets: 三源比对为重大追溯差异，已升级为 fail",
-    "601088/2025/sina-total_equity: 三源比对为重大追溯差异，已升级为 fail",
-    "601088/2025/sina-total_liabilities: 三源比对为重大追溯差异，已升级为 fail"
-  ],
+  "reviewed_material_count": 10,
+  "errors": [],
   "warnings": [
     "000333/2023/check-cash_bs_vs_cf: 货币资金与期末现金及现金等价物差异较大，需核对受限资金/现金等价物口径",
     "000333/2023/structured-total_cost: 年报未解析出同指标，无法交叉核对",
@@ -133,7 +114,7 @@
     "603288/2024/check-cash_bs_vs_cf: 货币资金与期末现金及现金等价物差异较大，需核对受限资金/现金等价物口径",
     "603288/2025/check-cash_bs_vs_cf: 货币资金与期末现金及现金等价物差异较大，需核对受限资金/现金等价物口径"
   ],
-  "error_count": 20,
+  "error_count": 0,
   "warning_count": 75,
-  "pass": false
+  "pass": true
 }

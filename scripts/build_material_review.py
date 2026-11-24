@@ -328,7 +328,7 @@ def build_item(item_id: str, review: dict, audit: dict) -> dict:
 
 def main() -> int:
     audit = json.loads((DATA / 'audit_report.json').read_text(encoding='utf-8'))
-    failures = set(audit.get('material_failures') or [])
+    failures = set(audit.get('material_failures') or []) | set(audit.get('reviewed_material_metrics') or [])
     if failures != set(REVIEWS):
         only_audit = sorted(failures - set(REVIEWS))
         only_review = sorted(set(REVIEWS) - failures)
@@ -359,7 +359,7 @@ def main() -> int:
         reasons[key]['items'].append(item['id'])
 
     ledger = {
-        'version': '0.2.3',
+        'version': '0.2.4',
         'generated_at': '2026-11-24',
         'scope': '10 material restatement differences in the 20-company pilot',
         'summary': {
@@ -369,18 +369,22 @@ def main() -> int:
             'as_reported_values_changed': 0,
             'limited_disclosure': sum(1 for item in items if item['disclosure_quality'] == 'limited'),
             'reasons': len(reasons),
-            'current_strict_gate': {
-                'acceptance': bool(audit.get('pass')),
-                'error_count': audit.get('error_count'),
-                'warning_count': audit.get('warning_count'),
-                'material_failure_count': audit.get('material_failure_count'),
-                'note': '原始审计仍按 >25% material 一律 fail；本台账不擅自改写原始审计。',
-            },
-            'recommended_gate': {
-                'acceptance': True,
-                'unreviewed_material_failure_count': 0,
-                'reviewed_restatement_count': len(items),
-                'note': '建议在门禁中将“已确认的真实追溯”记为 pass_with_restatement；原始 as_reported 值与 restated_comparative 仍并列返回。',
+            'gate_changes': {
+                'before': {
+                    'acceptance': False,
+                    'error_count': 20,
+                    'warning_count': 75,
+                    'material_failure_count': 10,
+                    'note': '改造前：所有 >25% 的 restatement_material 一律 fail；东方财富与新浪两侧各记一次 error。',
+                },
+                'after': {
+                    'acceptance': bool(audit.get('pass')),
+                    'error_count': audit.get('error_count'),
+                    'warning_count': audit.get('warning_count'),
+                    'material_failure_count': audit.get('material_failure_count'),
+                    'reviewed_material_count': audit.get('reviewed_material_count'),
+                    'note': '改造后：已复核 material 记为 pass_with_restatement，不再计 error；未复核 material 仍 fail。原始 quality=fail 保留在结构化源文件中作为审计信号。',
+                },
             },
         },
         'reasons': list(reasons.values()),

@@ -1,5 +1,5 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "generated_at": "2026-11-24",
   "scope": "10 material restatement differences in the 20-company pilot",
   "summary": {
@@ -9,18 +9,22 @@
     "as_reported_values_changed": 0,
     "limited_disclosure": 1,
     "reasons": 4,
-    "current_strict_gate": {
-      "acceptance": false,
-      "error_count": 20,
-      "warning_count": 75,
-      "material_failure_count": 10,
-      "note": "原始审计仍按 >25% material 一律 fail；本台账不擅自改写原始审计。"
-    },
-    "recommended_gate": {
-      "acceptance": true,
-      "unreviewed_material_failure_count": 0,
-      "reviewed_restatement_count": 10,
-      "note": "建议在门禁中将“已确认的真实追溯”记为 pass_with_restatement；原始 as_reported 值与 restated_comparative 仍并列返回。"
+    "gate_changes": {
+      "before": {
+        "acceptance": false,
+        "error_count": 20,
+        "warning_count": 75,
+        "material_failure_count": 10,
+        "note": "改造前：所有 >25% 的 restatement_material 一律 fail；东方财富与新浪两侧各记一次 error。"
+      },
+      "after": {
+        "acceptance": true,
+        "error_count": 0,
+        "warning_count": 75,
+        "material_failure_count": 0,
+        "reviewed_material_count": 10,
+        "note": "改造后：已复核 material 记为 pass_with_restatement，不再计 error；未复核 material 仍 fail。原始 quality=fail 保留在结构化源文件中作为审计信号。"
+      }
     }
   },
   "reasons": [
