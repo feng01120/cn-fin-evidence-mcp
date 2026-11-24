@@ -6,11 +6,11 @@ import re
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Dict, List, Optional, Sequence, Tuple
 
 import pymupdf
 
-from .mapping import BY_STATEMENT, METRICS, STOP_TITLES, MetricDef
+from .mapping import BY_STATEMENT, STOP_TITLES, MetricDef
 from .models import BBox, Company, DatasetMeta, Evidence, Quality, RawRow
 
 VALUE_RE = re.compile(r'^-?\d{1,3}(,\d{3})*\.\d{2}$')
@@ -25,6 +25,7 @@ class Word:
     x1: float
     text: str
     y: float
+    y1: float = 0.0
 
 
 @dataclass
@@ -48,7 +49,7 @@ class Line:
         if not self.words:
             return None
         return BBox(x0=min(w.x0 for w in self.words), y0=min(w.y for w in self.words),
-                    x1=max(w.x1 for w in self.words), y1=max(w.y for w in self.words))
+                    x1=max(w.x1 for w in self.words), y1=max(w.y1 for w in self.words))
 
 
 def _sha256(path: Path) -> str:
@@ -73,7 +74,7 @@ def page_lines(page, page_index: int) -> List[Line]:
     current: List[Word] = []
     base: Optional[float] = None
     for x0, y0, x1, y1, text, *_ in words:
-        w = Word(x0=x0, x1=x1, text=text, y=y0)
+        w = Word(x0=x0, x1=x1, text=text, y=y0, y1=y1)
         if base is None or abs(y0 - base) <= 4.0:
             current.append(w)
             if base is None:
@@ -190,11 +191,32 @@ def find_metric(segments: Sequence[Tuple[int, List[Line]]],
     return None
 
 
-def _snippet(window: Sequence[Line], extra: Optional[Line] = None) -> str:
-    parts = [x.raw for x in window]
-    if extra is not None and extra.raw not in parts:
-        parts.append(extra.raw)
-    return ' | '.join(p.strip() for p in parts if p.strip())[:400]
+def _snippet(page, window: Sequence[Line], anchor: Line, value_words: Sequence[Word]) -> str:
+    """返回连续原文片段：按区域从 PDF 内容流取文本，并校验其确实出现在整页文本中。"""
+    boxes = [x.bbox for x in window if x.bbox is not None]
+    if anchor.bbox is not None:
+        boxes.append(anchor.bbox)
+    if not boxes:
+        return anchor.raw[:400]
+    x0 = min(b.x0 for b in boxes)
+    y0 = min(b.y0 for b in boxes)
+    x1 = max(b.x1 for b in boxes)
+    y1 = max(b.y1 for b in boxes)
+    rect = pymupdf.Rect(x0 - 2, y0 - 2, x1 + 2, y1 + 2)
+    text = re.sub(r'\s+', ' ', page.get_text('text', clip=rect)).strip()
+    compact = re.sub(r'\s+', '', text)
+    full = re.sub(r'\s+', '', page.get_text())
+    if compact and compact in full:
+        return text[:400]
+    # 兜底：围绕数值在整页文本中截取连续窗口
+    for w in sorted(value_words, key=lambda x: x.x0):
+        token = re.sub(r'\s+', '', w.text)
+        idx = full.find(token)
+        if idx >= 0:
+            start = max(0, idx - 80)
+            end = min(len(full), idx + len(token) + 120)
+            return full[start:end][:400]
+    return compact[:400] or anchor.raw[:400]
 
 
 def _bbox(window: Sequence[Line], value_words: Sequence[Word]) -> Optional[BBox]:
@@ -202,7 +224,7 @@ def _bbox(window: Sequence[Line], value_words: Sequence[Word]) -> Optional[BBox]
     if not words:
         return None
     return BBox(x0=min(w.x0 for w in words), y0=min(w.y for w in words),
-                x1=max(w.x1 for w in words), y1=max(w.y for w in words))
+                x1=max(w.x1 for w in words), y1=max(w.y1 for w in words))
 
 
 def extract_metrics(doc, company: Company, period: str, source_file: str) -> List[Evidence]:
@@ -227,7 +249,8 @@ def extract_metrics(doc, company: Company, period: str, source_file: str) -> Lis
             facts.append(Evidence(
                 evidence_id=evidence_id, company=company, period=period, metric=metric.key,
                 metric_name=metric.name, value=value, prior_value=prior, unit=metric.unit,
-                page=anchor.page, printed_page=anchor.printed_page, snippet=_snippet(window, anchor),
+                page=anchor.page, printed_page=anchor.printed_page,
+                snippet=_snippet(doc[anchor.page - 1], window, anchor, value_words),
                 bbox=_bbox(window, value_words), source_file=source_file, statement=statement,
                 item_raw=normalize_label(''.join(x.item for x in window)) or metric.name,
                 note=note or None, zero_type=zero_type, quality=quality,
@@ -244,15 +267,15 @@ def extract_rows(doc, statement: str, segments: Sequence[Tuple[int, List[Line]]]
             if '项目' in line.raw and '附注' in line.raw:
                 continue
             prefix = []
-            j = i - 1
-            while j >= 0 and len(prefix) < 2 and lines[j].item and not lines[j].has_value \
-                    and not lines[j].item.endswith('：'):
-                prefix.insert(0, lines[j].item)
-                j -= 1
+            # 只有“仅数值行”才向上拼接标签；非空科目行不能再吞掉上一行的残片
+            if not line.item and i - 1 >= 0:
+                prev = lines[i - 1]
+                if prev.item and not prev.has_value and not prev.item.endswith('：'):
+                    prefix = [prev.item]
             item = ''.join(prefix) + line.item
             suffix = ''
             if i + 1 < len(lines) and lines[i + 1].item and not lines[i + 1].has_value \
-                    and len(lines[i + 1].item) <= 10:
+                    and lines[i + 1].y - line.y <= 10:
                 suffix = lines[i + 1].item
             item = item + suffix
             complete = bool(item)

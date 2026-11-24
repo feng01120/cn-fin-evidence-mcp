@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """比率计算与勾稽校验：每个比率都要给出公式、输入与证据。"""
 
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 from .models import CheckResult, Company, Evidence, Quality, Ratio
 
@@ -18,11 +18,17 @@ def compute_ratios(company: Company, period: str, facts: List[Evidence]) -> List
         missing = [k for k, _ in inputs if by_key.get(k) is None or by_key[k].value is None]
         vals = [(k, by_key[k]) for k, _ in inputs if by_key.get(k) and by_key[k].value is not None]
         value = None
+        error = None
         if not missing:
-            value = calc()
-        quality = Quality(status='pass' if not missing else 'warning',
-                          checks=['inputs_present'] if not missing else [],
-                          messages=[] if not missing else ['缺少输入：%s' % '、'.join(missing)])
+            try:
+                value = calc()
+            except Exception as e:  # 例如缺少期初值，不能中断整份数据构建
+                error = str(e)
+        ok = not missing and error is None
+        quality = Quality(status='pass' if ok else 'warning',
+                          checks=['inputs_present'] if ok else [],
+                          messages=['缺少输入：%s' % '、'.join(missing)] if missing
+                          else (['无法计算：%s' % error] if error else []))
         out.append(Ratio(
             ratio=key, name=name, company=company, period=period,
             value=round(value, 4) if value is not None else None, unit='%',

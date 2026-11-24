@@ -53,6 +53,31 @@ class TestServer(unittest.TestCase):
         r = srv.verify_fact('600519', '2025', 'not_exist', 1.0)
         self.assertEqual(r['error']['code'], 'METRIC_NOT_FOUND')
 
+    def test_path_traversal_refuses(self):
+        r = srv.get_quality_report('../../etc', '2025')
+        self.assertEqual(r['error']['code'], 'INVALID_CODE')
+        r2 = srv.get_quality_report('600519', '../2024')
+        self.assertEqual(r2['error']['code'], 'INVALID_PERIOD')
+        r3 = srv.get_evidence('../../etc-2025-revenue')
+        self.assertEqual(r3['error']['code'], 'EVIDENCE_NOT_FOUND')
+
+    def test_small_value_tolerance_is_relative(self):
+        # 每股收益 65.66，1% 容差约 0.66；旧实现的 1 元下限会误判 0.84 的偏差为 match
+        r = srv.verify_fact('600519', '2025', 'basic_eps', 66.50)
+        self.assertEqual(r['data']['verdict'], 'mismatch')
+
+    def test_invalid_cursor_refuses(self):
+        r = srv.get_statement('600519', '2025', cursor='abc')
+        self.assertEqual(r['error']['code'], 'INVALID_CURSOR')
+
+    def test_invalid_limit_refuses(self):
+        r = srv.get_statement('600519', '2025', limit='abc')
+        self.assertEqual(r['error']['code'], 'INVALID_LIMIT')
+
+    def test_negative_tolerance_refuses(self):
+        r = srv.verify_fact('600519', '2025', 'cash', 1.0, tolerance=-0.1)
+        self.assertEqual(r['error']['code'], 'INVALID_TOLERANCE')
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -42,7 +42,7 @@
 - `cash_flow_identity`：经营 + 投资 + 筹资 + 汇率影响 = 现金净增加额。
 - `cash_roll`：期初现金 + 净增加额 = 期末现金。
 - `growth_anomaly`：营收或净利同比超过 ±50% 时给 warning，要求人工复核口径/重述，不直接判 fail。
-- 0 值三分类：`true_zero` / `not_disclosed` / `not_applicable`。
+- 0 值三分类：`零` / `未披露` / `不适用`。
 
 ## 非目标（v0.1）
 

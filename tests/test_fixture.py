@@ -4,6 +4,8 @@ import unittest
 from pathlib import Path
 
 from fin_evidence.extract import normalize_label
+from fin_evidence.models import Evidence, Company
+from fin_evidence.ratios import compute_ratios
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -50,6 +52,16 @@ class TestFixture(unittest.TestCase):
             self.assertTrue(r['formula'])
             self.assertTrue(r['inputs'])
             self.assertTrue(r['evidence'])
+
+    def test_ratio_missing_prior_is_warning(self):
+        facts = [Evidence(**f) for f in self.facts]
+        for f in facts:
+            if f.metric == 'equity_parent':
+                f.prior_value = None
+        ratios = compute_ratios(Company(code='600519', name='贵州茅台'), '2025', facts)
+        roe = next(r for r in ratios if r.ratio == 'roe')
+        self.assertIsNone(roe.value)
+        self.assertEqual(roe.quality.status, 'warning')
 
     def test_checks(self):
         self.assertEqual(len([c for c in self.checks if c['status'] == 'fail']), 0)
