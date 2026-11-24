@@ -120,6 +120,60 @@ def structured_fact(meta: Dict[str, Any], entry: Dict[str, Any]) -> Dict[str, An
     }
 
 
+def sina_fact(meta: Dict[str, Any], entry: Dict[str, Any],
+              comparison: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+    """把新浪第二源转成事实对象；只在东方财富 structured 缺值后兜底。
+
+    新浪同样没有年报页码，`evidence=[]`、`quality` 至少为 warning。若三源比对
+    把它判为重大差异/隔离，quality 直接 fail，避免把可疑值当普通兜底。
+    """
+    company = meta.get('company', {})
+    code = company.get('code', '')
+    period = meta.get('period', '')
+    metric = entry.get('metric', '')
+    status = (comparison or {}).get('status', 'unverified')
+    failed = status in ('restatement_material', 'verified_isolated', 'warning')
+    qstatus = 'fail' if failed else 'warning'
+    messages = ['第二结构化源（新浪）数据；无年报页码证据，不能替代 verified']
+    if failed:
+        messages.append('三源比对状态为 %s；该兜底值不可直接采用' % status)
+    return {
+        'evidence_id': '%s-%s-%s-sina' % (code, period, metric),
+        'company': company,
+        'report_date': meta.get('report_date', ''),
+        'announce_date': meta.get('announce_date', ''),
+        'evidence_level': 'structured',
+        'source_type': 'structured_api',
+        'source_provider': 'sina',
+        'source_url': entry.get('source_url'),
+        'period': period,
+        'metric': metric,
+        'metric_name': entry.get('metric_name', metric),
+        'value': entry.get('value'),
+        'prior_value': None,
+        'unit': entry.get('unit', '元'),
+        'page': None,
+        'printed_page': None,
+        'snippet': '',
+        'bbox': None,
+        'source_file': 'sina:%s' % entry.get('statement', ''),
+        'statement': entry.get('statement', ''),
+        'item_raw': entry.get('source_label', ''),
+        'note': messages[-1],
+        'value_type': 'disclosed',
+        'zero_type': None,
+        'formula': None,
+        'inputs': None,
+        'quality': {
+            'status': qstatus,
+            'checks': ['no_page_evidence'] + (['cross_source_fail'] if failed else []),
+            'messages': messages,
+        },
+        'subject_check': {'status': 'pass', 'checks': ['api_field_mapped'], 'messages': []},
+        'cross_check': {'status': status, **(comparison or {})},
+    }
+
+
 def load_dataset(base: Path, code: str, period: str, announce_date: str = '') -> Dict[str, Any]:
     d = dataset_dir(base, code, period, announce_date)
     if not (d / 'meta.json').exists():
@@ -129,6 +183,10 @@ def load_dataset(base: Path, code: str, period: str, announce_date: str = '') ->
     structured = structured_doc.get('metrics', {}) if isinstance(structured_doc, dict) else {}
     structured_facts = [structured_fact(meta, e) for e in structured.values()]
     sina_doc = _read(d / 'sina.json', {})
+    sina_metrics = sina_doc.get('metrics', {}) if isinstance(sina_doc, dict) else {}
+    sina_comparison = sina_doc.get('comparison', {}) if isinstance(sina_doc, dict) else {}
+    sina_facts = [sina_fact(meta, e, sina_comparison.get(metric))
+                  for metric, e in sina_metrics.items()]
     return {
         'meta': meta,
         'facts': _read(d / 'facts.json', []),
@@ -137,8 +195,9 @@ def load_dataset(base: Path, code: str, period: str, announce_date: str = '') ->
         'checks': _read(d / 'checks.json', []),
         'structured': structured_doc,
         'structured_facts': structured_facts,
+        'sina_facts': sina_facts,
         'sina': sina_doc,
-        'second_source': sina_doc.get('comparison', {}) if isinstance(sina_doc, dict) else {},
+        'second_source': sina_comparison,
         'dir': str(d),
     }
 
@@ -163,6 +222,13 @@ def list_datasets(base: Path) -> List[Dict[str, Any]]:
         structured_count = len(structured_doc.get('metrics', {})) if isinstance(structured_doc, dict) else 0
         sina_doc = _read(d / 'sina.json', {})
         sina_count = len(sina_doc.get('metrics', {})) if isinstance(sina_doc, dict) else 0
+        sina_cross = sina_doc.get('cross_check', {}) if isinstance(sina_doc, dict) else {}
+        if sina_cross.get('verified_isolated') or sina_cross.get('restatement_material'):
+            cross_source_gate = 'fail'
+        elif sina_cross.get('warning'):
+            cross_source_gate = 'warning'
+        else:
+            cross_source_gate = 'pass'
         item = {
             'code': meta.get('company', {}).get('code', d.parent.name),
             'period': meta.get('period', ''),
@@ -177,6 +243,7 @@ def list_datasets(base: Path) -> List[Dict[str, Any]]:
             'quality_gate': meta.get('quality_gate', ''),
             'structured_count': structured_count,
             'second_source_count': sina_count,
+            'cross_source_gate': cross_source_gate,
             'path': str(d),
             'source_file': meta.get('source_file'),
         }
@@ -194,6 +261,9 @@ def find_fact(dataset: Dict[str, Any], evidence_id: str) -> Optional[Dict[str, A
     for f in dataset.get('structured_facts', []):
         if f.get('evidence_id') == evidence_id:
             return f
+    for f in dataset.get('sina_facts', []):
+        if f.get('evidence_id') == evidence_id:
+            return f
     return None
 
 
@@ -206,6 +276,13 @@ def find_fact_by_metric(dataset: Dict[str, Any], metric: str) -> Optional[Dict[s
 
 def find_structured_fact(dataset: Dict[str, Any], metric: str) -> Optional[Dict[str, Any]]:
     for f in dataset.get('structured_facts', []):
+        if f.get('metric') == metric:
+            return f
+    return None
+
+
+def find_sina_fact(dataset: Dict[str, Any], metric: str) -> Optional[Dict[str, Any]]:
+    for f in dataset.get('sina_facts', []):
         if f.get('metric') == metric:
             return f
     return None

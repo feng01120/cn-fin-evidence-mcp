@@ -8,6 +8,10 @@
   "quality_gates": {
     "pass": 60
   },
+  "cross_source_gates": {
+    "pass": 55,
+    "fail": 5
+  },
   "random_20": [
     {
       "code": "000333",
@@ -311,7 +315,7 @@
   },
   "second_source": {
     "datasets": 60,
-    "metrics": 1920,
+    "metrics": 2040,
     "sample": {
       "provider": "sina",
       "status": "pass",
@@ -321,19 +325,23 @@
     },
     "sample_ok": true,
     "cross_check": {
-      "pass": 1840,
+      "pass": 1960,
       "restatement": 45,
       "restatement_material": 10,
       "verified_isolated": 0,
       "warning": 0,
       "unverified": 25,
-      "missing": 120
+      "missing": 0
+    },
+    "cross_source_gates": {
+      "pass": 55,
+      "fail": 5
     }
   },
   "row_audit": {
-    "error_count": 0,
-    "warning_count": 95,
-    "pass": true
+    "error_count": 20,
+    "warning_count": 75,
+    "pass": false
   },
-  "acceptance": true
+  "acceptance": false
 }

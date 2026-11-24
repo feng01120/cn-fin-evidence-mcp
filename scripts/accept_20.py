@@ -145,9 +145,11 @@ def main() -> int:
 
     levels = {}
     gates = {}
+    cross_gates = {}
     for d in datasets:
         levels[d.get('evidence_level', '')] = levels.get(d.get('evidence_level', ''), 0) + 1
         gates[d.get('quality_gate', '')] = gates.get(d.get('quality_gate', ''), 0) + 1
+        cross_gates[d.get('cross_source_gate', '')] = cross_gates.get(d.get('cross_source_gate', ''), 0) + 1
 
     report = {
         'seed': SEED,
@@ -155,6 +157,7 @@ def main() -> int:
         'companies': len(by_company),
         'evidence_levels': levels,
         'quality_gates': gates,
+        'cross_source_gates': cross_gates,
         'random_20': results,
         'random_20_hit': sum(1 for r in results if r['hit']),
         'random_20_hit_rate': round(sum(1 for r in results if r['hit']) / len(results), 4),
@@ -175,6 +178,7 @@ def main() -> int:
             'sample': second_sample,
             'sample_ok': second_ok,
             'cross_check': second_cross,
+            'cross_source_gates': cross_gates,
         },
         'row_audit': {
             'error_count': row_audit.get('error_count'),

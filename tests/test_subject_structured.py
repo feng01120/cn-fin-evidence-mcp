@@ -80,7 +80,7 @@ class TestStructuredOverlay(unittest.TestCase):
         self.assertEqual(out['metrics']['revenue']['cross_check']['status'], 'restatement')
         self.assertTrue(out['metrics']['revenue']['cross_check']['later_filing'])
 
-    def test_build_overlay_material_restatement_is_warning(self):
+    def test_build_overlay_material_restatement_is_fail(self):
         facts = [{'metric': 'revenue', 'value': 100.0, 'unit': '元'}]
         fetched = {'metrics': {
             'revenue': {'metric': 'revenue', 'value': 150.0, 'unit': '元',
@@ -90,6 +90,8 @@ class TestStructuredOverlay(unittest.TestCase):
         }, 'provider': 'eastmoney', 'fetched_at': '', 'report_date': '2024-12-31', 'errors': []}
         out = build_overlay(facts, fetched, '2024-03-28')
         self.assertEqual(out['metrics']['revenue']['cross_check']['status'], 'restatement_material')
+        self.assertEqual(out['metrics']['revenue']['quality']['status'], 'fail')
+        self.assertEqual(out['metrics']['revenue']['cross_check']['severity'], 'fail')
         self.assertEqual(out['cross_check']['restatement_material'], 1)
 
     def test_sina_tsv_parser_selects_exact_report_date(self):
@@ -103,6 +105,25 @@ class TestStructuredOverlay(unittest.TestCase):
         parsed = parse_report(text, '2025-12-31', '合并利润表', '600519', 'https://example.test')
         self.assertEqual(parsed['metrics']['total_revenue']['value'], 172054171890.91)
         self.assertEqual(parsed['metrics']['basic_eps']['value'], 65.66)
+
+    def test_sina_tsv_parser_covers_equity_and_beginning_cash_aliases(self):
+        balance = (
+            '报表日期\t20251231\t20250930\t19700101\t\n'
+            '单位\t元\t元\t\t\n'
+            '归属于母公司股东权益合计\t244637811032.18\t257069964386.23\t0\t\n'
+        )
+        parsed = parse_report(balance, '2025-12-31', '合并资产负债表',
+                              '600519', 'https://example.test')
+        self.assertEqual(parsed['metrics']['equity_parent']['value'], 244637811032.18)
+
+        cash = (
+            '报表日期\t20251231\t20250930\t19700101\t\n'
+            '单位\t元\t元\t\t\n'
+            '加:期初现金及现金等价物余额\t169970089257.83\t169970089257.83\t0\t\n'
+        )
+        parsed = parse_report(cash, '2025-12-31', '合并现金流量表',
+                              '600519', 'https://example.test')
+        self.assertEqual(parsed['metrics']['beginning_cash']['value'], 169970089257.83)
 
     def test_three_source_comparison_marks_verified_isolated(self):
         facts = [{'metric': 'revenue', 'value': 200.0, 'unit': '元'}]
@@ -172,6 +193,72 @@ class TestStructuredOverlay(unittest.TestCase):
             ds = load_dataset(base, '600519', '2025', '2026-04-17')
             self.assertEqual(len(ds['structured_facts']), 1)
             self.assertIsNone(ds['structured_facts'][0]['page'])
+
+
+    def test_server_falls_back_to_sina_when_eastmoney_is_absent(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            d = base / '600519' / '2025-12-31' / '2026-04-17'
+            d.mkdir(parents=True)
+            (d / 'meta.json').write_text('''{
+              "company": {"code": "600519", "name": "贵州茅台"},
+              "period": "2025", "report_date": "2025-12-31",
+              "announce_date": "2026-04-17", "source_file": "x.pdf",
+              "source_sha256": "x", "page_count": 1, "extracted_at": "x",
+              "statements": [], "fact_count": 0, "row_count": 0,
+              "evidence_level": "verified"
+            }''', encoding='utf-8')
+            (d / 'facts.json').write_text('[]', encoding='utf-8')
+            (d / 'structured.json').write_text('{"metrics": {}}', encoding='utf-8')
+            (d / 'sina.json').write_text('''{
+              "provider": "sina", "report_date": "2025-12-31",
+              "metrics": {"revenue": {
+                "metric": "revenue", "metric_name": "营业收入", "value": 1.0,
+                "unit": "元", "statement": "合并利润表",
+                "source_label": "营业收入", "source_url": "https://example.test/sina"
+              }},
+              "comparison": {"revenue": {"status": "pass"}},
+              "cross_check": {"pass": 1}
+            }''', encoding='utf-8')
+            with patch.object(srv, 'BASE', base):
+                r = srv.get_evidence(stock_code='600519', period='2025', metric='revenue')
+                self.assertEqual(r['meta']['evidence_level'], 'structured')
+                self.assertEqual(r['data']['source_provider'], 'sina')
+                self.assertEqual(r['evidence'], [])
+                self.assertEqual(r['quality']['status'], 'warning')
+                v = srv.verify_fact('600519', '2025', 'revenue', 1.0)
+                self.assertEqual(v['data']['verdict'], 'match')
+                self.assertEqual(v['data']['evidence_level'], 'structured')
+                self.assertEqual(v['quality']['status'], 'warning')
+
+    def test_store_exposes_sina_only_facts(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            d = base / '600519' / '2025-12-31' / '2026-04-17'
+            d.mkdir(parents=True)
+            (d / 'meta.json').write_text('''{
+              "company": {"code": "600519", "name": "贵州茅台"},
+              "period": "2025", "report_date": "2025-12-31",
+              "announce_date": "2026-04-17", "source_file": "x.pdf",
+              "source_sha256": "x", "page_count": 1, "extracted_at": "x",
+              "statements": [], "fact_count": 0, "row_count": 0
+            }''', encoding='utf-8')
+            (d / 'facts.json').write_text('[]', encoding='utf-8')
+            (d / 'structured.json').write_text('{"metrics": {}}', encoding='utf-8')
+            (d / 'sina.json').write_text('''{
+              "provider": "sina", "report_date": "2025-12-31",
+              "metrics": {"revenue": {
+                "metric": "revenue", "metric_name": "营业收入", "value": 1.0,
+                "unit": "元", "statement": "合并利润表",
+                "source_label": "营业收入", "source_url": "https://example.test/sina"
+              }},
+              "comparison": {"revenue": {"status": "pass"}},
+              "cross_check": {"pass": 1}
+            }''', encoding='utf-8')
+            ds = load_dataset(base, '600519', '2025', '2026-04-17')
+            self.assertEqual(len(ds['sina_facts']), 1)
+            self.assertEqual(ds['sina_facts'][0]['source_provider'], 'sina')
+            self.assertIsNone(ds['sina_facts'][0]['page'])
 
 
 if __name__ == '__main__':

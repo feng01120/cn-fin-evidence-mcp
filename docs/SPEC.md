@@ -31,9 +31,9 @@
 
 六元组为 `[公司, 期间, 指标, 数值, 单位, 页码+原文片段]`，缺一即拒答。主键为 `(stock_code, report_date, announce_date)`，同一报告期多次修订按披露日隔离。
 
-`evidence_level=structured` 时没有页码证据，`evidence=[]`、`quality=warning`；它只作为 verified 缺值时的 fallback，不能冒充 `verified`，也不能覆盖已验证值。
+`evidence_level=structured` 时没有页码证据，`evidence=[]`、`quality` 至少为 warning；它只作为 verified 缺值时的 fallback，不能冒充 `verified`，也不能覆盖已验证值。重大追溯条目 `quality=fail`。
 
-结构化条目额外带 `api_notice_date`。当该披露日晚于数据集 `announce_date` 时，与 verified 的差异标为 `restatement`；差异超过 25% 标为 `restatement_material`，仍进入 warning。新浪第二源只用于三源比对，不进入 fallback。
+结构化条目额外带 `api_notice_date`。当该披露日晚于数据集 `announce_date` 时，与 verified 的差异标为 `restatement`；差异超过 25% 标为 `restatement_material`，并升级为 fail。新浪第二源先用于三源比对，东方财富也缺值时才作为第二 fallback。
 
 ## 工具边界
 
@@ -42,17 +42,17 @@
 - `outputSchema` 统一为 `data` / `evidence` / `meta` / `quality`。
 - 单次返回有行数与字符上限，长表用 cursor 分页。
 - 行级 `get_statement` 只返回能在对应页命中科目名与数值的行；否则不写入。
-- `get_evidence` / `verify_fact` 才允许使用东方财富 structured fallback；返回时必须标注 `evidence_level=structured` 且 `quality=warning`。
+- `get_evidence` / `verify_fact` 才允许使用 structured fallback（东方财富优先、新浪第二）；返回时必须标注 `evidence_level=structured`、`source_provider`，且 `quality` 为 warning 或 fail。
 - `get_source_comparison` 并排返回 verified / 东方财富 / 新浪三源值与差异；三源不一致不自动改写任何一方。
 - 科目拦截同时校验指标、报表归属、科目别名；错误报表直接返回 `SUBJECT_MISMATCH`。
 
-## 当前落地（v0.2.2 试点）
+## 当前落地（v0.2.3 试点）
 
-- 20 家非金融公司 × 2023–2025 年，60 个数据集；全部 `verified`、`quality_gate=pass`。
-- 2,016 条 facts、8,352 条 rows；60 份年报 PDF；43 项契约测试。
-- 验收：随机 20 条证据 20/20 命中；4 项硬勾稽 240/240 pass；行级审计 0 error / 95 warning；`acceptance=true`。
-- structured：60/60 数据集、1,200 指标；1,123 一致、46 追溯、10 重大追溯、21 无法核对；无页码证据不冒充 verified。
-- 第二源：60/60 数据集、1,920 指标；1,840 一致、45 追溯、10 重大追溯、25 无 verified、120 无对应；`verified_isolated=0`。
+- 20 家非金融公司 × 2023–2025 年，60 个数据集；全部 `verified`、`quality_gate=pass`；5 个数据集 `cross_source_gate=fail`。
+- 2,016 条 facts、8,352 条 rows；60 份年报 PDF；46 项契约测试。
+- 验收：随机 20 条证据 20/20 命中；4 项硬勾稽 240/240 pass；行级审计 20 error / 75 warning；`acceptance=false`（10 个重大追溯指标未清零）。
+- structured：60/60 数据集、1,200 指标；1,123 一致、46 追溯、10 重大追溯（fail）、21 无法核对；普通条目无页码证据只作 warning。
+- 第二源：60/60 数据集、2,040 指标；1,960 一致、45 追溯、10 重大追溯（fail）、25 无 verified、0 无对应；`verified_isolated=0`。
 - 跨章节一致性尚未做；科目拦截覆盖 10 个高频指标，尚未覆盖全部指标。
 
 ## 校验
@@ -64,13 +64,13 @@
 - `growth_anomaly`：营收或净利同比超过 ±50% 时给 warning，要求人工复核口径/重述，不直接判 fail。
 - 0 值三分类：`零` / `未披露` / `不适用`。
 
-## 非目标（v0.2.2）
+## 非目标（v0.2.3）
 
 - 不做投资建议、估值、预测。
 - 不覆盖母公司报表、TTM、行业均值。
 - 不承诺数据商用授权；示例仅用于原型。
 - 不做扫描件 OCR 与正文跨章节比对（列入 v0.3）。
-- 不把 structured 值当作 verified；没有页码证据时只返回 warning；新浪第二源不进入 fallback。
+- 不把 structured 值当作 verified；没有页码证据时至少返回 warning；新浪第二源只作第二 fallback，不能冒充页码证据。
 
 ## v1.0 验收
 

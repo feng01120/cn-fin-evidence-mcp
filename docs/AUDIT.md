@@ -2,11 +2,11 @@
 
 ## 结论
 
-v0.2.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全部 `evidence_level=verified`、`quality_gate=pass`。每个 fact 与每条报表行都能回到年报页码和原文片段；找不到就不写入、不返回。
+v0.2.3 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全部 `evidence_level=verified`、`quality_gate=pass`；但三源比对把 5 个数据集 / 10 个重大追溯指标判为 `cross_source_gate=fail`。每个 fact 与每条报表行都能回到年报页码和原文片段；找不到就不写入、不返回。
 
 本轮把 structured 从“有值但没有页码”推进到“差异有语义”：
 - 东方财富 60/60 数据集、1,200 个指标；
-- 新浪财经 60/60 数据集、1,920 个指标，作为第二源做三源交叉核对；
+- 新浪财经 60/60 数据集、2,040 个指标，作为第二源做三源交叉核对；
 - 46 条东方财富差异被判定为后发年报追溯/重分类（`restatement`），10 条差异超过 25% 标 `restatement_material`；
 - `verified_isolated=0`：没有出现“两个结构化源一致、年报解析值反而不同”的情况。
 
@@ -17,7 +17,7 @@ v0.2.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全
 | 项目 | 结果 |
 |---|---|
 | 数据集 / 公司 | 60 / 20（2023–2025，非金融标准报表） |
-| 单元/契约测试 | 43 / 43 通过 |
+| 单元/契约测试 | 46 / 46 通过 |
 | facts 规模 | 2,016 条 |
 | rows 规模 | 8,352 条 |
 | 证据逐条回查 | 随机 20 条 facts，20 / 20 命中；全量 facts `snippet_hit_rate=1.0` |
@@ -26,25 +26,23 @@ v0.2.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全
 | 源文件哈希 | 60 份 PDF 的 SHA-256 与 meta 一致 |
 | 比率 | 9 个比率 / 数据集；输入证据可解析为证据对象；`value_type=computed` |
 | 硬勾稽 | 4 项 × 60 = 240 / 240 pass |
-| 质量门槛 | `quality_gate` pass 60，warning 0，fail 0 |
+| 质量门槛 | `quality_gate` pass 60；`cross_source_gate` fail 5（10 个重大追溯指标） |
 | structured 覆盖 | 60 / 60 数据集、1,200 指标；1,123 一致、46 追溯、10 重大追溯、21 无法核对 |
-| 第二源覆盖 | 60 / 60 数据集、1,920 指标；1,840 一致、45 追溯、10 重大追溯、25 无 verified、120 无对应 |
-| 三源隔离 | `verified_isolated=0`；第二源 `warning=0` |
-| 结构化质量 | 全部无页码证据、`evidence=[]`、`quality=warning`；不冒充 verified |
+| 第二源覆盖 | 60 / 60 数据集、2,040 指标；1,960 一致、45 追溯、10 重大追溯（fail）、25 无 verified、0 无对应 |
+| 三源隔离 | `verified_isolated=0`；第二源 `warning=0`；10 个重大追溯指标在两侧各记一次 fail |
+| 结构化质量 | 普通条目无页码、`evidence=[]`、`quality=warning`；10 个重大追溯条目 `quality=fail` |
 | 拒答边界 | 未知指标 / 证据 / 数据集 / 非法容差均返回结构化错误 |
 | 官方下载 | 巨潮接口按 orgId → 年报分类 → 静态 PDF 下载；批量重建可复跑 |
 | 静态检查 | pyflakes 无告警；compileall 通过 |
 
-审计明细：`data/audit_report.json`（0 error / 95 warning）；验收报告：`data/acceptance_report.json`；逐数据集覆盖：`data/rebuild_report.json`；东方财富抓取：`data/structured_report.json`；第二源抓取：`data/second_source_report.json`。
+审计明细：`data/audit_report.json`（20 error / 75 warning）；验收报告：`data/acceptance_report.json`；逐数据集覆盖：`data/rebuild_report.json`；东方财富抓取：`data/structured_report.json`；第二源抓取：`data/second_source_report.json`。
 
-## 95 条 warning 的构成
+## 20 error / 75 warning 的构成
 
-- 54 条 `cash_bs_vs_cf`：货币资金与“期末现金及现金等价物”口径差异，提示核对受限资金；
-- 10 条 `restatement_material`（东方财富）：后发年报追溯，但差异超过 25%，要求核对合并范围/会计政策变更；
-- 10 条 `restatement_material`（新浪）：同上；
-- 21 条东方财富指标没有对应 verified fact，无法交叉核对。
+- 20 条 error：10 个 `restatement_material` 指标在东方财富 structured 与新浪两侧各记一次；去重后是 10 个指标，分布在 5 个数据集；
+- 75 条 warning：54 条 `cash_bs_vs_cf`（货币资金与“期末现金及现金等价物”口径差异），21 条东方财富指标没有对应 verified fact、无法交叉核对。
 
-`restatement`（46 + 45 条）是正常语义标签，不进入 warning；`missing` / `unverified` 也不等于 fail。`quality_gate` 仍以 verified 的硬勾稽和覆盖率判定。
+`restatement`（46 + 45 条）是正常语义标签，不进入 warning；`missing` / `unverified` 也不等于 fail。`quality_gate` 仍以 verified 的硬勾稽和覆盖率判定；`cross_source_gate` 对 5 个含重大追溯指标的数据集为 fail。
 
 ## 三源状态的含义
 
@@ -52,7 +50,7 @@ v0.2.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全
 |---|---|---|
 | `pass` | 与 verified 差异 ≤ 1%，或两个结构化源均与 verified 一致 | 否 |
 | `restatement` | API 披露日晚于数据集公告日，差异 ≤ 25%；视为后发年报的可比数重述/重分类 | 否 |
-| `restatement_material` | 同上，但差异 > 25%；可能是合并范围变化、会计政策变更或抽取问题 | 是 |
+| `restatement_material` | 同上，但差异 > 25%；可能是合并范围变化、会计政策变更或抽取问题 | 是（已升级为 fail） |
 | `warning` | 同一披露期内差异 > 1%，且不属于可识别的追溯 | 是 |
 | `verified_isolated` | 东方财富与新浪一致，但 verified 不一致；高度怀疑 PDF 抽取错误 | 是（当前为 0） |
 | `missing` / `unverified` | 没有对应指标或没有 verified 值 | 否 |
@@ -80,11 +78,13 @@ v0.2.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全
 19. **页码污染金额列**：宁德 2025 现金流页的页脚“119”被当成右侧金额，列中心右移，导致本期 477.8B 被读成上期 417.5B。页脚纯数字不再进入列中心，并且只有一组列中心时回退固定分栏。
 20. **追溯差异没有语义**：新增 `api_notice_date` 与公告日比较；后发年报差异标 `restatement`，超过 25% 标 `restatement_material`。不再把 46 条正常重述都算成 warning。
 21. **只有东方财富一个结构化源**：新增新浪财经三表适配器与 `get_source_comparison`；`verified_isolated=0`，三源比对不再只看单一源。
+22. **新浪缺两个指标**：补 `归属于母公司股东权益合计` 与 `加:期初现金及现金等价物余额` 两个标签；从 32 指标（历史值 1,920）扩展到 34 指标（2,040 值），并补入第二 fallback。
+23. **重大追溯仍只是 warning**：将 10 个 `restatement_material` 指标升级为 fail；审计去重后记录 10 个失败指标，源级错误 20 条；不再让“超过 25% 的追溯”静默通过。
 
 ## 仍未覆盖
 
 - 只有 20 家非金融标准报表；银行/保险/券商特殊报表未纳入。
-- structured 覆盖层仍只有东方财富一个 fallback 源；新浪只做交叉核对，不进入 fallback。
+- structured fallback 仍以东方财富为第一源、新浪为第二源；两个源都无页码，不能替代 verified。
 - 跨章节一致性（正文引用 vs 报表数值）未做；科目拦截已覆盖 10 个高频指标，但尚未覆盖全部指标。
 - 母公司报表、TTM、更多历史期未做。
 - 持牌数据源适配层、审计日志哈希链/签名未做。

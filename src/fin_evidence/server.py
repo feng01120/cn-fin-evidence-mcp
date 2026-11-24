@@ -10,7 +10,7 @@ from typing import Any, Dict, List, Optional
 from mcp.server.fastmcp import FastMCP
 
 from .store import (append_audit, find_fact, find_fact_by_metric,
-                    find_structured_fact, list_datasets, load_dataset)
+                    find_sina_fact, find_structured_fact, list_datasets, load_dataset)
 from .subject import evaluate_fact
 
 BASE = Path(os.environ.get('FIN_EVIDENCE_DATA', str(Path(__file__).resolve().parents[2] / 'data')))
@@ -59,23 +59,29 @@ def _subject_quality(fact: Dict[str, Any]):
 def _second_source_status(cross: Dict[str, Any]) -> str:
     if not cross:
         return 'missing'
-    if any(cross.get(k) for k in ('warning', 'restatement_material', 'verified_isolated')):
+    if cross.get('verified_isolated') or cross.get('restatement_material'):
+        return 'fail'
+    if any(cross.get(k) for k in ('warning',)):
         return 'warning'
     return 'pass'
 
 
 def _choose_fact(ds: Dict[str, Any], metric: str) -> Optional[Dict[str, Any]]:
-    """优先 verified；verified 缺值或不存在时才用 structured fallback。"""
+    """优先 verified；缺值后才用东方财富 structured，最后才用新浪兜底。"""
     fact = find_fact_by_metric(ds, metric)
     if fact and fact.get('value') is not None:
         return fact
     structured = find_structured_fact(ds, metric)
-    return structured or fact
+    if structured and structured.get('value') is not None:
+        return structured
+    sina = find_sina_fact(ds, metric)
+    return sina or structured or fact
 
 
 def _available_metrics(ds: Dict[str, Any]) -> list:
     return sorted({f['metric'] for f in ds.get('facts', [])}
-                  | {f['metric'] for f in ds.get('structured_facts', [])})
+                  | {f['metric'] for f in ds.get('structured_facts', [])}
+                  | {f['metric'] for f in ds.get('sina_facts', [])})
 
 
 def _evidence_block(fact: Dict[str, Any]) -> list:
@@ -271,9 +277,13 @@ def verify_fact(stock_code: str, period: str, metric: str, claimed_value: float,
            'ok' if ok else 'mismatch', [fact['evidence_id']])
     is_structured = fact.get('evidence_level') == 'structured'
     if is_structured:
-        quality = {'status': 'warning' if ok else 'fail',
+        source_failed = (fact.get('quality') or {}).get('status') == 'fail'
+        quality = {'status': 'fail' if source_failed or not ok else 'warning',
                    'checks': ['no_page_evidence', 'verdict_match'],
                    'messages': ['结构化接口数据；数值来自 API，无年报页码证据，不能替代 verified']}
+        if source_failed:
+            quality['checks'].append('cross_source_fail')
+            quality['messages'].append('该结构化兜底值在三源比对中被标记为不可直接采用')
     else:
         quality = {'status': 'pass' if ok else 'fail'}
     return {
@@ -350,14 +360,13 @@ def get_quality_report(stock_code: str, period: str,
                                   'announce_date': announce_date}, 'ok')
     structured_doc = ds.get('structured') or {}
     structured_cross = structured_doc.get('cross_check', {}) if isinstance(structured_doc, dict) else {}
-    structured_status = 'warning' if (structured_cross.get('warning')
-                                      or structured_cross.get('restatement_material')
-                                      or structured_cross.get('missing')) else 'pass'
+    structured_status = 'fail' if structured_cross.get('restatement_material') else (
+        'warning' if (structured_cross.get('warning') or structured_cross.get('missing')) else 'pass')
     sina = ds.get('sina') or {}
     second_cross = sina.get('cross_check', {}) if isinstance(sina, dict) else {}
     second_status = _second_source_status(second_cross)
-    status = 'fail' if counts['fail'] or subject_fail else (
-        'warning' if counts['warning'] or second_status == 'warning' else 'pass')
+    status = 'fail' if counts['fail'] or subject_fail or second_status == 'fail' or structured_status == 'fail' else (
+        'warning' if counts['warning'] or second_status == 'warning' or structured_status == 'warning' else 'pass')
     return {'data': {'checks': checks, 'counts': counts, 'subject_fail': subject_fail,
                      'coverage': ds['meta'].get('coverage', {}),
                      'coverage_score': ds['meta'].get('coverage_score', 0),

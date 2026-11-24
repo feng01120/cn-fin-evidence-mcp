@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """新浪财经三表结构化适配器：第二个独立结构化源。
 
-新浪返回的是制表符分隔的文本表，金额列单位在表头标明。它只用于
-交叉核对，不参与 verified 的 fallback；任何一个源都不能单独冒充年报页码。
+新浪返回的是制表符分隔的文本表，金额列单位在表头标明。它先用于三源交叉核对；在东方财富 structured 也缺值时才作为第二 fallback。
+任何一个源都不能单独冒充年报页码。
 """
 
 import datetime
@@ -35,6 +35,7 @@ FIELDS = {
         '非流动负债合计': 'total_noncurrent_liabilities',
         '负债合计': 'total_liabilities',
         '归属于母公司所有者权益合计': 'equity_parent',
+        '归属于母公司股东权益合计': 'equity_parent',
         '所有者权益合计': 'total_equity',
         '负债和所有者权益总计': 'total_liabilities_equity',
     },
@@ -64,6 +65,7 @@ FIELDS = {
         '汇率变动对现金及现金等价物的影响': 'fx_effect',
         '现金及现金等价物净增加额': 'net_cash_increase',
         '现金及现金等价物净减少额': 'net_cash_increase',
+        '加期初现金及现金等价物余额': 'beginning_cash',
         '期初现金及现金等价物余额': 'beginning_cash',
         '期末现金及现金等价物余额': 'ending_cash',
     },

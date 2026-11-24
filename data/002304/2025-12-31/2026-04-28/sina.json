@@ -1,6 +1,6 @@
 {
   "provider": "sina",
-  "fetched_at": "2026-11-24T19:32:50+08:00",
+  "fetched_at": "2026-11-24T19:50:23+08:00",
   "company": {
     "code": "002304",
     "name": "江苏洋河酒厂股份有限公司",
@@ -96,6 +96,16 @@
       "unit": "元",
       "statement": "合并资产负债表",
       "source_label": "负债合计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/002304/ctrl/2025/type/1.phtml",
+      "provider": "sina"
+    },
+    "equity_parent": {
+      "metric": "equity_parent",
+      "metric_name": "归属于母公司所有者权益合计",
+      "value": 46797173513.37,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "归属于母公司股东权益合计",
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/002304/ctrl/2025/type/1.phtml",
       "provider": "sina"
     },
@@ -319,6 +329,16 @@
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/002304/ctrl/2025/type/1.phtml",
       "provider": "sina"
     },
+    "beginning_cash": {
+      "metric": "beginning_cash",
+      "metric_name": "期初现金及现金等价物余额",
+      "value": 21481311610.75,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "source_label": "加:期初现金及现金等价物余额",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/002304/ctrl/2025/type/1.phtml",
+      "provider": "sina"
+    },
     "ending_cash": {
       "metric": "ending_cash",
       "metric_name": "期末现金及现金等价物余额",
@@ -407,10 +427,15 @@
         "evidence_id": "002304-2025-beginning_cash"
       },
       "eastmoney": null,
-      "sina": null,
-      "verified_vs_sina_diff": null,
+      "sina": {
+        "value": 21481311610.75,
+        "unit": "元",
+        "source_label": "加:期初现金及现金等价物余额",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/002304/ctrl/2025/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
       "eastmoney_vs_sina_diff": null,
-      "status": "missing"
+      "status": "pass"
     },
     "cash": {
       "metric": "cash",
@@ -560,10 +585,15 @@
         "evidence_id": "002304-2025-equity_parent"
       },
       "eastmoney": null,
-      "sina": null,
-      "verified_vs_sina_diff": null,
+      "sina": {
+        "value": 46797173513.37,
+        "unit": "元",
+        "source_label": "归属于母公司股东权益合计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/002304/ctrl/2025/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
       "eastmoney_vs_sina_diff": null,
-      "status": "missing"
+      "status": "pass"
     },
     "finance_expense": {
       "metric": "finance_expense",
@@ -1069,13 +1099,13 @@
     }
   },
   "cross_check": {
-    "pass": 32,
+    "pass": 34,
     "restatement": 0,
     "restatement_material": 0,
     "verified_isolated": 0,
     "warning": 0,
     "unverified": 0,
-    "missing": 2
+    "missing": 0
   },
   "errors": []
 }

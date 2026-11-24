@@ -135,7 +135,7 @@ def build_overlay(facts: List[Dict[str, Any]], fetched: Dict[str, Any],
     结构化 API 的 NOTICE_DATE 如果是“后一年年报”的披露日，报表期相同但
     数值可能已被追溯重述/重分类。此时标成 restatement，而不是把两套口径
     都当成同一张表的冲突。差异超过 25% 的标成 restatement_material，
-    仍进入 warning，要求人工核对合并范围/会计政策变更。
+    质量直接升级为 fail，要求人工核对合并范围/会计政策变更。
     """
     verified = {f.get('metric'): f for f in facts if f.get('value') is not None}
     metrics = fetched.get('metrics', {})
@@ -171,11 +171,12 @@ def build_overlay(facts: List[Dict[str, Any]], fetched: Dict[str, Any],
                         '判定为后发年报追溯/重分类，保留双口径'
                         % (diff * 100, notice, announce))
                 elif status == 'restatement_material':
-                    item['quality']['status'] = 'warning'
+                    item['quality']['status'] = 'fail'
                     item['quality']['messages'].append(
                         '结构化值与原始年报值相差 %.2f%%；虽为后发年报追溯，但差异超过 %.0f%%，'
-                        '需人工核对合并范围/会计政策变更'
+                        '已升级为 fail，需人工核对合并范围/会计政策变更'
                         % (diff * 100, RESTATEMENT_TOLERANCE * 100))
+                    chk['severity'] = 'fail'
                 elif status == 'warning':
                     item['quality']['status'] = 'warning'
                     item['quality']['messages'].append(

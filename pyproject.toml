@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cn-fin-evidence"
-version = "0.2.2"
+version = "0.2.3"
 description = "A 股财报证据链 MCP：每个数字都能被复核、追溯与拒答"
 readme = "README.md"
 license = { text = "MIT" }

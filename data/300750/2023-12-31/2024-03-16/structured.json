@@ -302,13 +302,15 @@
       "report_type_code": "001",
       "data_state": "2",
       "quality": {
-        "status": "warning",
+        "status": "fail",
         "checks": [
-          "no_page_evidence"
+          "no_page_evidence",
+          "cross_source_fail"
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与原始年报值相差 83.05%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更"
+          "结构化值与原始年报值相差 83.05%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更",
+          "已升级为 fail：后发年报重大追溯差异，需人工核对合并范围/会计政策变更"
         ]
       },
       "cross_check": {
@@ -318,7 +320,8 @@
         "relative_diff": 0.83053,
         "announce_date": "2024-03-16",
         "api_notice_date": "2025-03-15",
-        "later_filing": true
+        "later_filing": true,
+        "severity": "fail"
       }
     },
     "admin_expense": {

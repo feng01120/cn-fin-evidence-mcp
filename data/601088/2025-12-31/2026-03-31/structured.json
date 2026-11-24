@@ -22,13 +22,15 @@
       "report_type_code": "001",
       "data_state": "2",
       "quality": {
-        "status": "warning",
+        "status": "fail",
         "checks": [
-          "no_page_evidence"
+          "no_page_evidence",
+          "cross_source_fail"
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与原始年报值相差 45.72%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更"
+          "结构化值与原始年报值相差 45.72%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更",
+          "已升级为 fail：后发年报重大追溯差异，需人工核对合并范围/会计政策变更"
         ]
       },
       "cross_check": {
@@ -38,7 +40,8 @@
         "relative_diff": 0.457167,
         "announce_date": "2026-03-31",
         "api_notice_date": "2026-10-24",
-        "later_filing": true
+        "later_filing": true,
+        "severity": "fail"
       }
     },
     "accounts_receivable": {
@@ -54,13 +57,15 @@
       "report_type_code": "001",
       "data_state": "2",
       "quality": {
-        "status": "warning",
+        "status": "fail",
         "checks": [
-          "no_page_evidence"
+          "no_page_evidence",
+          "cross_source_fail"
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与原始年报值相差 25.26%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更"
+          "结构化值与原始年报值相差 25.26%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更",
+          "已升级为 fail：后发年报重大追溯差异，需人工核对合并范围/会计政策变更"
         ]
       },
       "cross_check": {
@@ -70,7 +75,8 @@
         "relative_diff": 0.252628,
         "announce_date": "2026-03-31",
         "api_notice_date": "2026-10-24",
-        "later_filing": true
+        "later_filing": true,
+        "severity": "fail"
       }
     },
     "inventory": {
@@ -86,13 +92,15 @@
       "report_type_code": "001",
       "data_state": "2",
       "quality": {
-        "status": "warning",
+        "status": "fail",
         "checks": [
-          "no_page_evidence"
+          "no_page_evidence",
+          "cross_source_fail"
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与原始年报值相差 28.95%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更"
+          "结构化值与原始年报值相差 28.95%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更",
+          "已升级为 fail：后发年报重大追溯差异，需人工核对合并范围/会计政策变更"
         ]
       },
       "cross_check": {
@@ -102,7 +110,8 @@
         "relative_diff": 0.289451,
         "announce_date": "2026-03-31",
         "api_notice_date": "2026-10-24",
-        "later_filing": true
+        "later_filing": true,
+        "severity": "fail"
       }
     },
     "total_assets": {
@@ -118,13 +127,15 @@
       "report_type_code": "001",
       "data_state": "2",
       "quality": {
-        "status": "warning",
+        "status": "fail",
         "checks": [
-          "no_page_evidence"
+          "no_page_evidence",
+          "cross_source_fail"
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与原始年报值相差 43.98%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更"
+          "结构化值与原始年报值相差 43.98%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更",
+          "已升级为 fail：后发年报重大追溯差异，需人工核对合并范围/会计政策变更"
         ]
       },
       "cross_check": {
@@ -134,7 +145,8 @@
         "relative_diff": 0.439768,
         "announce_date": "2026-03-31",
         "api_notice_date": "2026-10-24",
-        "later_filing": true
+        "later_filing": true,
+        "severity": "fail"
       }
     },
     "total_liabilities": {
@@ -150,13 +162,15 @@
       "report_type_code": "001",
       "data_state": "2",
       "quality": {
-        "status": "warning",
+        "status": "fail",
         "checks": [
-          "no_page_evidence"
+          "no_page_evidence",
+          "cross_source_fail"
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与原始年报值相差 105.18%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更"
+          "结构化值与原始年报值相差 105.18%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更",
+          "已升级为 fail：后发年报重大追溯差异，需人工核对合并范围/会计政策变更"
         ]
       },
       "cross_check": {
@@ -166,7 +180,8 @@
         "relative_diff": 1.051828,
         "announce_date": "2026-03-31",
         "api_notice_date": "2026-10-24",
-        "later_filing": true
+        "later_filing": true,
+        "severity": "fail"
       }
     },
     "total_equity": {
@@ -182,13 +197,15 @@
       "report_type_code": "001",
       "data_state": "2",
       "quality": {
-        "status": "warning",
+        "status": "fail",
         "checks": [
-          "no_page_evidence"
+          "no_page_evidence",
+          "cross_source_fail"
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与原始年报值相差 25.38%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更"
+          "结构化值与原始年报值相差 25.38%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更",
+          "已升级为 fail：后发年报重大追溯差异，需人工核对合并范围/会计政策变更"
         ]
       },
       "cross_check": {
@@ -198,7 +215,8 @@
         "relative_diff": 0.253766,
         "announce_date": "2026-03-31",
         "api_notice_date": "2026-10-24",
-        "later_filing": true
+        "later_filing": true,
+        "severity": "fail"
       }
     },
     "total_revenue": {

@@ -40,6 +40,7 @@ def variants(value: float):
 
 def main() -> int:
     errors, warnings = [], []
+    material_failures = set()
     datasets = list_datasets(BASE)
     structured_datasets = 0
     structured_metrics = 0
@@ -186,11 +187,14 @@ def main() -> int:
             if not str(item.get('source_url') or '').startswith('https://'):
                 errors.append(f'{sid}: source_url 缺失')
             q = item.get('quality') or {}
-            if q.get('status') != 'warning' or 'no_page_evidence' not in (q.get('checks') or []):
-                errors.append(f'{sid}: 结构化质量未标记无页码 warning')
+            if q.get('status') not in ('warning', 'fail') or 'no_page_evidence' not in (q.get('checks') or []):
+                errors.append(f'{sid}: 结构化质量未标记无页码 warning/fail')
             cc = (item.get('cross_check') or {}).get('status', 'missing')
             structured_cross[cc] = structured_cross.get(cc, 0) + 1
-            if cc in ('warning', 'restatement_material'):
+            if cc == 'restatement_material':
+                errors.append(f'{sid}: 结构化重大追溯差异已升级为 fail，需核对合并范围/会计政策')
+                material_failures.add(f'{code}/{period}/{metric}')
+            elif cc == 'warning':
                 warnings.append(f'{sid}: 结构化值与年报解析值存在差异（{cc}），已保留两套口径')
             elif cc == 'missing':
                 warnings.append(f'{sid}: 年报未解析出同指标，无法交叉核对')
@@ -227,7 +231,10 @@ def main() -> int:
                     errors.append(f'{sid}: sina source_label 缺失')
             if status == 'verified_isolated':
                 errors.append(f'{sid}: verified 与两个结构化源均不一致，疑似抽取错误')
-            elif status in ('warning', 'restatement_material'):
+            elif status == 'restatement_material':
+                errors.append(f'{sid}: 三源比对为重大追溯差异，已升级为 fail')
+                material_failures.add(f'{code}/{period}/{metric}')
+            elif status == 'warning':
                 warnings.append(f'{sid}: 三源比对差异（{status}），保留两套口径')
     if len(keys) != len(set(keys)):
         errors.append('同一 (code, report_date) 存在多个数据集')
@@ -240,6 +247,8 @@ def main() -> int:
         'second_source_datasets': second_datasets,
         'second_source_metrics': second_metrics,
         'second_source_cross_check': second_cross,
+        'material_failures': sorted(material_failures),
+        'material_failure_count': len(material_failures),
         'errors': errors,
         'warnings': warnings,
         'error_count': len(errors),
@@ -252,6 +261,7 @@ def main() -> int:
                                               'structured_metrics', 'structured_cross_check',
                                               'second_source_datasets', 'second_source_metrics',
                                               'second_source_cross_check',
+                                              'material_failure_count',
                                               'error_count', 'warning_count', 'pass')}, ensure_ascii=False))
     if errors:
         print('\n'.join(errors[:20]))

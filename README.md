@@ -18,7 +18,7 @@ A 股财报证据链 MCP：**每个返回给 AI 的数字，都能被验证、�
 
 `cn-fin-evidence-mcp` 把这些问题变成结构化的返回字段，而不是提示词里的“请不要编造”。
 
-## 现在能做什么（v0.2.2 试点）
+## 现在能做什么（v0.2.3 试点）
 
 | 能力 | 状态 |
 |---|---|
@@ -33,13 +33,13 @@ A 股财报证据链 MCP：**每个返回给 AI 的数字，都能被验证、�
 | 本地审计日志 | 已实现 |
 | 行级科目可回查 | 已实现：科目名/数值无法在本页命中即不写入 |
 | structured 覆盖层 | 已实现：60 数据集 / 1,200 个东方财富结构化指标；无页码时显式 warning，不冒充 verified |
-| 追溯重述隔离 | 已实现：API 披露日晚于数据集公告日时标 `restatement`；差异超 25% 标 `restatement_material` 并要求人工核对 |
-| 第二数据源 | 已实现：新浪财经三表 60 数据集 / 1,920 个指标；只做三源交叉核对，不进入 fallback |
+| 追溯重述隔离 | 已实现：API 披露日晚于数据集公告日时标 `restatement`；差异超 25% 标 `restatement_material` 并升级为 fail |
+| 第二数据源 | 已实现：新浪财经三表 60 数据集 / 2,040 个指标；先做三源交叉核对，东方财富缺值时作为第二 fallback |
 | 科目拦截 | 已实现：指标 + 报表归属 + 科目别名三重校验 |
 | 示例数据 | 20 家非金融公司 × 2023–2025 年，60 个数据集（2,016 facts / 8,352 rows） |
 | 指标覆盖 | 34 个指标定义（31 个必需）、9 个比率 |
-| 当前验收 | 60/60 quality_gate pass；随机 20 条证据 20/20 命中；行级审计 0 error；总 warning 95 |
-| 单元/契约测试 | 43 / 43 通过 |
+| 当前验收 | 随机 20 条证据 20/20 命中；行级审计 20 error / 75 warning；`acceptance=false`（10 个重大追溯指标未清零） |
+| 单元/契约测试 | 46 / 46 通过 |
 
 ## 当前验收结果（可复跑）
 
@@ -53,14 +53,15 @@ PYTHONPATH=src python scripts/accept_20.py
 | 检查 | 结果 |
 |---|---|
 | 数据集 / 公司 | 60 / 20（2023–2025） |
-| `quality_gate` | pass 60，warning 0，fail 0 |
+| `quality_gate`（PDF 原文链路） | pass 60，warning 0，fail 0 |
+| `cross_source_gate`（三源比对） | fail 5 个数据集（10 个重大追溯指标），其余 55 个 pass |
 | 随机 20 条证据回查 | 20 / 20 命中 |
 | 四条硬勾稽 | 240 / 240 pass |
 | 行级科目/数值页内命中 | 0 error；54 条 `cash_bs_vs_cf` 口径 warning |
 | 行级审计 | 8,352 rows，0 条无法回查 |
-| structured 覆盖 | 60 / 60 数据集，1,200 指标；1,123 pass / 46 restatement / 10 restatement_material / 21 missing |
-| 第二源覆盖 | 60 / 60 数据集，1,920 指标；1,840 pass / 45 restatement / 10 restatement_material / 25 unverified / 120 missing；`verified_isolated=0` |
-| 审计 warning | 95 条：54 条现金口径 + 10 条 structured 重大追溯 + 10 条第二源重大差异 + 21 条结构化无法交叉核对，均非 fail |
+| structured 覆盖 | 60 / 60 数据集，1,200 指标；1,123 pass / 46 restatement / 10 restatement_material（fail） / 21 missing |
+| 第二源覆盖 | 60 / 60 数据集，2,040 指标；1,960 pass / 45 restatement / 10 restatement_material（fail） / 25 unverified / 0 missing；`verified_isolated=0` |
+| 审计 | 20 error / 75 warning：10 个重大追溯指标在东方财富+新浪两侧各记一次 error；75 warning = 54 条现金口径 + 21 条结构化无法交叉核对 |
 
 验收报告写入 `data/acceptance_report.json`，审计明细写入 `data/audit_report.json`，逐数据集覆盖与门槛写入 `data/rebuild_report.json`。
 
@@ -154,9 +155,9 @@ MCP 客户端配置（stdio）：
 
 ## 数据与合规
 
-- verified 示例数据来自 20 家上市公司 2023–2025 年公开年度报告，仅用于原型与研究；源 PDF 不入仓。
+- verified 示例数据来自 20 家上市公司 2023–2025 年公开年度报告，仅用于原型与研究；源 PDF 不入 git，v0.2.3 交付包单独带上 `data/raw`（约 262MB，61 份 PDF）。
 - structured 覆盖层来自东方财富公开三表接口，仅用于原型；没有页码证据，质量固定为 warning，不得冒充 verified，也不得用于商业再分发。
-- 第二源来自新浪财经公开三表文本，仅用于交叉核对；不进入 fallback，不覆盖 verified。
+- 第二源来自新浪财经公开三表文本；先用于交叉核对，东方财富也缺值时才作为第二 fallback。两个结构化源都不覆盖 verified，也不提供页码。
 - `restatement` 表示 API 披露日晚于数据集公告日，可能是后发年报追溯/重分类；`restatement_material` 表示差异超过 25%，仍需人工核对合并范围与会计政策变更。
 - `scripts/fetch_report.py` 走巨潮资讯官方公告接口（按 orgId 查询年报分类，从 `static.cninfo.com.cn` 下载）；**不得**把该接口用于商业再分发。
 - 生产环境应替换为持牌数据源（Wind、Choice、通联等）的适配层。
@@ -172,7 +173,7 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 
 自检报告与已知边界见 [`docs/AUDIT.md`](docs/AUDIT.md)。
 
-数据审计（需要原始 PDF；包内不含 `data/raw` 的 262MB PDF）：
+数据审计（需要原始 PDF；v0.2.3 包已带 `data/raw`，解压后可直接复跑）：
 
 ```bash
 python scripts/audit_data.py --data data --pdf-dir data/raw
@@ -203,6 +204,7 @@ tests/           # 契约测试
 
 - **v0.2（已完成）**：20 家公司 × 3 年、60 个数据集、行级证据回查、批量重建、验收报告。
 - **v0.2.2（已完成）**：structured 追溯分级、新浪第二源三源比对、抽取锚点/列/单位修复。
+- **v0.2.3（已完成）**：新浪扩展到 34 指标并成为第二 fallback；10 个重大追溯指标升级为 fail；raw PDF 随包。
 - **v0.3**：跨章节一致性、扫描件 OCR、第二源进入覆盖层前的准入规则、审计日志哈希链。
 - **v1.0**：持牌数据源适配、多期对比、行业模板、可复现的评估报告。
 

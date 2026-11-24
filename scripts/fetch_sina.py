@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """为 verified 数据集补新浪财经第二结构化源，并生成三源比对。
 
-新浪只用于交叉核对：不覆盖 verified，不进入 fallback。抓取失败记录
-no_data，不编造任何数值。
+新浪先用于交叉核对；在东方财富 structured 也缺值时才作为第二 fallback。
+抓取失败记录 no_data，不编造任何数值。
 """
 
 import argparse
