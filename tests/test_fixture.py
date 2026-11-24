@@ -55,7 +55,7 @@ class TestFixture(unittest.TestCase):
         self.assertEqual(len([c for c in self.checks if c['status'] == 'fail']), 0)
         names = {c['check'] for c in self.checks if c['status'] == 'pass'}
         self.assertEqual(names, {'balance_identity', 'total_le_identity',
-                                 'cash_flow_identity', 'cash_roll'})
+                                 'cash_flow_identity', 'cash_roll', 'growth_anomaly'})
 
 
 if __name__ == '__main__':

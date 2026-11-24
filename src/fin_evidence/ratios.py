@@ -134,6 +134,23 @@ def run_checks(facts: List[Evidence]) -> List[CheckResult]:
           get('ending_cash'), '期初现金 + 净增加额 = 期末现金',
           ['beginning_cash', 'net_cash_increase', 'ending_cash'])
 
+    # 同比异常提示：超过 ±50% 不直接判错，但要求人工复核报告口径/重述
+    anomalies = []
+    for k, label in (('revenue', '营业收入'), ('net_profit', '净利润')):
+        f = by_key.get(k)
+        if f is None or f.value is None or f.prior_value in (None, 0):
+            continue
+        growth = (f.value - f.prior_value) / abs(f.prior_value) * 100
+        if abs(growth) > 50:
+            anomalies.append('%s同比 %.2f%%（本期 %.2f，上期 %.2f）' % (
+                label, growth, f.value, f.prior_value))
+    results.append(CheckResult(
+        check='growth_anomaly',
+        status='warning' if anomalies else 'pass',
+        detail='；'.join(anomalies) if anomalies else '营收与净利同比波动均在 ±50% 以内',
+        evidence=[by_key[k].evidence_id for k in ('revenue', 'net_profit') if k in by_key],
+    ))
+
     for f in facts:
         if f.value is None:
             results.append(CheckResult(check='zero_type', status='warning',

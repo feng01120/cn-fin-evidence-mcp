@@ -51,5 +51,17 @@
       "000858-2025-net_cash_increase",
       "000858-2025-ending_cash"
     ]
+  },
+  {
+    "check": "growth_anomaly",
+    "status": "warning",
+    "detail": "营业收入同比 -54.55%（本期 40528509770.23，上期 89175178322.70）；净利润同比 -71.93%（本期 9317113184.68，上期 33193460484.32）",
+    "left": null,
+    "right": null,
+    "diff": null,
+    "evidence": [
+      "000858-2025-revenue",
+      "000858-2025-net_profit"
+    ]
   }
 ]

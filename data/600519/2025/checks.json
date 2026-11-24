@@ -51,5 +51,17 @@
       "600519-2025-net_cash_increase",
       "600519-2025-ending_cash"
     ]
+  },
+  {
+    "check": "growth_anomaly",
+    "status": "pass",
+    "detail": "营收与净利同比波动均在 ±50% 以内",
+    "left": null,
+    "right": null,
+    "diff": null,
+    "evidence": [
+      "600519-2025-revenue",
+      "600519-2025-net_profit"
+    ]
   }
 ]
