@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cn-fin-evidence"
+version = "0.1.0"
+description = "A 股财报证据链 MCP：每个数字都能被复核、追溯与拒答"
+requires-python = ">=3.10"
+dependencies = ["pymupdf>=1.24", "pydantic>=2", "mcp>=1.0"]
+
+[project.scripts]
+fin-evidence = "fin_evidence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,1294 @@
+[
+  {
+    "evidence_id": "600519-2025-cash",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 51690610946.5,
+    "prior_value": 59295822956.89,
+    "unit": "元",
+    "page": 56,
+    "printed_page": null,
+    "snippet": "货币资金151,690,610,946.5059,295,822,956.89",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 712.3893432617188,
+      "x1": 530.8186645507812,
+      "y1": 712.3893432617188
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-accounts_receivable",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 2609048.49,
+    "prior_value": 18974192.75,
+    "unit": "元",
+    "page": 57,
+    "printed_page": null,
+    "snippet": "应收账款52,609,048.4918,974,192.75",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 107.22935485839844,
+      "x1": 530.8201904296875,
+      "y1": 107.22935485839844
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "5",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-inventory",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 61427421796.18,
+    "prior_value": 54343285157.47,
+    "unit": "元",
+    "page": 57,
+    "printed_page": null,
+    "snippet": "存货1061,427,421,796.1854,343,285,157.47",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 250.9903564453125,
+      "x1": 530.8186645507812,
+      "y1": 250.9903564453125
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "10",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_current_assets",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 252518662398.57,
+    "prior_value": 251726674636.66,
+    "unit": "元",
+    "page": 57,
+    "printed_page": null,
+    "snippet": "流动资产合计252,518,662,398.57251,726,674,636.66",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 337.1503601074219,
+      "x1": 530.818359375,
+      "y1": 337.1503601074219
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_noncurrent_assets",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 51316181622.87,
+    "prior_value": 47217905282.04,
+    "unit": "元",
+    "page": 57,
+    "printed_page": null,
+    "snippet": "非流动资产合计51,316,181,622.8747,217,905,282.04",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 667.6293334960938,
+      "x1": 530.8186645507812,
+      "y1": 667.6293334960938
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_assets",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 303834844021.44,
+    "prior_value": 298944579918.7,
+    "unit": "元",
+    "page": 57,
+    "printed_page": null,
+    "snippet": "资产总计303,834,844,021.44298,944,579,918.70",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 681.9103393554688,
+      "x1": 530.818359375,
+      "y1": 681.9103393554688
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_current_liabilities",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 49610476817.81,
+    "prior_value": 56515990618.96,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "流动负债合计49,610,476,817.8156,515,990,618.96",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 351.55035400390625,
+      "x1": 530.8186645507812,
+      "y1": 351.55035400390625
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_noncurrent_liabilities",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 265113294.56,
+    "prior_value": 417274179.14,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "非流动负债合计265,113,294.56417,274,179.14",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 552.6703491210938,
+      "x1": 530.8198852539062,
+      "y1": 552.6703491210938
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_liabilities",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 49875590112.37,
+    "prior_value": 56933264798.1,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "负债合计49,875,590,112.3756,933,264,798.10",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 567.0703125,
+      "x1": 530.8186645507812,
+      "y1": 567.0703125
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-equity_parent",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 244637811032.18,
+    "prior_value": 233105984399.47,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者权益244,637,811,032.18233,105,984,399.47",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 753.789306640625,
+      "x1": 530.818359375,
+      "y1": 753.789306640625
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_equity",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 253959253909.07,
+    "prior_value": 242011315120.6,
+    "unit": "元",
+    "page": 59,
+    "printed_page": null,
+    "snippet": "所有者权益（或股东权 | 253,959,253,909.07242,011,315,120.60 | 益）合计",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 107.22935485839844,
+      "x1": 530.818359375,
+      "y1": 120.91035461425781
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_liabilities_equity",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 303834844021.44,
+    "prior_value": 298944579918.7,
+    "unit": "元",
+    "page": 59,
+    "printed_page": null,
+    "snippet": "负债和所有者权益（或 | 303,834,844,021.44298,944,579,918.70 | 股东权益）总计",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 135.3103485107422,
+      "x1": 530.818359375,
+      "y1": 148.870361328125
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_revenue",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 172054171890.91,
+    "prior_value": 174144069958.25,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "一、营业总收入172,054,171,890.91174,144,069,958.25",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 274.2703552246094,
+      "x1": 531.4183349609375,
+      "y1": 274.2703552246094
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-revenue",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 168838102514.79,
+    "prior_value": 170899152276.34,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "其中：营业收入44168,838,102,514.79170,899,152,276.34",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 288.31036376953125,
+      "x1": 531.4183349609375,
+      "y1": 288.31036376953125
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": "44",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_cost",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 57370818034.33,
+    "prior_value": 54523971452.57,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "二、营业总成本57,370,818,034.3354,523,971,452.57",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 344.829345703125,
+      "x1": 531.2986450195312,
+      "y1": 344.829345703125
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-cost_of_revenue",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 14892277570.91,
+    "prior_value": 13789482367.98,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "其中：营业成本4414,892,277,570.9113,789,482,367.98",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 358.870361328125,
+      "x1": 531.2986450195312,
+      "y1": 358.870361328125
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": "44",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-taxes_surcharges",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 27354227684.88,
+    "prior_value": 26926161474.99,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "税金及附加4627,354,227,684.8826,926,161,474.99",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 471.9103698730469,
+      "x1": 531.2986450195312,
+      "y1": 471.9103698730469
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": "46",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-selling_expense",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 7253499600.68,
+    "prior_value": 5639300059.49,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "销售费用477,253,499,600.685,639,300,059.49",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 486.0703430175781,
+      "x1": 531.4192504882812,
+      "y1": 486.0703430175781
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": "47",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-admin_expense",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 8320061659.66,
+    "prior_value": 9315650060.38,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "管理费用488,320,061,659.669,315,650,060.38",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 500.1103515625,
+      "x1": 531.4192504882812,
+      "y1": 500.1103515625
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": "48",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-rd_expense",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 190112246.58,
+    "prior_value": 218375472.87,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "研发费用49190,112,246.58218,375,472.87",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 514.2703247070312,
+      "x1": 531.4198608398438,
+      "y1": 514.2703247070312
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": "49",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-finance_expense",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -815240284.72,
+    "prior_value": -1470219863.34,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "财务费用50-815,240,284.72-1,470,219,863.34",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 528.310302734375,
+      "x1": 531.2986450195312,
+      "y1": 528.310302734375
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": "50",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-operating_profit",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 114808950164.24,
+    "prior_value": 119688579453.23,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "三、营业利润（亏损以“－”号填列）114,808,950,164.24119,688,579,453.23",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 147.9103546142578,
+      "x1": 531.4183349609375,
+      "y1": 147.9103546142578
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-total_profit",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 114755261605.08,
+    "prior_value": 119638578194.46,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "四、利润总额（亏损总额以“－”号 | 114,755,261,605.08119,638,578,194.46 | 填列）",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 190.27035522460938,
+      "x1": 531.4183349609375,
+      "y1": 203.82936096191406
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-net_profit",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 85310324833.67,
+    "prior_value": 89334728025.9,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "五、净利润（净亏损以“－”号填列）85,310,324,833.6789,334,728,025.90",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 232.02935791015625,
+      "x1": 531.2986450195312,
+      "y1": 232.02935791015625
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-net_profit_parent",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 82320067101.68,
+    "prior_value": 86228146421.62,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "1.归属于母公司股东的净利润 | 82,320,067,101.6886,228,146,421.62",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 329.9503479003906,
+      "x1": 531.2986450195312,
+      "y1": 336.67034912109375
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-basic_eps",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 65.66,
+    "prior_value": 68.64,
+    "unit": "元/股",
+    "page": 63,
+    "printed_page": null,
+    "snippet": "（一）基本每股收益(元/股)65.6668.64",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 147.9103546142578,
+      "x1": 531.30322265625,
+      "y1": 147.9103546142578
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-sales_cash",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 183990403487.8,
+    "prior_value": 182645203339.89,
+    "unit": "元",
+    "page": 64,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现 | 183,990,403,487.80182,645,203,339.89 | 金",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 585.310302734375,
+      "x1": 531.4183349609375,
+      "y1": 598.9893188476562
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-cfo",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 61522204989.35,
+    "prior_value": 92463692168.43,
+    "unit": "元",
+    "page": 65,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流 | 61,522,204,989.3592,463,692,168.43 | 量净额",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 427.2703552246094,
+      "x1": 531.2986450195312,
+      "y1": 440.829345703125
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-cfi",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -31641898948.89,
+    "prior_value": -1785202630.71,
+    "unit": "元",
+    "page": 65,
+    "printed_page": null,
+    "snippet": "投资活动产生的现金流 | -31,641,898,948.89-1,785,202,630.71 | 量净额",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 720.1893310546875,
+      "x1": 531.2986450195312,
+      "y1": 733.7503051757812
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-cff",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -73427081208.87,
+    "prior_value": -71067506484.81,
+    "unit": "元",
+    "page": 66,
+    "printed_page": null,
+    "snippet": "筹资活动产生的现金流 | -73,427,081,208.87-71,067,506,484.81 | 量净额",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 287.58935546875,
+      "x1": 531.4183349609375,
+      "y1": 301.1503601074219
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-fx_effect",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 2295358.3,
+    "prior_value": -1082747.55,
+    "unit": "元",
+    "page": 66,
+    "printed_page": null,
+    "snippet": "四、汇率变动对现金及现金等价 | 2,295,358.30-1,082,747.55 | 物的影响",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 315.31036376953125,
+      "x1": 531.3001708984375,
+      "y1": 328.870361328125
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-net_cash_increase",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -43544479810.11,
+    "prior_value": 19609900305.36,
+    "unit": "元",
+    "page": 66,
+    "printed_page": null,
+    "snippet": "五、现金及现金等价物净增加额-43,544,479,810.1119,609,900,305.36",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 343.02935791015625,
+      "x1": 531.2986450195312,
+      "y1": 343.02935791015625
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-beginning_cash",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 169970089257.83,
+    "prior_value": 150360188952.47,
+    "unit": "元",
+    "page": 66,
+    "printed_page": null,
+    "snippet": "加：期初现金及现金等价物余 | 169,970,089,257.83150,360,188,952.47 | 额",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 357.0703430175781,
+      "x1": 531.4183349609375,
+      "y1": 370.7503662109375
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2025-ending_cash",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": "贵州茅台"
+    },
+    "period": "2025",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 126425609447.72,
+    "prior_value": 169970089257.83,
+    "unit": "元",
+    "page": 66,
+    "printed_page": null,
+    "snippet": "六、期末现金及现金等价物余额126,425,609,447.72169,970,089,257.83",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 384.9103698730469,
+      "x1": 531.4183349609375,
+      "y1": 384.9103698730469
+    },
+    "source_file": "moutai_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    }
+  }
+]

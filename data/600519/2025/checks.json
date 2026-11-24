@@ -1,0 +1,55 @@
+[
+  {
+    "check": "balance_identity",
+    "status": "pass",
+    "detail": "资产 = 负债 + 所有者权益",
+    "left": 303834844021.44,
+    "right": 303834844021.44,
+    "diff": 0.0,
+    "evidence": [
+      "600519-2025-total_assets",
+      "600519-2025-total_liabilities",
+      "600519-2025-total_equity"
+    ]
+  },
+  {
+    "check": "total_le_identity",
+    "status": "pass",
+    "detail": "负债和所有者权益总计 = 资产总计",
+    "left": 303834844021.44,
+    "right": 303834844021.44,
+    "diff": 0.0,
+    "evidence": [
+      "600519-2025-total_liabilities_equity",
+      "600519-2025-total_assets"
+    ]
+  },
+  {
+    "check": "cash_flow_identity",
+    "status": "pass",
+    "detail": "经营 + 投资 + 筹资现金流 + 汇率影响 = 现金净增加额",
+    "left": -43544479810.10999,
+    "right": -43544479810.11,
+    "diff": 0.0,
+    "evidence": [
+      "600519-2025-cfo",
+      "600519-2025-cfi",
+      "600519-2025-cff",
+      "600519-2025-fx_effect",
+      "600519-2025-net_cash_increase"
+    ]
+  },
+  {
+    "check": "cash_roll",
+    "status": "pass",
+    "detail": "期初现金 + 净增加额 = 期末现金",
+    "left": 126425609447.71999,
+    "right": 126425609447.72,
+    "diff": -0.0,
+    "evidence": [
+      "600519-2025-beginning_cash",
+      "600519-2025-net_cash_increase",
+      "600519-2025-ending_cash"
+    ]
+  }
+]
