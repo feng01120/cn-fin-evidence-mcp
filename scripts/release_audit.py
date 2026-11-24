@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
-OUT = DATA / 'release_audit.json'
+OUT = ROOT / 'dist' / 'release_audit.json'
 
 
 def sh(*args):
@@ -54,6 +54,8 @@ def main():
                 readme_links.append({'readme': name, 'link': link})
     absolute_paths = []
     for p in tracked:
+        if p == 'scripts/release_audit.py':
+            continue
         path = ROOT / p
         if path.suffix.lower() in ('.pdf', '.jsonl') or not path.is_file():
             continue
@@ -110,6 +112,7 @@ def main():
         'github_publish_blocked': bool(not remote or not tags),
         'local_release_ready': all(c['status'] != 'fail' for c in checks.values()),
     }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0 if report['local_release_ready'] else 1
