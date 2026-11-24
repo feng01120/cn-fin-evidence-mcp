@@ -65,6 +65,8 @@ PYTHONPATH=src python scripts/accept_20.py
 
 验收报告写入 `data/acceptance_report.json`，审计明细写入 `data/audit_report.json`，逐数据集覆盖与门槛写入 `data/rebuild_report.json`。
 
+10 个 `restatement_material` 的逐项审查结论见 [`docs/MATERIAL_REVIEW.md`](docs/MATERIAL_REVIEW.md)：10/10 确认真实追溯、0 条抽取错误；原始审计仍保持严格 fail，审查台账不擅自改写门禁。
+
 ## 快速开始
 
 ```bash
