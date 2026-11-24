@@ -41,7 +41,7 @@ class Evidence(BaseModel):
     value: Optional[float] = None
     prior_value: Optional[float] = None
     unit: str = '元'
-    page: int
+    page: Optional[int] = None
     printed_page: Optional[int] = None
     snippet: str
     bbox: Optional[BBox] = None

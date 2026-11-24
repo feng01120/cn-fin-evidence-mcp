@@ -62,8 +62,10 @@ OPTIONAL_METRICS = {'total_revenue', 'total_cost', 'finance_expense'}
 REQUIRED_METRICS = [m.key for m in METRICS if m.key not in OPTIONAL_METRICS]
 
 BY_STATEMENT = {}
+BY_KEY = {}
 for m in METRICS:
     BY_STATEMENT.setdefault(m.statement, []).append(m)
+    BY_KEY[m.key] = m
 
 # 合并报表的起止标题（遇到下一张报表标题即停止）
 STATEMENT_ORDER = [BALANCE, INCOME, CASH]

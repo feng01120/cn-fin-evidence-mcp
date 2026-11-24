@@ -9,7 +9,9 @@ from typing import Any, Dict, List, Optional
 
 from mcp.server.fastmcp import FastMCP
 
-from .store import append_audit, find_fact, find_fact_by_metric, list_datasets, load_dataset
+from .store import (append_audit, find_fact, find_fact_by_metric,
+                    find_structured_fact, list_datasets, load_dataset)
+from .subject import evaluate_fact
 
 BASE = Path(os.environ.get('FIN_EVIDENCE_DATA', str(Path(__file__).resolve().parents[2] / 'data')))
 mcp = FastMCP('cn-fin-evidence')
@@ -50,8 +52,34 @@ def _audit(tool: str, args: Dict[str, Any], status: str, evidence: Optional[List
         pass
 
 
-def _subject_ok(fact: Dict[str, Any]) -> bool:
-    return fact.get('subject_check', {}).get('status') != 'fail'
+def _subject_quality(fact: Dict[str, Any]):
+    return evaluate_fact(fact)
+
+
+def _choose_fact(ds: Dict[str, Any], metric: str) -> Optional[Dict[str, Any]]:
+    """优先 verified；verified 缺值或不存在时才用 structured fallback。"""
+    fact = find_fact_by_metric(ds, metric)
+    if fact and fact.get('value') is not None:
+        return fact
+    structured = find_structured_fact(ds, metric)
+    return structured or fact
+
+
+def _available_metrics(ds: Dict[str, Any]) -> list:
+    return sorted({f['metric'] for f in ds.get('facts', [])}
+                  | {f['metric'] for f in ds.get('structured_facts', [])})
+
+
+def _evidence_block(fact: Dict[str, Any]) -> list:
+    if fact.get('evidence_level') == 'structured':
+        # 结构化数据没有页码/片段，绝不伪造一个。
+        return []
+    return [{
+        'evidence_id': fact['evidence_id'], 'page': fact.get('page'),
+        'printed_page': fact.get('printed_page'), 'snippet': fact.get('snippet'),
+        'bbox': fact.get('bbox'), 'unit': fact.get('unit'),
+        'value': fact.get('value'), 'priority': fact.get('value_type', 'disclosed'),
+    }]
 
 
 @mcp.tool()
@@ -59,7 +87,9 @@ def list_companies() -> Dict[str, Any]:
     """列出已收录的公司、报告期、公告日与证据等级。只返回元信息，不返回财务数据。"""
     rows = list_datasets(BASE)
     _audit('list_companies', {}, 'ok')
-    return {'data': rows, 'evidence': [], 'meta': {'count': len(rows)},
+    return {'data': rows, 'evidence': [],
+            'meta': {'count': len(rows),
+                     'structured_count': sum(int(r.get('structured_count') or 0) for r in rows)},
             'quality': {'status': 'pass'}}
 
 
@@ -101,7 +131,8 @@ def get_statement(stock_code: str, period: str, statement: str = '合并资产�
         'meta': {'stock_code': stock_code, 'period': period, 'statement': statement,
                  'total': len(rows), 'returned': len(page), 'next_cursor': nxt,
                  'dataset_path': ds['dir'], 'rows_file': str(Path(ds['dir']) / 'rows.json'),
-                 'evidence_level': ds['meta'].get('evidence_level', 'verified')},
+                 'evidence_level': ds['meta'].get('evidence_level', 'verified'),
+                 'structured_count': len(ds.get('structured_facts', []))},
         'quality': {'status': 'pass'},
     }
 
@@ -170,25 +201,23 @@ def get_evidence(evidence_id: str = '', stock_code: str = '', period: str = '',
         ds, err = _load(stock_code, period, announce_date)
         if err:
             return err
-        fact = find_fact_by_metric(ds, metric)
+        fact = _choose_fact(ds, metric)
         if not fact:
             return _err('METRIC_NOT_FOUND', '没有该指标', metric=metric,
-                        available=sorted({f['metric'] for f in ds['facts']}))
-    if not _subject_ok(fact):
-        return _err('SUBJECT_MISMATCH', '数值存在，但科目名与指标别名不匹配，拒绝作为该指标返回',
+                        available=_available_metrics(ds))
+    guard = _subject_quality(fact)
+    if guard.status == 'fail':
+        return _err('SUBJECT_MISMATCH', '数值存在，但科目/报表与指标定义不匹配，拒绝返回',
                     metric=fact.get('metric'), item_raw=fact.get('item_raw'),
-                    subject_check=fact.get('subject_check'), evidence_id=fact.get('evidence_id'))
+                    statement=fact.get('statement'), subject_check=guard.model_dump(),
+                    evidence_id=fact.get('evidence_id'))
     _audit('get_evidence', {'evidence_id': evidence_id, 'stock_code': stock_code,
                             'period': period, 'metric': metric}, 'ok', [fact['evidence_id']])
-    return {'data': fact, 'evidence': [{
-                'evidence_id': fact['evidence_id'], 'page': fact['page'],
-                'printed_page': fact.get('printed_page'), 'snippet': fact['snippet'],
-                'bbox': fact.get('bbox'), 'unit': fact.get('unit'),
-                'value': fact.get('value'), 'priority': fact.get('value_type', 'disclosed'),
-            }],
+    return {'data': fact, 'evidence': _evidence_block(fact),
             'meta': {'dataset': ds['meta'].get('company', {}), 'dataset_path': ds['dir'],
                      'report_date': ds['meta'].get('report_date', ''),
-                     'announce_date': ds['meta'].get('announce_date', '')},
+                     'announce_date': ds['meta'].get('announce_date', ''),
+                     'evidence_level': fact.get('evidence_level', 'verified')},
             'quality': fact.get('quality', {})}
 
 
@@ -205,13 +234,16 @@ def verify_fact(stock_code: str, period: str, metric: str, claimed_value: float,
         return _err('INVALID_TOLERANCE', 'tolerance 必须是非负有限数', tolerance=tolerance)
     if not math.isfinite(tolerance_f) or tolerance_f < 0:
         return _err('INVALID_TOLERANCE', 'tolerance 必须是非负有限数', tolerance=tolerance)
-    fact = find_fact_by_metric(ds, metric)
+    fact = _choose_fact(ds, metric)
     if not fact:
         return _err('METRIC_NOT_FOUND', '没有该指标', metric=metric,
-                    available=sorted({f['metric'] for f in ds['facts']}))
-    if not _subject_ok(fact):
-        return _err('SUBJECT_MISMATCH', '数值存在，但科目名与指标别名不匹配，拒绝核对',
-                    metric=metric, item_raw=fact.get('item_raw'), evidence_id=fact.get('evidence_id'))
+                    available=_available_metrics(ds))
+    guard = _subject_quality(fact)
+    if guard.status == 'fail':
+        return _err('SUBJECT_MISMATCH', '数值存在，但科目/报表与指标定义不匹配，拒绝核对',
+                    metric=metric, item_raw=fact.get('item_raw'),
+                    statement=fact.get('statement'), subject_check=guard.model_dump(),
+                    evidence_id=fact.get('evidence_id'))
     actual = fact.get('value')
     if actual is None:
         return _err('NO_VALUE', '该指标本期未披露，拒绝核对', evidence_id=fact['evidence_id'],
@@ -228,20 +260,25 @@ def verify_fact(stock_code: str, period: str, metric: str, claimed_value: float,
                            'claimed_value': claimed_f, 'tolerance': tolerance_f,
                            'announce_date': announce_date},
            'ok' if ok else 'mismatch', [fact['evidence_id']])
+    is_structured = fact.get('evidence_level') == 'structured'
+    if is_structured:
+        quality = {'status': 'warning' if ok else 'fail',
+                   'checks': ['no_page_evidence', 'verdict_match'],
+                   'messages': ['结构化接口数据；数值来自 API，无年报页码证据，不能替代 verified']}
+    else:
+        quality = {'status': 'pass' if ok else 'fail'}
     return {
         'data': {'verdict': 'match' if ok else 'mismatch', 'metric': metric,
                  'claimed_value': claimed_f, 'actual_value': actual, 'difference': round(diff, 2),
                  'tolerance': tolerance_f, 'unit': fact.get('unit'),
                  'evidence_level': fact.get('evidence_level', 'verified')},
-        'evidence': {'evidence_id': fact['evidence_id'], 'page': fact['page'],
-                     'printed_page': fact.get('printed_page'), 'snippet': fact['snippet'],
-                     'bbox': fact.get('bbox'), 'unit': fact.get('unit'),
-                     'value': actual},
+        'evidence': _evidence_block(fact),
         'meta': {'stock_code': stock_code, 'period': period,
                  'report_date': ds['meta'].get('report_date', ''),
                  'announce_date': ds['meta'].get('announce_date', ''),
-                 'dataset_path': ds['dir']},
-        'quality': {'status': 'pass' if ok else 'fail'},
+                 'dataset_path': ds['dir'],
+                 'evidence_level': fact.get('evidence_level', 'verified')},
+        'quality': quality,
     }
 
 
@@ -257,21 +294,30 @@ def get_quality_report(stock_code: str, period: str,
     for c in checks:
         counts[c.get('status', 'warning')] = counts.get(c.get('status', 'warning'), 0) + 1
     subject_fail = [f['evidence_id'] for f in ds['facts']
-                    if f.get('subject_check', {}).get('status') == 'fail']
+                    if _subject_quality(f).status == 'fail']
     _audit('get_quality_report', {'stock_code': stock_code, 'period': period,
                                   'announce_date': announce_date}, 'ok')
     status = 'fail' if counts['fail'] or subject_fail else ('warning' if counts['warning'] else 'pass')
+    structured_doc = ds.get('structured') or {}
+    structured_cross = structured_doc.get('cross_check', {}) if isinstance(structured_doc, dict) else {}
+    structured_status = 'warning' if structured_cross.get('warning') or structured_cross.get('missing') else 'pass'
     return {'data': {'checks': checks, 'counts': counts, 'subject_fail': subject_fail,
                      'coverage': ds['meta'].get('coverage', {}),
                      'coverage_score': ds['meta'].get('coverage_score', 0),
-                     'quality_gate': ds['meta'].get('quality_gate', '')},
+                     'quality_gate': ds['meta'].get('quality_gate', ''),
+                     'structured_count': len(ds.get('structured_facts', [])),
+                     'structured_metrics': sorted(f['metric'] for f in ds.get('structured_facts', [])),
+                     'structured_overlay': bool(ds.get('structured_facts')),
+                     'structured_cross_check': structured_cross,
+                     'structured_quality': structured_status},
             'evidence': [],
             'meta': {'stock_code': stock_code, 'period': period,
                      'report_date': ds['meta'].get('report_date', ''),
                      'announce_date': ds['meta'].get('announce_date', ''),
                      'evidence_level': ds['meta'].get('evidence_level', 'verified'),
+                     'structured_count': len(ds.get('structured_facts', [])),
                      'dataset_path': ds['dir']},
-            'quality': {'status': status}}
+            'quality': {'status': status, 'structured_status': structured_status}}
 
 
 def main():

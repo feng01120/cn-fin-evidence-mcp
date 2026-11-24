@@ -297,9 +297,21 @@
     "unknown_dataset": "DATASET_NOT_FOUND",
     "verify_unknown_metric": "METRIC_NOT_FOUND"
   },
+  "structured": {
+    "datasets": 60,
+    "metrics": 1191,
+    "sample": {
+      "evidence_id": "600519-2025-cash-structured",
+      "evidence_level": "structured",
+      "evidence_count": 0,
+      "quality_status": "warning",
+      "error": null
+    },
+    "sample_ok": true
+  },
   "row_audit": {
     "error_count": 0,
-    "warning_count": 54,
+    "warning_count": 135,
     "pass": true
   },
   "acceptance": true

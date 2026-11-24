@@ -32,10 +32,12 @@ A 股财报证据链 MCP：**每个返回给 AI 的数字，都能被验证、�
 | 分页与 token 控制 | 已实现 |
 | 本地审计日志 | 已实现 |
 | 行级科目可回查 | 已实现：科目名/数值无法在本页命中即不写入 |
+| structured 覆盖层 | 已实现：60 数据集 / 1,191 个结构化指标；无页码时显式 warning，不冒充 verified |
+| 科目拦截 | 已实现：指标 + 报表归属 + 科目别名三重校验 |
 | 示例数据 | 20 家非金融公司 × 2023–2025 年，60 个数据集（2,017 facts / 8,400 rows） |
 | 指标覆盖 | 34 个指标定义（31 个必需）、9 个比率 |
-| 当前验收 | 60/60 quality_gate pass；随机 20 条证据 20/20 命中；行级审计 0 error / 54 warning |
-| 单元/契约测试 | 26 / 26 通过 |
+| 当前验收 | 60/60 quality_gate pass；随机 20 条证据 20/20 命中；行级审计 0 error；总 warning 135（含 structured） |
+| 单元/契约测试 | 37 / 37 通过 |
 
 ## 当前验收结果（可复跑）
 
@@ -54,6 +56,8 @@ PYTHONPATH=src python scripts/accept_20.py
 | 四条硬勾稽 | 240 / 240 pass |
 | 行级科目/数值页内命中 | 0 error；54 条 `cash_bs_vs_cf` 口径 warning |
 | 行级审计 | 8,400 rows，0 条无法回查 |
+| structured 覆盖 | 60 / 60 数据集，1,191 指标；交叉核对 1,110 pass / 60 warning / 21 missing |
+| 审计 warning | 135 条：54 条现金口径 + 60 条结构化差异 + 21 条无法交叉核对，均非 fail |
 
 验收报告写入 `data/acceptance_report.json`，审计明细写入 `data/audit_report.json`，逐数据集覆盖与门槛写入 `data/rebuild_report.json`。
 
@@ -94,8 +98,8 @@ MCP 客户端配置（stdio）：
 | `list_companies` | 列出已收录公司与报告期 | 只返回元信息 |
 | `get_statement` | 按报表读取科目行 | `statement` 限定三张合并报表；cursor 分页；单页最多 200 行 |
 | `get_ratio` | 读取比率 | 每个比率带公式、输入值、`value_type=computed` 和证据对象 |
-| `get_evidence` | 按证据编号取六元组 | 不存在即返回结构化错误 |
-| `verify_fact` | 核对一个声称值 | 相对误差默认 1%；未披露则拒绝核对 |
+| `get_evidence` | 按证据编号取六元组 | verified 带页码；structured 明确无页码且 evidence 为空 |
+| `verify_fact` | 核对一个声称值 | 相对误差默认 1%；structured 命中仍返回 warning |
 | `get_quality_report` | 勾稽与质量报告 | pass / warning / fail 计数 |
 
 返回统一为 `data`、`evidence`、`meta`、`quality` 四个区块；错误返回 `error.code`，不抛异常。
@@ -112,11 +116,11 @@ MCP 客户端配置（stdio）：
     "difference": 0.0,
     "unit": "元"
   },
-  "evidence": {
+  "evidence": [{
     "evidence_id": "600519-2025-cash",
     "page": 56,
     "snippet": "货币资金 1 51,690,610,946.50 59,295,822,956.89"
-  },
+  }],
   "quality": {"status": "pass"}
 }
 ```
@@ -137,16 +141,17 @@ MCP 客户端配置（stdio）：
 
 | 层 | v0.2 做法 | 还没做 |
 |---|---|---|
-| 数据层 | 原生科目名 + 稳定指标键；`(code, report_date, announce_date)` 主键；披露值/计算值分开 | 母公司报表、TTM、追溯重述对比 |
+| 数据层 | verified PDF + structured API 覆盖层；`(code, report_date, announce_date)` 主键；披露值/计算值分开 | 母公司报表、TTM、追溯重述对比 |
 | 溯源层 | 六元组 + 原文片段 + bbox；行级科目也做页内命中；缺证据拒答 | 跨章节正文一致性校验 |
 | 工具层 | 六个只读工具，按报表/维度拆分，双 Schema 结构化 | 多数据源适配、批量导出 |
-| 校验层 | 4 项勾稽 + 0 值三分类 + 同比异常提示 | 行业口径校验、跨章节比对 |
+| 校验层 | 4 项勾稽 + 0 值三分类 + 同比异常 + 科目三重拦截 | 行业口径校验、跨章节比对 |
 | 合规层 | 本地审计日志；数据源与授权状态在文档标注 | 防篡改签名、权限模型、持牌源适配 |
-| 工程层 | 分页、截断、可组合、26 项契约测试；20 家 × 3 年批量重建 | 托管演示、基准集、CI |
+| 工程层 | 分页、截断、可组合、37 项契约测试；20 家 × 3 年批量重建 | 托管演示、基准集、CI |
 
 ## 数据与合规
 
-- 示例数据来自 20 家上市公司 2023–2025 年公开年度报告，仅用于原型与研究；源 PDF 不入仓。
+- verified 示例数据来自 20 家上市公司 2023–2025 年公开年度报告，仅用于原型与研究；源 PDF 不入仓。
+- structured 覆盖层来自东方财富公开三表接口，仅用于原型；没有页码证据，质量固定为 warning，不得冒充 verified，也不得用于商业再分发。
 - `scripts/fetch_report.py` 走巨潮资讯官方公告接口（按 orgId 查询年报分类，从 `static.cninfo.com.cn` 下载）；**不得**把该接口用于商业再分发。
 - 生产环境应替换为持牌数据源（Wind、Choice、通联等）的适配层。
 - 本项目不构成投资建议；所有数值以原始年报为准。
@@ -188,7 +193,7 @@ tests/           # 契约测试
 ## 路线图
 
 - **v0.2（已完成）**：20 家公司 × 3 年、60 个数据集、行级证据回查、批量重建、验收报告。
-- **v0.3**：跨章节一致性、科目拦截白名单、扫描件 OCR、`structured` 覆盖层、审计日志哈希链。
+- **v0.3**：跨章节一致性、扫描件 OCR、`structured` 覆盖层扩到更多数据源、审计日志哈希链。
 - **v1.0**：持牌数据源适配、多期对比、行业模板、可复现的评估报告。
 
 ## License

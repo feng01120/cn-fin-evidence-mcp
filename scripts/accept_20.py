@@ -11,7 +11,7 @@ import pymupdf
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 
-from fin_evidence.server import get_evidence, get_quality_report, verify_fact  # noqa: E402
+from fin_evidence.server import get_evidence, verify_fact  # noqa: E402
 from fin_evidence.store import list_datasets  # noqa: E402
 
 DATA = ROOT / 'data'
@@ -99,6 +99,29 @@ def main() -> int:
 
     audit_path = DATA / 'audit_report.json'
     row_audit = json.loads(audit_path.read_text(encoding='utf-8')) if audit_path.exists() else {}
+    structured_datasets = sum(1 for d in datasets if d.get('structured_count'))
+    sample_ds = next((d for d in datasets if d['code'] == '600519' and d['period'] == '2025'), None)
+    structured_sample = {}
+    structured_ok = False
+    if sample_ds:
+        sd = json.loads((Path(sample_ds['path']) / 'structured.json').read_text(encoding='utf-8'))
+        metric = next(iter(sd.get('metrics', {})))
+        eid = '%s-%s-%s-structured' % (sample_ds['code'], sample_ds['period'], metric)
+        sr = get_evidence(eid)
+        structured_sample = {
+            'evidence_id': eid,
+            'evidence_level': sr.get('meta', {}).get('evidence_level'),
+            'evidence_count': len(sr.get('evidence', [])),
+            'quality_status': sr.get('quality', {}).get('status'),
+            'error': (sr.get('error') or {}).get('code'),
+        }
+        structured_ok = (
+            structured_sample['error'] is None
+            and structured_sample['evidence_level'] == 'structured'
+            and structured_sample['evidence_count'] == 0
+            and structured_sample['quality_status'] == 'warning'
+        )
+
     levels = {}
     gates = {}
     for d in datasets:
@@ -119,6 +142,12 @@ def main() -> int:
         'check_status_counts': check_counts,
         'check_names': check_names,
         'refusals': refusals,
+        'structured': {
+            'datasets': structured_datasets,
+            'metrics': sum(int(d.get('structured_count') or 0) for d in datasets),
+            'sample': structured_sample,
+            'sample_ok': structured_ok,
+        },
         'row_audit': {
             'error_count': row_audit.get('error_count'),
             'warning_count': row_audit.get('warning_count'),
@@ -131,6 +160,8 @@ def main() -> int:
             and all(v == 'EVIDENCE_NOT_FOUND' or v == 'METRIC_NOT_FOUND' or v == 'DATASET_NOT_FOUND'
                     for v in refusals.values())
             and row_audit.get('error_count') == 0
+            and structured_datasets == len(datasets)
+            and structured_ok
         ),
     }
     out = DATA / 'acceptance_report.json'

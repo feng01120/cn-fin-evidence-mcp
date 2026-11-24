@@ -37,6 +37,19 @@ class TestServer(unittest.TestCase):
         self.assertEqual(len(r['data']['ratios']), 1)
         self.assertAlmostEqual(r['data']['ratios'][0]['value'], 91.18, places=1)
 
+    def test_structured_evidence_has_no_page(self):
+        r = srv.get_evidence('600519-2025-cash-structured')
+        self.assertEqual(r['meta']['evidence_level'], 'structured')
+        self.assertEqual(r['evidence'], [])
+        self.assertEqual(r['quality']['status'], 'warning')
+        self.assertIsNone(r['data']['page'])
+
+    def test_quality_report_exposes_structured_overlay(self):
+        r = srv.get_quality_report('600519', '2025')
+        self.assertGreater(r['data']['structured_count'], 0)
+        self.assertTrue(r['data']['structured_overlay'])
+        self.assertIn('structured_status', r['quality'])
+
     def test_ratio_returns_evidence_objects(self):
         r = srv.get_ratio('600519', '2025', '毛利率')
         self.assertEqual(r['data']['ratios'][0]['value_type'], 'computed')
@@ -55,7 +68,7 @@ class TestServer(unittest.TestCase):
     def test_verify_match(self):
         r = srv.verify_fact('600519', '2025', 'cash', 51690610946.50)
         self.assertEqual(r['data']['verdict'], 'match')
-        self.assertEqual(r['evidence']['evidence_id'], '600519-2025-cash')
+        self.assertEqual(r['evidence'][0]['evidence_id'], '600519-2025-cash')
 
     def test_verify_mismatch(self):
         r = srv.verify_fact('600519', '2025', 'cash', 60000000000.0)

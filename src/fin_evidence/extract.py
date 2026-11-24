@@ -15,6 +15,7 @@ from .models import BBox, Company, DatasetMeta, Evidence, Quality, RawRow
 
 VALUE_RE = re.compile(r'^[（(]?-?\d{1,3}(,\d{3})*(?:\.\d+)?[）)]?$')
 UNIT_RE = re.compile(r'(?:金额单位|单位)(?:为)?[:：]?\s*(?:人民币)?\s*(亿元|百万元|千元|万元|元)')
+GLOBAL_UNIT_RE = re.compile(r'以人民币\s*(亿元|百万元|千元|万元|元)\s*为单位')
 PAGE_NO_RE = re.compile(r'^(\d+)\s*/\s*(\d+)$')
 NUMBERING_RE = re.compile(r'^(?:[一二三四五六七八九十]+、|（[一二三四五六七八九十]+）|\d+[、.]|（\d+）|其中：|加：|减：|其中:)')
 PAREN_RE = re.compile(r'（[^（）]*）|\([^()]*\)')
@@ -241,17 +242,17 @@ def statement_unit(doc, title: str) -> str:
     start = _statement_start(doc, title)
     if start is None:
         return '元'
-    order = [start] + ([start + 1] if start + 1 < doc.page_count else []) + list(range(start - 1, max(-1, start - 11), -1))
-    for i in order:
-        if i < 0 or i >= doc.page_count:
-            continue
+    # 只在报表起始页及后续页找单位；不要向前扫到 MD&A，否则会把
+    # “单位：元”的营业收入分析表误当成三表单位（比亚迪 2023 即此问题）。
+    for i in range(start, min(doc.page_count, start + 20)):
         compact = re.sub(r'\s+', '', doc[i].get_text())
-        m = UNIT_RE.search(compact)
+        m = UNIT_RE.search(compact) or GLOBAL_UNIT_RE.search(compact)
         if m:
             return m.group(1)
-    for i in range(min(doc.page_count, 60)):
+    # 部分年报把“均以人民币千元为单位”放在附注开头，不在报表页。
+    for i in range(start, min(doc.page_count, start + 30)):
         compact = re.sub(r'\s+', '', doc[i].get_text())
-        m = UNIT_RE.search(compact)
+        m = GLOBAL_UNIT_RE.search(compact)
         if m:
             return m.group(1)
     return '元'
@@ -443,10 +444,22 @@ def extract_metrics(doc, company: Company, period: str, source_file: str,
             evidence_id = '%s-%s-%s' % (company.code, period, metric.key)
             item_raw = normalize_label(''.join(x.item for x in window)) or metric.name
             aliases = {normalize_label(a) for a in metric.aliases}
-            subject_ok = item_raw in aliases
+            alias_ok = item_raw in aliases
+            statement_ok = statement == metric.statement
+            subject_ok = alias_ok and statement_ok
+            subject_checks = []
+            subject_messages = []
+            if alias_ok:
+                subject_checks.append('alias_match')
+            else:
+                subject_messages.append('科目名与指标别名不匹配：%s' % item_raw)
+            if statement_ok:
+                subject_checks.append('statement_match')
+            else:
+                subject_messages.append('指标预期在 %s，实际来自 %s' % (metric.statement, statement))
             subject = Quality(status='pass' if subject_ok else 'fail',
-                              checks=['alias_match'] if subject_ok else [],
-                              messages=[] if subject_ok else ['科目名与指标别名不匹配：%s' % item_raw])
+                              checks=subject_checks if subject_ok else [],
+                              messages=subject_messages)
             quality = Quality(status='pass' if value is not None else 'warning',
                               checks=['value_present'] if value is not None else [],
                               messages=[] if value is not None else ['本期数值为空，按未披露处理，不参与比率计算'])

@@ -11,6 +11,8 @@ import pymupdf
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from fin_evidence.store import list_datasets  # noqa: E402
+from fin_evidence.subject import evaluate_fact  # noqa: E402
+from fin_evidence.extract import statement_unit  # noqa: E402
 
 BASE = ROOT / 'data'
 PDF_DIR = BASE / 'raw'
@@ -39,6 +41,9 @@ def variants(value: float):
 def main() -> int:
     errors, warnings = [], []
     datasets = list_datasets(BASE)
+    structured_datasets = 0
+    structured_metrics = 0
+    structured_cross = {'pass': 0, 'warning': 0, 'missing': 0}
     if len(datasets) != 60:
         warnings.append(f'数据集数量为 {len(datasets)}，预期 60')
     keys = []
@@ -69,6 +74,7 @@ def main() -> int:
             errors.append(f'{code}/{period}: fact_count 不匹配')
         if meta.get('row_count') != len(rows):
             errors.append(f'{code}/{period}: row_count 不匹配')
+        unit_cache = {}
         ids = [f['evidence_id'] for f in facts]
         if len(ids) != len(set(ids)):
             errors.append(f'{code}/{period}: evidence_id 重复')
@@ -81,8 +87,18 @@ def main() -> int:
             mid = f'{code}/{period}/{f["metric"]}'
             if f['company']['code'] != code or f['period'] != period:
                 errors.append(f'{mid}: 公司或期间不一致')
+            sq = evaluate_fact(f)
+            if sq.status == 'fail':
+                errors.append(f'{mid}: 科目拦截失败 {sq.messages}')
             if not f.get('unit'):
                 errors.append(f'{mid}: unit 为空')
+            elif f.get('metric') != 'basic_eps':
+                stmt = f.get('statement', '')
+                if stmt not in unit_cache:
+                    unit_cache[stmt] = statement_unit(doc, stmt)
+                expected_unit = unit_cache[stmt]
+                if f.get('unit') != expected_unit:
+                    errors.append(f'{mid}: unit={f.get("unit")} 与报表单位 {expected_unit} 不一致')
             p = f.get('page')
             if p not in text:
                 errors.append(f'{mid}: page {p} 超出范围'); continue
@@ -133,11 +149,54 @@ def main() -> int:
                 errors.append(f'{code}/{period}/check-{c.get("check")}: {c.get("detail")}')
             elif c.get('status') == 'warning':
                 warnings.append(f'{code}/{period}/check-{c.get("check")}: {c.get("detail")}')
+
+        # structured 覆盖层：有来源、有值、无页码，质量必须显式 warning。
+        sp = d / 'structured.json'
+        if not sp.exists():
+            errors.append(f'{code}/{period}: structured.json 缺失')
+            continue
+        try:
+            sd = json.loads(sp.read_text(encoding='utf-8'))
+        except json.JSONDecodeError as e:
+            errors.append(f'{code}/{period}: structured.json 非法 {e}')
+            continue
+        sm = sd.get('metrics') if isinstance(sd, dict) else None
+        if not isinstance(sm, dict) or not sm:
+            errors.append(f'{code}/{period}: structured metrics 为空')
+            continue
+        structured_datasets += 1
+        structured_metrics += len(sm)
+        for metric, item in sm.items():
+            sid = f'{code}/{period}/structured-{metric}'
+            if item.get('metric') != metric:
+                errors.append(f'{sid}: metric 字段不一致')
+            try:
+                float(item.get('value'))
+            except (TypeError, ValueError):
+                errors.append(f'{sid}: value 非数值')
+            if item.get('statement') not in ALLOWED_STATEMENTS:
+                errors.append(f'{sid}: 非法报表 {item.get("statement")}')
+            if not item.get('unit'):
+                errors.append(f'{sid}: unit 为空')
+            if not str(item.get('source_url') or '').startswith('https://'):
+                errors.append(f'{sid}: source_url 缺失')
+            q = item.get('quality') or {}
+            if q.get('status') != 'warning' or 'no_page_evidence' not in (q.get('checks') or []):
+                errors.append(f'{sid}: 结构化质量未标记无页码 warning')
+            cc = (item.get('cross_check') or {}).get('status', 'missing')
+            structured_cross[cc] = structured_cross.get(cc, 0) + 1
+            if cc == 'warning':
+                warnings.append(f'{sid}: 结构化值与年报解析值存在差异，已保留两套口径')
+            elif cc == 'missing':
+                warnings.append(f'{sid}: 年报未解析出同指标，无法交叉核对')
     if len(keys) != len(set(keys)):
         errors.append('同一 (code, report_date) 存在多个数据集')
     report = {
         'datasets': len(datasets),
         'companies': len({d['code'] for d in datasets}),
+        'structured_datasets': structured_datasets,
+        'structured_metrics': structured_metrics,
+        'structured_cross_check': structured_cross,
         'errors': errors,
         'warnings': warnings,
         'error_count': len(errors),
@@ -146,8 +205,9 @@ def main() -> int:
     }
     out = BASE / 'audit_report.json'
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(json.dumps({k: report[k] for k in ('datasets', 'companies', 'error_count',
-                                              'warning_count', 'pass')}, ensure_ascii=False))
+    print(json.dumps({k: report[k] for k in ('datasets', 'companies', 'structured_datasets',
+                                              'structured_metrics', 'structured_cross_check',
+                                              'error_count', 'warning_count', 'pass')}, ensure_ascii=False))
     if errors:
         print('\n'.join(errors[:20]))
     return 0 if not errors else 1

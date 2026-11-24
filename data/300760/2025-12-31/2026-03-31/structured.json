@@ -1,0 +1,519 @@
+{
+  "provider": "eastmoney",
+  "fetched_at": "2026-11-24T18:59:45+08:00",
+  "company": {
+    "code": "300760",
+    "name": "深圳迈瑞生物医疗电子股份有限公司",
+    "short_name": ""
+  },
+  "report_date": "2025-12-31",
+  "announce_date": "2026-03-31",
+  "metrics": {
+    "cash": {
+      "metric": "cash",
+      "metric_name": "货币资金",
+      "value": 17690372308.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "MONETARYFUNDS",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 17690372308.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "accounts_receivable": {
+      "metric": "accounts_receivable",
+      "metric_name": "应收账款",
+      "value": 3408119891.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "ACCOUNTS_RECE",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 3408119891.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "inventory": {
+      "metric": "inventory",
+      "metric_name": "存货",
+      "value": 5003717480.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "INVENTORY",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 5003717480.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "total_assets": {
+      "metric": "total_assets",
+      "metric_name": "资产总计",
+      "value": 59266767707.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "TOTAL_ASSETS",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 59266767707.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "total_liabilities": {
+      "metric": "total_liabilities",
+      "metric_name": "负债合计",
+      "value": 16255447654.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "TOTAL_LIABILITIES",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 16255447654.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "total_equity": {
+      "metric": "total_equity",
+      "metric_name": "所有者权益合计",
+      "value": 43011320053.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "TOTAL_EQUITY",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 43011320053.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "total_revenue": {
+      "metric": "total_revenue",
+      "metric_name": "营业总收入",
+      "value": 33282159404.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "TOTAL_OPERATE_INCOME",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "missing",
+        "verified_value": null,
+        "verified_unit": null,
+        "relative_diff": null
+      }
+    },
+    "total_cost": {
+      "metric": "total_cost",
+      "metric_name": "营业总成本",
+      "value": 23608910747.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "TOTAL_OPERATE_COST",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "missing",
+        "verified_value": null,
+        "verified_unit": null,
+        "relative_diff": null
+      }
+    },
+    "cost_of_revenue": {
+      "metric": "cost_of_revenue",
+      "metric_name": "营业成本",
+      "value": 13207838172.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "OPERATE_COST",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 13207838172.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "selling_expense": {
+      "metric": "selling_expense",
+      "metric_name": "销售费用",
+      "value": 5145135431.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "SALE_EXPENSE",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 5145135431.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "admin_expense": {
+      "metric": "admin_expense",
+      "metric_name": "管理费用",
+      "value": 1550675756.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "MANAGE_EXPENSE",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 1550675756.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "finance_expense": {
+      "metric": "finance_expense",
+      "metric_name": "财务费用",
+      "value": -262908161.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "FINANCE_EXPENSE",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": -262908161.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "operating_profit": {
+      "metric": "operating_profit",
+      "metric_name": "营业利润",
+      "value": 9794893991.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "OPERATE_PROFIT",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 9794893991.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "total_profit": {
+      "metric": "total_profit",
+      "metric_name": "利润总额",
+      "value": 9673965739.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "TOTAL_PROFIT",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 9673965739.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "net_profit_parent": {
+      "metric": "net_profit_parent",
+      "metric_name": "归属于母公司股东的净利润",
+      "value": 8135775409.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "PARENT_NETPROFIT",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 8135775409.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "sales_cash": {
+      "metric": "sales_cash",
+      "metric_name": "销售商品、提供劳务收到的现金",
+      "value": 36889267207.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "SALES_SERVICES",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 36889267207.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "cfo": {
+      "metric": "cfo",
+      "metric_name": "经营活动产生的现金流量净额",
+      "value": 10144968535.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "NETCASH_OPERATE",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 10144968535.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "cfi": {
+      "metric": "cfi",
+      "metric_name": "投资活动产生的现金流量净额",
+      "value": -509395375.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "NETCASH_INVEST",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": -509395375.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "cff": {
+      "metric": "cff",
+      "metric_name": "筹资活动产生的现金流量净额",
+      "value": -6723683207.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "NETCASH_FINANCE",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": -6723683207.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    },
+    "net_cash_increase": {
+      "metric": "net_cash_increase",
+      "metric_name": "现金及现金等价物净增加额",
+      "value": 2717178460.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "CCE_ADD",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22300760%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 2717178460.0,
+        "verified_unit": "元",
+        "relative_diff": 0.0
+      }
+    }
+  },
+  "cross_check": {
+    "pass": 18,
+    "warning": 0,
+    "missing": 2
+  },
+  "errors": []
+}

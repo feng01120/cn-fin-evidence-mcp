@@ -2,14 +2,16 @@
 
 ## 结论
 
-v0.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全部 `evidence_level=verified`、`quality_gate=pass`。每个 fact 与每条报表行都能回到年报页码和原文片段；找不到就不写入、不返回。**未发布到 GitHub。**
+v0.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全部 `evidence_level=verified`、`quality_gate=pass`。每个 fact 与每条报表行都能回到年报页码和原文片段；找不到就不写入、不返回。
+
+同时补了 `structured` 覆盖层：60/60 数据集、1,191 个结构化指标，无页码、质量固定 warning，只作为 verified 缺失时的 fallback，不覆盖任何已验证值。**未发布到 GitHub。**
 
 ## 检测矩阵
 
 | 项目 | 结果 |
 |---|---|
 | 数据集 / 公司 | 60 / 20（2023–2025，非金融标准报表） |
-| 单元/契约测试 | 26 / 26 通过 |
+| 单元/契约测试 | 37 / 37 通过 |
 | facts 规模 | 2,017 条 |
 | rows 规模 | 8,400 条 |
 | 证据逐条回查 | 随机 20 条 facts，20 / 20 命中；全量 facts `snippet_hit_rate=1.0` |
@@ -19,13 +21,20 @@ v0.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全�
 | 比率 | 9 个比率 / 数据集；输入证据可解析为证据对象；`value_type=computed` |
 | 硬勾稽 | 4 项 × 60 = 240 / 240 pass |
 | 质量门槛 | `quality_gate` pass 60，warning 0，fail 0 |
+| structured 覆盖 | 60 / 60 数据集、1,191 指标；1,110 交叉一致、60 差异 warning、21 无法核对 |
+| 结构化质量 | 全部无页码证据、`evidence=[]`、`quality=warning`；不冒充 verified |
 | 拒答边界 | 未知指标 / 证据 / 数据集 / 非法容差均返回结构化错误 |
 | 官方下载 | 巨潮接口按 orgId → 年报分类 → 静态 PDF 下载；批量重建可复跑 |
 | 静态检查 | pyflakes 无告警；compileall 通过 |
 
-审计明细：`data/audit_report.json`（0 error / 54 warning）；验收报告：`data/acceptance_report.json`；逐数据集覆盖：`data/rebuild_report.json`。
+审计明细：`data/audit_report.json`（0 error / 135 warning）；验收报告：`data/acceptance_report.json`；逐数据集覆盖：`data/rebuild_report.json`；结构化抓取：`data/structured_report.json`。
 
-54 条 warning 全部是 `cash_bs_vs_cf`：货币资金与现金流量表“期末现金及现金等价物”存在口径差异，提示核对受限资金/现金等价物，不判错。
+135 条 warning 的构成：
+- 54 条 `cash_bs_vs_cf`：货币资金与“期末现金及现金等价物”口径差异，提示核对受限资金；
+- 60 条 structured 与 verified 值差异：常见于追溯重述/披露日不同，保留两套口径，不覆盖 verified；
+- 21 条 structured 指标没有对应 verified fact，无法交叉核对。
+
+这些 warning 均不判 fail；`quality_gate` 仍以 verified 的硬勾稽和覆盖率判定。
 
 ## 本轮发现并修复
 
@@ -41,12 +50,16 @@ v0.2 试点已跑通：20 家公司 × 2023–2025 年、60 个数据集，全�
 10. **行级数据混入注释表**：比亚迪、迈瑞的现金流量表曾一直扫到附注末尾，单数据集出现 990–1,126 条现金流行。补齐“公司现金流量表/公司资产负债表”等停止标题，并在抽取层丢弃“科目名或数值不能在本页命中”的行；修复后比亚迪 2025 行数 1,244 → 186，迈瑞 2025 1,098 → 240。
 11. **批量脚本与 CLI 签名不一致**：`fetch_report.py` 支持 `org=` 并返回结构化下载结果；`cli.py` 补齐 `REQUIRED_METRICS` 导入；`rebuild_universe.py` 可直接复跑。
 12. **`get_ratio` 证据为空**：比率内部只有证据 ID，工具层返回空列表。改为按 ID 回填页码、片段、bbox、单位、科目，并标记 `value_type=computed`。
+13. **structured 无页码层缺失**：新增 `structured.py` + `fetch_structured.py`，用东方财富三表接口补 1,191 个结构化指标；工具层在 verified 缺值时才 fallback，`evidence=[]`、`quality=warning`，绝不返回伪造页码。
+14. **科目拦截只看别名**：新增 `subject.py`，把校验提升为“指标 + 报表归属 + 科目别名”三重；错误报表直接 `SUBJECT_MISMATCH`，高频指标缺报表归属也拒绝。
+15. **structured 与 verified 口径冲突无提示**：新增 `cross_check`，按单位换算后比较两套值；差异 >1% 标 warning，`get_quality_report` 暴露 `structured_cross_check` / `structured_status`。
+16. **`verify_fact` 证据契约不一致**：统一为 evidence 数组；structured 命中仍返回 warning，不让“API 命中”看起来像“原文命中”。
 
 ## 仍未覆盖
 
 - 只有 20 家非金融标准报表；银行/保险/券商特殊报表未纳入。
-- 全部 60 个数据集走 PDF `verified`；`structured`（akshare/baostock 无页码覆盖层）尚未接入。
-- 跨章节一致性（正文引用 vs 报表数值）未做；科目拦截白名单只做到 `subject_check`，未覆盖全部高频指标。
+- structured 目前只覆盖这 20 家公司、东方财富一个源；akshare/baostock 适配器未接。
+- 跨章节一致性（正文引用 vs 报表数值）未做；科目拦截已覆盖 10 个高频指标，但尚未覆盖全部指标。
 - 母公司报表、TTM、追溯重述对比未做。
 - 持牌数据源适配层、审计日志哈希链/签名未做。
 - `printed_page` 大多为空，当前以 PDF 物理页码为准。

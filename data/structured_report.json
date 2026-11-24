@@ -1,0 +1,738 @@
+{
+  "summary": {
+    "datasets": 60,
+    "ok": 60,
+    "skipped": 0,
+    "no_data": 0,
+    "metrics": 1191,
+    "cross_check": {
+      "pass": 1110,
+      "warning": 60,
+      "missing": 21
+    }
+  },
+  "records": [
+    {
+      "code": "000333",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 16,
+        "warning": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000333",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000333",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000568",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "000568",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 19,
+        "warning": 1,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "000568",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "000651",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 2,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "000651",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "000651",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "000858",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "000858",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "000858",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "002304",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 19,
+        "warning": 1,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "002304",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "002304",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "002594",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 16,
+        "warning": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002594",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002594",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002714",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "002714",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 2,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "002714",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "300750",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 2,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "300750",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "300750",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 19,
+        "warning": 1,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "300760",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 2,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "300760",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "300760",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600031",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 2,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600031",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600031",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600276",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600276",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 19,
+        "warning": 1,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600276",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600309",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600309",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600309",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600519",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600519",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600519",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600690",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 2,
+        "warning": 18,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600690",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 2,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600690",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600809",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600809",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600809",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600887",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600887",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600887",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "601012",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 19,
+        "warning": 1,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "601012",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "601012",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 19,
+        "warning": 0,
+        "missing": 1
+      },
+      "errors": []
+    },
+    {
+      "code": "601088",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "warning": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601088",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 4,
+        "warning": 14,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601088",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 12,
+        "warning": 6,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601919",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "601919",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "601919",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "603288",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "603288",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 19,
+        "warning": 1,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "603288",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 11,
+      "cross_check": {
+        "pass": 11,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": [
+        "RPT_DMSK_FN_INCOME: HTTPSConnectionPool(host='datacenter-web.eastmoney.com', port=443): Read timed out. (read timeout=20)"
+      ]
+    }
+  ]
+}
