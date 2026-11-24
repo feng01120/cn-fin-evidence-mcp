@@ -135,6 +135,8 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 
 覆盖：六元组完整性、证据编号唯一、比率数值、4 项勾稽、分页、命中/不匹配、未知证据/指标/游标/限流/容差拒答、缺少期初值的降级。
 
+自检报告与已知边界见 [`docs/AUDIT.md`](docs/AUDIT.md)。
+
 数据审计（需要原始 PDF）：
 
 ```bash
