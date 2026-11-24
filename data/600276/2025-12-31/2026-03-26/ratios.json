@@ -1,0 +1,330 @@
+[
+  {
+    "ratio": "gross_margin",
+    "name": "毛利率",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 86.207,
+    "unit": "%",
+    "formula": "(营业收入 - 营业成本) / 营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 31629416193.83,
+        "evidence_id": "600276-2025-revenue"
+      },
+      {
+        "metric": "cost_of_revenue",
+        "name": "营业成本",
+        "value": 4362655815.43,
+        "evidence_id": "600276-2025-cost_of_revenue"
+      }
+    ],
+    "evidence": [
+      "600276-2025-revenue",
+      "600276-2025-cost_of_revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_margin",
+    "name": "净利率",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 24.3982,
+    "unit": "%",
+    "formula": "净利润 / 营业收入",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 7717002245.78,
+        "evidence_id": "600276-2025-net_profit"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 31629416193.83,
+        "evidence_id": "600276-2025-revenue"
+      }
+    ],
+    "evidence": [
+      "600276-2025-net_profit",
+      "600276-2025-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "roe",
+    "name": "净资产收益率（ROE）",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 14.4413,
+    "unit": "%",
+    "formula": "归属于母公司股东的净利润 / 平均归属于母公司所有者权益",
+    "inputs": [
+      {
+        "metric": "net_profit_parent",
+        "name": "归属于母公司股东的净利润",
+        "value": 7711054811.98,
+        "evidence_id": "600276-2025-net_profit_parent"
+      },
+      {
+        "metric": "equity_parent",
+        "name": "归属于母公司所有者权益合计",
+        "value": 61272068641.41,
+        "evidence_id": "600276-2025-equity_parent"
+      }
+    ],
+    "evidence": [
+      "600276-2025-net_profit_parent",
+      "600276-2025-equity_parent"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "debt_ratio",
+    "name": "资产负债率",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 11.5512,
+    "unit": "%",
+    "formula": "负债合计 / 资产总计",
+    "inputs": [
+      {
+        "metric": "total_liabilities",
+        "name": "负债合计",
+        "value": 8070492359.49,
+        "evidence_id": "600276-2025-total_liabilities"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 69867315773.74,
+        "evidence_id": "600276-2025-total_assets"
+      }
+    ],
+    "evidence": [
+      "600276-2025-total_liabilities",
+      "600276-2025-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "current_ratio",
+    "name": "流动比率",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 8.0842,
+    "unit": "倍",
+    "formula": "流动资产合计 / 流动负债合计",
+    "inputs": [
+      {
+        "metric": "total_current_assets",
+        "name": "流动资产合计",
+        "value": 51490372457.04,
+        "evidence_id": "600276-2025-total_current_assets"
+      },
+      {
+        "metric": "total_current_liabilities",
+        "name": "流动负债合计",
+        "value": 6369237286.0,
+        "evidence_id": "600276-2025-total_current_liabilities"
+      }
+    ],
+    "evidence": [
+      "600276-2025-total_current_assets",
+      "600276-2025-total_current_liabilities"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "cfo_to_revenue",
+    "name": "经营现金流/营业收入",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 35.5219,
+    "unit": "%",
+    "formula": "经营活动产生的现金流量净额 / 营业收入",
+    "inputs": [
+      {
+        "metric": "cfo",
+        "name": "经营活动产生的现金流量净额",
+        "value": 11235378130.63,
+        "evidence_id": "600276-2025-cfo"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 31629416193.83,
+        "evidence_id": "600276-2025-revenue"
+      }
+    ],
+    "evidence": [
+      "600276-2025-cfo",
+      "600276-2025-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "revenue_growth",
+    "name": "营业收入增长率",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 13.0243,
+    "unit": "%",
+    "formula": "(本期营业收入 - 上期营业收入) / 上期营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 31629416193.83,
+        "evidence_id": "600276-2025-revenue"
+      }
+    ],
+    "evidence": [
+      "600276-2025-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_profit_growth",
+    "name": "净利润增长率",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 21.777,
+    "unit": "%",
+    "formula": "(本期净利润 - 上期净利润) / 上期净利润",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 7717002245.78,
+        "evidence_id": "600276-2025-net_profit"
+      }
+    ],
+    "evidence": [
+      "600276-2025-net_profit"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "asset_turnover",
+    "name": "总资产周转率",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "period": "2025",
+    "value": 0.5271,
+    "unit": "倍",
+    "formula": "营业收入 / 平均资产总计",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 31629416193.83,
+        "evidence_id": "600276-2025-revenue"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 69867315773.74,
+        "evidence_id": "600276-2025-total_assets"
+      }
+    ],
+    "evidence": [
+      "600276-2025-revenue",
+      "600276-2025-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  }
+]

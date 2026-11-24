@@ -140,6 +140,21 @@ def run_checks(facts: List[Evidence]) -> List[CheckResult]:
           get('ending_cash'), '期初现金 + 净增加额 = 期末现金',
           ['beginning_cash', 'net_cash_increase', 'ending_cash'])
 
+    # 资产负债表现金 vs 现金流量表期末现金：差异通常来自受限资金/拆出资金等口径
+    bs_cash, cf_cash = get('cash'), get('ending_cash')
+    if bs_cash is None or cf_cash is None:
+        results.append(CheckResult(check='cash_bs_vs_cf', status='warning',
+                                   detail='缺少货币资金或期末现金，无法核对',
+                                   evidence=[by_key[k].evidence_id for k in ('cash', 'ending_cash') if k in by_key]))
+    else:
+        diff = bs_cash - cf_cash
+        ok = abs(diff) <= max(1.0, abs(cf_cash) * 0.01)
+        results.append(CheckResult(check='cash_bs_vs_cf', status='pass' if ok else 'warning',
+                                   detail='货币资金与期末现金及现金等价物一致' if ok else
+                                   '货币资金与期末现金及现金等价物差异较大，需核对受限资金/现金等价物口径',
+                                   left=bs_cash, right=cf_cash, diff=round(diff, 2),
+                                   evidence=[by_key[k].evidence_id for k in ('cash', 'ending_cash') if k in by_key]))
+
     # 同比异常提示：超过 ±50% 不直接判错，但要求人工复核报告口径/重述
     anomalies = []
     for k, label in (('revenue', '营业收入'), ('net_profit', '净利润')):

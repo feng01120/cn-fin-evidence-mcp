@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "000568-2024-cash",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 33578396831.33,
+    "prior_value": 25952025091.28,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "货币资金 33,578,396,831.33 25,952,025,091.28",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 387.1190185546875,
+      "x1": 527.81396484375,
+      "y1": 396.14599609375
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-accounts_receivable",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 11022302.31,
+    "prior_value": 17461378.98,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "应收账款 11,022,302.31 17,461,378.98",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 484.55902099609375,
+      "x1": 527.814453125,
+      "y1": 493.58599853515625
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-inventory",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 13392794475.96,
+    "prior_value": 11622043947.46,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "存货 13,392,794,475.96 11,622,043,947.46",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 647.0379638671875,
+      "x1": 527.81396484375,
+      "y1": 656.0650024414062
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_current_assets",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 50856449197.89,
+    "prior_value": 45358404336.27,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "流动资产合计 50,856,449,197.89 45,358,404,336.27",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 744.5989990234375,
+      "x1": 527.81396484375,
+      "y1": 753.6260375976562
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_noncurrent_assets",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 17478146366.69,
+    "prior_value": 17936050865.33,
+    "unit": "元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "非流动资产合计 17,478,146,366.69 17,936,050,865.33",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 433.6780090332031,
+      "x1": 527.81396484375,
+      "y1": 442.7049865722656
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_assets",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 68334595564.58,
+    "prior_value": 63294455201.6,
+    "unit": "元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "资产总计 68,334,595,564.58 63,294,455,201.60",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 449.8780212402344,
+      "x1": 527.81396484375,
+      "y1": 458.9049987792969
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_current_liabilities",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 14277111968.03,
+    "prior_value": 10070829218.3,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "流动负债合计 14,277,111,968.03 10,070,829,218.30",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 173.6389923095703,
+      "x1": 527.81396484375,
+      "y1": 182.66600036621094
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_noncurrent_liabilities",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 6549476960.84,
+    "prior_value": 11691918253.45,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "非流动负债合计 6,549,476,960.84 11,691,918,253.45",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 401.1590270996094,
+      "x1": 527.81396484375,
+      "y1": 410.1860046386719
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_liabilities",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 20826588928.87,
+    "prior_value": 21762747471.75,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "负债合计 20,826,588,928.87 21,762,747,471.75",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 417.3590087890625,
+      "x1": 527.81396484375,
+      "y1": 426.385986328125
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-equity_parent",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 47388500553.46,
+    "prior_value": 41391410494.89,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者权益合计 47,388,500,553.46 41,391,410,494.89",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 582.718994140625,
+      "x1": 527.81396484375,
+      "y1": 591.7460327148438
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_equity",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 47508006635.71,
+    "prior_value": 41531707729.85,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "所有者权益合计 47,508,006,635.71 41,531,707,729.85",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 607.198974609375,
+      "x1": 527.81396484375,
+      "y1": 616.2260131835938
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_liabilities_equity",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 68334595564.58,
+    "prior_value": 63294455201.6,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "负债和所有者权益总计 68,334,595,564.58 63,294,455,201.60",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 619.43798828125,
+      "x1": 527.81396484375,
+      "y1": 628.4650268554688
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_revenue",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 30233301388.26,
+    "prior_value": null,
+    "unit": "元",
+    "page": 90,
+    "printed_page": null,
+    "snippet": "一、营业总收入 31,196,248,208.33 30,233,301,388.26",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 752.7589721679688,
+      "x1": 527.81396484375,
+      "y1": 761.7860107421875
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-revenue",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 31196248208.33,
+    "prior_value": 30233301388.26,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "泸州老窖股份有限公司2024年年度报告全文91其中：营业收入31,196,248,208.3330,233,301,388.26利息收入已赚保费手续费及佣金收入二、营业总成本13,053,488,597.4412,638,987,548.90其中：营业成本3,888,116,183.933,537,151,403.15利息支出手续费",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 43.919002532958984,
+      "x1": 538.5589599609375,
+      "y1": 85.22599792480469
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_cost",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 13053488597.44,
+    "prior_value": 12638987548.9,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "二、营业总成本 13,053,488,597.44 12,638,987,548.90",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 141.11900329589844,
+      "x1": 527.81396484375,
+      "y1": 150.14601135253906
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-cost_of_revenue",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 3888116183.93,
+    "prior_value": 3537151403.15,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "其中：营业成本 3,888,116,183.93 3,537,151,403.15",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 157.43899536132812,
+      "x1": 527.9340209960938,
+      "y1": 166.46600341796875
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-taxes_surcharges",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 4753755581.18,
+    "prior_value": 4133126350.68,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "税金及附加 4,753,755,581.18 4,133,126,350.68",
+    "bbox": {
+      "x0": 92.63999938964844,
+      "y0": 299.3990173339844,
+      "x1": 527.9340209960938,
+      "y1": 308.4259948730469
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-selling_expense",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 3538382615.99,
+    "prior_value": 3974425526.92,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "销售费用 3,538,382,615.99 3,974,425,526.92",
+    "bbox": {
+      "x0": 92.63999938964844,
+      "y0": 315.7190246582031,
+      "x1": 527.9340209960938,
+      "y1": 324.7460021972656
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-admin_expense",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 1100779964.56,
+    "prior_value": 1139480677.23,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "管理费用 1,100,779,964.56 1,139,480,677.23",
+    "bbox": {
+      "x0": 92.63999938964844,
+      "y0": 331.91900634765625,
+      "x1": 527.9340209960938,
+      "y1": 340.94598388671875
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-rd_expense",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 260975311.1,
+    "prior_value": 225955797.33,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "研发费用 260,975,311.10 225,955,797.33",
+    "bbox": {
+      "x0": 92.63999938964844,
+      "y0": 348.1190185546875,
+      "x1": 527.9348754882812,
+      "y1": 357.14599609375
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-finance_expense",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -488521059.32,
+    "prior_value": -371152206.41,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "财务费用 -488,521,059.32 -371,152,206.41",
+    "bbox": {
+      "x0": 92.63999938964844,
+      "y0": 364.4380187988281,
+      "x1": 527.814697265625,
+      "y1": 373.4649963378906
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-operating_profit",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 18206848930.25,
+    "prior_value": 17841832969.1,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "三、营业利润（亏损以“－”号填 列） 18,206,848,930.25 17,841,832,969.10",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 683.6389770507812,
+      "x1": 527.81396484375,
+      "y1": 698.666015625
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-total_profit",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 18205298819.04,
+    "prior_value": 17805957556.44,
+    "unit": "元",
+    "page": 91,
+    "printed_page": null,
+    "snippet": "四、利润总额（亏损总额以“－”号 填列） 18,205,298,819.04 17,805,957,556.44",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 744.3590087890625,
+      "x1": 527.81396484375,
+      "y1": 759.3860473632812
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-net_profit",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 13497778570.89,
+    "prior_value": 13288660023.21,
+    "unit": "元",
+    "page": 92,
+    "printed_page": null,
+    "snippet": "五、净利润（净亏损以“－”号填 列） 13,497,778,570.89 13,288,660,023.21",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 90.35899353027344,
+      "x1": 527.81396484375,
+      "y1": 105.38599395751953
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-net_profit_parent",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 13472986476.01,
+    "prior_value": 13246394700.59,
+    "unit": "元",
+    "page": 92,
+    "printed_page": null,
+    "snippet": "1.归属于母公司股东的净利润 13,472,986,476.01 13,246,394,700.59",
+    "bbox": {
+      "x0": 74.63999938964844,
+      "y0": 187.7989959716797,
+      "x1": 527.81396484375,
+      "y1": 196.8260040283203
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-basic_eps",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 9.18,
+    "prior_value": 9.02,
+    "unit": "元/股",
+    "page": 92,
+    "printed_page": null,
+    "snippet": "（一）基本每股收益 9.18 9.02",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 601.5589599609375,
+      "x1": 527.9386596679688,
+      "y1": 610.5859985351562
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-sales_cash",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 40036206060.66,
+    "prior_value": 31589430458.52,
+    "unit": "元",
+    "page": 94,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 40,036,206,060.66 31,589,430,458.52",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 327.9590148925781,
+      "x1": 527.81396484375,
+      "y1": 336.9859924316406
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-cfo",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 19181768363.65,
+    "prior_value": 10648364935.46,
+    "unit": "元",
+    "page": 94,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流量净额 19,181,768,363.65 10,648,364,935.46",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 682.3189697265625,
+      "x1": 527.81396484375,
+      "y1": 691.3460083007812
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-cfi",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -1382505932.55,
+    "prior_value": -1268117853.0,
+    "unit": "元",
+    "page": 95,
+    "printed_page": null,
+    "snippet": "投资活动产生的现金流量净额 -1,382,505,932.55 -1,268,117,853.00",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 212.3990020751953,
+      "x1": 527.81396484375,
+      "y1": 221.42601013183594
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-cff",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -10328853037.68,
+    "prior_value": -1218426068.29,
+    "unit": "元",
+    "page": 95,
+    "printed_page": null,
+    "snippet": "筹资活动产生的现金流量净额 -10,328,853,037.68 -1,218,426,068.29",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 403.4380187988281,
+      "x1": 527.81396484375,
+      "y1": 412.4649963378906
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-fx_effect",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 4229343.18,
+    "prior_value": 2201671.82,
+    "unit": "元",
+    "page": 95,
+    "printed_page": null,
+    "snippet": "四、汇率变动对现金及现金等价物的 影响 4,229,343.18 2,201,671.82",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 415.6780090332031,
+      "x1": 527.9356079101562,
+      "y1": 430.7049865722656
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-net_cash_increase",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 7474638736.6,
+    "prior_value": 8164022685.99,
+    "unit": "元",
+    "page": 95,
+    "printed_page": null,
+    "snippet": "五、现金及现金等价物净增加额 7,474,638,736.60 8,164,022,685.99",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 439.91900634765625,
+      "x1": 527.9340209960938,
+      "y1": 448.94598388671875
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-beginning_cash",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 25893029277.86,
+    "prior_value": 17729006591.87,
+    "unit": "元",
+    "page": 95,
+    "printed_page": null,
+    "snippet": "加：期初现金及现金等价物余额 25,893,029,277.86 17,729,006,591.87",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 452.1590270996094,
+      "x1": 527.81396484375,
+      "y1": 461.1860046386719
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000568-2024-ending_cash",
+    "company": {
+      "code": "000568",
+      "name": "泸州老窖股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+    "period": "2024",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 33367668014.46,
+    "prior_value": 25893029277.86,
+    "unit": "元",
+    "page": 95,
+    "printed_page": null,
+    "snippet": "六、期末现金及现金等价物余额 33,367,668,014.46 25,893,029,277.86",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 464.5190124511719,
+      "x1": 527.81396484375,
+      "y1": 473.5459899902344
+    },
+    "source_file": "000568_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

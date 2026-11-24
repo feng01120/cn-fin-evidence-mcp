@@ -1,0 +1,1602 @@
+[
+  {
+    "evidence_id": "002594-2025-cash",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 75424747.0,
+    "prior_value": 102738734.0,
+    "unit": "千元",
+    "page": 123,
+    "printed_page": null,
+    "snippet": "货币资金 1 75,424,747 102,738,734",
+    "bbox": {
+      "x0": 65.66400146484375,
+      "y0": 215.1289825439453,
+      "x1": 537.5950927734375,
+      "y1": 224.1289825439453
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-accounts_receivable",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 37004685.0,
+    "prior_value": 62298988.0,
+    "unit": "千元",
+    "page": 123,
+    "printed_page": null,
+    "snippet": "应收账款 3 37,004,685 62,298,988",
+    "bbox": {
+      "x0": 65.66400146484375,
+      "y0": 268.3190002441406,
+      "x1": 537.7180786132812,
+      "y1": 277.3190002441406
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-inventory",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 138420580.0,
+    "prior_value": 116036237.0,
+    "unit": "千元",
+    "page": 123,
+    "printed_page": null,
+    "snippet": "存货 7 138,420,580 116,036,237",
+    "bbox": {
+      "x0": 65.66400146484375,
+      "y0": 321.5989685058594,
+      "x1": 537.5950927734375,
+      "y1": 330.5989685058594
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_current_assets",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 371467558.0,
+    "prior_value": 370572244.0,
+    "unit": "千元",
+    "page": 123,
+    "printed_page": null,
+    "snippet": "流动资产合计 371,467,558 370,572,244",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 388.5589904785156,
+      "x1": 537.7120971679688,
+      "y1": 397.5589904785156
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_noncurrent_assets",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 512262325.0,
+    "prior_value": 412783611.0,
+    "unit": "千元",
+    "page": 123,
+    "printed_page": null,
+    "snippet": "非流动资产合计 512,262,325 412,783,611",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 628.9689331054688,
+      "x1": 537.6510009765625,
+      "y1": 637.9689331054688
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_assets",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 883729883.0,
+    "prior_value": 783355855.0,
+    "unit": "千元",
+    "page": 123,
+    "printed_page": null,
+    "snippet": "资产总计 883,729,883 783,355,855",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 656.0889282226562,
+      "x1": 537.7120971679688,
+      "y1": 665.0889282226562
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_current_liabilities",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 468451357.0,
+    "prior_value": 495985176.0,
+    "unit": "千元",
+    "page": 124,
+    "printed_page": null,
+    "snippet": "流动负债合计 468,451,357 495,985,176",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 272.2789611816406,
+      "x1": 537.592041015625,
+      "y1": 281.2789611816406
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_noncurrent_liabilities",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 156739341.0,
+    "prior_value": 88682470.0,
+    "unit": "千元",
+    "page": 124,
+    "printed_page": null,
+    "snippet": "非流动负债合计 156,739,341 88,682,470",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 378.2389831542969,
+      "x1": 537.5980834960938,
+      "y1": 387.2389831542969
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_liabilities",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 625190698.0,
+    "prior_value": 584667646.0,
+    "unit": "千元",
+    "page": 124,
+    "printed_page": null,
+    "snippet": "负债合计 625,190,698 584,667,646",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 402.1189880371094,
+      "x1": 537.592041015625,
+      "y1": 411.1189880371094
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-equity_parent",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 246274606.0,
+    "prior_value": 185251104.0,
+    "unit": "千元",
+    "page": 125,
+    "printed_page": null,
+    "snippet": "归属于母公司股东权益合计 246,274,606 185,251,104",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 248.8489532470703,
+      "x1": 537.592041015625,
+      "y1": 257.8489685058594
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司股东权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_equity",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 258539185.0,
+    "prior_value": 198688209.0,
+    "unit": "千元",
+    "page": 125,
+    "printed_page": null,
+    "snippet": "股东权益合计 258,539,185 198,688,209",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 284.3990173339844,
+      "x1": 537.6599731445312,
+      "y1": 293.3990173339844
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "股东权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_liabilities_equity",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 883729883.0,
+    "prior_value": 783355855.0,
+    "unit": "千元",
+    "page": 125,
+    "printed_page": null,
+    "snippet": "负债和股东权益总计 883,729,883 783,355,855",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 308.2789611816406,
+      "x1": 537.592041015625,
+      "y1": 317.2789611816406
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和股东权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-revenue",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 803964958.0,
+    "prior_value": 777102455.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "附注七 2025 年 2024 年 （经重述） 一、 营业收入 45 803,964,958 777,102,455",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 102.32899475097656,
+      "x1": 510.1199951171875,
+      "y1": 146.2489776611328
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-cost_of_revenue",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 661305161.0,
+    "prior_value": 626046616.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "减：营业成本 45 661,305,161 626,046,616",
+    "bbox": {
+      "x0": 90.74400329589844,
+      "y0": 149.0089874267578,
+      "x1": 509.9919738769531,
+      "y1": 158.0089874267578
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-taxes_surcharges",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 13580544.0,
+    "prior_value": 14752402.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "税金及附加 46 13,580,544 14,752,402",
+    "bbox": {
+      "x0": 108.73999786376953,
+      "y0": 160.6490020751953,
+      "x1": 509.99798583984375,
+      "y1": 169.6490020751953
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-selling_expense",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 26184568.0,
+    "prior_value": 24085317.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "销售费用 47 26,184,568 24,085,317",
+    "bbox": {
+      "x0": 108.73999786376953,
+      "y0": 172.28895568847656,
+      "x1": 510.0509948730469,
+      "y1": 181.28895568847656
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-admin_expense",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 20199944.0,
+    "prior_value": 18644661.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "管理费用 48 20,199,944 18,644,661",
+    "bbox": {
+      "x0": 108.73999786376953,
+      "y0": 184.04896545410156,
+      "x1": 509.99798583984375,
+      "y1": 193.04896545410156
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-rd_expense",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 57978105.0,
+    "prior_value": 53194745.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "研发费用 49 57,978,105 53,194,745",
+    "bbox": {
+      "x0": 108.73999786376953,
+      "y0": 195.68898010253906,
+      "x1": 510.05999755859375,
+      "y1": 204.68898010253906
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-finance_expense",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -649350.0,
+    "prior_value": 1216206.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "财务费用 50 (649,350) 1,216,206",
+    "bbox": {
+      "x0": 108.73999786376953,
+      "y0": 207.32899475097656,
+      "x1": 509.9309997558594,
+      "y1": 216.32899475097656
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-operating_profit",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 40184709.0,
+    "prior_value": 50486047.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "二、 营业利润 40,184,709 50,486,047",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 359.63897705078125,
+      "x1": 509.99798583984375,
+      "y1": 368.63897705078125
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-total_profit",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 39753049.0,
+    "prior_value": 49680677.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "三、 利润总额 39,753,049 49,680,677",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 406.7989807128906,
+      "x1": 510.05999755859375,
+      "y1": 415.7989807128906
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-net_profit",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 33760758.0,
+    "prior_value": 41587940.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "四、 净利润 33,760,758 41,587,940",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 442.3389892578125,
+      "x1": 510.05999755859375,
+      "y1": 451.3389892578125
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-net_profit_parent",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 32619022.0,
+    "prior_value": 40254346.0,
+    "unit": "千元",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者的净利润 32,619,022 40,254,346",
+    "bbox": {
+      "x0": 90.74400329589844,
+      "y0": 525.4989624023438,
+      "x1": 509.99798583984375,
+      "y1": 534.4989624023438
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司所有者的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-basic_eps",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 3.58,
+    "prior_value": 4.61,
+    "unit": "元/股",
+    "page": 126,
+    "printed_page": null,
+    "snippet": "基本每股收益 60 3.58 4.61",
+    "bbox": {
+      "x0": 90.74400329589844,
+      "y0": 583.93896484375,
+      "x1": 510.0249938964844,
+      "y1": 592.93896484375
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-sales_cash",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 821214650.0,
+    "prior_value": 774347395.0,
+    "unit": "千元",
+    "page": 130,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 821,214,650 774,347,395",
+    "bbox": {
+      "x0": 90.74400329589844,
+      "y0": 164.0089874267578,
+      "x1": 516.8349609375,
+      "y1": 173.0089874267578
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-cfo",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 59135544.0,
+    "prior_value": 133453873.0,
+    "unit": "千元",
+    "page": 130,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流量净额 62 59,135,544 133,453,873",
+    "bbox": {
+      "x0": 90.74400329589844,
+      "y0": 317.7590026855469,
+      "x1": 516.8349609375,
+      "y1": 326.7590026855469
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-cfi",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -197463109.0,
+    "prior_value": -129082282.0,
+    "unit": "千元",
+    "page": 130,
+    "printed_page": null,
+    "snippet": "投资活动使用的现金流量净额 (197,463,109 ) (129,082,282 )",
+    "bbox": {
+      "x0": 90.74400329589844,
+      "y0": 565.3389282226562,
+      "x1": 521.4600219726562,
+      "y1": 574.3389282226562
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动使用的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-cff",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": 104613870.0,
+    "prior_value": -10267547.0,
+    "unit": "千元",
+    "page": 131,
+    "printed_page": null,
+    "snippet": "筹资活动产生/（使用）的现金流量净额 104,613,870 (10,267,547 )",
+    "bbox": {
+      "x0": 91.8239974975586,
+      "y0": 343.7989807128906,
+      "x1": 521.0999755859375,
+      "y1": 352.7989807128906
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-fx_effect",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": -147650.0,
+    "prior_value": -359247.0,
+    "unit": "千元",
+    "page": 131,
+    "printed_page": null,
+    "snippet": "四、 汇率变动对现金及现金等价物的影响 (147,650) (359,247 )",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 367.5589904785156,
+      "x1": 521.0999755859375,
+      "y1": 376.5589904785156
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-net_cash_increase",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -33861345.0,
+    "prior_value": -6255203.0,
+    "unit": "千元",
+    "page": 131,
+    "printed_page": null,
+    "snippet": "五、 现金及现金等价物净减少额 62 (33,861,345) (6,255,203 )",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 391.4389953613281,
+      "x1": 521.0999755859375,
+      "y1": 400.4389953613281
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净减少额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-beginning_cash",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 102256542.0,
+    "prior_value": 108511745.0,
+    "unit": "千元",
+    "page": 131,
+    "printed_page": null,
+    "snippet": "加：年初现金及现金等价物余额 62 102,256,542 108,511,745",
+    "bbox": {
+      "x0": 91.8239974975586,
+      "y0": 403.0789794921875,
+      "x1": 516.4749755859375,
+      "y1": 412.0789794921875
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "年初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002594-2025-ending_cash",
+    "company": {
+      "code": "002594",
+      "name": "比亚迪股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "period": "2025",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 68395197.0,
+    "prior_value": 102256542.0,
+    "unit": "千元",
+    "page": 131,
+    "printed_page": null,
+    "snippet": "六、 年末现金及现金等价物余额 62 68,395,197 102,256,542",
+    "bbox": {
+      "x0": 56.66400146484375,
+      "y0": 426.958984375,
+      "x1": 516.4749755859375,
+      "y1": 435.958984375
+    },
+    "source_file": "002594_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "年末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

@@ -30,6 +30,11 @@ class Evidence(BaseModel):
 
     evidence_id: str
     company: Company
+    report_date: str = ''
+    announce_date: str = ''
+    evidence_level: Literal['verified', 'structured'] = 'verified'
+    source_type: Literal['annual_report_pdf', 'structured_api'] = 'annual_report_pdf'
+    source_url: Optional[str] = None
     period: str
     metric: str
     metric_name: str
@@ -49,6 +54,7 @@ class Evidence(BaseModel):
     formula: Optional[str] = None
     inputs: Optional[List[str]] = None
     quality: Quality = Field(default_factory=Quality)
+    subject_check: Quality = Field(default_factory=Quality)
 
 
 class Ratio(BaseModel):
@@ -59,6 +65,7 @@ class Ratio(BaseModel):
     value: Optional[float] = None
     unit: str = '%'
     formula: str
+    value_type: Literal['disclosed', 'computed'] = 'computed'
     inputs: List[Dict[str, Any]]
     evidence: List[str]
     quality: Quality = Field(default_factory=Quality)
@@ -77,6 +84,12 @@ class CheckResult(BaseModel):
 class DatasetMeta(BaseModel):
     company: Company
     period: str
+    report_date: str = ''
+    announce_date: str = ''
+    dataset_id: str = ''
+    evidence_level: Literal['verified', 'structured'] = 'verified'
+    source_type: Literal['annual_report_pdf', 'structured_api'] = 'annual_report_pdf'
+    source_url: Optional[str] = None
     source_file: str
     source_sha256: str
     page_count: int
@@ -84,6 +97,9 @@ class DatasetMeta(BaseModel):
     statements: List[str]
     fact_count: int
     row_count: int
+    coverage_score: float = 0.0
+    coverage: Dict[str, Any] = Field(default_factory=dict)
+    quality_gate: str = ''
 
 
 class RawRow(BaseModel):

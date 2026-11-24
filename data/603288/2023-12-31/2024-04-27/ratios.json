@@ -1,0 +1,330 @@
+[
+  {
+    "ratio": "gross_margin",
+    "name": "毛利率",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 34.7354,
+    "unit": "%",
+    "formula": "(营业收入 - 营业成本) / 营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 24559312356.59,
+        "evidence_id": "603288-2023-revenue"
+      },
+      {
+        "metric": "cost_of_revenue",
+        "name": "营业成本",
+        "value": 16028535574.92,
+        "evidence_id": "603288-2023-cost_of_revenue"
+      }
+    ],
+    "evidence": [
+      "603288-2023-revenue",
+      "603288-2023-cost_of_revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_margin",
+    "name": "净利率",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 22.9737,
+    "unit": "%",
+    "formula": "净利润 / 营业收入",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 5642186761.43,
+        "evidence_id": "603288-2023-net_profit"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 24559312356.59,
+        "evidence_id": "603288-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "603288-2023-net_profit",
+      "603288-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "roe",
+    "name": "净资产收益率（ROE）",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 20.4872,
+    "unit": "%",
+    "formula": "归属于母公司股东的净利润 / 平均归属于母公司所有者权益",
+    "inputs": [
+      {
+        "metric": "net_profit_parent",
+        "name": "归属于母公司股东的净利润",
+        "value": 5626626091.97,
+        "evidence_id": "603288-2023-net_profit_parent"
+      },
+      {
+        "metric": "equity_parent",
+        "name": "归属于母公司所有者权益合计",
+        "value": 28530612036.85,
+        "evidence_id": "603288-2023-equity_parent"
+      }
+    ],
+    "evidence": [
+      "603288-2023-net_profit_parent",
+      "603288-2023-equity_parent"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "debt_ratio",
+    "name": "资产负债率",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 24.4396,
+    "unit": "%",
+    "formula": "负债合计 / 资产总计",
+    "inputs": [
+      {
+        "metric": "total_liabilities",
+        "name": "负债合计",
+        "value": 9390542813.5,
+        "evidence_id": "603288-2023-total_liabilities"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 38423518405.62,
+        "evidence_id": "603288-2023-total_assets"
+      }
+    ],
+    "evidence": [
+      "603288-2023-total_liabilities",
+      "603288-2023-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "current_ratio",
+    "name": "流动比率",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 3.4438,
+    "unit": "倍",
+    "formula": "流动资产合计 / 流动负债合计",
+    "inputs": [
+      {
+        "metric": "total_current_assets",
+        "name": "流动资产合计",
+        "value": 30774419278.23,
+        "evidence_id": "603288-2023-total_current_assets"
+      },
+      {
+        "metric": "total_current_liabilities",
+        "name": "流动负债合计",
+        "value": 8936237742.28,
+        "evidence_id": "603288-2023-total_current_liabilities"
+      }
+    ],
+    "evidence": [
+      "603288-2023-total_current_assets",
+      "603288-2023-total_current_liabilities"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "cfo_to_revenue",
+    "name": "经营现金流/营业收入",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 29.9506,
+    "unit": "%",
+    "formula": "经营活动产生的现金流量净额 / 营业收入",
+    "inputs": [
+      {
+        "metric": "cfo",
+        "name": "经营活动产生的现金流量净额",
+        "value": 7355650997.74,
+        "evidence_id": "603288-2023-cfo"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 24559312356.59,
+        "evidence_id": "603288-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "603288-2023-cfo",
+      "603288-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "revenue_growth",
+    "name": "营业收入增长率",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": -4.1013,
+    "unit": "%",
+    "formula": "(本期营业收入 - 上期营业收入) / 上期营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 24559312356.59,
+        "evidence_id": "603288-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "603288-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_profit_growth",
+    "name": "净利润增长率",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": -9.0434,
+    "unit": "%",
+    "formula": "(本期净利润 - 上期净利润) / 上期净利润",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 5642186761.43,
+        "evidence_id": "603288-2023-net_profit"
+      }
+    ],
+    "evidence": [
+      "603288-2023-net_profit"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "asset_turnover",
+    "name": "总资产周转率",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 0.6777,
+    "unit": "倍",
+    "formula": "营业收入 / 平均资产总计",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 24559312356.59,
+        "evidence_id": "603288-2023-revenue"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 38423518405.62,
+        "evidence_id": "603288-2023-total_assets"
+      }
+    ],
+    "evidence": [
+      "603288-2023-revenue",
+      "603288-2023-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  }
+]

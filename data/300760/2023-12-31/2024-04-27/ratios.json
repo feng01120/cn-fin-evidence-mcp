@@ -1,0 +1,330 @@
+[
+  {
+    "ratio": "gross_margin",
+    "name": "毛利率",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 66.1607,
+    "unit": "%",
+    "formula": "(营业收入 - 营业成本) / 营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 34931900884.0,
+        "evidence_id": "300760-2023-revenue"
+      },
+      {
+        "metric": "cost_of_revenue",
+        "name": "营业成本",
+        "value": 11820708329.0,
+        "evidence_id": "300760-2023-cost_of_revenue"
+      }
+    ],
+    "evidence": [
+      "300760-2023-revenue",
+      "300760-2023-cost_of_revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_margin",
+    "name": "净利率",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 33.1457,
+    "unit": "%",
+    "formula": "净利润 / 营业收入",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 11578413404.0,
+        "evidence_id": "300760-2023-net_profit"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 34931900884.0,
+        "evidence_id": "300760-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "300760-2023-net_profit",
+      "300760-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "roe",
+    "name": "净资产收益率（ROE）",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 35.6014,
+    "unit": "%",
+    "formula": "归属于母公司股东的净利润 / 平均归属于母公司所有者权益",
+    "inputs": [
+      {
+        "metric": "net_profit_parent",
+        "name": "归属于母公司股东的净利润",
+        "value": 11582226085.0,
+        "evidence_id": "300760-2023-net_profit_parent"
+      },
+      {
+        "metric": "equity_parent",
+        "name": "归属于母公司所有者权益合计",
+        "value": 33085389686.0,
+        "evidence_id": "300760-2023-equity_parent"
+      }
+    ],
+    "evidence": [
+      "300760-2023-net_profit_parent",
+      "300760-2023-equity_parent"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "debt_ratio",
+    "name": "资产负债率",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 30.4421,
+    "unit": "%",
+    "formula": "负债合计 / 资产总计",
+    "inputs": [
+      {
+        "metric": "total_liabilities",
+        "name": "负债合计",
+        "value": 14593963297.0,
+        "evidence_id": "300760-2023-total_liabilities"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 47940003061.0,
+        "evidence_id": "300760-2023-total_assets"
+      }
+    ],
+    "evidence": [
+      "300760-2023-total_liabilities",
+      "300760-2023-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "current_ratio",
+    "name": "流动比率",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 2.6602,
+    "unit": "倍",
+    "formula": "流动资产合计 / 流动负债合计",
+    "inputs": [
+      {
+        "metric": "total_current_assets",
+        "name": "流动资产合计",
+        "value": 26875230013.0,
+        "evidence_id": "300760-2023-total_current_assets"
+      },
+      {
+        "metric": "total_current_liabilities",
+        "name": "流动负债合计",
+        "value": 10102649527.0,
+        "evidence_id": "300760-2023-total_current_liabilities"
+      }
+    ],
+    "evidence": [
+      "300760-2023-total_current_assets",
+      "300760-2023-total_current_liabilities"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "cfo_to_revenue",
+    "name": "经营现金流/营业收入",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 31.6674,
+    "unit": "%",
+    "formula": "经营活动产生的现金流量净额 / 营业收入",
+    "inputs": [
+      {
+        "metric": "cfo",
+        "name": "经营活动产生的现金流量净额",
+        "value": 11062025295.0,
+        "evidence_id": "300760-2023-cfo"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 34931900884.0,
+        "evidence_id": "300760-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "300760-2023-cfo",
+      "300760-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "revenue_growth",
+    "name": "营业收入增长率",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 15.0376,
+    "unit": "%",
+    "formula": "(本期营业收入 - 上期营业收入) / 上期营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 34931900884.0,
+        "evidence_id": "300760-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "300760-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_profit_growth",
+    "name": "净利润增长率",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 20.474,
+    "unit": "%",
+    "formula": "(本期净利润 - 上期净利润) / 上期净利润",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 11578413404.0,
+        "evidence_id": "300760-2023-net_profit"
+      }
+    ],
+    "evidence": [
+      "300760-2023-net_profit"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "asset_turnover",
+    "name": "总资产周转率",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 0.7379,
+    "unit": "倍",
+    "formula": "营业收入 / 平均资产总计",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 34931900884.0,
+        "evidence_id": "300760-2023-revenue"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 47940003061.0,
+        "evidence_id": "300760-2023-total_assets"
+      }
+    ],
+    "evidence": [
+      "300760-2023-revenue",
+      "300760-2023-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  }
+]

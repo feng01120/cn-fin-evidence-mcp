@@ -1,0 +1,1602 @@
+[
+  {
+    "evidence_id": "000333-2024-cash",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 140410308.0,
+    "prior_value": 81673846.0,
+    "unit": "千元",
+    "page": 156,
+    "printed_page": null,
+    "snippet": "货币资金 四(1) 140,410,308 81,673,846 18,441,820 30,260,602",
+    "bbox": {
+      "x0": 96.38400268554688,
+      "y0": 224.16619873046875,
+      "x1": 518.6195678710938,
+      "y1": 235.87156677246094
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "四(1)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-accounts_receivable",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 35798974.0,
+    "prior_value": 32884739.0,
+    "unit": "千元",
+    "page": 156,
+    "printed_page": null,
+    "snippet": "9299,001衍生金融资产四(3)2,449,5351,278,161208,243-应收票据四(4)6,718,5755,521,960--应收账款四(5)35,798,97432,884,739--应收款项融资四(7)17,646,44913,330,008--预付款项四(8)3,686,4943,316,19444,79181,244合同资产四(9)3,499,5564,045,925--发放贷款和垫款四(1",
+    "bbox": {
+      "x0": 96.38400268554688,
+      "y0": 276.03619384765625,
+      "x1": 518.816650390625,
+      "y1": 287.7415771484375
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "四(5)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-inventory",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 63339188.0,
+    "prior_value": 47339255.0,
+    "unit": "千元",
+    "page": 156,
+    "printed_page": null,
+    "snippet": ",047,88614,296,958--其他应收款四(6),十八(1)2,077,4122,181,87826,244,23519,614,359存货四(11)63,339,18847,339,255--一年内到期的非流动资产四(12)55,471,71210,760,57735,754,6239,363,826其他流动资产四(13)39,981,58462,900,89114,175,43643,712,760流动",
+    "bbox": {
+      "x0": 96.38400268554688,
+      "y0": 353.79620361328125,
+      "x1": 518.816650390625,
+      "y1": 365.62158203125
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "四(11)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_current_assets",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 389063786.0,
+    "prior_value": 281320980.0,
+    "unit": "千元",
+    "page": 156,
+    "printed_page": null,
+    "snippet": "流动资产合计 389,063,786 281,320,980 99,393,257 103,331,792",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 393.7343444824219,
+      "x1": 518.597412109375,
+      "y1": 404.9815979003906
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_noncurrent_assets",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 215288067.0,
+    "prior_value": 204717204.0,
+    "unit": "千元",
+    "page": 156,
+    "printed_page": null,
+    "snippet": "非流动资产合计 215,288,067 204,717,204 200,758,198 154,101,631",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 627.0643310546875,
+      "x1": 518.597412109375,
+      "y1": 638.4315795898438
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_assets",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 604351853.0,
+    "prior_value": 486038184.0,
+    "unit": "千元",
+    "page": 156,
+    "printed_page": null,
+    "snippet": "资产总计 604,351,853 486,038,184 300,151,455 257,433,423",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 652.5043334960938,
+      "x1": 518.597412109375,
+      "y1": 663.7515869140625
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_current_liabilities",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 351819806.0,
+    "prior_value": 251245721.0,
+    "unit": "千元",
+    "page": 157,
+    "printed_page": null,
+    "snippet": "314,457,7109,001,1536,621,910其他流动负债四(37)90,434,86771,297,928206,390147,552流动负债合计351,819,806251,245,721185,840,717178,444,476非流动负债长期借款四(38)10,491,75746,138,7367,599,90016,600,000应付债券四(39)3,266,7753,217,969--租赁负债四",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 365.4143371582031,
+      "x1": 518.597412109375,
+      "y1": 376.7815856933594
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_noncurrent_liabilities",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 24864656.0,
+    "prior_value": 60492814.0,
+    "unit": "千元",
+    "page": 157,
+    "printed_page": null,
+    "snippet": "1,360,4841,433,874--递延所得税负债四(24)4,896,8155,098,280--其他非流动负债45,61239,165--非流动负债合计24,864,65660,492,8147,805,71216,757,917负债合计376,684,462311,738,535193,646,429195,202,393股东权益股本四(43)7,655,9567,025,7697,655,9567,025",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 501.51434326171875,
+      "x1": 518.6195678710938,
+      "y1": 513.0015869140625
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_liabilities",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 376684462.0,
+    "prior_value": 311738535.0,
+    "unit": "千元",
+    "page": 157,
+    "printed_page": null,
+    "snippet": "负债合计 376,684,462 311,738,535 193,646,429 195,202,393",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 526.2343139648438,
+      "x1": 518.597412109375,
+      "y1": 537.7216186523438
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-equity_parent",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 216750057.0,
+    "prior_value": 162878825.0,
+    "unit": "千元",
+    "page": 157,
+    "printed_page": null,
+    "snippet": "02,92810,702,928未分配利润四(48)153,591,532136,284,34735,653,81827,901,530归属于母公司股东权益合计216,750,057162,878,825106,505,02662,231,030少数股东权益10,917,33411,420,824--股东权益合计227,667,391174,299,649106,505,02662,231,030负债和股东权益总计60",
+    "bbox": {
+      "x0": 96.38400268554688,
+      "y0": 662.3442993164062,
+      "x1": 518.6195678710938,
+      "y1": 673.8316040039062
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司股东权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_equity",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 227667391.0,
+    "prior_value": 174299649.0,
+    "unit": "千元",
+    "page": 157,
+    "printed_page": null,
+    "snippet": "股东权益合计 227,667,391 174,299,649 106,505,026 62,231,030",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 687.5443115234375,
+      "x1": 518.6195678710938,
+      "y1": 698.9115600585938
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "股东权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_liabilities_equity",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 604351853.0,
+    "prior_value": 486038184.0,
+    "unit": "千元",
+    "page": 157,
+    "printed_page": null,
+    "snippet": "负债和股东权益总计 604,351,853 486,038,184 300,151,455 257,433,423",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 712.2643432617188,
+      "x1": 518.597412109375,
+      "y1": 723.631591796875
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和股东权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_revenue",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 409084266.0,
+    "prior_value": 373709804.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "合并 合并 公司 公司 (经重列) 一、营业总收入 409,084,266 373,709,804 946,607 1,028,572",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 158.26437377929688,
+      "x1": 520.5464477539062,
+      "y1": 207.3115692138672
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-revenue",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 407149600.0,
+    "prior_value": 372037280.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "其中：营业收入 四(49), 十八(3) 407,149,600 372,037,280 946,607 1,028,572",
+    "bbox": {
+      "x0": 107.77999877929688,
+      "y0": 209.04620361328125,
+      "x1": 520.1817016601562,
+      "y1": 233.7115936279297
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": "十八(3)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-cost_of_revenue",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 299584935.0,
+    "prior_value": 276409404.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "减：营业成本 四(49) (299,584,935) (276,409,404) (40,440) (40,060)",
+    "bbox": {
+      "x0": 107.77999877929688,
+      "y0": 261.51617431640625,
+      "x1": 523.6107788085938,
+      "y1": 273.22161865234375
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": "四(49)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-taxes_surcharges",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 2119625.0,
+    "prior_value": 1816502.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "404)(40,440)(40,060)利息支出四(50)(1,883)(31,660)--手续费及佣金支出(3,157)(3,572)--税金及附加四(51)(2,119,625)(1,816,502)(49,254)(41,009)销售费用四(52)(38,753,649)(31,952,844)--管理费用四(53)(14,505,864)(13,476,908)(1,516,146)(1,465,397)研发费",
+    "bbox": {
+      "x0": 127.58000183105469,
+      "y0": 300.39617919921875,
+      "x1": 523.6107788085938,
+      "y1": 312.10162353515625
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": "四(51)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-selling_expense",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 38753649.0,
+    "prior_value": 31952844.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "续费及佣金支出(3,157)(3,572)--税金及附加四(51)(2,119,625)(1,816,502)(49,254)(41,009)销售费用四(52)(38,753,649)(31,952,844)--管理费用四(53)(14,505,864)(13,476,908)(1,516,146)(1,465,397)研发费用四(54)(16,232,771)(14,583,311)--财务收入四(55)3,329,2",
+    "bbox": {
+      "x0": 127.58000183105469,
+      "y0": 313.356201171875,
+      "x1": 520.2566528320312,
+      "y1": 325.06158447265625
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": "四(52)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-admin_expense",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 14505864.0,
+    "prior_value": 13476908.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": ",119,625)(1,816,502)(49,254)(41,009)销售费用四(52)(38,753,649)(31,952,844)--管理费用四(53)(14,505,864)(13,476,908)(1,516,146)(1,465,397)研发费用四(54)(16,232,771)(14,583,311)--财务收入四(55)3,329,2483,261,6562,009,6081,864,380其中：利息费",
+    "bbox": {
+      "x0": 127.58000183105469,
+      "y0": 326.3161926269531,
+      "x1": 523.594970703125,
+      "y1": 338.0216064453125
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": "四(53)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-rd_expense",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 16232771.0,
+    "prior_value": 14583311.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "9)(31,952,844)--管理费用四(53)(14,505,864)(13,476,908)(1,516,146)(1,465,397)研发费用四(54)(16,232,771)(14,583,311)--财务收入四(55)3,329,2483,261,6562,009,6081,864,380其中：利息费用2,453,3612,808,1042,957,0652,994,928利息收入7,200,9916,951",
+    "bbox": {
+      "x0": 127.58000183105469,
+      "y0": 339.27618408203125,
+      "x1": 520.2566528320312,
+      "y1": 350.9815979003906
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": "四(54)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-operating_profit",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 46393752.0,
+    "prior_value": 40317441.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "二、营业利润 46,393,752 40,317,441 28,720,667 17,433,772",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 548.67431640625,
+      "x1": 520.1795654296875,
+      "y1": 559.9215698242188
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-total_profit",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 46689746.0,
+    "prior_value": 40277163.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "三、利润总额 46,689,746 40,277,163 28,788,211 17,490,792",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 600.0343017578125,
+      "x1": 520.1795654296875,
+      "y1": 611.2816162109375
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-net_profit",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 38757214.0,
+    "prior_value": 33745352.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "四、净利润 38,757,214 33,745,352 28,517,064 17,326,161",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 638.3442993164062,
+      "x1": 520.1795654296875,
+      "y1": 649.5916137695312
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-net_profit_parent",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 38537237.0,
+    "prior_value": 33719935.0,
+    "unit": "千元",
+    "page": 158,
+    "printed_page": null,
+    "snippet": "归属于母公司股东的 净利润 38,537,237 33,719,935 28,517,064 17,326,161",
+    "bbox": {
+      "x0": 134.77999877929688,
+      "y0": 730.0242919921875,
+      "x1": 520.1795654296875,
+      "y1": 754.2276000976562
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-basic_eps",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 5.44,
+    "prior_value": 4.93,
+    "unit": "元/股",
+    "page": 159,
+    "printed_page": null,
+    "snippet": "基本每股收益(人民币元) 四(64) 5.44 4.93 不适用 不适用",
+    "bbox": {
+      "x0": 106.33999633789062,
+      "y0": 533.09619140625,
+      "x1": 520.1799926757812,
+      "y1": 544.8015747070312
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": "四(64)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-sales_cash",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 388661338.0,
+    "prior_value": 356076005.0,
+    "unit": "千元",
+    "page": 160,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 388,661,338 356,076,005 - - 发放贷款及垫款净减少额",
+    "bbox": {
+      "x0": 102.0199966430664,
+      "y0": 151.14378356933594,
+      "x1": 518.7772827148438,
+      "y1": 160.10838317871094
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-cfo",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 60511572.0,
+    "prior_value": 57902611.0,
+    "unit": "千元",
+    "page": 160,
+    "printed_page": null,
+    "snippet": ")经营活动现金流出小计(352,263,561)(314,931,134)(1,917,143)(1,732,751)经营活动产生的现金流量净额四(65)(h)60,511,57257,902,6114,645,87517,516,442二、投资活动使用的现金流量收回投资收到的现金四(65)(c)112,907,842116,074,69354,845,04781,562,000取得投资收益所收到的现金3,984,5",
+    "bbox": {
+      "x0": 102.0199966430664,
+      "y0": 301.2937927246094,
+      "x1": 518.8673706054688,
+      "y1": 310.6183776855469
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": "四(65)(h)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-cfi",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -87901802.0,
+    "prior_value": -31219855.0,
+    "unit": "千元",
+    "page": 160,
+    "printed_page": null,
+    "snippet": "53)--投资活动现金流出小计(205,837,639)(153,423,090)(108,689,619)(102,106,383)投资活动使用的现金流量净额(87,901,802)(31,219,855)(32,782,384)(423,659)三、筹资活动使用的现金流量吸收投资收到的现金34,695,9212,357,84134,663,6272,312,260其中：子公司吸收少数股东投资收到的现金32,29445",
+    "bbox": {
+      "x0": 102.0199966430664,
+      "y0": 462.353759765625,
+      "x1": 521.3981323242188,
+      "y1": 471.318359375
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动使用的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-cff",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": 22697954.0,
+    "prior_value": -17910213.0,
+    "unit": "千元",
+    "page": 160,
+    "printed_page": null,
+    "snippet": "887)筹资活动现金流出小计(49,978,995)(55,022,348)(30,958,253)(26,338,552)筹资活动产生/(使用)的现金流量净额22,697,954(17,910,213)5,736,041(15,713,854)四、汇率变动对现金及现金等价物的影响(76,256)(17,251)--五、现金及现金等价物净(减少)/增加额四(65)(h)(4,768,532)8,755,292(22,",
+    "bbox": {
+      "x0": 102.0199966430664,
+      "y0": 595.1937866210938,
+      "x1": 521.5096435546875,
+      "y1": 604.5183715820312
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-fx_effect",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": -76256.0,
+    "prior_value": -17251.0,
+    "unit": "千元",
+    "page": 160,
+    "printed_page": null,
+    "snippet": "四、汇率变动对现金及现金等价物的影响 (76,256) (17,251) - -",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 615.8638305664062,
+      "x1": 518.7772827148438,
+      "y1": 624.8284301757812
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-net_cash_increase",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -4768532.0,
+    "prior_value": 8755292.0,
+    "unit": "千元",
+    "page": 160,
+    "printed_page": null,
+    "snippet": "6,041(15,713,854)四、汇率变动对现金及现金等价物的影响(76,256)(17,251)--五、现金及现金等价物净(减少)/增加额四(65)(h)(4,768,532)8,755,292(22,400,468)1,378,929加：年初现金及现金等价物余额59,887,26051,131,96829,283,15827,904,229六、年末现金及现金等价物余额四(65)(i)55,118,72859,8",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 635.7838134765625,
+      "x1": 518.8692626953125,
+      "y1": 645.2283935546875
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": "四(65)(h)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-beginning_cash",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 59887260.0,
+    "prior_value": 51131968.0,
+    "unit": "千元",
+    "page": 160,
+    "printed_page": null,
+    "snippet": "现金及现金等价物净(减少)/增加额四(65)(h)(4,768,532)8,755,292(22,400,468)1,378,929加：年初现金及现金等价物余额59,887,26051,131,96829,283,15827,904,229六、年末现金及现金等价物余额四(65)(i)55,118,72859,887,2606,882,69029,283,158后附财务报表附注为财务报表的组成部分。法定代表人：方洪波主",
+    "bbox": {
+      "x0": 102.0199966430664,
+      "y0": 646.1038208007812,
+      "x1": 518.8673706054688,
+      "y1": 655.0684204101562
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "年初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000333-2024-ending_cash",
+    "company": {
+      "code": "000333",
+      "name": "美的集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222951181.PDF",
+    "period": "2024",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 55118728.0,
+    "prior_value": 59887260.0,
+    "unit": "千元",
+    "page": 160,
+    "printed_page": null,
+    "snippet": "六、年末现金及现金等价物余额 四(65)(i) 55,118,728 59,887,260 6,882,690 29,283,158",
+    "bbox": {
+      "x0": 86.42400360107422,
+      "y0": 666.0238037109375,
+      "x1": 518.8673706054688,
+      "y1": 675.348388671875
+    },
+    "source_file": "000333_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "年末现金及现金等价物余额",
+    "note": "四(65)(i)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

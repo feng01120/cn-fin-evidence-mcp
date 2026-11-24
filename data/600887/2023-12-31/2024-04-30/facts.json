@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "600887-2023-cash",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 43371541992.39,
+    "prior_value": 33853332020.3,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 80,
+    "snippet": "货币资金 七（1） 43,371,541,992.39 33,853,332,020.30",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 174.56898498535156,
+      "x1": 533.125,
+      "y1": 183.56898498535156
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "七（1）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-accounts_receivable",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 3084668398.14,
+    "prior_value": 3088345121.78,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 80,
+    "snippet": "应收账款 七（5） 3,084,668,398.14 3,088,345,121.78",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 255.56898498535156,
+      "x1": 533.1310424804688,
+      "y1": 264.5690002441406
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "七（5）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-inventory",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 12511775911.77,
+    "prior_value": 14836164803.32,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 80,
+    "snippet": "存货 七（10） 12,511,775,911.77 14,836,164,803.32",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 390.5989990234375,
+      "x1": 533.125,
+      "y1": 399.5989990234375
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "七（10）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_current_assets",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 69355379950.11,
+    "prior_value": 61463311044.87,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 80,
+    "snippet": "流动资产合计 69,355,379,950.11 61,463,311,044.87",
+    "bbox": {
+      "x0": 80.30400085449219,
+      "y0": 458.0589904785156,
+      "x1": 533.125,
+      "y1": 467.0589904785156
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_noncurrent_assets",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 82264872707.87,
+    "prior_value": 69501991254.35,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 80,
+    "snippet": "非流动资产合计 82,264,872,707.87 69,501,991,254.35",
+    "bbox": {
+      "x0": 80.30400085449219,
+      "y0": 740.56494140625,
+      "x1": 533.125,
+      "y1": 749.56494140625
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_assets",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 151620252657.98,
+    "prior_value": 130965302299.22,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 80,
+    "snippet": "资产总计 151,620,252,657.98 130,965,302,299.22",
+    "bbox": {
+      "x0": 89.30400085449219,
+      "y0": 754.0049438476562,
+      "x1": 533.1220703125,
+      "y1": 763.0049438476562
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_current_liabilities",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 76859801708.62,
+    "prior_value": 62169527205.35,
+    "unit": "元",
+    "page": 85,
+    "printed_page": 81,
+    "snippet": "流动负债合计 76,859,801,708.62 62,169,527,205.35",
+    "bbox": {
+      "x0": 80.30400085449219,
+      "y0": 358.5589904785156,
+      "x1": 533.125,
+      "y1": 367.5589904785156
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 17440093506.95,
+    "prior_value": 14652671894.21,
+    "unit": "元",
+    "page": 85,
+    "printed_page": 81,
+    "snippet": "非流动负债合计 17,440,093,506.95 14,652,671,894.21",
+    "bbox": {
+      "x0": 80.30400085449219,
+      "y0": 525.1389770507812,
+      "x1": 533.125,
+      "y1": 534.1389770507812
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_liabilities",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 94299895215.57,
+    "prior_value": 76822199099.56,
+    "unit": "元",
+    "page": 85,
+    "printed_page": 81,
+    "snippet": "负债合计 94,299,895,215.57 76,822,199,099.56",
+    "bbox": {
+      "x0": 89.30400085449219,
+      "y0": 537.1389770507812,
+      "x1": 533.125,
+      "y1": 546.1389770507812
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-equity_parent",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 53539331413.16,
+    "prior_value": 50267883832.15,
+    "unit": "元",
+    "page": 85,
+    "printed_page": 81,
+    "snippet": "归属于母公司所有者权益（或股东权益）合计 53,539,331,413.16 50,267,883,832.15",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 691.8489379882812,
+      "x1": 533.125,
+      "y1": 700.8489379882812
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_equity",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 57320357442.41,
+    "prior_value": 54143103199.66,
+    "unit": "元",
+    "page": 85,
+    "printed_page": 81,
+    "snippet": "所有者权益（或股东权益）合计 57,320,357,442.41 54,143,103,199.66",
+    "bbox": {
+      "x0": 80.30400085449219,
+      "y0": 715.6089477539062,
+      "x1": 533.125,
+      "y1": 724.6089477539062
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_liabilities_equity",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 151620252657.98,
+    "prior_value": 130965302299.22,
+    "unit": "元",
+    "page": 85,
+    "printed_page": 81,
+    "snippet": "负债和所有者权益（或股东权益）总计 151,620,252,657.98 130,965,302,299.22",
+    "bbox": {
+      "x0": 89.30400085449219,
+      "y0": 727.4889526367188,
+      "x1": 533.1220703125,
+      "y1": 736.4889526367188
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_revenue",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 126179458590.36,
+    "prior_value": 123171044056.27,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "一、营业总收入 126,179,458,590.36 123,171,044,056.27",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 139.6490020751953,
+      "x1": 533.2420654296875,
+      "y1": 148.6490020751953
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-revenue",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 125758168916.51,
+    "prior_value": 122698004080.99,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "其中：营业收入 七（61） 125,758,168,916.51 122,698,004,080.99",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 159.20899963378906,
+      "x1": 533.2420654296875,
+      "y1": 168.20899963378906
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": "七（61）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_cost",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 113944277809.29,
+    "prior_value": 112678337180.61,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "二、营业总成本 113,944,277,809.29 112,678,337,180.61",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 237.20899963378906,
+      "x1": 533.2420654296875,
+      "y1": 246.20899963378906
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-cost_of_revenue",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 84788592077.34,
+    "prior_value": 83118546374.24,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "其中：营业成本 七（61） 84,788,592,077.34 83,118,546,374.24",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 256.6490173339844,
+      "x1": 533.2449951171875,
+      "y1": 265.6490173339844
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": "七（61）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-taxes_surcharges",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 732659573.36,
+    "prior_value": 741784528.25,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "税金及附加 七（63） 732,659,573.36 741,784,528.25",
+    "bbox": {
+      "x0": 89.18399810791016,
+      "y0": 412.6789855957031,
+      "x1": 533.260009765625,
+      "y1": 421.6789855957031
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": "七（63）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-selling_expense",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 22571509868.48,
+    "prior_value": 22908208330.35,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "销售费用 七（64） 22,571,509,868.48 22,908,208,330.35",
+    "bbox": {
+      "x0": 89.18399810791016,
+      "y0": 432.2389831542969,
+      "x1": 533.2449951171875,
+      "y1": 441.2389831542969
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": "七（64）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-admin_expense",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 5154218306.42,
+    "prior_value": 5342849558.31,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "管理费用 七（65） 5,154,218,306.42 5,342,849,558.31",
+    "bbox": {
+      "x0": 89.18399810791016,
+      "y0": 451.6990051269531,
+      "x1": 533.2510375976562,
+      "y1": 460.6990051269531
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": "七（65）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-rd_expense",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 850146147.17,
+    "prior_value": 821551260.99,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "研发费用 七（66） 850,146,147.17 821,551,260.99",
+    "bbox": {
+      "x0": 89.18399810791016,
+      "y0": 471.2590026855469,
+      "x1": 533.260009765625,
+      "y1": 480.2590026855469
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": "七（66）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-finance_expense",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -152848163.48,
+    "prior_value": -254602871.53,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "财务费用 七（67） -152,848,163.48 -254,602,871.53",
+    "bbox": {
+      "x0": 89.18399810791016,
+      "y0": 490.6990051269531,
+      "x1": 533.260009765625,
+      "y1": 499.6990051269531
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": "七（67）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-operating_profit",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 11873304166.44,
+    "prior_value": 10859972956.0,
+    "unit": "元",
+    "page": 88,
+    "printed_page": 84,
+    "snippet": "三、营业利润（亏损以“－”号填列） 11,873,304,166.44 10,859,972,956.00",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 748.60498046875,
+      "x1": 533.2449951171875,
+      "y1": 757.60498046875
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-total_profit",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 11721187786.65,
+    "prior_value": 10630190319.67,
+    "unit": "元",
+    "page": 89,
+    "printed_page": 85,
+    "snippet": "四、利润总额（亏损总额以“－”号填列） 11,721,187,786.65 10,630,190,319.67",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 113.24897766113281,
+      "x1": 533.2449951171875,
+      "y1": 122.24897766113281
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-net_profit",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 10284306198.28,
+    "prior_value": 9318205866.77,
+    "unit": "元",
+    "page": 89,
+    "printed_page": 85,
+    "snippet": "五、净利润（净亏损以“－”号填列） 10,284,306,198.28 9,318,205,866.77",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 150.56898498535156,
+      "x1": 533.2510375976562,
+      "y1": 159.56898498535156
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-net_profit_parent",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 10428540457.94,
+    "prior_value": 9431064679.78,
+    "unit": "元",
+    "page": 89,
+    "printed_page": 85,
+    "snippet": "198.289,318,205,866.772.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）10,428,540,457.949,431,064,679.782.少数股东损益（净亏损以“-”号填列）-144,234,259.66-112,858,813.01六、其他综合收益的税后净额-318,043,039.16-792,811,671.33（一）归属母公司所有者",
+    "bbox": {
+      "x0": 80.18399810791016,
+      "y0": 240.56898498535156,
+      "x1": 533.2510375976562,
+      "y1": 255.32899475097656
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-basic_eps",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 1.64,
+    "prior_value": 1.48,
+    "unit": "元/股",
+    "page": 89,
+    "printed_page": 85,
+    "snippet": "（一）基本每股收益(元/股) 1.64 1.48",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 669.7689819335938,
+      "x1": 533.3050537109375,
+      "y1": 678.7689819335938
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-sales_cash",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 137239211650.99,
+    "prior_value": 133594145427.82,
+    "unit": "元",
+    "page": 91,
+    "printed_page": 87,
+    "snippet": "销售商品、提供劳务收到的现金 137,239,211,650.99 133,594,145,427.82",
+    "bbox": {
+      "x0": 74.78399658203125,
+      "y0": 165.44898986816406,
+      "x1": 529.6420288085938,
+      "y1": 174.44898986816406
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-cfo",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 18290357650.56,
+    "prior_value": 13420320580.36,
+    "unit": "元",
+    "page": 91,
+    "printed_page": 87,
+    "snippet": "经营活动产生的现金流量净额 18,290,357,650.56 13,420,320,580.36",
+    "bbox": {
+      "x0": 92.78399658203125,
+      "y0": 745.4849853515625,
+      "x1": 529.64501953125,
+      "y1": 754.4849853515625
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-cfi",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -16044497913.83,
+    "prior_value": -19513712417.92,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 88,
+    "snippet": "投资活动产生的现金流量净额 -16,044,497,913.83 -19,513,712,417.92",
+    "bbox": {
+      "x0": 92.78399658203125,
+      "y0": 371.39898681640625,
+      "x1": 529.6480102539062,
+      "y1": 380.39898681640625
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-cff",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": 7258480466.95,
+    "prior_value": 8781245149.98,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 88,
+    "snippet": "筹资活动产生的现金流量净额 7,258,480,466.95 8,781,245,149.98",
+    "bbox": {
+      "x0": 92.78399658203125,
+      "y0": 639.6489868164062,
+      "x1": 529.6510009765625,
+      "y1": 648.6489868164062
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-fx_effect",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 119312603.03,
+    "prior_value": -579925770.51,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 88,
+    "snippet": "四、汇率变动对现金及现金等价物的影响 119,312,603.03 -579,925,770.51",
+    "bbox": {
+      "x0": 65.78399658203125,
+      "y0": 661.9689331054688,
+      "x1": 529.6600341796875,
+      "y1": 670.9689331054688
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-net_cash_increase",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 9623652806.71,
+    "prior_value": 2107927541.91,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 88,
+    "snippet": "五、现金及现金等价物净增加额 9,623,652,806.71 2,107,927,541.91",
+    "bbox": {
+      "x0": 65.78399658203125,
+      "y0": 684.2890014648438,
+      "x1": 529.6510009765625,
+      "y1": 693.2890014648438
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-beginning_cash",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 33188427044.96,
+    "prior_value": 31080499503.05,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 88,
+    "snippet": "加：期初现金及现金等价物余额 33,188,427,044.96 31,080,499,503.05",
+    "bbox": {
+      "x0": 74.78399658203125,
+      "y0": 706.6089477539062,
+      "x1": 529.64501953125,
+      "y1": 715.6089477539062
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600887-2023-ending_cash",
+    "company": {
+      "code": "600887",
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219916433.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 42812079851.67,
+    "prior_value": 33188427044.96,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 88,
+    "snippet": "六、期末现金及现金等价物余额 42,812,079,851.67 33,188,427,044.96",
+    "bbox": {
+      "x0": 65.78399658203125,
+      "y0": 729.0489501953125,
+      "x1": 529.64501953125,
+      "y1": 738.0489501953125
+    },
+    "source_file": "600887_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

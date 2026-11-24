@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "601919-2023-cash",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 182304012817.31,
+    "prior_value": 236876613424.69,
+    "unit": "元",
+    "page": 90,
+    "printed_page": 90,
+    "snippet": "货币资金 七、1 182,304,012,817.31 236,876,613,424.69",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 675.2631225585938,
+      "x1": 525.2927856445312,
+      "y1": 687.277587890625
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "七、1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-accounts_receivable",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 6734565282.35,
+    "prior_value": 10500903563.94,
+    "unit": "元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "应收账款 七、5 6,734,565,282.35 10,500,903,563.94",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 92.2231674194336,
+      "x1": 525.2908325195312,
+      "y1": 104.11756134033203
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "七、5",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-inventory",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 6561355165.63,
+    "prior_value": 7017036782.85,
+    "unit": "元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "存货 七、10 6,561,355,165.63 7,017,036,782.85",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 235.86318969726562,
+      "x1": 525.2056274414062,
+      "y1": 247.87757873535156
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "七、10",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_current_assets",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 202481380048.2,
+    "prior_value": 261154129671.87,
+    "unit": "元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "流动资产合计 202,481,380,048.20 261,154,129,671.87",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 307.7731628417969,
+      "x1": 525.1727905273438,
+      "y1": 319.54754638671875
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_noncurrent_assets",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 259948000547.91,
+    "prior_value": 250775947579.26,
+    "unit": "元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "非流动资产合计 259,948,000,547.91 250,775,947,579.26",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 609.47314453125,
+      "x1": 525.2927856445312,
+      "y1": 621.24755859375
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_assets",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 462429380596.11,
+    "prior_value": 511930077251.13,
+    "unit": "元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "资产总计 462,429,380,596.11 511,930,077,251.13",
+    "bbox": {
+      "x0": 127.22000122070312,
+      "y0": 623.9031372070312,
+      "x1": 525.2927856445312,
+      "y1": 635.6775512695312
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_current_liabilities",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 127348798191.43,
+    "prior_value": 159382115023.13,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "流动负债合计 127,348,798,191.43 159,382,115,023.13",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 307.7731628417969,
+      "x1": 525.2927856445312,
+      "y1": 319.54754638671875
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 91861110118.64,
+    "prior_value": 98754868602.64,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "非流动负债合计 91,861,110,118.64 98,754,868,602.64",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 508.9131774902344,
+      "x1": 525.2908325195312,
+      "y1": 520.6875610351562
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_liabilities",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 219209908310.07,
+    "prior_value": 258136983625.77,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "负债合计 219,209,908,310.07 258,136,983,625.77",
+    "bbox": {
+      "x0": 127.22000122070312,
+      "y0": 523.3131713867188,
+      "x1": 525.2927856445312,
+      "y1": 535.0875854492188
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-equity_parent",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 196115256820.06,
+    "prior_value": 200590667092.44,
+    "unit": "元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "归属于母公司所有者权益（或股 东权益）合计 196,115,256,820.06 200,590,667,092.44",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 710.7889404296875,
+      "x1": 525.2927856445312,
+      "y1": 728.6775512695312
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_equity",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 243219472286.04,
+    "prior_value": 253793093625.36,
+    "unit": "元",
+    "page": 93,
+    "printed_page": 93,
+    "snippet": "所有者权益（或股东权益）合 计 243,219,472,286.04 253,793,093,625.36",
+    "bbox": {
+      "x0": 95.66400146484375,
+      "y0": 92.82891845703125,
+      "x1": 525.2927856445312,
+      "y1": 117.06891632080078
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_liabilities_equity",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 462429380596.11,
+    "prior_value": 511930077251.13,
+    "unit": "元",
+    "page": 93,
+    "printed_page": 93,
+    "snippet": "负债和所有者权益（或股东 权益）总计 462,429,380,596.11 511,930,077,251.13",
+    "bbox": {
+      "x0": 95.66400146484375,
+      "y0": 120.908935546875,
+      "x1": 525.2927856445312,
+      "y1": 145.0289306640625
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_revenue",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 175447746641.45,
+    "prior_value": 391058496607.18,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "一、营业总收入 七、61 175,447,746,641.45 391,058,496,607.18",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 248.94320678710938,
+      "x1": 526.0127563476562,
+      "y1": 260.95758056640625
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": "七、61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-revenue",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 175447746641.45,
+    "prior_value": 391058496607.18,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "其中：营业收入 七、61 175,447,746,641.45 391,058,496,607.18",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 263.1332092285156,
+      "x1": 526.0127563476562,
+      "y1": 275.027587890625
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": "七、61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_cost",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 150434884453.92,
+    "prior_value": 227897774142.54,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "二、营业总成本 150,434,884,453.92 227,897,774,142.54",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 319.5331726074219,
+      "x1": 526.0127563476562,
+      "y1": 331.30755615234375
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-cost_of_revenue",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 146755303948.92,
+    "prior_value": 217991201245.59,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "其中：营业成本 七、61 146,755,303,948.92 217,991,201,245.59",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 333.69317626953125,
+      "x1": 526.0127563476562,
+      "y1": 345.58758544921875
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": "七、61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-taxes_surcharges",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 1105184782.37,
+    "prior_value": 2589363461.18,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "税金及附加 七、62 1,105,184,782.37 2,589,363,461.18",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 446.6331787109375,
+      "x1": 526.06005859375,
+      "y1": 458.6475830078125
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": "七、62",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-selling_expense",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 1002972531.02,
+    "prior_value": 64292929.93,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "销售费用 七、63 1,002,972,531.02 64,292,929.93",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 460.7931823730469,
+      "x1": 526.0388793945312,
+      "y1": 472.68756103515625
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": "七、63",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-admin_expense",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 6151073058.14,
+    "prior_value": 10345344763.05,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "管理费用 七、64 6,151,073,058.14 10,345,344,763.05",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 474.83319091796875,
+      "x1": 526.0108642578125,
+      "y1": 486.8475646972656
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": "七、64",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-rd_expense",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 1077536862.29,
+    "prior_value": 1386072431.19,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "研发费用 七、65 1,077,536,862.29 1,386,072,431.19",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 488.9931945800781,
+      "x1": 526.06005859375,
+      "y1": 501.007568359375
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": "七、65",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-finance_expense",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -5657186728.82,
+    "prior_value": -4478500688.4,
+    "unit": "元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "财务费用 七、66 -5,657,186,728.82 -4,478,500,688.40",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 503.1531677246094,
+      "x1": 526.06005859375,
+      "y1": 515.0475463867188
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": "七、66",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-operating_profit",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 33114245930.04,
+    "prior_value": 167263748076.66,
+    "unit": "元",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "三、营业利润（亏损以“－”号填列） 33,114,245,930.04 167,263,748,076.66",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 147.18319702148438,
+      "x1": 526.0127563476562,
+      "y1": 159.0775909423828
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-total_profit",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 33076671057.62,
+    "prior_value": 167097176447.56,
+    "unit": "元",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "四、利润总额（亏损总额以“－”号填 列） 33,076,671,057.62 167,097,176,447.56",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 189.66317749023438,
+      "x1": 526.0127563476562,
+      "y1": 208.15760803222656
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-net_profit",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 28395658537.78,
+    "prior_value": 131458608110.71,
+    "unit": "元",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "五、净利润（净亏损以“－”号填列） 28,395,658,537.78 131,458,608,110.71",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 231.42318725585938,
+      "x1": 526.0127563476562,
+      "y1": 243.3175811767578
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-net_profit_parent",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 23860257490.68,
+    "prior_value": 109703028636.31,
+    "unit": "元",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "7.78131,458,608,110.712.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）23,860,257,490.68109,703,028,636.312.少数股东损益（净亏损以“-”号填列）4,535,401,047.1021,755,579,474.40六、其他综合收益的税后净额2,405,519,407.656,840,769,594.47（一）归",
+    "bbox": {
+      "x0": 116.54000091552734,
+      "y0": 329.3731994628906,
+      "x1": 526.0127563476562,
+      "y1": 347.74755859375
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-basic_eps",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 1.48,
+    "prior_value": 6.83,
+    "unit": "元/股",
+    "page": 97,
+    "printed_page": 97,
+    "snippet": "（一）基本每股收益(元/股) 1.48 6.83",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 161.34317016601562,
+      "x1": 526.0474853515625,
+      "y1": 173.23756408691406
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-sales_cash",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 182020226317.89,
+    "prior_value": 393865278729.08,
+    "unit": "元",
+    "page": 98,
+    "printed_page": 98,
+    "snippet": "销售商品、提供劳务收到的现金 182,020,226,317.89 393,865,278,729.08",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 591.9531860351562,
+      "x1": 526.0127563476562,
+      "y1": 603.7276000976562
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-cfo",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 22612054840.8,
+    "prior_value": 196798805100.41,
+    "unit": "元",
+    "page": 99,
+    "printed_page": 99,
+    "snippet": "经营活动产生的现金流量净 额 22,612,054,840.80 196,798,805,100.41",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 317.73895263671875,
+      "x1": 526.0127563476562,
+      "y1": 341.97894287109375
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-cfi",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -18350696695.93,
+    "prior_value": -32976786877.96,
+    "unit": "元",
+    "page": 99,
+    "printed_page": 99,
+    "snippet": "投资活动产生的现金流量净 额 -18,350,696,695.93 -32,976,786,877.96",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 583.5589599609375,
+      "x1": 526.0108642578125,
+      "y1": 607.678955078125
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-cff",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -60021697536.77,
+    "prior_value": -115377633937.08,
+    "unit": "元",
+    "page": 100,
+    "printed_page": 100,
+    "snippet": "筹资活动产生的现金流量净 额 -60,021,697,536.77 -115,377,633,937.08",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 148.388916015625,
+      "x1": 526.0127563476562,
+      "y1": 172.5089111328125
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-fx_effect",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 1259731916.1,
+    "prior_value": 8741076733.4,
+    "unit": "元",
+    "page": 100,
+    "printed_page": 100,
+    "snippet": "四、汇率变动对现金及现金等价物 的影响 1,259,731,916.10 8,741,076,733.40",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 176.10894775390625,
+      "x1": 526.06005859375,
+      "y1": 200.22894287109375
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-net_cash_increase",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -54500607475.8,
+    "prior_value": 57185461018.77,
+    "unit": "元",
+    "page": 100,
+    "printed_page": 100,
+    "snippet": "五、现金及现金等价物净增加额 七、79 -54,500,607,475.80 57,185,461,018.77",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 203.10317993164062,
+      "x1": 526.0108642578125,
+      "y1": 215.11756896972656
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": "七、79",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-beginning_cash",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 235613923008.99,
+    "prior_value": 178428461990.22,
+    "unit": "元",
+    "page": 100,
+    "printed_page": 100,
+    "snippet": "加：期初现金及现金等价物余额 七、79 235,613,923,008.99 178,428,461,990.22",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 217.26321411132812,
+      "x1": 526.0127563476562,
+      "y1": 229.27760314941406
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": "七、79",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601919-2023-ending_cash",
+    "company": {
+      "code": "601919",
+      "name": "中远海运控股股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219449961.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 181113315533.19,
+    "prior_value": 235613923008.99,
+    "unit": "元",
+    "page": 100,
+    "printed_page": 100,
+    "snippet": "六、期末现金及现金等价物余额 七、79 181,113,315,533.19 235,613,923,008.99",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 231.42318725585938,
+      "x1": 526.0127563476562,
+      "y1": 243.3175811767578
+    },
+    "source_file": "601919_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": "七、79",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

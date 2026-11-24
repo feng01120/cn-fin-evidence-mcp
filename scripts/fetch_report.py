@@ -5,6 +5,7 @@
 """
 
 import argparse
+import datetime
 from pathlib import Path
 
 import requests
@@ -35,8 +36,8 @@ def column_for(code: str) -> str:
     return 'bj'
 
 
-def find_annual(code: str, year: int, pages: int = 3):
-    org = resolve_org(code)
+def find_annual(code: str, year: int, pages: int = 3, org: str = None):
+    org = org or resolve_org(code)
     payload = {
         'pageNum': 1, 'pageSize': 30, 'column': column_for(code), 'tabName': 'fulltext',
         'plate': '', 'stock': '%s,%s' % (code, org), 'searchkey': '', 'secid': '',
@@ -54,7 +55,7 @@ def find_annual(code: str, year: int, pages: int = 3):
             break
         for item in items:
             title = item.get('announcementTitle', '')
-            if '%d年年度报告' % year not in title:
+            if ('%d年年度报告' % year) not in title and ('%d年度报告' % year) not in title:
                 continue
             if any(k in title for k in ('摘要', '英文', '更正', '问询', '意见')):
                 continue
@@ -62,8 +63,8 @@ def find_annual(code: str, year: int, pages: int = 3):
     return None
 
 
-def download(code: str, year: int, out_dir: Path) -> Path:
-    found = find_annual(code, year)
+def download(code: str, year: int, out_dir: Path, org: str = None) -> dict:
+    found = find_annual(code, year, org=org)
     if not found:
         raise SystemExit('未找到 %s %s 年年度报告（巨潮年报分类）' % (code, year))
     ts, adjunct, title = found
@@ -75,8 +76,9 @@ def download(code: str, year: int, out_dir: Path) -> Path:
     if not resp.content.startswith(b'%PDF'):
         raise SystemExit('下载内容不是 PDF：%s' % url)
     path.write_bytes(resp.content)
-    print('%s\t%s\t%s\t%s bytes' % (ts, title, path, len(resp.content)))
-    return path
+    return {'path': str(path), 'announce_date': datetime.datetime.fromtimestamp(
+        ts / 1000, datetime.timezone(datetime.timedelta(hours=8))).date().isoformat(),
+        'title': title, 'source_url': url, 'bytes': len(resp.content)}
 
 
 def main():
@@ -87,7 +89,9 @@ def main():
     args = ap.parse_args()
     if not (len(args.code) == 6 and args.code.isdigit()):
         raise SystemExit('股票代码必须是 6 位数字')
-    download(args.code, args.year, Path(args.out))
+    result = download(args.code, args.year, Path(args.out))
+    print('%s\t%s\t%s\t%s bytes' % (result['announce_date'], result['title'],
+                                      result['path'], result['bytes']))
 
 
 if __name__ == '__main__':

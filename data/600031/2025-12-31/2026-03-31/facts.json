@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "600031-2025-cash",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 38451241.0,
+    "prior_value": 20383176.0,
+    "unit": "千元",
+    "page": 85,
+    "printed_page": null,
+    "snippet": "货币资金 七、1 38,451,241 20,383,176",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 205.5373077392578,
+      "x1": 530.8217163085938,
+      "y1": 219.24769592285156
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "七、1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-accounts_receivable",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 25540365.0,
+    "prior_value": 25516530.0,
+    "unit": "千元",
+    "page": 85,
+    "printed_page": null,
+    "snippet": "应收账款 七、6 25,540,365 25,516,530",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 291.6963195800781,
+      "x1": 530.8217163085938,
+      "y1": 305.4067077636719
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "七、6",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-inventory",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 22526664.0,
+    "prior_value": 19947981.0,
+    "unit": "千元",
+    "page": 85,
+    "printed_page": null,
+    "snippet": "存货 七、11 22,526,664 19,947,981",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 435.3373107910156,
+      "x1": 530.8217163085938,
+      "y1": 449.0476989746094
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "七、11",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_current_assets",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 124297751.0,
+    "prior_value": 101505320.0,
+    "unit": "千元",
+    "page": 85,
+    "printed_page": null,
+    "snippet": "流动资产合计 124,297,751 101,505,320",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 521.6173095703125,
+      "x1": 530.8214111328125,
+      "y1": 535.3276977539062
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_noncurrent_assets",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 49001387.0,
+    "prior_value": 50639757.0,
+    "unit": "千元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "非流动资产合计 49,001,387 50,639,757",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 177.57730102539062,
+      "x1": 530.8217163085938,
+      "y1": 191.28768920898438
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_assets",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 173299138.0,
+    "prior_value": 152145077.0,
+    "unit": "千元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "资产总计 173,299,138 152,145,077",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 191.97731018066406,
+      "x1": 530.8214111328125,
+      "y1": 205.6876983642578
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_current_liabilities",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 71856386.0,
+    "prior_value": 63669229.0,
+    "unit": "千元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "流动负债合计 71,856,386 63,669,229",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 551.1373291015625,
+      "x1": 530.8217163085938,
+      "y1": 564.8477172851562
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_noncurrent_liabilities",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 12011355.0,
+    "prior_value": 15474249.0,
+    "unit": "千元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "非流动负债合计 12,011,355 15,474,249",
+    "bbox": {
+      "x0": 110.87999725341797,
+      "y0": 752.2562866210938,
+      "x1": 530.8217163085938,
+      "y1": 765.9666748046875
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_liabilities",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 83867741.0,
+    "prior_value": 79143478.0,
+    "unit": "千元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "负债合计 83,867,741 79,143,478",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 91.41729736328125,
+      "x1": 530.8217163085938,
+      "y1": 105.12770080566406
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-equity_parent",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 88331244.0,
+    "prior_value": 71923866.0,
+    "unit": "千元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者权益 （或股东权益）合计 88,331,244 71,923,866",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 279.67034912109375,
+      "x1": 530.8217163085938,
+      "y1": 298.68768310546875
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_equity",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 89431397.0,
+    "prior_value": 73001599.0,
+    "unit": "千元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "所有者权益（或股东权 益）合计 89,431,397 73,001,599",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 322.02935791015625,
+      "x1": 530.8217163085938,
+      "y1": 346.0393371582031
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_liabilities_equity",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 173299138.0,
+    "prior_value": 152145077.0,
+    "unit": "千元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "负债和所有者权益（或 股东权益）总计 173,299,138 152,145,077",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 349.9893493652344,
+      "x1": 530.8214111328125,
+      "y1": 374.1203308105469
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_revenue",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 89699505.0,
+    "prior_value": 78383379.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "司负责人：向文波主管会计工作负责人：刘华会计机构负责人：蔡盛林合并利润表2025年1—12月单位：千元币种：人民币项目附注2025年度2024年度一、营业总收入89,699,50578,383,379其中：营业收入七、5489,231,02377,773,391利息收入468,482609,988已赚保费手续费及佣金收入二、营业总成本79,073,64571,954,609其中：营业成本七、5464,660,2935",
+    "bbox": {
+      "x0": 61.20000076293945,
+      "y0": 493.89630126953125,
+      "x1": 531.3016967773438,
+      "y1": 508.32769775390625
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-revenue",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 89231023.0,
+    "prior_value": 77773391.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "合并利润表2025年1—12月单位：千元币种：人民币项目附注2025年度2024年度一、营业总收入89,699,50578,383,379其中：营业收入七、5489,231,02377,773,391利息收入468,482609,988已赚保费手续费及佣金收入二、营业总成本79,073,64571,954,609其中：营业成本七、5464,660,29357,216,959利息支出164,461256,435手续费及",
+    "bbox": {
+      "x0": 61.20000076293945,
+      "y0": 508.77728271484375,
+      "x1": 531.3016967773438,
+      "y1": 522.4876708984375
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_cost",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 79073645.0,
+    "prior_value": 71954609.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "二、营业总成本 79,073,645 71,954,609",
+    "bbox": {
+      "x0": 61.20000076293945,
+      "y0": 565.1773071289062,
+      "x1": 531.3016967773438,
+      "y1": 578.8876953125
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-cost_of_revenue",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 64660293.0,
+    "prior_value": 57216959.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "2377,773,391利息收入468,482609,988已赚保费手续费及佣金收入二、营业总成本79,073,64571,954,609其中：营业成本七、5464,660,29357,216,959利息支出164,461256,435手续费及佣金支出6,4286,996退保金赔付支出净额提取保险责任准备金净额保单红利支出分保费用税金及附加七、55518,106431,159销售费用七、566,414,6775,46",
+    "bbox": {
+      "x0": 61.20000076293945,
+      "y0": 579.3372802734375,
+      "x1": 531.3016967773438,
+      "y1": 593.0476684570312
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-taxes_surcharges",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 518106.0,
+    "prior_value": 431159.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "分保费用 税金及附加 七、55 518,106 431,159",
+    "bbox": {
+      "x0": 92.75900268554688,
+      "y0": 691.5372924804688,
+      "x1": 531.4227294921875,
+      "y1": 705.9666748046875
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-selling_expense",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 6414677.0,
+    "prior_value": 5464214.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "5手续费及佣金支出6,4286,996退保金赔付支出净额提取保险责任准备金净额保单红利支出分保费用税金及附加七、55518,106431,159销售费用七、566,414,6775,464,214管理费用七、572,589,0742,996,449研发费用七、585,032,7895,380,621财务费用七、59-312,183201,776",
+    "bbox": {
+      "x0": 92.75900268554688,
+      "y0": 706.4172973632812,
+      "x1": 531.4223022460938,
+      "y1": 720.127685546875
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-admin_expense",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 2589074.0,
+    "prior_value": 2996449.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "净额提取保险责任准备金净额保单红利支出分保费用税金及附加七、55518,106431,159销售费用七、566,414,6775,464,214管理费用七、572,589,0742,996,449研发费用七、585,032,7895,380,621财务费用七、59-312,183201,776",
+    "bbox": {
+      "x0": 92.75900268554688,
+      "y0": 720.456298828125,
+      "x1": 531.4223022460938,
+      "y1": 734.1666870117188
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-rd_expense",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 5032789.0,
+    "prior_value": 5380621.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "附加七、55518,106431,159销售费用七、566,414,6775,464,214管理费用七、572,589,0742,996,449研发费用七、585,032,7895,380,621财务费用七、59-312,183201,776",
+    "bbox": {
+      "x0": 92.75900268554688,
+      "y0": 734.6173095703125,
+      "x1": 531.4223022460938,
+      "y1": 748.3276977539062
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-finance_expense",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -312183.0,
+    "prior_value": 201776.0,
+    "unit": "千元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "566,414,6775,464,214管理费用七、572,589,0742,996,449研发费用七、585,032,7895,380,621财务费用七、59-312,183201,776",
+    "bbox": {
+      "x0": 92.75900268554688,
+      "y0": 748.7772827148438,
+      "x1": 531.4227294921875,
+      "y1": 762.4876708984375
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-operating_profit",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 9935668.0,
+    "prior_value": 6994764.0,
+    "unit": "千元",
+    "page": 90,
+    "printed_page": null,
+    "snippet": "以“-”号填列）七、64-138,432-201,356资产处置收益（损失以“－”号填列）七、65-122,73545,538三、营业利润（亏损以“－”号填列）9,935,6686,994,764加：营业外收入七、66145,366120,027减：营业外支出七、67173,863207,021四、利润总额（亏损总额以“－”号填列）9,907,1716,907,770减：所得税费用七、681,419,521815,",
+    "bbox": {
+      "x0": 61.20000076293945,
+      "y0": 260.2572937011719,
+      "x1": 531.4223022460938,
+      "y1": 273.9676818847656
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-total_profit",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 9907171.0,
+    "prior_value": 6907770.0,
+    "unit": "千元",
+    "page": 90,
+    "printed_page": null,
+    "snippet": "686,994,764加：营业外收入七、66145,366120,027减：营业外支出七、67173,863207,021四、利润总额（亏损总额以“－”号填列）9,907,1716,907,770减：所得税费用七、681,419,521815,232五、净利润（净亏损以“－”号填列）8,487,6506,092,538（一）按经营持续性分类1.持续经营净利润（净亏损以“－”号填列）8,487,6506,092,53",
+    "bbox": {
+      "x0": 61.20000076293945,
+      "y0": 302.6173095703125,
+      "x1": 531.4223022460938,
+      "y1": 316.32769775390625
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-net_profit",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 8487650.0,
+    "prior_value": 6092538.0,
+    "unit": "千元",
+    "page": 90,
+    "printed_page": null,
+    "snippet": "、利润总额（亏损总额以“－”号填列）9,907,1716,907,770减：所得税费用七、681,419,521815,232五、净利润（净亏损以“－”号填列）8,487,6506,092,538（一）按经营持续性分类1.持续经营净利润（净亏损以“－”号填列）8,487,6506,092,5382.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）8,4",
+    "bbox": {
+      "x0": 61.20000076293945,
+      "y0": 330.93731689453125,
+      "x1": 531.4223022460938,
+      "y1": 344.647705078125
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-net_profit_parent",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 8408057.0,
+    "prior_value": 5955567.0,
+    "unit": "千元",
+    "page": 90,
+    "printed_page": null,
+    "snippet": "1.归属于母公司股东的净利润（净亏损以“-”号填列） 8,408,057 5,955,567",
+    "bbox": {
+      "x0": 82.19999694824219,
+      "y0": 401.3773193359375,
+      "x1": 531.4223022460938,
+      "y1": 415.08770751953125
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-basic_eps",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 0.9834,
+    "prior_value": 0.7038,
+    "unit": "元/股",
+    "page": 90,
+    "printed_page": null,
+    "snippet": "（一）基本每股收益(元/股) 0.9834 0.7038",
+    "bbox": {
+      "x0": 71.75900268554688,
+      "y0": 712.0562744140625,
+      "x1": 531.3034057617188,
+      "y1": 725.7666625976562
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-sales_cash",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 94730210.0,
+    "prior_value": 82694250.0,
+    "unit": "千元",
+    "page": 92,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 94,730,210 82,694,250",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 278.8572998046875,
+      "x1": 531.3016967773438,
+      "y1": 292.56768798828125
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-cfo",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 19975261.0,
+    "prior_value": 14814278.0,
+    "unit": "千元",
+    "page": 92,
+    "printed_page": null,
+    "snippet": "7支付其他与经营活动有关的现金七、707,012,6279,483,530经营活动现金流出小计83,120,77377,334,842经营活动产生的现金流量净额19,975,26114,814,278二、投资活动产生的现金流量：收回投资收到的现金4,821,5767,107,376取得投资收益收到的现金5,767,5383,905,035处置固定资产、无形资产和其他长期资产收回的现金净额525,621253,363",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 674.1373291015625,
+      "x1": 531.3016967773438,
+      "y1": 687.8477172851562
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-cfi",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -17909299.0,
+    "prior_value": -1157848.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": null,
+    "snippet": "金净额支付其他与投资活动有关的现金七、701,561,888321,166投资活动现金流出小计29,411,97112,676,156投资活动产生的现金流量净额-17,909,299-1,157,848三、筹资活动产生的现金流量：吸收投资收到的现金14,496,965573,298其中：子公司吸收少数股东投资收到的现金3,6752,100取得借款收到的现金24,544,33227,338,102收到其他与筹资活动有关的",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 231.57730102539062,
+      "x1": 531.4219970703125,
+      "y1": 245.28768920898438
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-cff",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": 1575997.0,
+    "prior_value": -10279150.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": null,
+    "snippet": "0支付其他与筹资活动有关的现金七、703,743,0401,863,148筹资活动现金流出小计38,692,08039,082,326筹资活动产生的现金流量净额1,575,997-10,279,150四、汇率变动对现金及现金等价物的影响-313,57657,330五、现金及现金等价物净增加额3,328,3833,434,610加：期初现金及现金等价物余额11,576,4708,141,860六、期末现金及现金等价物",
+    "bbox": {
+      "x0": 121.31999969482422,
+      "y0": 400.89630126953125,
+      "x1": 531.4216918945312,
+      "y1": 414.606689453125
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-fx_effect",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": -313576.0,
+    "prior_value": 57330.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": null,
+    "snippet": "资活动现金流出小计38,692,08039,082,326筹资活动产生的现金流量净额1,575,997-10,279,150四、汇率变动对现金及现金等价物的影响-313,57657,330五、现金及现金等价物净增加额3,328,3833,434,610加：期初现金及现金等价物余额11,576,4708,141,860六、期末现金及现金等价物余额14,904,85311,576,470公司负责人：向文波主管会计工作",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 415.0563049316406,
+      "x1": 531.3020629882812,
+      "y1": 428.7666931152344
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-net_cash_increase",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 3328383.0,
+    "prior_value": 3434610.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": null,
+    "snippet": "6筹资活动产生的现金流量净额1,575,997-10,279,150四、汇率变动对现金及现金等价物的影响-313,57657,330五、现金及现金等价物净增加额3,328,3833,434,610加：期初现金及现金等价物余额11,576,4708,141,860六、期末现金及现金等价物余额14,904,85311,576,470公司负责人：向文波主管会计工作负责人：刘华会计机构负责人：蔡盛林母公司现金流量表2025",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 429.2173156738281,
+      "x1": 531.4223022460938,
+      "y1": 442.9277038574219
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-beginning_cash",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 11576470.0,
+    "prior_value": 8141860.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": null,
+    "snippet": "50四、汇率变动对现金及现金等价物的影响-313,57657,330五、现金及现金等价物净增加额3,328,3833,434,610加：期初现金及现金等价物余额11,576,4708,141,860六、期末现金及现金等价物余额14,904,85311,576,470公司负责人：向文波主管会计工作负责人：刘华会计机构负责人：蔡盛林母公司现金流量表2025年1—12月单位：千元币种：人民币项目附注2025年度2024年度",
+    "bbox": {
+      "x0": 100.31999969482422,
+      "y0": 443.2572937011719,
+      "x1": 531.4223022460938,
+      "y1": 456.9676818847656
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2025-ending_cash",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-31",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061378.PDF",
+    "period": "2025",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 14904853.0,
+    "prior_value": 11576470.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": null,
+    "snippet": "0五、现金及现金等价物净增加额3,328,3833,434,610加：期初现金及现金等价物余额11,576,4708,141,860六、期末现金及现金等价物余额14,904,85311,576,470公司负责人：向文波主管会计工作负责人：刘华会计机构负责人：蔡盛林母公司现金流量表2025年1—12月单位：千元币种：人民币项目附注2025年度2024年度一、经营活动产生的现金流量：销售商品、提供劳务收到的现金12,85",
+    "bbox": {
+      "x0": 89.87999725341797,
+      "y0": 457.41729736328125,
+      "x1": 531.3016967773438,
+      "y1": 471.127685546875
+    },
+    "source_file": "600031_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

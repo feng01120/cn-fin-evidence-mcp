@@ -1,0 +1,40 @@
+{
+  "company": {
+    "code": "601088",
+    "name": "中国神华能源股份有限公司",
+    "short_name": ""
+  },
+  "period": "2024",
+  "report_date": "2024-12-31",
+  "announce_date": "2025-03-22",
+  "dataset_id": "601088-2024-12-31-2025-03-22",
+  "evidence_level": "verified",
+  "source_type": "annual_report_pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+  "source_file": "601088_2024.pdf",
+  "source_sha256": "4b3a8db26ae2fb07083966fadea0f92535cfbe6d0791c3318c6511113b138e8f",
+  "page_count": 291,
+  "extracted_at": "2026-11-24T18:21:07+08:00",
+  "statements": [
+    "合并资产负债表",
+    "合并利润表",
+    "合并现金流量表"
+  ],
+  "fact_count": 31,
+  "row_count": 127,
+  "coverage_score": 0.9337,
+  "coverage": {
+    "metric_coverage": 0.9677,
+    "fact_count": 31,
+    "expected_metrics": 31,
+    "all_metrics": 34,
+    "snippet_hit_rate": 1.0,
+    "check_pass_rate": 0.8333,
+    "check_fail": 0,
+    "missing_required": [
+      "basic_eps"
+    ],
+    "score": 0.9337
+  },
+  "quality_gate": "pass"
+}

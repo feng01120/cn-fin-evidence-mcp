@@ -1,0 +1,38 @@
+{
+  "company": {
+    "code": "600309",
+    "name": "万华化学集团股份有限公司",
+    "short_name": ""
+  },
+  "period": "2025",
+  "report_date": "2025-12-31",
+  "announce_date": "2026-04-21",
+  "dataset_id": "600309-2025-12-31-2026-04-21",
+  "evidence_level": "verified",
+  "source_type": "annual_report_pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225130793.PDF",
+  "source_file": "600309_2025.pdf",
+  "source_sha256": "766717cc1a3b74221d4a20892b28152b3180ef5c63d683623e8a903eebddac95",
+  "page_count": 229,
+  "extracted_at": "2026-11-24T18:20:52+08:00",
+  "statements": [
+    "合并资产负债表",
+    "合并利润表",
+    "合并现金流量表"
+  ],
+  "fact_count": 34,
+  "row_count": 130,
+  "coverage_score": 0.9444,
+  "coverage": {
+    "metric_coverage": 1.0,
+    "fact_count": 34,
+    "expected_metrics": 31,
+    "all_metrics": 34,
+    "snippet_hit_rate": 1.0,
+    "check_pass_rate": 0.8333,
+    "check_fail": 0,
+    "missing_required": [],
+    "score": 0.9444
+  },
+  "quality_gate": "pass"
+}

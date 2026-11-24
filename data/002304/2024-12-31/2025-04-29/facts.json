@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "002304-2024-cash",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 21748297978.37,
+    "prior_value": 25812787646.86,
+    "unit": "元",
+    "page": 71,
+    "printed_page": null,
+    "snippet": "货币资金 21,748,297,978.37 25,812,787,646.86",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 240.83900451660156,
+      "x1": 533.3350219726562,
+      "y1": 249.95899963378906
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-accounts_receivable",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 8994904.73,
+    "prior_value": 3528778.28,
+    "unit": "元",
+    "page": 71,
+    "printed_page": null,
+    "snippet": "应收账款 8,994,904.73 3,528,778.28",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 338.39898681640625,
+      "x1": 533.3890380859375,
+      "y1": 347.39898681640625
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-inventory",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 19732881051.73,
+    "prior_value": 18954235402.25,
+    "unit": "元",
+    "page": 71,
+    "printed_page": null,
+    "snippet": "存货 19,732,881,051.73 18,954,235,402.25",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 500.89898681640625,
+      "x1": 533.3350219726562,
+      "y1": 509.89898681640625
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_current_assets",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 50324864503.54,
+    "prior_value": 52534737606.56,
+    "unit": "元",
+    "page": 71,
+    "printed_page": null,
+    "snippet": "流动资产合计 50,324,864,503.54 52,534,737,606.56",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 598.3689575195312,
+      "x1": 533.3350219726562,
+      "y1": 607.4889526367188
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_noncurrent_assets",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 17020400716.08,
+    "prior_value": 17257549849.35,
+    "unit": "元",
+    "page": 72,
+    "printed_page": null,
+    "snippet": "非流动资产合计 17,020,400,716.08 17,257,549,849.35",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 287.3990173339844,
+      "x1": 533.3350219726562,
+      "y1": 296.3990173339844
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_assets",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 67345265219.62,
+    "prior_value": 69792287455.91,
+    "unit": "元",
+    "page": 72,
+    "printed_page": null,
+    "snippet": "资产总计 67,345,265,219.62 69,792,287,455.91",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 303.5989685058594,
+      "x1": 533.3350219726562,
+      "y1": 312.7189636230469
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_current_liabilities",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 15258522338.13,
+    "prior_value": 17175794099.96,
+    "unit": "元",
+    "page": 72,
+    "printed_page": null,
+    "snippet": "流动负债合计 15,258,522,338.13 17,175,794,099.96",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 719.0889282226562,
+      "x1": 533.3350219726562,
+      "y1": 728.208984375
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_noncurrent_liabilities",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 393697027.61,
+    "prior_value": 566629381.09,
+    "unit": "元",
+    "page": 73,
+    "printed_page": null,
+    "snippet": "非流动负债合计 393,697,027.61 566,629,381.09",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 271.0790100097656,
+      "x1": 533.3800048828125,
+      "y1": 280.1990051269531
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_liabilities",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 15652219365.74,
+    "prior_value": 17742423481.05,
+    "unit": "元",
+    "page": 73,
+    "printed_page": null,
+    "snippet": "负债合计 15,652,219,365.74 17,742,423,481.05",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 287.3990173339844,
+      "x1": 533.3350219726562,
+      "y1": 296.3990173339844
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-equity_parent",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 51588243128.65,
+    "prior_value": 51938515345.2,
+    "unit": "元",
+    "page": 73,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者权益合计 51,588,243,128.65 51,938,515,345.20",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 465.97900390625,
+      "x1": 533.3350219726562,
+      "y1": 474.97900390625
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_equity",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 51693045853.88,
+    "prior_value": 52049863974.86,
+    "unit": "元",
+    "page": 73,
+    "printed_page": null,
+    "snippet": "所有者权益合计 51,693,045,853.88 52,049,863,974.86",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 490.458984375,
+      "x1": 533.3350219726562,
+      "y1": 499.458984375
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_liabilities_equity",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 67345265219.62,
+    "prior_value": 69792287455.91,
+    "unit": "元",
+    "page": 73,
+    "printed_page": null,
+    "snippet": "负债和所有者权益总计 67,345,265,219.62 69,792,287,455.91",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 502.6990051269531,
+      "x1": 533.3350219726562,
+      "y1": 511.6990051269531
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_revenue",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 28876296993.56,
+    "prior_value": 33126277551.51,
+    "unit": "元",
+    "page": 75,
+    "printed_page": null,
+    "snippet": "一、营业总收入 28,876,296,993.56 33,126,277,551.51",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 677.68896484375,
+      "x1": 533.3350219726562,
+      "y1": 686.68896484375
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-revenue",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 28876296993.56,
+    "prior_value": 33126277551.51,
+    "unit": "元",
+    "page": 75,
+    "printed_page": null,
+    "snippet": "其中：营业收入 28,876,296,993.56 33,126,277,551.51",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 693.8889770507812,
+      "x1": 533.3350219726562,
+      "y1": 703.0089721679688
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_cost",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 19512180569.56,
+    "prior_value": 20151096010.15,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "江苏洋河酒厂股份有限公司2024年年度报告全文76二、营业总成本19,512,180,569.5620,151,096,010.15其中：营业成本7,751,218,356.668,200,245,255.42利息支出手续费及佣金支出退保金赔付支出净额提取保险责任合同准备金净额保单红利支出分保费用税金及附加4,826,086,952.6",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 43.74898147583008,
+      "x1": 538.6600341796875,
+      "y1": 85.16896057128906
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-cost_of_revenue",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 7751218356.66,
+    "prior_value": 8200245255.42,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "其中：营业成本 7,751,218,356.66 8,200,245,255.42",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 92.36897277832031,
+      "x1": 533.341064453125,
+      "y1": 101.36897277832031
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-taxes_surcharges",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 4826086952.64,
+    "prior_value": 5269245592.35,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "税金及附加 4,826,086,952.64 5,269,245,592.35",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 234.32899475097656,
+      "x1": 533.341064453125,
+      "y1": 243.44898986816406
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-selling_expense",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 5516238544.79,
+    "prior_value": 5386953700.62,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "销售费用 5,516,238,544.79 5,386,953,700.62",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 250.55897521972656,
+      "x1": 533.341064453125,
+      "y1": 259.6789855957031
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-admin_expense",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 1924730302.35,
+    "prior_value": 1764423149.06,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "管理费用 1,924,730,302.35 1,764,423,149.06",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 266.8789978027344,
+      "x1": 533.341064453125,
+      "y1": 275.8789978027344
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-rd_expense",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 104796407.26,
+    "prior_value": 284753881.33,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "研发费用 104,796,407.26 284,753,881.33",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 283.0790100097656,
+      "x1": 533.3800048828125,
+      "y1": 292.1990051269531
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-finance_expense",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -610889994.14,
+    "prior_value": -754525568.63,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "财务费用 -610,889,994.14 -754,525,568.63",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 299.3990173339844,
+      "x1": 533.3800048828125,
+      "y1": 308.3990173339844
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-operating_profit",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 9160770169.86,
+    "prior_value": 13242569628.49,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "三、营业利润（亏损以“－”号填 列） 9,160,770,169.86 13,242,569,628.49",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 618.6489868164062,
+      "x1": 533.3350219726562,
+      "y1": 639.6489868164062
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-total_profit",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 9143076611.68,
+    "prior_value": 13217833119.07,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "四、利润总额（亏损总额以“－”号 填列） 9,143,076,611.68 13,217,833,119.07",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 679.3689575195312,
+      "x1": 533.3350219726562,
+      "y1": 700.3689575195312
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-net_profit",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 6666455819.96,
+    "prior_value": 10020768556.47,
+    "unit": "元",
+    "page": 76,
+    "printed_page": null,
+    "snippet": "五、净利润（净亏损以“－”号填 列） 6,666,455,819.96 10,020,768,556.47",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 721.9689331054688,
+      "x1": 533.3350219726562,
+      "y1": 736.9689331054688
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-net_profit_parent",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 6673388602.12,
+    "prior_value": 10015930040.27,
+    "unit": "元",
+    "page": 77,
+    "printed_page": null,
+    "snippet": "1.归属于母公司股东的净利润 6,673,388,602.12 10,015,930,040.27",
+    "bbox": {
+      "x0": 80.18399810791016,
+      "y0": 148.16896057128906,
+      "x1": 533.3350219726562,
+      "y1": 157.16896057128906
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-basic_eps",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 4.4299,
+    "prior_value": 6.6487,
+    "unit": "元/股",
+    "page": 77,
+    "printed_page": null,
+    "snippet": "（一）基本每股收益 4.4299 6.6487",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 575.178955078125,
+      "x1": 533.416015625,
+      "y1": 584.178955078125
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-sales_cash",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 30813853834.25,
+    "prior_value": 34853832478.9,
+    "unit": "元",
+    "page": 79,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 30,813,853,834.25 34,853,832,478.90",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 330.2389831542969,
+      "x1": 533.3350219726562,
+      "y1": 339.2389831542969
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-cfo",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 4628711237.28,
+    "prior_value": 6130220867.96,
+    "unit": "元",
+    "page": 79,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流量净额 4,628,711,237.28 6,130,220,867.96",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 684.5289916992188,
+      "x1": 533.341064453125,
+      "y1": 693.5289916992188
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-cfi",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -1302245455.68,
+    "prior_value": 661034676.94,
+    "unit": "元",
+    "page": 80,
+    "printed_page": null,
+    "snippet": "投资活动产生的现金流量净额 -1,302,245,455.68 661,034,676.94",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 224.3689727783203,
+      "x1": 533.3800048828125,
+      "y1": 233.3689727783203
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-cff",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -7049805120.98,
+    "prior_value": -5608338295.46,
+    "unit": "元",
+    "page": 80,
+    "printed_page": null,
+    "snippet": "筹资活动产生的现金流量净额 -7,049,805,120.98 -5,608,338,295.46",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 428.65899658203125,
+      "x1": 533.341064453125,
+      "y1": 437.65899658203125
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-fx_effect",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 3627396.73,
+    "prior_value": -910236.76,
+    "unit": "元",
+    "page": 80,
+    "printed_page": null,
+    "snippet": "四、汇率变动对现金及现金等价物的 影响 3,627,396.73 -910,236.76",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 440.89898681640625,
+      "x1": 533.3980712890625,
+      "y1": 455.89898681640625
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-net_cash_increase",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -3719711942.65,
+    "prior_value": 1182007012.68,
+    "unit": "元",
+    "page": 80,
+    "printed_page": null,
+    "snippet": "五、现金及现金等价物净增加额 -3,719,711,942.65 1,182,007,012.68",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 465.13897705078125,
+      "x1": 533.341064453125,
+      "y1": 474.13897705078125
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-beginning_cash",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 25201023553.4,
+    "prior_value": 24019016540.72,
+    "unit": "元",
+    "page": 80,
+    "printed_page": null,
+    "snippet": "加：期初现金及现金等价物余额 25,201,023,553.40 24,019,016,540.72",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 477.4989929199219,
+      "x1": 533.3350219726562,
+      "y1": 486.4989929199219
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002304-2024-ending_cash",
+    "company": {
+      "code": "002304",
+      "name": "江苏洋河酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+    "period": "2024",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 21481311610.75,
+    "prior_value": 25201023553.4,
+    "unit": "元",
+    "page": 80,
+    "printed_page": null,
+    "snippet": "六、期末现金及现金等价物余额 21,481,311,610.75 25,201,023,553.40",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 489.7389831542969,
+      "x1": 533.3350219726562,
+      "y1": 498.7389831542969
+    },
+    "source_file": "002304_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

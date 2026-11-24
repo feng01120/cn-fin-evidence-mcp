@@ -1,0 +1,79 @@
+[
+  {
+    "check": "balance_identity",
+    "status": "pass",
+    "detail": "资产 = 负债 + 所有者权益",
+    "left": 786658123.0,
+    "right": 786658123.0,
+    "diff": 0.0,
+    "evidence": [
+      "300750-2024-total_assets",
+      "300750-2024-total_liabilities",
+      "300750-2024-total_equity"
+    ]
+  },
+  {
+    "check": "total_le_identity",
+    "status": "pass",
+    "detail": "负债和所有者权益总计 = 资产总计",
+    "left": 786658123.0,
+    "right": 786658123.0,
+    "diff": 0.0,
+    "evidence": [
+      "300750-2024-total_liabilities_equity",
+      "300750-2024-total_assets"
+    ]
+  },
+  {
+    "check": "cash_flow_identity",
+    "status": "pass",
+    "detail": "经营 + 投资 + 筹资现金流 + 汇率影响 = 现金净增加额",
+    "left": 31994246.0,
+    "right": 31994247.0,
+    "diff": -1.0,
+    "evidence": [
+      "300750-2024-cfo",
+      "300750-2024-cfi",
+      "300750-2024-cff",
+      "300750-2024-fx_effect",
+      "300750-2024-net_cash_increase"
+    ]
+  },
+  {
+    "check": "cash_roll",
+    "status": "pass",
+    "detail": "期初现金 + 净增加额 = 期末现金",
+    "left": 270159734.0,
+    "right": 270159734.0,
+    "diff": 0.0,
+    "evidence": [
+      "300750-2024-beginning_cash",
+      "300750-2024-net_cash_increase",
+      "300750-2024-ending_cash"
+    ]
+  },
+  {
+    "check": "cash_bs_vs_cf",
+    "status": "warning",
+    "detail": "货币资金与期末现金及现金等价物差异较大，需核对受限资金/现金等价物口径",
+    "left": 303511993.0,
+    "right": 270159734.0,
+    "diff": 33352259.0,
+    "evidence": [
+      "300750-2024-cash",
+      "300750-2024-ending_cash"
+    ]
+  },
+  {
+    "check": "growth_anomaly",
+    "status": "pass",
+    "detail": "营收与净利同比波动均在 ±50% 以内",
+    "left": null,
+    "right": null,
+    "diff": null,
+    "evidence": [
+      "300750-2024-revenue",
+      "300750-2024-net_profit"
+    ]
+  }
+]

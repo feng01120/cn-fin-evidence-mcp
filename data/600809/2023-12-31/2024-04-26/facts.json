@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "600809-2023-cash",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 3774745389.98,
+    "prior_value": 11201219039.2,
+    "unit": "元",
+    "page": 54,
+    "printed_page": 54,
+    "snippet": "货币资金 注释1 3,774,745,389.98 11,201,219,039.20",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 179.97103881835938,
+      "x1": 531.1126708984375,
+      "y1": 192.7409210205078
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "注释1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-accounts_receivable",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 231112.47,
+    "prior_value": 542856.16,
+    "unit": "元",
+    "page": 54,
+    "printed_page": 54,
+    "snippet": "应收账款 注释5 231,112.47 542,856.16",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 266.1610412597656,
+      "x1": 531.10400390625,
+      "y1": 278.930908203125
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "注释5",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-inventory",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 11572556779.71,
+    "prior_value": 9649546343.88,
+    "unit": "元",
+    "page": 54,
+    "printed_page": 54,
+    "snippet": "存货 注释10 11,572,556,779.71 9,649,546,343.88",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 410.6410217285156,
+      "x1": 531.1078491210938,
+      "y1": 422.5709228515625
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "注释10",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_current_assets",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 34607803332.19,
+    "prior_value": 29202013929.9,
+    "unit": "元",
+    "page": 54,
+    "printed_page": 54,
+    "snippet": "流动资产合计 34,607,803,332.19 29,202,013,929.90",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 482.4210205078125,
+      "x1": 531.1116943359375,
+      "y1": 494.1109619140625
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_noncurrent_assets",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 9488034663.0,
+    "prior_value": 7488568296.75,
+    "unit": "元",
+    "page": 55,
+    "printed_page": 55,
+    "snippet": "非流动资产合计 9,488,034,663.00 7,488,568,296.75",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 92.25101470947266,
+      "x1": 531.1078491210938,
+      "y1": 103.94093322753906
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_assets",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 44095837995.19,
+    "prior_value": 36690582226.65,
+    "unit": "元",
+    "page": 55,
+    "printed_page": 55,
+    "snippet": "资产总计 44,095,837,995.19 36,690,582,226.65",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 105.8110122680664,
+      "x1": 531.1116943359375,
+      "y1": 117.78894805908203
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_current_liabilities",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 15146667046.24,
+    "prior_value": 14846455198.24,
+    "unit": "元",
+    "page": 55,
+    "printed_page": 55,
+    "snippet": "流动负债合计 15,146,667,046.24 14,846,455,198.24",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 465.86102294921875,
+      "x1": 531.1116943359375,
+      "y1": 477.55096435546875
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 674101103.28,
+    "prior_value": 98520913.46,
+    "unit": "元",
+    "page": 55,
+    "printed_page": 55,
+    "snippet": "非流动负债合计 674,101,103.28 98,520,913.46",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 666.1710205078125,
+      "x1": 531.1078491210938,
+      "y1": 678.14892578125
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_liabilities",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 15820768149.52,
+    "prior_value": 14944976111.7,
+    "unit": "元",
+    "page": 55,
+    "printed_page": 55,
+    "snippet": "负债合计 15,820,768,149.52 14,944,976,111.70",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 680.571044921875,
+      "x1": 531.1135864257812,
+      "y1": 692.5489501953125
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-equity_parent",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 27836907912.57,
+    "prior_value": 21320973534.22,
+    "unit": "元",
+    "page": 56,
+    "printed_page": 56,
+    "snippet": ",057,839.67一般风险准备未分配利润注释6025,229,164,947.4118,840,959,693.98归属于母公司所有者权益（或股东权益）合计27,836,907,912.5721,320,973,534.22少数股东权益438,161,933.10424,632,580.73所有者权益（或股东权益）合计28,275,069,845.6721,745,606,114.95负债和所有者权益（或股东权益）总计44,0",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 177.69100952148438,
+      "x1": 531.1116943359375,
+      "y1": 189.6689453125
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_equity",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 28275069845.67,
+    "prior_value": 21745606114.95,
+    "unit": "元",
+    "page": 56,
+    "printed_page": 56,
+    "snippet": "所有者权益（或股东权 益）合计 28,275,069,845.67 21,745,606,114.95",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 220.05099487304688,
+      "x1": 531.1126708984375,
+      "y1": 245.58892822265625
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_liabilities_equity",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 44095837995.19,
+    "prior_value": 36690582226.65,
+    "unit": "元",
+    "page": 56,
+    "printed_page": 56,
+    "snippet": "负债和所有者权益（或 股东权益）总计 44,095,837,995.19 36,690,582,226.65",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 248.01101684570312,
+      "x1": 531.1116943359375,
+      "y1": 273.57891845703125
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_revenue",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 31928483054.02,
+    "prior_value": 26213860718.3,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "一、营业总收入 注释61 31,928,483,054.02 26,213,860,718.30",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 292.8009948730469,
+      "x1": 531.711669921875,
+      "y1": 304.8509521484375
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": "注释61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-revenue",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 31928483054.02,
+    "prior_value": 26213860718.3,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "其中：营业收入 31,928,483,054.02 26,213,860,718.30",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 306.9610290527344,
+      "x1": 531.711669921875,
+      "y1": 318.65093994140625
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_cost",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 18215461810.06,
+    "prior_value": 15700702343.58,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "二、营业总成本 18,215,461,810.06 15,700,702,343.58",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 362.6410217285156,
+      "x1": 531.711669921875,
+      "y1": 374.6189270019531
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-cost_of_revenue",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 7884347411.62,
+    "prior_value": 6459916317.19,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "其中：营业成本 注释61 7,884,347,411.62 6,459,916,317.19",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 377.5210266113281,
+      "x1": 531.7078247070312,
+      "y1": 389.5709228515625
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": "注释61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-taxes_surcharges",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 5831983338.91,
+    "prior_value": 4601530950.69,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "税金及附加 注释62 5,831,983,338.91 4,601,530,950.69",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 490.4610290527344,
+      "x1": 531.7078247070312,
+      "y1": 502.51092529296875
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": "注释62",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-selling_expense",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 3216783733.5,
+    "prior_value": 3403570626.2,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "销售费用 注释63 3,216,783,733.50 3,403,570,626.20",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 504.6210021972656,
+      "x1": 531.7078247070312,
+      "y1": 516.6709594726562
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": "注释63",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-admin_expense",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 1202102624.62,
+    "prior_value": 1214479993.81,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "管理费用 注释64 1,202,102,624.62 1,214,479,993.81",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 517.9410400390625,
+      "x1": 531.7078247070312,
+      "y1": 530.7109375
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": "注释64",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-rd_expense",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 88182472.58,
+    "prior_value": 57998937.41,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "研发费用 注释65 88,182,472.58 57,998,937.41",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 532.10107421875,
+      "x1": 531.7078247070312,
+      "y1": 544.8709106445312
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": "注释65",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-finance_expense",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -7937771.17,
+    "prior_value": -36794481.72,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "财务费用 注释66 -7,937,771.17 -36,794,481.72",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 546.9810791015625,
+      "x1": 531.7039794921875,
+      "y1": 559.0309448242188
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": "注释66",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-operating_profit",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 14224061562.78,
+    "prior_value": 10872676889.94,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "三、营业利润（亏损以“－”号填 列） 14,224,061,562.78 10,872,676,889.94",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 161.46893310546875,
+      "x1": 531.711669921875,
+      "y1": 179.30091857910156
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-total_profit",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 14205143124.69,
+    "prior_value": 10875909789.59,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "四、利润总额（亏损总额以“－”号填 列） 14,205,143,124.69 10,875,909,789.59",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 217.05099487304688,
+      "x1": 531.711669921875,
+      "y1": 235.34095764160156
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-net_profit",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 10458534732.12,
+    "prior_value": 8156993796.53,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "五、净利润（净亏损以“－”号填列） 10,458,534,732.12 8,156,993,796.53",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 257.8510437011719,
+      "x1": 531.7078247070312,
+      "y1": 275.930908203125
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-net_profit_parent",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 10438114410.47,
+    "prior_value": 8095872133.44,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "732.128,156,993,796.532.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）10,438,114,410.478,095,872,133.442.少数股东损益（净亏损以“-”号填列）20,420,321.6561,121,663.09六、其他综合收益的税后净额-3,944,456.74-4,149,214.02（一）归属母公司所有者的其他综合收益的",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 366.24102783203125,
+      "x1": 531.7078247070312,
+      "y1": 379.01092529296875
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-basic_eps",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 8.5627,
+    "prior_value": 6.6492,
+    "unit": "元/股",
+    "page": 60,
+    "printed_page": 60,
+    "snippet": "（一）基本每股收益(元/股) 8.5627 6.6492",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 189.09103393554688,
+      "x1": 531.7001342773438,
+      "y1": 201.0209503173828
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-sales_cash",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 30131095571.49,
+    "prior_value": 28712665309.89,
+    "unit": "元",
+    "page": 61,
+    "printed_page": 61,
+    "snippet": "销售商品、提供劳务收到的现 金 30,131,095,571.49 28,712,665,309.89",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 592.0789184570312,
+      "x1": 531.8317260742188,
+      "y1": 616.3189086914062
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-cfo",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 7225083460.39,
+    "prior_value": 10310203977.44,
+    "unit": "元",
+    "page": 62,
+    "printed_page": 62,
+    "snippet": "经营活动产生的现金流 量净额 7,225,083,460.39 10,310,203,977.44",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 441.35894775390625,
+      "x1": 531.8317260742188,
+      "y1": 465.47894287109375
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-cfi",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -10219984007.31,
+    "prior_value": -2893501581.56,
+    "unit": "元",
+    "page": 62,
+    "printed_page": 62,
+    "snippet": "投资活动产生的现金流 量净额 -10,219,984,007.31 -2,893,501,581.56",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 734.304931640625,
+      "x1": 531.823974609375,
+      "y1": 758.544921875
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-cff",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -4431613300.87,
+    "prior_value": -2207702996.05,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "筹资活动产生的现金流 量净额 -4,431,613,300.87 -2,207,702,996.05",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 301.658935546875,
+      "x1": 531.823974609375,
+      "y1": 325.89892578125
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-fx_effect",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 40698.57,
+    "prior_value": 59305.88,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "四、汇率变动对现金及现金等价 物的影响 40,698.57 59,305.88",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 329.3789367675781,
+      "x1": 531.823974609375,
+      "y1": 353.6189270019531
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-net_cash_increase",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -7426473149.22,
+    "prior_value": 5209058705.71,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "五、现金及现金等价物净增加额 -7,426,473,149.22 5,209,058,705.71",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 356.5210266113281,
+      "x1": 531.827880859375,
+      "y1": 368.2109375
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-beginning_cash",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 11201218539.2,
+    "prior_value": 5992159833.49,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "加：期初现金及现金等价物余 额 11,201,218,539.20 5,992,159,833.49",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 371.2589416503906,
+      "x1": 531.827880859375,
+      "y1": 395.3789367675781
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600809-2023-ending_cash",
+    "company": {
+      "code": "600809",
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-26",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 3774745389.98,
+    "prior_value": 11201218539.2,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "六、期末现金及现金等价物余额 3,774,745,389.98 11,201,218,539.20",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 398.281005859375,
+      "x1": 531.8326416015625,
+      "y1": 409.970947265625
+    },
+    "source_file": "600809_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

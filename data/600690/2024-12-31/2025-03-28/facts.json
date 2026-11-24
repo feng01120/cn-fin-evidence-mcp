@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "600690-2024-cash",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 55583842589.7,
+    "prior_value": 57255962206.24,
+    "unit": "元",
+    "page": 117,
+    "printed_page": 117,
+    "snippet": "货币资金 七、1 55,583,842,589.70 57,255,962,206.24",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 463.9410095214844,
+      "x1": 531.231689453125,
+      "y1": 475.990966796875
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-accounts_receivable",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 26473001745.01,
+    "prior_value": 22682921254.25,
+    "unit": "元",
+    "page": 117,
+    "printed_page": 117,
+    "snippet": "应收账款 七、5 26,473,001,745.01 22,682,921,254.25",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 550.10107421875,
+      "x1": 531.231689453125,
+      "y1": 562.1509399414062
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-inventory",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 43044414227.38,
+    "prior_value": 39524006616.33,
+    "unit": "元",
+    "page": 117,
+    "printed_page": 117,
+    "snippet": "存货 七、9 43,044,414,227.38 39,524,006,616.33",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 694.0110473632812,
+      "x1": 531.231689453125,
+      "y1": 706.0609130859375
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_current_assets",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 151689536276.72,
+    "prior_value": 138913276933.78,
+    "unit": "元",
+    "page": 118,
+    "printed_page": 118,
+    "snippet": "流动资产合计 151,689,536,276.72 138,913,276,933.78",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 92.9710464477539,
+      "x1": 531.231689453125,
+      "y1": 104.66096496582031
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_noncurrent_assets",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 138424286547.89,
+    "prior_value": 122154407963.71,
+    "unit": "元",
+    "page": 118,
+    "printed_page": 118,
+    "snippet": "非流动资产合计 138,424,286,547.89 122,154,407,963.71",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 423.84100341796875,
+      "x1": 531.231689453125,
+      "y1": 435.53094482421875
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_assets",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 290113822824.61,
+    "prior_value": 261067684897.49,
+    "unit": "元",
+    "page": 118,
+    "printed_page": 118,
+    "snippet": "资产总计 290,113,822,824.61 261,067,684,897.49",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 438.2610168457031,
+      "x1": 531.231689453125,
+      "y1": 449.950927734375
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_current_liabilities",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 149571374519.76,
+    "prior_value": 123814278403.38,
+    "unit": "元",
+    "page": 119,
+    "printed_page": 119,
+    "snippet": "流动负债合计 149,571,374,519.76 123,814,278,403.38",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 107.49100494384766,
+      "x1": 531.231689453125,
+      "y1": 119.18092346191406
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_noncurrent_liabilities",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 22153482887.26,
+    "prior_value": 29723066520.77,
+    "unit": "元",
+    "page": 119,
+    "printed_page": 119,
+    "snippet": "非流动负债合计 22,153,482,887.26 29,723,066,520.77",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 309.0010070800781,
+      "x1": 531.231689453125,
+      "y1": 320.69091796875
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_liabilities",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 171724857407.02,
+    "prior_value": 153537344924.15,
+    "unit": "元",
+    "page": 119,
+    "printed_page": 119,
+    "snippet": "负债合计 171,724,857,407.02 153,537,344,924.15",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 323.5210266113281,
+      "x1": 531.231689453125,
+      "y1": 335.2109375
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-equity_parent",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 111366118999.17,
+    "prior_value": 101265984771.17,
+    "unit": "元",
+    "page": 119,
+    "printed_page": 119,
+    "snippet": "归属于母公司所有者权益（或股东权益）合 计 111,366,118,999.17 101,265,984,771.17",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 511.43896484375,
+      "x1": 531.231689453125,
+      "y1": 535.5588989257812
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_equity",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 118388965417.59,
+    "prior_value": 107530339973.34,
+    "unit": "元",
+    "page": 119,
+    "printed_page": 119,
+    "snippet": "所有者权益（或股东权益）合计 118,388,965,417.59 107,530,339,973.34",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 553.10107421875,
+      "x1": 531.231689453125,
+      "y1": 564.7909545898438
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_liabilities_equity",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 290113822824.61,
+    "prior_value": 261067684897.49,
+    "unit": "元",
+    "page": 119,
+    "printed_page": 119,
+    "snippet": "负债和所有者权益（或股东权益）总计 290,113,822,824.61 261,067,684,897.49",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 567.5010375976562,
+      "x1": 531.231689453125,
+      "y1": 579.19091796875
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_revenue",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 285981225203.93,
+    "prior_value": 274204520847.97,
+    "unit": "元",
+    "page": 121,
+    "printed_page": 121,
+    "snippet": "一、营业总收入 285,981,225,203.93 274,204,520,847.97",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 671.4510498046875,
+      "x1": 531.711669921875,
+      "y1": 683.1409301757812
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-revenue",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 285981225203.93,
+    "prior_value": 274204520847.97,
+    "unit": "元",
+    "page": 121,
+    "printed_page": 121,
+    "snippet": "其中：营业收入 七、47 285,981,225,203.93 274,204,520,847.97",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 685.7310791015625,
+      "x1": 531.711669921875,
+      "y1": 697.6609497070312
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_cost",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 265171922970.95,
+    "prior_value": 255477540690.98,
+    "unit": "元",
+    "page": 121,
+    "printed_page": 121,
+    "snippet": "二、营业总成本 265,171,922,970.95 255,477,540,690.98",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 742.2470703125,
+      "x1": 531.711669921875,
+      "y1": 753.9369506835938
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-cost_of_revenue",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 206487065182.92,
+    "prior_value": 198838470796.47,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "海尔智家股份有限公司2024年年度报告122/247其中：营业成本七、47206,487,065,182.92198,838,470,796.47利息支出手续费及佣金支出退保金赔付支出净额提取保险责任准备金净额保单红利支出分保费用税金及附加七、481,276,040,830.271,152,034,823.21销售费用七、4933,585,903,",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 43.82096481323242,
+      "x1": 531.711669921875,
+      "y1": 90.60096740722656
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-taxes_surcharges",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 1276040830.27,
+    "prior_value": 1152034823.21,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "税金及附加 七、48 1,276,040,830.27 1,152,034,823.21",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 191.73098754882812,
+      "x1": 531.7078247070312,
+      "y1": 203.7809600830078
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-selling_expense",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 33585903561.6,
+    "prior_value": 32726735817.73,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "销售费用 七、49 33,585,903,561.60 32,726,735,817.73",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 205.89102172851562,
+      "x1": 531.711669921875,
+      "y1": 217.82093811035156
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-admin_expense",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 12110235915.35,
+    "prior_value": 11874420922.31,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "管理费用 七、50 12,110,235,915.35 11,874,420,922.31",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 219.93099975585938,
+      "x1": 531.711669921875,
+      "y1": 231.98097229003906
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-rd_expense",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 10740112353.47,
+    "prior_value": 10380219803.05,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "研发费用 七、51 10,740,112,353.47 10,380,219,803.05",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 234.09103393554688,
+      "x1": 531.711669921875,
+      "y1": 246.1409454345703
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-finance_expense",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": 972565127.34,
+    "prior_value": 505658528.21,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "财务费用 七、52 972,565,127.34 505,658,528.21",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 248.25100708007812,
+      "x1": 531.7078247070312,
+      "y1": 260.180908203125
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-operating_profit",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 22911716060.03,
+    "prior_value": 20380991449.18,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "三、营业利润（亏损以“－”号填列） 22,911,716,060.03 20,380,991,449.18",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 472.7010192871094,
+      "x1": 531.711669921875,
+      "y1": 484.75091552734375
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-total_profit",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 22732792428.45,
+    "prior_value": 20211643792.71,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "四、利润总额（亏损总额以“－”号填列） 22,732,792,428.45 20,211,643,792.71",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 515.1810302734375,
+      "x1": 531.711669921875,
+      "y1": 527.1109008789062
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-net_profit",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 19575612501.68,
+    "prior_value": 17088480573.96,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "五、净利润（净亏损以“－”号填列） 19,575,612,501.68 17,088,480,573.96",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 543.5010375976562,
+      "x1": 531.711669921875,
+      "y1": 555.4309692382812
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-net_profit_parent",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 18741120122.93,
+    "prior_value": 16596615045.87,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "01.6817,088,480,573.962.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）18,741,120,122.9316,596,615,045.872.少数股东损益（净亏损以“-”号填列）834,492,378.75491,865,528.09六、其他综合收益的税后净额七、62-1,173,713,256.17-35,103,681.56（一）归属母公",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 641.6910400390625,
+      "x1": 531.711669921875,
+      "y1": 659.9808959960938
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-basic_eps",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 2.02,
+    "prior_value": 1.79,
+    "unit": "元/股",
+    "page": 123,
+    "printed_page": 123,
+    "snippet": "（一）基本每股收益(元/股) 二十一、1 2.02 1.79",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 345.60101318359375,
+      "x1": 531.7000732421875,
+      "y1": 357.53094482421875
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-sales_cash",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 306799219762.12,
+    "prior_value": 289485600146.01,
+    "unit": "元",
+    "page": 124,
+    "printed_page": 124,
+    "snippet": "销售商品、提供劳务收到的现金 306,799,219,762.12 289,485,600,146.01",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 689.6910400390625,
+      "x1": 531.711669921875,
+      "y1": 701.3809204101562
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-cfo",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 26543081911.96,
+    "prior_value": 26535780568.36,
+    "unit": "元",
+    "page": 125,
+    "printed_page": 125,
+    "snippet": "经营活动产生的现金流量净额 七、64 26,543,081,911.96 26,535,780,568.36",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 362.041015625,
+      "x1": 531.711669921875,
+      "y1": 374.0909423828125
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-cfi",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -20074351808.82,
+    "prior_value": -17340209537.39,
+    "unit": "元",
+    "page": 125,
+    "printed_page": 125,
+    "snippet": "投资活动产生的现金流量净额 -20,074,351,808.82 -17,340,209,537.39",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 614.4510498046875,
+      "x1": 531.7078247070312,
+      "y1": 626.1409301757812
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-cff",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -7913904092.66,
+    "prior_value": -7920627373.47,
+    "unit": "元",
+    "page": 126,
+    "printed_page": 126,
+    "snippet": "筹资活动产生的现金流量净额 -7,913,904,092.66 -7,920,627,373.47",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 121.29105377197266,
+      "x1": 531.7039794921875,
+      "y1": 132.98097229003906
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-fx_effect",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": -256948972.75,
+    "prior_value": 250797230.85,
+    "unit": "元",
+    "page": 126,
+    "printed_page": 126,
+    "snippet": "四、汇率变动对现金及现金等价物的影响 -256,948,972.75 250,797,230.85",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 135.57101440429688,
+      "x1": 531.7078247070312,
+      "y1": 147.2609405517578
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-net_cash_increase",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -1702122962.27,
+    "prior_value": 1525740888.35,
+    "unit": "元",
+    "page": 126,
+    "printed_page": 126,
+    "snippet": "五、现金及现金等价物净增加额 -1,702,122,962.27 1,525,740,888.35",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 149.85104370117188,
+      "x1": 531.7078247070312,
+      "y1": 161.5409698486328
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-beginning_cash",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 56683006209.32,
+    "prior_value": 55157265320.97,
+    "unit": "元",
+    "page": 126,
+    "printed_page": 126,
+    "snippet": "加：期初现金及现金等价物余额 七、64 56,683,006,209.32 55,157,265,320.97",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 164.01101684570312,
+      "x1": 531.711669921875,
+      "y1": 176.06092834472656
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600690-2024-ending_cash",
+    "company": {
+      "code": "600690",
+      "name": "海尔智家股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926246.PDF",
+    "period": "2024",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 54980883247.05,
+    "prior_value": 56683006209.32,
+    "unit": "元",
+    "page": 126,
+    "printed_page": 126,
+    "snippet": "六、期末现金及现金等价物余额 七、64 54,980,883,247.05 56,683,006,209.32",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 178.17098999023438,
+      "x1": 531.711669921875,
+      "y1": 190.10096740722656
+    },
+    "source_file": "600690_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

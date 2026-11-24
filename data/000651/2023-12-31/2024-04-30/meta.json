@@ -1,0 +1,38 @@
+{
+  "company": {
+    "code": "000651",
+    "name": "珠海格力电器股份有限公司",
+    "short_name": ""
+  },
+  "period": "2023",
+  "report_date": "2023-12-31",
+  "announce_date": "2024-04-30",
+  "dataset_id": "000651-2023-12-31-2024-04-30",
+  "evidence_level": "verified",
+  "source_type": "annual_report_pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219928418.PDF",
+  "source_file": "000651_2023.pdf",
+  "source_sha256": "32ebc475a2291ce4f1b5c1a9f9da55227e03192f07e75041e976c29d213ec8aa",
+  "page_count": 249,
+  "extracted_at": "2026-11-24T18:22:24+08:00",
+  "statements": [
+    "合并资产负债表",
+    "合并利润表",
+    "合并现金流量表"
+  ],
+  "fact_count": 34,
+  "row_count": 160,
+  "coverage_score": 0.9444,
+  "coverage": {
+    "metric_coverage": 1.0,
+    "fact_count": 34,
+    "expected_metrics": 31,
+    "all_metrics": 34,
+    "snippet_hit_rate": 1.0,
+    "check_pass_rate": 0.8333,
+    "check_fail": 0,
+    "missing_required": [],
+    "score": 0.9444
+  },
+  "quality_gate": "pass"
+}

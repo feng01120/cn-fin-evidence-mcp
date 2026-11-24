@@ -1,0 +1,330 @@
+[
+  {
+    "ratio": "gross_margin",
+    "name": "毛利率",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 91.9649,
+    "unit": "%",
+    "formula": "(营业收入 - 营业成本) / 营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 147693604994.14,
+        "evidence_id": "600519-2023-revenue"
+      },
+      {
+        "metric": "cost_of_revenue",
+        "name": "营业成本",
+        "value": 11867273851.78,
+        "evidence_id": "600519-2023-cost_of_revenue"
+      }
+    ],
+    "evidence": [
+      "600519-2023-revenue",
+      "600519-2023-cost_of_revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_margin",
+    "name": "净利率",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 52.488,
+    "unit": "%",
+    "formula": "净利润 / 营业收入",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 77521476277.8,
+        "evidence_id": "600519-2023-net_profit"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 147693604994.14,
+        "evidence_id": "600519-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "600519-2023-net_profit",
+      "600519-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "roe",
+    "name": "净资产收益率（ROE）",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 36.1778,
+    "unit": "%",
+    "formula": "归属于母公司股东的净利润 / 平均归属于母公司所有者权益",
+    "inputs": [
+      {
+        "metric": "net_profit_parent",
+        "name": "归属于母公司股东的净利润",
+        "value": 74734071550.75,
+        "evidence_id": "600519-2023-net_profit_parent"
+      },
+      {
+        "metric": "equity_parent",
+        "name": "归属于母公司所有者权益合计",
+        "value": 215668571607.43,
+        "evidence_id": "600519-2023-equity_parent"
+      }
+    ],
+    "evidence": [
+      "600519-2023-net_profit_parent",
+      "600519-2023-equity_parent"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "debt_ratio",
+    "name": "资产负债率",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 17.9843,
+    "unit": "%",
+    "formula": "负债合计 / 资产总计",
+    "inputs": [
+      {
+        "metric": "total_liabilities",
+        "name": "负债合计",
+        "value": 49043190797.43,
+        "evidence_id": "600519-2023-total_liabilities"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 272699660092.25,
+        "evidence_id": "600519-2023-total_assets"
+      }
+    ],
+    "evidence": [
+      "600519-2023-total_liabilities",
+      "600519-2023-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "current_ratio",
+    "name": "流动比率",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 4.6239,
+    "unit": "倍",
+    "formula": "流动资产合计 / 流动负债合计",
+    "inputs": [
+      {
+        "metric": "total_current_assets",
+        "name": "流动资产合计",
+        "value": 225172517821.28,
+        "evidence_id": "600519-2023-total_current_assets"
+      },
+      {
+        "metric": "total_current_liabilities",
+        "name": "流动负债合计",
+        "value": 48697611501.2,
+        "evidence_id": "600519-2023-total_current_liabilities"
+      }
+    ],
+    "evidence": [
+      "600519-2023-total_current_assets",
+      "600519-2023-total_current_liabilities"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "cfo_to_revenue",
+    "name": "经营现金流/营业收入",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 45.0888,
+    "unit": "%",
+    "formula": "经营活动产生的现金流量净额 / 营业收入",
+    "inputs": [
+      {
+        "metric": "cfo",
+        "name": "经营活动产生的现金流量净额",
+        "value": 66593247721.09,
+        "evidence_id": "600519-2023-cfo"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 147693604994.14,
+        "evidence_id": "600519-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "600519-2023-cfo",
+      "600519-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "revenue_growth",
+    "name": "营业收入增长率",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 19.0119,
+    "unit": "%",
+    "formula": "(本期营业收入 - 上期营业收入) / 上期营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 147693604994.14,
+        "evidence_id": "600519-2023-revenue"
+      }
+    ],
+    "evidence": [
+      "600519-2023-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_profit_growth",
+    "name": "净利润增长率",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 18.5778,
+    "unit": "%",
+    "formula": "(本期净利润 - 上期净利润) / 上期净利润",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 77521476277.8,
+        "evidence_id": "600519-2023-net_profit"
+      }
+    ],
+    "evidence": [
+      "600519-2023-net_profit"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "asset_turnover",
+    "name": "总资产周转率",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "period": "2023",
+    "value": 0.5603,
+    "unit": "倍",
+    "formula": "营业收入 / 平均资产总计",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 147693604994.14,
+        "evidence_id": "600519-2023-revenue"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 272699660092.25,
+        "evidence_id": "600519-2023-total_assets"
+      }
+    ],
+    "evidence": [
+      "600519-2023-revenue",
+      "600519-2023-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  }
+]

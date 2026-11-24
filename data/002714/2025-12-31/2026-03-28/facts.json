@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "002714-2025-cash",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 13862397618.88,
+    "prior_value": 16951642855.0,
+    "unit": "元",
+    "page": 110,
+    "printed_page": null,
+    "snippet": "货币资金 13,862,397,618.88 16,951,642,855.00",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 241.39097595214844,
+      "x1": 533.3560180664062,
+      "y1": 251.35397338867188
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-accounts_receivable",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 588644078.0,
+    "prior_value": 231188535.57,
+    "unit": "元",
+    "page": 110,
+    "printed_page": null,
+    "snippet": "应收账款 588,644,078.00 231,188,535.57",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 338.9509582519531,
+      "x1": 533.3770141601562,
+      "y1": 348.9139709472656
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-inventory",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 37177438419.4,
+    "prior_value": 41969838456.65,
+    "unit": "元",
+    "page": 110,
+    "printed_page": null,
+    "snippet": "存货 37,177,438,419.40 41,969,838,456.65",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 501.4509582519531,
+      "x1": 533.3560180664062,
+      "y1": 511.4139709472656
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_current_assets",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 54576221945.66,
+    "prior_value": 61318601205.85,
+    "unit": "元",
+    "page": 110,
+    "printed_page": null,
+    "snippet": "流动资产合计 54,576,221,945.66 61,318,601,205.85",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 599.041015625,
+      "x1": 533.3560180664062,
+      "y1": 609.0039672851562
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_noncurrent_assets",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 117164864756.42,
+    "prior_value": 126330122625.07,
+    "unit": "元",
+    "page": 111,
+    "printed_page": null,
+    "snippet": "非流动资产合计 117,164,864,756.42 126,330,122,625.07",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 287.1109924316406,
+      "x1": 533.35302734375,
+      "y1": 297.0740051269531
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_assets",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 171741086702.08,
+    "prior_value": 187648723830.92,
+    "unit": "元",
+    "page": 111,
+    "printed_page": null,
+    "snippet": "资产总计 171,741,086,702.08 187,648,723,830.92",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 303.4309387207031,
+      "x1": 533.35302734375,
+      "y1": 313.3939514160156
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_current_liabilities",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 69840395136.56,
+    "prior_value": 85476512749.91,
+    "unit": "元",
+    "page": 111,
+    "printed_page": null,
+    "snippet": "流动负债合计 69,840,395,136.56 85,476,512,749.91",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 719.781005859375,
+      "x1": 533.3560180664062,
+      "y1": 729.7439575195312
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_noncurrent_liabilities",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 23158712634.2,
+    "prior_value": 24635981964.86,
+    "unit": "元",
+    "page": 112,
+    "printed_page": null,
+    "snippet": "非流动负债合计 23,158,712,634.20 24,635,981,964.86",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 270.9109802246094,
+      "x1": 533.3560180664062,
+      "y1": 280.8739929199219
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_liabilities",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 92999107770.76,
+    "prior_value": 110112494714.77,
+    "unit": "元",
+    "page": 112,
+    "printed_page": null,
+    "snippet": "负债合计 92,999,107,770.76 110,112,494,714.77",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 287.1109924316406,
+      "x1": 533.362060546875,
+      "y1": 297.0740051269531
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-equity_parent",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 77689245439.49,
+    "prior_value": 72031777857.01,
+    "unit": "元",
+    "page": 112,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者权益合计 77,689,245,439.49 72,031,777,857.01",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 466.4109802246094,
+      "x1": 533.3560180664062,
+      "y1": 476.3739929199219
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_equity",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 78741978931.32,
+    "prior_value": 77536229116.15,
+    "unit": "元",
+    "page": 112,
+    "printed_page": null,
+    "snippet": "所有者权益合计 78,741,978,931.32 77,536,229,116.15",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 491.0109558105469,
+      "x1": 533.364990234375,
+      "y1": 500.9739685058594
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_liabilities_equity",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 171741086702.08,
+    "prior_value": 187648723830.92,
+    "unit": "元",
+    "page": 112,
+    "printed_page": null,
+    "snippet": "负债和所有者权益总计 171,741,086,702.08 187,648,723,830.92",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 503.2509765625,
+      "x1": 533.35302734375,
+      "y1": 513.2139892578125
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_revenue",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 144144965371.68,
+    "prior_value": 137946892076.87,
+    "unit": "元",
+    "page": 114,
+    "printed_page": null,
+    "snippet": "一、营业总收入 144,144,965,371.68 137,946,892,076.87",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 707.3009643554688,
+      "x1": 533.35302734375,
+      "y1": 717.263916015625
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-revenue",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 144144965371.68,
+    "prior_value": 137946892076.87,
+    "unit": "元",
+    "page": 114,
+    "printed_page": null,
+    "snippet": "其中：营业收入 144,144,965,371.68 137,946,892,076.87",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 723.6209716796875,
+      "x1": 533.35302734375,
+      "y1": 733.5839233398438
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_cost",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 128060061874.57,
+    "prior_value": 118692275807.63,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "二、营业总成本 128,060,061,874.57 118,692,275,807.63",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 92.08097839355469,
+      "x1": 533.35302734375,
+      "y1": 102.04397583007812
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-cost_of_revenue",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 118461055325.37,
+    "prior_value": 109319018236.95,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "其中：营业成本 118,461,055,325.37 109,319,018,236.95",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 108.40098571777344,
+      "x1": 533.35302734375,
+      "y1": 118.36398315429688
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-taxes_surcharges",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 276004059.43,
+    "prior_value": 223192113.78,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "税金及附加 276,004,059.43 223,192,113.78",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 250.39097595214844,
+      "x1": 533.3770141601562,
+      "y1": 260.3539733886719
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-selling_expense",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 1294581842.45,
+    "prior_value": 1095680280.69,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "销售费用 1,294,581,842.45 1,095,680,280.69",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 266.5909729003906,
+      "x1": 533.3619995117188,
+      "y1": 276.5539855957031
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-admin_expense",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 3922418192.19,
+    "prior_value": 3331717607.87,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "管理费用 3,922,418,192.19 3,331,717,607.87",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 282.9109802246094,
+      "x1": 533.3619995117188,
+      "y1": 292.8739929199219
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-rd_expense",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 1648195006.0,
+    "prior_value": 1747217657.28,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "研发费用 1,648,195,006.00 1,747,217,657.28",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 299.1109924316406,
+      "x1": 533.3619995117188,
+      "y1": 309.0740051269531
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-finance_expense",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": 2457807449.13,
+    "prior_value": 2975449911.06,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "财务费用 2,457,807,449.13 2,975,449,911.06",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 315.4309387207031,
+      "x1": 533.3709716796875,
+      "y1": 325.3939514160156
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-operating_profit",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 16894216594.0,
+    "prior_value": 20010546646.69,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "三、营业利润（亏损以“－”号填列） 16,894,216,594.00 20,010,546,646.69",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 622.6809692382812,
+      "x1": 533.3560180664062,
+      "y1": 632.6439208984375
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-total_profit",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 15809937800.4,
+    "prior_value": 18896478910.64,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "四、利润总额（亏损总额以“－”号填 列） 15,809,937,800.40 18,896,478,910.64",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 671.4010009765625,
+      "x1": 533.3560180664062,
+      "y1": 687.3639526367188
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-net_profit",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 15811817543.45,
+    "prior_value": 18925044904.25,
+    "unit": "元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "五、净利润（净亏损以“－”号填列） 15,811,817,543.45 18,925,044,904.25",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 713.9010009765625,
+      "x1": 533.3560180664062,
+      "y1": 723.8639526367188
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-net_profit_parent",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 15486891254.04,
+    "prior_value": 17881260485.27,
+    "unit": "元",
+    "page": 116,
+    "printed_page": null,
+    "snippet": "1.归属于母公司股东的净利润 15,486,891,254.04 17,881,260,485.27",
+    "bbox": {
+      "x0": 80.18399810791016,
+      "y0": 136.7209930419922,
+      "x1": 533.3560180664062,
+      "y1": 146.68399047851562
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-basic_eps",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 2.88,
+    "prior_value": 3.3,
+    "unit": "元/股",
+    "page": 116,
+    "printed_page": null,
+    "snippet": "（一）基本每股收益 2.88 3.30",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 564.6010131835938,
+      "x1": 533.4400024414062,
+      "y1": 574.56396484375
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-sales_cash",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 148839803701.86,
+    "prior_value": 139571501962.38,
+    "unit": "元",
+    "page": 118,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 148,839,803,701.86 139,571,501,962.38",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 307.0309753417969,
+      "x1": 533.35302734375,
+      "y1": 316.9939880371094
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-cfo",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 30056186914.47,
+    "prior_value": 37543066214.49,
+    "unit": "元",
+    "page": 118,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流量净额 30,056,186,914.47 37,543,066,214.49",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 661.3209838867188,
+      "x1": 533.3560180664062,
+      "y1": 671.283935546875
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-cfi",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -7244761687.12,
+    "prior_value": -13246168121.58,
+    "unit": "元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "投资活动产生的现金流量净额 -7,244,761,687.12 -13,246,168,121.58",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 212.0809783935547,
+      "x1": 533.364990234375,
+      "y1": 222.04397583007812
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-cff",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -22877950696.52,
+    "prior_value": -25228713525.65,
+    "unit": "元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "筹资活动产生的现金流量净额 -22,877,950,696.52 -25,228,713,525.65",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 417.2109680175781,
+      "x1": 533.364990234375,
+      "y1": 427.1739807128906
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-fx_effect",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 29947.96,
+    "prior_value": -25855.07,
+    "unit": "元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "四、汇率变动对现金及现金等价物的 影响 29,947.96 -25,855.07",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 429.7389831542969,
+      "x1": 533.406982421875,
+      "y1": 445.4139709472656
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-net_cash_increase",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -66495521.21,
+    "prior_value": -931841287.81,
+    "unit": "元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "五、现金及现金等价物净增加额 -66,495,521.21 -931,841,287.81",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 453.69097900390625,
+      "x1": 533.3680419921875,
+      "y1": 463.65399169921875
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-beginning_cash",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 12844551613.08,
+    "prior_value": 13776392900.89,
+    "unit": "元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "加：期初现金及现金等价物余额 12,844,551,613.08 13,776,392,900.89",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 465.93096923828125,
+      "x1": 533.3560180664062,
+      "y1": 475.89398193359375
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "002714-2025-ending_cash",
+    "company": {
+      "code": "002714",
+      "name": "牧原食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-03-28",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042507.PDF",
+    "period": "2025",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 12778056091.87,
+    "prior_value": 12844551613.08,
+    "unit": "元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "六、期末现金及现金等价物余额 12,778,056,091.87 12,844,551,613.08",
+    "bbox": {
+      "x0": 62.15999984741211,
+      "y0": 478.17095947265625,
+      "x1": 533.3560180664062,
+      "y1": 488.13397216796875
+    },
+    "source_file": "002714_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

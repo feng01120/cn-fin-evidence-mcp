@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "300760-2023-cash",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 18787180188.0,
+    "prior_value": 23185663305.0,
+    "unit": "元",
+    "page": 224,
+    "printed_page": null,
+    "snippet": "货币资金 18,787,180,188.00 23,185,663,305.00",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 300.5509948730469,
+      "x1": 533.3560180664062,
+      "y1": 310.5140075683594
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-accounts_receivable",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 3295124769.0,
+    "prior_value": 2658711527.0,
+    "unit": "元",
+    "page": 224,
+    "printed_page": null,
+    "snippet": "应收账款 3,295,124,769.00 2,658,711,527.00",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 419.5909729003906,
+      "x1": 533.3619995117188,
+      "y1": 429.5539855957031
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-inventory",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 3978631580.0,
+    "prior_value": 4024915834.0,
+    "unit": "元",
+    "page": 224,
+    "printed_page": null,
+    "snippet": "存货 3,978,631,580.00 4,024,915,834.00",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 618.2410278320312,
+      "x1": 533.3619995117188,
+      "y1": 628.2039794921875
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_current_assets",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 26875230013.0,
+    "prior_value": 30605805644.0,
+    "unit": "元",
+    "page": 224,
+    "printed_page": null,
+    "snippet": "流动资产合计 26,875,230,013.00 30,605,805,644.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 717.4810180664062,
+      "x1": 533.3560180664062,
+      "y1": 727.4439697265625
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_noncurrent_assets",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 21064773048.0,
+    "prior_value": 16139431165.0,
+    "unit": "元",
+    "page": 225,
+    "printed_page": null,
+    "snippet": "非流动资产合计 21,064,773,048.00 16,139,431,165.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 454.4109802246094,
+      "x1": 533.3560180664062,
+      "y1": 464.3739929199219
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_assets",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 47940003061.0,
+    "prior_value": 46745236809.0,
+    "unit": "元",
+    "page": 225,
+    "printed_page": null,
+    "snippet": "资产总计 47,940,003,061.00 46,745,236,809.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 474.2109680175781,
+      "x1": 533.3560180664062,
+      "y1": 484.1739807128906
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_current_liabilities",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 10102649527.0,
+    "prior_value": 11769812821.0,
+    "unit": "元",
+    "page": 226,
+    "printed_page": null,
+    "snippet": "流动负债合计 10,102,649,527.00 11,769,812,821.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 275.7109680175781,
+      "x1": 533.364990234375,
+      "y1": 285.6739807128906
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 4491313770.0,
+    "prior_value": 2976311825.0,
+    "unit": "元",
+    "page": 226,
+    "printed_page": null,
+    "snippet": "非流动负债合计 4,491,313,770.00 2,976,311,825.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 553.6510009765625,
+      "x1": 533.3619995117188,
+      "y1": 563.6139526367188
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_liabilities",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 14593963297.0,
+    "prior_value": 14746124646.0,
+    "unit": "元",
+    "page": 226,
+    "printed_page": null,
+    "snippet": "负债合计 14,593,963,297.00 14,746,124,646.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 573.4509887695312,
+      "x1": 533.3560180664062,
+      "y1": 583.4139404296875
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-equity_parent",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 33085389686.0,
+    "prior_value": 31980825123.0,
+    "unit": "元",
+    "page": 227,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者权益合计 33,085,389,686.00 31,980,825,123.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 136.7209930419922,
+      "x1": 533.3560180664062,
+      "y1": 146.68399047851562
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_equity",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 33346039764.0,
+    "prior_value": 31999112163.0,
+    "unit": "元",
+    "page": 227,
+    "printed_page": null,
+    "snippet": "所有者权益合计 33,346,039,764.00 31,999,112,163.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 176.4409637451172,
+      "x1": 533.35595703125,
+      "y1": 186.40396118164062
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_liabilities_equity",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 47940003061.0,
+    "prior_value": 46745236809.0,
+    "unit": "元",
+    "page": 227,
+    "printed_page": null,
+    "snippet": "负债和所有者权益总计 47,940,003,061.00 46,745,236,809.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 196.3610076904297,
+      "x1": 533.3560180664062,
+      "y1": 206.32400512695312
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_revenue",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 34931900884.0,
+    "prior_value": 30365643811.0,
+    "unit": "元",
+    "page": 229,
+    "printed_page": null,
+    "snippet": "一、营业总收入 34,931,900,884.00 30,365,643,811.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 729.7210083007812,
+      "x1": 533.3560180664062,
+      "y1": 739.6839599609375
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-revenue",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 34931900884.0,
+    "prior_value": 30365643811.0,
+    "unit": "元",
+    "page": 229,
+    "printed_page": null,
+    "snippet": "其中：营业收入 34,931,900,884.00 30,365,643,811.00",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 749.6370239257812,
+      "x1": 533.3560180664062,
+      "y1": 759.5999755859375
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_cost",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 21991204875.0,
+    "prior_value": 19826760259.0,
+    "unit": "元",
+    "page": 230,
+    "printed_page": null,
+    "snippet": "二、营业总成本 21,991,204,875.00 19,826,760,259.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 136.7209930419922,
+      "x1": 533.3560180664062,
+      "y1": 146.68399047851562
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-cost_of_revenue",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 11820708329.0,
+    "prior_value": 10885289458.0,
+    "unit": "元",
+    "page": 230,
+    "printed_page": null,
+    "snippet": "其中：营业成本 11,820,708,329.00 10,885,289,458.00",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 156.64097595214844,
+      "x1": 533.3560180664062,
+      "y1": 166.60397338867188
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-taxes_surcharges",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 366077263.0,
+    "prior_value": 348286018.0,
+    "unit": "元",
+    "page": 230,
+    "printed_page": null,
+    "snippet": "税金及附加 366,077,263.00 348,286,018.00",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 315.4309997558594,
+      "x1": 533.3770141601562,
+      "y1": 325.3940124511719
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-selling_expense",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 5702924130.0,
+    "prior_value": 4801555324.0,
+    "unit": "元",
+    "page": 230,
+    "printed_page": null,
+    "snippet": "销售费用 5,702,924,130.00 4,801,555,324.00",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 335.23095703125,
+      "x1": 533.3619995117188,
+      "y1": 345.1939697265625
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-admin_expense",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 1523748134.0,
+    "prior_value": 1320052334.0,
+    "unit": "元",
+    "page": 230,
+    "printed_page": null,
+    "snippet": "管理费用 1,523,748,134.00 1,320,052,334.00",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 355.1509704589844,
+      "x1": 533.3619995117188,
+      "y1": 365.1139831542969
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-rd_expense",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 3432658732.0,
+    "prior_value": 2922614427.0,
+    "unit": "元",
+    "page": 230,
+    "printed_page": null,
+    "snippet": "研发费用 3,432,658,732.00 2,922,614,427.00",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 374.9509582519531,
+      "x1": 533.3619995117188,
+      "y1": 384.9139709472656
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-finance_expense",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -854911713.0,
+    "prior_value": -451037302.0,
+    "unit": "元",
+    "page": 230,
+    "printed_page": null,
+    "snippet": "财务费用 -854,911,713.00 -451,037,302.00",
+    "bbox": {
+      "x0": 98.18399810791016,
+      "y0": 394.8709716796875,
+      "x1": 533.3680419921875,
+      "y1": 404.833984375
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-operating_profit",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 13069857833.0,
+    "prior_value": 10990515031.0,
+    "unit": "元",
+    "page": 230,
+    "printed_page": null,
+    "snippet": "三、营业利润（亏损以“-”号填列） 13,069,857,833.00 10,990,515,031.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 715.3209838867188,
+      "x1": 533.3560180664062,
+      "y1": 725.283935546875
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-total_profit",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 13010930027.0,
+    "prior_value": 10953550653.0,
+    "unit": "元",
+    "page": 231,
+    "printed_page": null,
+    "snippet": "深圳迈瑞生物医疗电子股份有限公司2023年年度报告231四、利润总额（亏损总额以“-”号填列）13,010,930,027.0010,953,550,653.00减：所得税费用1,432,516,623.001,342,833,838.00五、净利润（净亏损以“-”号填列）11,578,413,404.009,610,716,815.00（一）按经营持续性分类1.持",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 43.58097457885742,
+      "x1": 538.780029296875,
+      "y1": 87.16397094726562
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-net_profit",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 11578413404.0,
+    "prior_value": 9610716815.0,
+    "unit": "元",
+    "page": 231,
+    "printed_page": null,
+    "snippet": "五、净利润（净亏损以“-”号填列） 11,578,413,404.00 9,610,716,815.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 116.92100524902344,
+      "x1": 533.3619995117188,
+      "y1": 126.88400268554688
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-net_profit_parent",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 11582226085.0,
+    "prior_value": 9607174094.0,
+    "unit": "元",
+    "page": 231,
+    "printed_page": null,
+    "snippet": "1.归属于母公司股东的净利润 11,582,226,085.00 9,607,174,094.00",
+    "bbox": {
+      "x0": 80.18399810791016,
+      "y0": 247.3610076904297,
+      "x1": 533.3619995117188,
+      "y1": 257.3240051269531
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-basic_eps",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 9.5586,
+    "prior_value": 7.9402,
+    "unit": "元/股",
+    "page": 232,
+    "printed_page": null,
+    "snippet": "（一）基本每股收益 9.5586 7.9402",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 156.64097595214844,
+      "x1": 533.4100952148438,
+      "y1": 166.60397338867188
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-sales_cash",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 35248869704.0,
+    "prior_value": 34571634884.0,
+    "unit": "元",
+    "page": 234,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 35,248,869,704.00 34,571,634,884.00",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 233.4409637451172,
+      "x1": 533.3560180664062,
+      "y1": 243.40396118164062
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-cfo",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 11062025295.0,
+    "prior_value": 12141147876.0,
+    "unit": "元",
+    "page": 234,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流量净额 11,062,025,295.00 12,141,147,876.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 729.7210083007812,
+      "x1": 533.3560180664062,
+      "y1": 739.6839599609375
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-cfi",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -692931575.0,
+    "prior_value": -3219770585.0,
+    "unit": "元",
+    "page": 235,
+    "printed_page": null,
+    "snippet": "投资活动产生的现金流量净额 -692,931,575.00 -3,219,770,585.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 377.8309631347656,
+      "x1": 533.3530883789062,
+      "y1": 387.7939758300781
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-cff",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -10775685768.0,
+    "prior_value": -5194277770.0,
+    "unit": "元",
+    "page": 235,
+    "printed_page": null,
+    "snippet": "筹资活动产生的现金流量净额 -10,775,685,768.00 -5,194,277,770.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 647.281005859375,
+      "x1": 533.3530883789062,
+      "y1": 657.2439575195312
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-fx_effect",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 101367493.0,
+    "prior_value": 113815806.0,
+    "unit": "元",
+    "page": 235,
+    "printed_page": null,
+    "snippet": "四、汇率变动对现金及现金等价物的影响 101,367,493.00 113,815,806.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 667.0809936523438,
+      "x1": 533.3770141601562,
+      "y1": 677.0439453125
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-net_cash_increase",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -305224555.0,
+    "prior_value": 3840915327.0,
+    "unit": "元",
+    "page": 235,
+    "printed_page": null,
+    "snippet": "五、现金及现金等价物净增加额 -305,224,555.00 3,840,915,327.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 687.0010375976562,
+      "x1": 533.3619995117188,
+      "y1": 696.9639892578125
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-beginning_cash",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 18973643833.0,
+    "prior_value": 15132728506.0,
+    "unit": "元",
+    "page": 235,
+    "printed_page": null,
+    "snippet": "加：期初现金及现金等价物余额 18,973,643,833.00 15,132,728,506.00",
+    "bbox": {
+      "x0": 71.18399810791016,
+      "y0": 706.801025390625,
+      "x1": 533.3560180664062,
+      "y1": 716.7639770507812
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300760-2023-ending_cash",
+    "company": {
+      "code": "300760",
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219856065.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 18668419278.0,
+    "prior_value": 18973643833.0,
+    "unit": "元",
+    "page": 235,
+    "printed_page": null,
+    "snippet": "六、期末现金及现金等价物余额 18,668,419,278.00 18,973,643,833.00",
+    "bbox": {
+      "x0": 62.183998107910156,
+      "y0": 726.7210083007812,
+      "x1": 533.3560180664062,
+      "y1": 736.6839599609375
+    },
+    "source_file": "300760_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

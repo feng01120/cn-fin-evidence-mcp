@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "603288-2023-cash",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 21689385461.71,
+    "prior_value": 18223307402.03,
+    "unit": "元",
+    "page": 75,
+    "printed_page": 75,
+    "snippet": "货币资金 七、1 21,689,385,461.71 18,223,307,402.03",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 191.22894287109375,
+      "x1": 525.3215942382812,
+      "y1": 201.7889404296875
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "七、1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-accounts_receivable",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 223149082.18,
+    "prior_value": 188395321.48,
+    "unit": "元",
+    "page": 75,
+    "printed_page": 75,
+    "snippet": "应收账款 七、5 223,149,082.18 188,395,321.48",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 277.5389404296875,
+      "x1": 525.3477783203125,
+      "y1": 288.09893798828125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "七、5",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-inventory",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 2618773147.0,
+    "prior_value": 2391641182.47,
+    "unit": "元",
+    "page": 75,
+    "printed_page": 75,
+    "snippet": "存货 七、10 2,618,773,147.00 2,391,641,182.47",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 421.1789245605469,
+      "x1": 525.3516235351562,
+      "y1": 431.7389221191406
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "七、10",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_current_assets",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 30774419278.23,
+    "prior_value": 26973588408.6,
+    "unit": "元",
+    "page": 75,
+    "printed_page": 75,
+    "snippet": "流动资产合计 30,774,419,278.23 26,973,588,408.60",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 493.0789489746094,
+      "x1": 525.3215942382812,
+      "y1": 503.6389465332031
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_noncurrent_assets",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 7649099127.39,
+    "prior_value": 7085587441.7,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "非流动资产合计 7,649,099,127.39 7,085,587,441.70",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 114.18896484375,
+      "x1": 525.3516235351562,
+      "y1": 124.74897003173828
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_assets",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 38423518405.62,
+    "prior_value": 34059175850.3,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "资产总计 38,423,518,405.62 34,059,175,850.30",
+    "bbox": {
+      "x0": 127.22000122070312,
+      "y0": 128.58892822265625,
+      "x1": 525.3215942382812,
+      "y1": 139.14892578125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_current_liabilities",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 8936237742.28,
+    "prior_value": 6719290905.45,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "流动负债合计 8,936,237,742.28 6,719,290,905.45",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 487.7989501953125,
+      "x1": 525.3516235351562,
+      "y1": 498.35894775390625
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 454305071.22,
+    "prior_value": 455405533.63,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "非流动负债合计 454,305,071.22 455,405,533.63",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 688.948974609375,
+      "x1": 525.3477783203125,
+      "y1": 699.5089721679688
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_liabilities",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 9390542813.5,
+    "prior_value": 7174696439.08,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "负债合计 9,390,542,813.50 7,174,696,439.08",
+    "bbox": {
+      "x0": 127.22000122070312,
+      "y0": 703.3489379882812,
+      "x1": 525.3516235351562,
+      "y1": 713.908935546875
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-equity_parent",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 28530612036.85,
+    "prior_value": 26397676525.41,
+    "unit": "元",
+    "page": 77,
+    "printed_page": 77,
+    "snippet": "归属于母公司所有者权益(或股东权 益）合计 28,530,612,036.85 26,397,676,525.41",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 214.74896240234375,
+      "x1": 525.3215942382812,
+      "y1": 232.14892578125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_equity",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 29032975592.12,
+    "prior_value": 26884479411.22,
+    "unit": "元",
+    "page": 77,
+    "printed_page": 77,
+    "snippet": "所有者权益(或股东权益）合计 29,032,975,592.12 26,884,479,411.22",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 257.10894775390625,
+      "x1": 525.3215942382812,
+      "y1": 267.6689453125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_liabilities_equity",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 38423518405.62,
+    "prior_value": 34059175850.3,
+    "unit": "元",
+    "page": 77,
+    "printed_page": 77,
+    "snippet": "负债和所有者权益(或股东权 益）总计 38,423,518,405.62 34,059,175,850.30",
+    "bbox": {
+      "x0": 95.66400146484375,
+      "y0": 271.5389404296875,
+      "x1": 525.3215942382812,
+      "y1": 295.658935546875
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_revenue",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 24559312356.59,
+    "prior_value": 25609651543.29,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "一、营业总收入 24,559,312,356.59 25,609,651,543.29",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 373.7789306640625,
+      "x1": 526.0416259765625,
+      "y1": 384.33892822265625
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-revenue",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 24559312356.59,
+    "prior_value": 25609651543.29,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "其中：营业收入 七、61 24,559,312,356.59 25,609,651,543.29",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 387.9389343261719,
+      "x1": 526.0416259765625,
+      "y1": 398.4989318847656
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_cost",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 18184263463.98,
+    "prior_value": 18517973318.04,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "二、营业总成本 18,184,263,463.98 18,517,973,318.04",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 444.47894287109375,
+      "x1": 526.0416259765625,
+      "y1": 455.0389404296875
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-cost_of_revenue",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 16028535574.92,
+    "prior_value": 16471824416.06,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "其中：营业成本 七、61 16,028,535,574.92 16,471,824,416.06",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 458.5189514160156,
+      "x1": 526.0416259765625,
+      "y1": 469.0789489746094
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-taxes_surcharges",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 194010627.83,
+    "prior_value": 207194179.94,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "税金及附加 七、62 194,010,627.83 207,194,179.94",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 571.43896484375,
+      "x1": 526.0677490234375,
+      "y1": 581.9989624023438
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-selling_expense",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 1305746731.57,
+    "prior_value": 1378053856.94,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "销售费用 七、63 1,305,746,731.57 1,378,053,856.94",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 585.5989379882812,
+      "x1": 526.0715942382812,
+      "y1": 596.158935546875
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-admin_expense",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 525684478.72,
+    "prior_value": 441740962.78,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "管理费用 七、64 525,684,478.72 441,740,962.78",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 599.7589111328125,
+      "x1": 526.0677490234375,
+      "y1": 610.3189086914062
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-rd_expense",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 715417649.71,
+    "prior_value": 751338973.38,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "研发费用 七、65 715,417,649.71 751,338,973.38",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 613.7989501953125,
+      "x1": 526.0677490234375,
+      "y1": 624.3589477539062
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-finance_expense",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -585131598.77,
+    "prior_value": -732179071.06,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "财务费用 七、66 -585,131,598.77 -732,179,071.06",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 627.9889526367188,
+      "x1": 526.0715942382812,
+      "y1": 638.5489501953125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-operating_profit",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 6744787667.43,
+    "prior_value": 7352280924.22,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "三、营业利润(亏损以“－”号填列） 6,744,787,667.43 7,352,280,924.22",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 251.58892822265625,
+      "x1": 526.0715942382812,
+      "y1": 262.14892578125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-total_profit",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 6739037328.54,
+    "prior_value": 7364206015.29,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "四、利润总额(亏损总额以“－”号填 列） 6,739,037,328.54 7,364,206,015.29",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 293.97894287109375,
+      "x1": 526.0715942382812,
+      "y1": 311.37890625
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-net_profit",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 5642186761.43,
+    "prior_value": 6203166580.06,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "五、净利润(净亏损以“－”号填列） 5,642,186,761.43 6,203,166,580.06",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 335.85894775390625,
+      "x1": 526.0715942382812,
+      "y1": 346.4189453125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-net_profit_parent",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 5626626091.97,
+    "prior_value": 6197716943.78,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "761.436,203,166,580.062.终止经营净利润(净亏损以“－”号填列）(二）按所有权归属分类1.归属于母公司股东的净利润(净亏损以“-”号填列）5,626,626,091.976,197,716,943.782.少数股东损益(净亏损以“-”号填列）15,560,669.465,449,636.28六、其他综合收益的税后净额-9,141.91(一）归属母公司所有者的其他综合收益的税后净额-9,141.911．不能重",
+    "bbox": {
+      "x0": 116.54000091552734,
+      "y0": 433.658935546875,
+      "x1": 526.0715942382812,
+      "y1": 451.0789489746094
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-basic_eps",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 1.01,
+    "prior_value": 1.11,
+    "unit": "元/股",
+    "page": 81,
+    "printed_page": 81,
+    "snippet": "(一）基本每股收益(元/股) 1.01 1.11",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 210.7889404296875,
+      "x1": 526.06005859375,
+      "y1": 221.34893798828125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-sales_cash",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 29543161729.95,
+    "prior_value": 26757359428.31,
+    "unit": "元",
+    "page": 82,
+    "printed_page": 82,
+    "snippet": "销售商品、提供劳务收到的现金 29,543,161,729.95 26,757,359,428.31",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 671.18896484375,
+      "x1": 525.0816040039062,
+      "y1": 681.7489624023438
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-cfo",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 7355650997.74,
+    "prior_value": 3830314321.72,
+    "unit": "元",
+    "page": 83,
+    "printed_page": 83,
+    "snippet": "经营活动产生的现金流量净 额 7,355,650,997.74 3,830,314,321.72",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 381.21893310546875,
+      "x1": 525.1116333007812,
+      "y1": 405.33892822265625
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-cfi",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -819999258.89,
+    "prior_value": -4658529739.06,
+    "unit": "元",
+    "page": 83,
+    "printed_page": 83,
+    "snippet": "投资活动产生的现金流量净 额 -819,999,258.89 -4,658,529,739.06",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 646.948974609375,
+      "x1": 525.1116333007812,
+      "y1": 671.1889038085938
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-cff",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -2850631924.42,
+    "prior_value": -4017761263.7,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 84,
+    "snippet": "筹资活动产生的现金流量净 额 -2,850,631,924.42 -4,017,761,263.70",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 197.10894775390625,
+      "x1": 525.1116333007812,
+      "y1": 221.34893798828125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-fx_effect",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 4025648.79,
+    "prior_value": -2786387.54,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 84,
+    "snippet": "四、汇率变动对现金及现金等价物 的影响 4,025,648.79 -2,786,387.54",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 224.82891845703125,
+      "x1": 525.1077880859375,
+      "y1": 249.06890869140625
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-net_cash_increase",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 3689045463.22,
+    "prior_value": -4848763068.58,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 84,
+    "snippet": "五、现金及现金等价物净增加额 3,689,045,463.22 -4,848,763,068.58",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 252.6689453125,
+      "x1": 525.1116333007812,
+      "y1": 263.22894287109375
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-beginning_cash",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 9152035033.8,
+    "prior_value": 14000798102.38,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 84,
+    "snippet": "加：期初现金及现金等价物余额 9,152,035,033.80 14,000,798,102.38",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 266.73895263671875,
+      "x1": 525.0816040039062,
+      "y1": 277.2989501953125
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "603288-2023-ending_cash",
+    "company": {
+      "code": "603288",
+      "name": "佛山市海天调味食品股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-27",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219879610.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 12841080497.02,
+    "prior_value": 9152035033.8,
+    "unit": "元",
+    "page": 84,
+    "printed_page": 84,
+    "snippet": "六、期末现金及现金等价物余额 12,841,080,497.02 9,152,035,033.80",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 280.89892578125,
+      "x1": 525.1116333007812,
+      "y1": 291.45892333984375
+    },
+    "source_file": "603288_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

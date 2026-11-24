@@ -1,0 +1,38 @@
+{
+  "company": {
+    "code": "603288",
+    "name": "佛山市海天调味食品股份有限公司",
+    "short_name": ""
+  },
+  "period": "2024",
+  "report_date": "2024-12-31",
+  "announce_date": "2025-04-03",
+  "dataset_id": "603288-2024-12-31-2025-04-03",
+  "evidence_level": "verified",
+  "source_type": "annual_report_pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222994233.PDF",
+  "source_file": "603288_2024.pdf",
+  "source_sha256": "5a97b13534438f5e85249752ef492fbd9e23af73e67845e47bad1ab7d92e20ee",
+  "page_count": 208,
+  "extracted_at": "2026-11-24T18:21:11+08:00",
+  "statements": [
+    "合并资产负债表",
+    "合并利润表",
+    "合并现金流量表"
+  ],
+  "fact_count": 34,
+  "row_count": 117,
+  "coverage_score": 0.9444,
+  "coverage": {
+    "metric_coverage": 1.0,
+    "fact_count": 34,
+    "expected_metrics": 31,
+    "all_metrics": 34,
+    "snippet_hit_rate": 1.0,
+    "check_pass_rate": 0.8333,
+    "check_fail": 0,
+    "missing_required": [],
+    "score": 0.9444
+  },
+  "quality_gate": "pass"
+}

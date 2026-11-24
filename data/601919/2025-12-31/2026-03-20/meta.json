@@ -1,0 +1,38 @@
+{
+  "company": {
+    "code": "601919",
+    "name": "中远海运控股股份有限公司",
+    "short_name": ""
+  },
+  "period": "2025",
+  "report_date": "2025-12-31",
+  "announce_date": "2026-03-20",
+  "dataset_id": "601919-2025-12-31-2026-03-20",
+  "evidence_level": "verified",
+  "source_type": "annual_report_pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019947.PDF",
+  "source_file": "601919_2025.pdf",
+  "source_sha256": "17346da3f52093c9d376caa891a02e10969bae51a1e7109cb2a82678d556c4a2",
+  "page_count": 233,
+  "extracted_at": "2026-11-24T18:21:09+08:00",
+  "statements": [
+    "合并资产负债表",
+    "合并利润表",
+    "合并现金流量表"
+  ],
+  "fact_count": 34,
+  "row_count": 139,
+  "coverage_score": 1.0,
+  "coverage": {
+    "metric_coverage": 1.0,
+    "fact_count": 34,
+    "expected_metrics": 31,
+    "all_metrics": 34,
+    "snippet_hit_rate": 1.0,
+    "check_pass_rate": 1.0,
+    "check_fail": 0,
+    "missing_required": [],
+    "score": 1.0
+  },
+  "quality_gate": "pass"
+}

@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "600276-2023-cash",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 20746104943.19,
+    "prior_value": 15110680633.68,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "货币资金 七、1 20,746,104,943.19 15,110,680,633.68",
+    "bbox": {
+      "x0": 80.18399810791016,
+      "y0": 176.49099731445312,
+      "x1": 499.4015808105469,
+      "y1": 188.42091369628906
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-accounts_receivable",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 5194493562.58,
+    "prior_value": 5891397327.62,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "应收账款 七、5 5,194,493,562.58 5,891,397,327.62",
+    "bbox": {
+      "x0": 80.18399810791016,
+      "y0": 219.57101440429688,
+      "x1": 499.3977355957031,
+      "y1": 231.2609405517578
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-inventory",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 2314026002.52,
+    "prior_value": 2450574758.45,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "存货 七、10 2,314,026,002.52 2,450,574,758.45",
+    "bbox": {
+      "x0": 80.18399810791016,
+      "y0": 277.0810241699219,
+      "x1": 499.3977355957031,
+      "y1": 289.01092529296875
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_current_assets",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 31287471171.21,
+    "prior_value": 30934054194.94,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "流动资产合计 31,287,471,171.21 30,934,054,194.94",
+    "bbox": {
+      "x0": 90.6240005493164,
+      "y0": 305.7610168457031,
+      "x1": 499.4015808105469,
+      "y1": 317.450927734375
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_noncurrent_assets",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 12497035464.55,
+    "prior_value": 11436821703.02,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "非流动资产合计 12,497,035,464.55 11,436,821,703.02",
+    "bbox": {
+      "x0": 90.6240005493164,
+      "y0": 491.0610046386719,
+      "x1": 499.4015808105469,
+      "y1": 503.470947265625
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_assets",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 43784506635.76,
+    "prior_value": 42370875897.96,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "资产总计 43,784,506,635.76 42,370,875,897.96",
+    "bbox": {
+      "x0": 101.18000030517578,
+      "y0": 505.4610290527344,
+      "x1": 499.4015808105469,
+      "y1": 517.8709106445312
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_current_liabilities",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 2553658628.06,
+    "prior_value": 3639219602.64,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "流动负债合计 2,553,658,628.06 3,639,219,602.64",
+    "bbox": {
+      "x0": 90.6240005493164,
+      "y0": 649.85107421875,
+      "x1": 499.3977355957031,
+      "y1": 661.5409545898438
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 197761566.37,
+    "prior_value": 318747700.2,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "非流动负债合计 197,761,566.37 318,747,700.20",
+    "bbox": {
+      "x0": 90.6240005493164,
+      "y0": 721.7310791015625,
+      "x1": 499.2777404785156,
+      "y1": 733.4209594726562
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_liabilities",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 2751420194.43,
+    "prior_value": 3957967302.84,
+    "unit": "元",
+    "page": 145,
+    "printed_page": 145,
+    "snippet": "负债合计 2,751,420,194.43 3,957,967,302.84",
+    "bbox": {
+      "x0": 101.18000030517578,
+      "y0": 736.1270751953125,
+      "x1": 499.2777404785156,
+      "y1": 747.8169555664062
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-equity_parent",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 40465795358.69,
+    "prior_value": 37823560699.44,
+    "unit": "元",
+    "page": 146,
+    "printed_page": 146,
+    "snippet": "53,298,912,011.55未分配利润七、6028,802,770,314.9025,520,207,662.61归属于母公司所有者权益（或股东权益）合计40,465,795,358.6937,823,560,699.44少数股东权益567,291,082.64589,347,895.68所有者权益（或股东权益）合计41,033,086,441.3338,412,908,595.12负债和所有者权益（或股东权益）总计43,7",
+    "bbox": {
+      "x0": 69.6240005493164,
+      "y0": 174.06890869140625,
+      "x1": 499.2815856933594,
+      "y1": 198.7409210205078
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_equity",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 41033086441.33,
+    "prior_value": 38412908595.12,
+    "unit": "元",
+    "page": 146,
+    "printed_page": 146,
+    "snippet": "所有者权益（或 股东权益）合计 41,033,086,441.33 38,412,908,595.12",
+    "bbox": {
+      "x0": 69.6240005493164,
+      "y0": 229.98895263671875,
+      "x1": 499.2815856933594,
+      "y1": 254.22894287109375
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_liabilities_equity",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 43784506635.76,
+    "prior_value": 42370875897.96,
+    "unit": "元",
+    "page": 146,
+    "printed_page": 146,
+    "snippet": "负债和所有者 权益（或股东权益） 总计 43,784,506,635.76 42,370,875,897.96",
+    "bbox": {
+      "x0": 69.6240005493164,
+      "y0": 258.06890869140625,
+      "x1": 499.2815856933594,
+      "y1": 295.89892578125
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_revenue",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 22819784741.31,
+    "prior_value": 21275270681.52,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "一、营业总收入 22,819,784,741.31 21,275,270,681.52",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 504.9810485839844,
+      "x1": 500.0015869140625,
+      "y1": 516.6709594726562
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-revenue",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 22819784741.31,
+    "prior_value": 21275270681.52,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "其中：营业收入 七、61 22,819,784,741.31 21,275,270,681.52",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 519.0210571289062,
+      "x1": 500.0015869140625,
+      "y1": 531.0709228515625
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": "七、61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_cost",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 18214152501.77,
+    "prior_value": 17747084300.6,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "二、营业总成本 18,214,152,501.77 17,747,084,300.60",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 533.1810302734375,
+      "x1": 500.0015869140625,
+      "y1": 544.8709106445312
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-cost_of_revenue",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 3525247786.91,
+    "prior_value": 3486638890.09,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "其中：营业成本 七、61 3,525,247,786.91 3,486,638,890.09",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 547.2210693359375,
+      "x1": 499.99774169921875,
+      "y1": 559.2709350585938
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": "七、61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-taxes_surcharges",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 219257133.43,
+    "prior_value": 190388735.65,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "税金及附加 七、62 219,257,133.43 190,388,735.65",
+    "bbox": {
+      "x0": 101.05999755859375,
+      "y0": 561.3810424804688,
+      "x1": 499.99774169921875,
+      "y1": 573.4309692382812
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": "七、62",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-selling_expense",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 7577175913.92,
+    "prior_value": 7347893145.32,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "销售费用 七、63 7,577,175,913.92 7,347,893,145.32",
+    "bbox": {
+      "x0": 101.05999755859375,
+      "y0": 575.541015625,
+      "x1": 499.99774169921875,
+      "y1": 587.4708862304688
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": "七、63",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-admin_expense",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 2416974460.17,
+    "prior_value": 2306477951.6,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "管理费用 七、64 2,416,974,460.17 2,306,477,951.60",
+    "bbox": {
+      "x0": 101.05999755859375,
+      "y0": 589.5810546875,
+      "x1": 499.99774169921875,
+      "y1": 601.6309204101562
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": "七、64",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-rd_expense",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 4953887105.16,
+    "prior_value": 4886552651.32,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "研发费用 七、65 4,953,887,105.16 4,886,552,651.32",
+    "bbox": {
+      "x0": 101.05999755859375,
+      "y0": 603.7410278320312,
+      "x1": 499.99774169921875,
+      "y1": 615.7909545898438
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": "七、65",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-finance_expense",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -478389897.82,
+    "prior_value": -470867073.38,
+    "unit": "元",
+    "page": 147,
+    "printed_page": 147,
+    "snippet": "财务费用 七、66 -478,389,897.82 -470,867,073.38",
+    "bbox": {
+      "x0": 101.05999755859375,
+      "y0": 617.9310302734375,
+      "x1": 499.9938659667969,
+      "y1": 629.8609008789062
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": "七、66",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-operating_profit",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 4909904926.21,
+    "prior_value": 4111959971.91,
+    "unit": "元",
+    "page": 148,
+    "printed_page": 148,
+    "snippet": "三、营业利润（亏损以“－”号填列） 4,909,904,926.21 4,111,959,971.91",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 156.57101440429688,
+      "x1": 499.99774169921875,
+      "y1": 168.6209259033203
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-total_profit",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 4667109690.24,
+    "prior_value": 3968492118.85,
+    "unit": "元",
+    "page": 148,
+    "printed_page": 148,
+    "snippet": "四、利润总额（亏损总额以“－”号填列） 4,667,109,690.24 3,968,492,118.85",
+    "bbox": {
+      "x0": 64.2239990234375,
+      "y0": 198.93099975585938,
+      "x1": 499.99774169921875,
+      "y1": 210.8609161376953
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-net_profit",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 4277820702.5,
+    "prior_value": 3815141579.62,
+    "unit": "元",
+    "page": 148,
+    "printed_page": 148,
+    "snippet": "五、净利润（净亏损以“－”号填列） 4,277,820,702.50 3,815,141,579.62",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 227.13101196289062,
+      "x1": 499.99774169921875,
+      "y1": 239.18092346191406
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-net_profit_parent",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 4302435930.05,
+    "prior_value": 3906375067.36,
+    "unit": "元",
+    "page": 148,
+    "printed_page": 148,
+    "snippet": "净亏损以“－”号填列）4,277,820,702.503,815,141,579.62（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）4,302,435,930.053,906,375,067.362.少数股东损益（净亏损以“-”号填列）-24,615,227.55-91,233,487.74六、其他综合收益的税后净额17,841,438.9315,868,800.02（一）归属母公司所有者的其他综合收",
+    "bbox": {
+      "x0": 90.50399780273438,
+      "y0": 297.6010437011719,
+      "x1": 499.99774169921875,
+      "y1": 315.77093505859375
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-basic_eps",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 0.68,
+    "prior_value": 0.61,
+    "unit": "元/股",
+    "page": 148,
+    "printed_page": 148,
+    "snippet": "（一）基本每股收益(元/股) 0.68 0.61",
+    "bbox": {
+      "x0": 80.06400299072266,
+      "y0": 520.7010498046875,
+      "x1": 500.02001953125,
+      "y1": 532.6309204101562
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-sales_cash",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 24093922387.94,
+    "prior_value": 18567439285.94,
+    "unit": "元",
+    "page": 149,
+    "printed_page": 149,
+    "snippet": "销售商品、提供劳务收到的现金 24,093,922,387.94 18,567,439,285.94",
+    "bbox": {
+      "x0": 80.06400299072266,
+      "y0": 616.4910278320312,
+      "x1": 500.0015869140625,
+      "y1": 628.180908203125
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-cfo",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 7643665074.52,
+    "prior_value": 1265264631.93,
+    "unit": "元",
+    "page": 149,
+    "printed_page": 149,
+    "snippet": "经营活动产生的现金流量净额 7,643,665,074.52 1,265,264,631.93",
+    "bbox": {
+      "x0": 90.50399780273438,
+      "y0": 743.5670166015625,
+      "x1": 499.99774169921875,
+      "y1": 755.2568969726562
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-cfi",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": 1222315107.03,
+    "prior_value": 390289366.94,
+    "unit": "元",
+    "page": 150,
+    "printed_page": 150,
+    "snippet": "投资活动产生的现金流量净额 1,222,315,107.03 390,289,366.94",
+    "bbox": {
+      "x0": 90.50399780273438,
+      "y0": 255.33102416992188,
+      "x1": 499.99774169921875,
+      "y1": 267.02093505859375
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-cff",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -3144426297.54,
+    "prior_value": -318770209.45,
+    "unit": "元",
+    "page": 150,
+    "printed_page": 150,
+    "snippet": "筹资活动产生的现金流量净额 -3,144,426,297.54 -318,770,209.45",
+    "bbox": {
+      "x0": 90.50399780273438,
+      "y0": 437.7133483886719,
+      "x1": 499.9938659667969,
+      "y1": 449.93463134765625
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-fx_effect",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 12533137.63,
+    "prior_value": 80497370.18,
+    "unit": "元",
+    "page": 150,
+    "printed_page": 150,
+    "snippet": "四、汇率变动对现金及现金等价物 的影响 12,533,137.63 80,497,370.18",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 452.7589416503906,
+      "x1": 499.99774169921875,
+      "y1": 476.8789367675781
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-net_cash_increase",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 5734087021.64,
+    "prior_value": 1417281159.6,
+    "unit": "元",
+    "page": 150,
+    "printed_page": 150,
+    "snippet": "五、现金及现金等价物净增加额 5,734,087,021.64 1,417,281,159.60",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 479.781005859375,
+      "x1": 499.99774169921875,
+      "y1": 491.470947265625
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-beginning_cash",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 14537437248.08,
+    "prior_value": 13120156088.48,
+    "unit": "元",
+    "page": 150,
+    "printed_page": 150,
+    "snippet": "加：期初现金及现金等价物余额 14,537,437,248.08 13,120,156,088.48",
+    "bbox": {
+      "x0": 80.06400299072266,
+      "y0": 493.9410095214844,
+      "x1": 500.0015869140625,
+      "y1": 505.63092041015625
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600276-2023-ending_cash",
+    "company": {
+      "code": "600276",
+      "name": "江苏恒瑞医药股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-18",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-18/1219650115.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 20271524269.72,
+    "prior_value": 14537437248.08,
+    "unit": "元",
+    "page": 150,
+    "printed_page": 150,
+    "snippet": "六、期末现金及现金等价物余额 七、79（4） 20,271,524,269.72 14,537,437,248.08",
+    "bbox": {
+      "x0": 69.50399780273438,
+      "y0": 508.1010437011719,
+      "x1": 500.0015869140625,
+      "y1": 520.0309448242188
+    },
+    "source_file": "600276_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": "七、79（4）",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

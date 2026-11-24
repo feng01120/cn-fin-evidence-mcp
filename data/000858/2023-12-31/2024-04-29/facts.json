@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "000858-2023-cash",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 115456300910.64,
+    "prior_value": 92358426975.79,
+    "unit": "元",
+    "page": 53,
+    "printed_page": null,
+    "snippet": "货币资金 115,456,300,910.64 92,358,426,975.79",
+    "bbox": {
+      "x0": 76.7040023803711,
+      "y0": 192.08900451660156,
+      "x1": 538.8850708007812,
+      "y1": 201.08900451660156
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-accounts_receivable",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 42647461.48,
+    "prior_value": 35686942.32,
+    "unit": "元",
+    "page": 53,
+    "printed_page": null,
+    "snippet": "应收账款 42,647,461.48 35,686,942.32",
+    "bbox": {
+      "x0": 76.7040023803711,
+      "y0": 295.5589904785156,
+      "x1": 538.9230346679688,
+      "y1": 304.6789855957031
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-inventory",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 17387841712.87,
+    "prior_value": 15980657013.57,
+    "unit": "元",
+    "page": 53,
+    "printed_page": null,
+    "snippet": "存货 17,387,841,712.87 15,980,657,013.57",
+    "bbox": {
+      "x0": 76.7040023803711,
+      "y0": 468.13897705078125,
+      "x1": 538.8850708007812,
+      "y1": 477.13897705078125
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_current_assets",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 147182291329.67,
+    "prior_value": 137565771759.55,
+    "unit": "元",
+    "page": 53,
+    "printed_page": null,
+    "snippet": "流动资产合计 147,182,291,329.67 137,565,771,759.55",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 554.4189453125,
+      "x1": 538.8820190429688,
+      "y1": 563.4189453125
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_noncurrent_assets",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 18250690355.08,
+    "prior_value": 15246155491.63,
+    "unit": "元",
+    "page": 54,
+    "printed_page": null,
+    "snippet": "非流动资产合计 18,250,690,355.08 15,246,155,491.63",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 231.80897521972656,
+      "x1": 538.8850708007812,
+      "y1": 240.92897033691406
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_assets",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 165432981684.75,
+    "prior_value": 152811927251.18,
+    "unit": "元",
+    "page": 54,
+    "printed_page": null,
+    "snippet": "资产总计 165,432,981,684.75 152,811,927,251.18",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 249.08900451660156,
+      "x1": 538.8820190429688,
+      "y1": 258.0890197753906
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_current_liabilities",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 32683139984.65,
+    "prior_value": 35759145250.65,
+    "unit": "元",
+    "page": 54,
+    "printed_page": null,
+    "snippet": "流动负债合计 32,683,139,984.65 35,759,145,250.65",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 680.448974609375,
+      "x1": 538.8850708007812,
+      "y1": 689.448974609375
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 400468512.93,
+    "prior_value": 365753960.43,
+    "unit": "元",
+    "page": 55,
+    "printed_page": null,
+    "snippet": "非流动负债合计 400,468,512.93 365,753,960.43",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 231.80897521972656,
+      "x1": 538.9000244140625,
+      "y1": 240.92897033691406
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_liabilities",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 33083608497.58,
+    "prior_value": 36124899211.08,
+    "unit": "元",
+    "page": 55,
+    "printed_page": null,
+    "snippet": "负债合计 33,083,608,497.58 36,124,899,211.08",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 249.08900451660156,
+      "x1": 538.8850708007812,
+      "y1": 258.0890197753906
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-equity_parent",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 129558241040.51,
+    "prior_value": 114027897212.18,
+    "unit": "元",
+    "page": 55,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者权益合计 129,558,241,040.51 114,027,897,212.18",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 473.4189758300781,
+      "x1": 538.8820190429688,
+      "y1": 482.4189758300781
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_equity",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 132349373187.17,
+    "prior_value": 116687028040.1,
+    "unit": "元",
+    "page": 55,
+    "printed_page": null,
+    "snippet": "所有者权益合计 132,349,373,187.17 116,687,028,040.10",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 507.9789733886719,
+      "x1": 538.8820190429688,
+      "y1": 516.9789428710938
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_liabilities_equity",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 165432981684.75,
+    "prior_value": 152811927251.18,
+    "unit": "元",
+    "page": 55,
+    "printed_page": null,
+    "snippet": "负债和所有者权益总计 165,432,981,684.75 152,811,927,251.18",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 525.1389770507812,
+      "x1": 538.8820190429688,
+      "y1": 534.1389770507812
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_revenue",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 83272067317.19,
+    "prior_value": 73968640704.54,
+    "unit": "元",
+    "page": 57,
+    "printed_page": null,
+    "snippet": "一、营业总收入 83,272,067,317.19 73,968,640,704.54",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 702.1689453125,
+      "x1": 538.8850708007812,
+      "y1": 711.2889404296875
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-revenue",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 83272067317.19,
+    "prior_value": 73968640704.54,
+    "unit": "元",
+    "page": 57,
+    "printed_page": null,
+    "snippet": "其中：营业收入 83,272,067,317.19 73,968,640,704.54",
+    "bbox": {
+      "x0": 76.7040023803711,
+      "y0": 720.0489501953125,
+      "x1": 538.8850708007812,
+      "y1": 729.0489501953125
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_cost",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 41653257827.54,
+    "prior_value": 37049016916.17,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "二、营业总成本 41,653,257,827.54 37,049,016,916.17",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 94.64900207519531,
+      "x1": 538.8850708007812,
+      "y1": 103.76899719238281
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-cost_of_revenue",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 20157143952.21,
+    "prior_value": 18178425659.64,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "其中：营业成本 20,157,143,952.21 18,178,425,659.64",
+    "bbox": {
+      "x0": 76.7040023803711,
+      "y0": 112.40895080566406,
+      "x1": 538.8850708007812,
+      "y1": 121.52894592285156
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-taxes_surcharges",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 12531695628.42,
+    "prior_value": 10748802377.04,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "税金及附加 12,531,695,628.42 10,748,802,377.04",
+    "bbox": {
+      "x0": 103.69999694824219,
+      "y0": 254.8789825439453,
+      "x1": 538.8850708007812,
+      "y1": 263.9989929199219
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-selling_expense",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 7796298418.13,
+    "prior_value": 6844237013.17,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "销售费用 7,796,298,418.13 6,844,237,013.17",
+    "bbox": {
+      "x0": 103.69999694824219,
+      "y0": 272.6390075683594,
+      "x1": 538.8909912109375,
+      "y1": 281.7590026855469
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-admin_expense",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 3319445339.77,
+    "prior_value": 3068119268.45,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "管理费用 3,319,445,339.77 3,068,119,268.45",
+    "bbox": {
+      "x0": 103.69999694824219,
+      "y0": 290.5190124511719,
+      "x1": 538.8909912109375,
+      "y1": 299.5190124511719
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-rd_expense",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 321845165.28,
+    "prior_value": 235783645.79,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "研发费用 321,845,165.28 235,783,645.79",
+    "bbox": {
+      "x0": 103.69999694824219,
+      "y0": 308.2789611816406,
+      "x1": 538.9000244140625,
+      "y1": 317.3990173339844
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-finance_expense",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -2473170676.27,
+    "prior_value": -2026351047.92,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "财务费用 -2,473,170,676.27 -2,026,351,047.92",
+    "bbox": {
+      "x0": 103.69999694824219,
+      "y0": 326.03900146484375,
+      "x1": 538.8910522460938,
+      "y1": 335.15899658203125
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-operating_profit",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 42003663761.87,
+    "prior_value": 37174423453.63,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "三、营业利润（亏损以“－”号填列） 42,003,663,761.87 37,174,423,453.63",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 557.5390014648438,
+      "x1": 538.8850708007812,
+      "y1": 566.5390014648438
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-total_profit",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 41912681943.64,
+    "prior_value": 37103520716.24,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "四、利润总额（亏损总额以“－”号填列） 41,912,681,943.64 37,103,520,716.24",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 610.9689331054688,
+      "x1": 538.8850708007812,
+      "y1": 619.9689331054688
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-net_profit",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 31520777582.15,
+    "prior_value": 27969785575.27,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "五、净利润（净亏损以“－”号填列） 31,520,777,582.15 27,969,785,575.27",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 646.6089477539062,
+      "x1": 538.8850708007812,
+      "y1": 655.6089477539062
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-net_profit_parent",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 30210585269.3,
+    "prior_value": 26689983647.2,
+    "unit": "元",
+    "page": 58,
+    "printed_page": null,
+    "snippet": "1.归属于母公司股东的净利润 30,210,585,269.30 26,689,983,647.20",
+    "bbox": {
+      "x0": 85.7040023803711,
+      "y0": 735.6449584960938,
+      "x1": 538.8850708007812,
+      "y1": 744.6449584960938
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-basic_eps",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 7.783,
+    "prior_value": 6.876,
+    "unit": "元/股",
+    "page": 59,
+    "printed_page": null,
+    "snippet": "（一）基本每股收益 7.783 6.876",
+    "bbox": {
+      "x0": 76.7040023803711,
+      "y0": 450.7389831542969,
+      "x1": 538.9590454101562,
+      "y1": 459.7389831542969
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-sales_cash",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 105349992178.96,
+    "prior_value": 81770582903.92,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "宜宾五粮液股份有限公司2023年度报告全文61销售商品、提供劳务收到的现金105,349,992,178.9681,770,582,903.92客户存款和同业存放款项净增加额向中央银行借款净增加额向其他金融机构拆入资金净增加额收到原保险合同保费取得的现金收到再保业务现金净额保户储金及投资款净增加额收取利息、手续费及佣金的现金拆入资金净增加额回购业务",
+    "bbox": {
+      "x0": 76.7040023803711,
+      "y0": 43.74898147583008,
+      "x1": 538.8850708007812,
+      "y1": 85.64900207519531
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-cfo",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 41742479908.23,
+    "prior_value": 24431136261.48,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流量净额 41,742,479,908.23 24,431,136,261.48",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 507.9789733886719,
+      "x1": 538.8850708007812,
+      "y1": 516.9789428710938
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-cfi",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -2931832324.46,
+    "prior_value": -1716454550.53,
+    "unit": "元",
+    "page": 61,
+    "printed_page": null,
+    "snippet": "投资活动产生的现金流量净额 -2,931,832,324.46 -1,716,454,550.53",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 749.4449462890625,
+      "x1": 538.8910522460938,
+      "y1": 758.4449462890625
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-cff",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -16300234578.09,
+    "prior_value": -13105431458.2,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "筹资活动产生的现金流量净额 -16,300,234,578.09 -13,105,431,458.20",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 266.3990173339844,
+      "x1": 538.8880615234375,
+      "y1": 275.3990173339844
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-fx_effect",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 627320.96,
+    "prior_value": 136266.19,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "四、汇率变动对现金及现金等价物的影响 627,320.96 136,266.19",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 283.6789855957031,
+      "x1": 538.9380493164062,
+      "y1": 292.6789855957031
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-net_cash_increase",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 22511040326.64,
+    "prior_value": 9609386518.94,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "五、现金及现金等价物净增加额 22,511,040,326.64 9,609,386,518.94",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 300.9590148925781,
+      "x1": 538.8909912109375,
+      "y1": 309.9590148925781
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-beginning_cash",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 90584643897.66,
+    "prior_value": 80975257378.72,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "加：期初现金及现金等价物余额 90,584,643,897.66 80,975,257,378.72",
+    "bbox": {
+      "x0": 76.7040023803711,
+      "y0": 318.1189880371094,
+      "x1": 538.8850708007812,
+      "y1": 327.1189880371094
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000858-2023-ending_cash",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 113095684224.3,
+    "prior_value": 90584643897.66,
+    "unit": "元",
+    "page": 62,
+    "printed_page": null,
+    "snippet": "六、期末现金及现金等价物余额 113,095,684,224.30 90,584,643,897.66",
+    "bbox": {
+      "x0": 67.7040023803711,
+      "y0": 335.39898681640625,
+      "x1": 538.8850708007812,
+      "y1": 344.39898681640625
+    },
+    "source_file": "000858_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

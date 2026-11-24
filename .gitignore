@@ -7,3 +7,5 @@ dist/
 data/raw/
 data/audit.jsonl
 .pytest_cache/
+data/_staging/
+data/_legacy/

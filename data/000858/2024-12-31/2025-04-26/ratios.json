@@ -1,0 +1,330 @@
+[
+  {
+    "ratio": "gross_margin",
+    "name": "毛利率",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 77.0548,
+    "unit": "%",
+    "formula": "(营业收入 - 营业成本) / 营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 89175178322.7,
+        "evidence_id": "000858-2024-revenue"
+      },
+      {
+        "metric": "cost_of_revenue",
+        "name": "营业成本",
+        "value": 20461423083.74,
+        "evidence_id": "000858-2024-cost_of_revenue"
+      }
+    ],
+    "evidence": [
+      "000858-2024-revenue",
+      "000858-2024-cost_of_revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_margin",
+    "name": "净利率",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 37.2228,
+    "unit": "%",
+    "formula": "净利润 / 营业收入",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 33193460484.32,
+        "evidence_id": "000858-2024-net_profit"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 89175178322.7,
+        "evidence_id": "000858-2024-revenue"
+      }
+    ],
+    "evidence": [
+      "000858-2024-net_profit",
+      "000858-2024-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "roe",
+    "name": "净资产收益率（ROE）",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 24.2374,
+    "unit": "%",
+    "formula": "归属于母公司股东的净利润 / 平均归属于母公司所有者权益",
+    "inputs": [
+      {
+        "metric": "net_profit_parent",
+        "name": "归属于母公司股东的净利润",
+        "value": 31853172533.98,
+        "evidence_id": "000858-2024-net_profit_parent"
+      },
+      {
+        "metric": "equity_parent",
+        "name": "归属于母公司所有者权益合计",
+        "value": 133285282015.97,
+        "evidence_id": "000858-2024-equity_parent"
+      }
+    ],
+    "evidence": [
+      "000858-2024-net_profit_parent",
+      "000858-2024-equity_parent"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "debt_ratio",
+    "name": "资产负债率",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 27.5468,
+    "unit": "%",
+    "formula": "负债合计 / 资产总计",
+    "inputs": [
+      {
+        "metric": "total_liabilities",
+        "name": "负债合计",
+        "value": 51857424971.48,
+        "evidence_id": "000858-2024-total_liabilities"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 188252218704.17,
+        "evidence_id": "000858-2024-total_assets"
+      }
+    ],
+    "evidence": [
+      "000858-2024-total_liabilities",
+      "000858-2024-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "current_ratio",
+    "name": "流动比率",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 3.249,
+    "unit": "倍",
+    "formula": "流动资产合计 / 流动负债合计",
+    "inputs": [
+      {
+        "metric": "total_current_assets",
+        "name": "流动资产合计",
+        "value": 165783297845.86,
+        "evidence_id": "000858-2024-total_current_assets"
+      },
+      {
+        "metric": "total_current_liabilities",
+        "name": "流动负债合计",
+        "value": 51026506357.06,
+        "evidence_id": "000858-2024-total_current_liabilities"
+      }
+    ],
+    "evidence": [
+      "000858-2024-total_current_assets",
+      "000858-2024-total_current_liabilities"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "cfo_to_revenue",
+    "name": "经营现金流/营业收入",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 38.0596,
+    "unit": "%",
+    "formula": "经营活动产生的现金流量净额 / 营业收入",
+    "inputs": [
+      {
+        "metric": "cfo",
+        "name": "经营活动产生的现金流量净额",
+        "value": 33939755192.78,
+        "evidence_id": "000858-2024-cfo"
+      },
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 89175178322.7,
+        "evidence_id": "000858-2024-revenue"
+      }
+    ],
+    "evidence": [
+      "000858-2024-cfo",
+      "000858-2024-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "revenue_growth",
+    "name": "营业收入增长率",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 7.0889,
+    "unit": "%",
+    "formula": "(本期营业收入 - 上期营业收入) / 上期营业收入",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 89175178322.7,
+        "evidence_id": "000858-2024-revenue"
+      }
+    ],
+    "evidence": [
+      "000858-2024-revenue"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "net_profit_growth",
+    "name": "净利润增长率",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 5.3066,
+    "unit": "%",
+    "formula": "(本期净利润 - 上期净利润) / 上期净利润",
+    "inputs": [
+      {
+        "metric": "net_profit",
+        "name": "净利润",
+        "value": 33193460484.32,
+        "evidence_id": "000858-2024-net_profit"
+      }
+    ],
+    "evidence": [
+      "000858-2024-net_profit"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "ratio": "asset_turnover",
+    "name": "总资产周转率",
+    "company": {
+      "code": "000858",
+      "name": "宜宾五粮液股份有限公司",
+      "short_name": ""
+    },
+    "period": "2024",
+    "value": 0.5043,
+    "unit": "倍",
+    "formula": "营业收入 / 平均资产总计",
+    "inputs": [
+      {
+        "metric": "revenue",
+        "name": "营业收入",
+        "value": 89175178322.7,
+        "evidence_id": "000858-2024-revenue"
+      },
+      {
+        "metric": "total_assets",
+        "name": "资产总计",
+        "value": 188252218704.17,
+        "evidence_id": "000858-2024-total_assets"
+      }
+    ],
+    "evidence": [
+      "000858-2024-revenue",
+      "000858-2024-total_assets"
+    ],
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "inputs_present"
+      ],
+      "messages": []
+    }
+  }
+]

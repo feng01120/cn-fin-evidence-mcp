@@ -1,0 +1,40 @@
+{
+  "company": {
+    "code": "601012",
+    "name": "隆基绿能科技股份有限公司",
+    "short_name": ""
+  },
+  "period": "2025",
+  "report_date": "2025-12-31",
+  "announce_date": "2026-04-29",
+  "dataset_id": "601012-2025-12-31-2026-04-29",
+  "evidence_level": "verified",
+  "source_type": "annual_report_pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225251647.PDF",
+  "source_file": "601012_2025.pdf",
+  "source_sha256": "10233740d54740b89dfd772eecac5f04d8fef639489acd3b18b1a35e81bce2c1",
+  "page_count": 314,
+  "extracted_at": "2026-11-24T18:21:03+08:00",
+  "statements": [
+    "合并资产负债表",
+    "合并利润表",
+    "合并现金流量表"
+  ],
+  "fact_count": 34,
+  "row_count": 135,
+  "coverage_score": 0.894,
+  "coverage": {
+    "metric_coverage": 0.9677,
+    "fact_count": 34,
+    "expected_metrics": 31,
+    "all_metrics": 34,
+    "snippet_hit_rate": 1.0,
+    "check_pass_rate": 0.7143,
+    "check_fail": 0,
+    "missing_required": [
+      "total_profit"
+    ],
+    "score": 0.894
+  },
+  "quality_gate": "pass"
+}

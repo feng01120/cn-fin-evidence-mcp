@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "601012-2023-cash",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 57001192070.63,
+    "prior_value": 54372049619.32,
+    "unit": "元",
+    "page": 121,
+    "printed_page": 121,
+    "snippet": "货币资金 七、1 57,001,192,070.63 54,372,049,619.32",
+    "bbox": {
+      "x0": 84.50399780273438,
+      "y0": 223.5089111328125,
+      "x1": 531.2316284179688,
+      "y1": 234.06890869140625
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "七、1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-accounts_receivable",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 10855845347.33,
+    "prior_value": 9075746512.31,
+    "unit": "元",
+    "page": 121,
+    "printed_page": 121,
+    "snippet": "应收账款 七、5 10,855,845,347.33 9,075,746,512.31",
+    "bbox": {
+      "x0": 84.50399780273438,
+      "y0": 345.8189392089844,
+      "x1": 531.2316284179688,
+      "y1": 356.3789367675781
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "七、5",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-inventory",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 21539560787.57,
+    "prior_value": 19317555540.96,
+    "unit": "元",
+    "page": 121,
+    "printed_page": 121,
+    "snippet": "存货 七、10 21,539,560,787.57 19,317,555,540.96",
+    "bbox": {
+      "x0": 84.50399780273438,
+      "y0": 549.4789428710938,
+      "x1": 531.2316284179688,
+      "y1": 560.0389404296875
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "七、10",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_current_assets",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 99860632035.64,
+    "prior_value": 90816618854.78,
+    "unit": "元",
+    "page": 121,
+    "printed_page": 121,
+    "snippet": "流动资产合计 99,860,632,035.64 90,816,618,854.78",
+    "bbox": {
+      "x0": 94.94400024414062,
+      "y0": 651.388916015625,
+      "x1": 531.2316284179688,
+      "y1": 661.9489135742188
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_noncurrent_assets",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 64108569374.27,
+    "prior_value": 48738974192.08,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "非流动资产合计 64,108,569,374.27 48,738,974,192.08",
+    "bbox": {
+      "x0": 94.94400024414062,
+      "y0": 387.09893798828125,
+      "x1": 531.2316284179688,
+      "y1": 397.658935546875
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_assets",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 163969201409.91,
+    "prior_value": 139555593046.86,
+    "unit": "元",
+    "page": 122,
+    "printed_page": 122,
+    "snippet": "资产总计 163,969,201,409.91 139,555,593,046.86",
+    "bbox": {
+      "x0": 105.5,
+      "y0": 407.3789367675781,
+      "x1": 531.20166015625,
+      "y1": 417.9389343261719
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_current_liabilities",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 71560306758.22,
+    "prior_value": 60529171670.32,
+    "unit": "元",
+    "page": 123,
+    "printed_page": 123,
+    "snippet": "流动负债合计 71,560,306,758.22 60,529,171,670.32",
+    "bbox": {
+      "x0": 94.94400024414062,
+      "y0": 224.10894775390625,
+      "x1": 531.2316284179688,
+      "y1": 234.6689453125
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 21696879799.17,
+    "prior_value": 16772119630.2,
+    "unit": "元",
+    "page": 123,
+    "printed_page": 123,
+    "snippet": "非流动负债合计 21,696,879,799.17 16,772,119,630.20",
+    "bbox": {
+      "x0": 94.94400024414062,
+      "y0": 509.2789306640625,
+      "x1": 531.2316284179688,
+      "y1": 519.8389282226562
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_liabilities",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 93257186557.39,
+    "prior_value": 77301291300.52,
+    "unit": "元",
+    "page": 123,
+    "printed_page": 123,
+    "snippet": "负债合计 93,257,186,557.39 77,301,291,300.52",
+    "bbox": {
+      "x0": 105.5,
+      "y0": 529.678955078125,
+      "x1": 531.2316284179688,
+      "y1": 540.2389526367188
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-equity_parent",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 70492311268.6,
+    "prior_value": 62146786334.37,
+    "unit": "元",
+    "page": 124,
+    "printed_page": 124,
+    "snippet": "归属于母公司所有者权益（或股东权 益）合计 70,492,311,268.60 62,146,786,334.37",
+    "bbox": {
+      "x0": 84.50399780273438,
+      "y0": 101.82891845703125,
+      "x1": 531.2316284179688,
+      "y1": 119.22895050048828
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_equity",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 70712014852.52,
+    "prior_value": 62254301746.34,
+    "unit": "元",
+    "page": 124,
+    "printed_page": 124,
+    "snippet": "所有者权益（或股东权益）合计 70,712,014,852.52 62,254,301,746.34",
+    "bbox": {
+      "x0": 94.94400024414062,
+      "y0": 156.18896484375,
+      "x1": 531.2316284179688,
+      "y1": 166.74896240234375
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_liabilities_equity",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 163969201409.91,
+    "prior_value": 139555593046.86,
+    "unit": "元",
+    "page": 124,
+    "printed_page": 124,
+    "snippet": "负债和所有者权益（或股东权 益）总计 163,969,201,409.91 139,555,593,046.86",
+    "bbox": {
+      "x0": 73.94400024414062,
+      "y0": 176.58892822265625,
+      "x1": 531.20166015625,
+      "y1": 200.82891845703125
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_revenue",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 129497674192.2,
+    "prior_value": 128998111551.18,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "一、营业总收入 129,497,674,192.20 128,998,111,551.18",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 115.0289306640625,
+      "x1": 540.3516845703125,
+      "y1": 125.58893585205078
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-revenue",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 129497674192.2,
+    "prior_value": 128998111551.18,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "其中：营业收入 七、61 129,497,674,192.20 128,998,111,551.18",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 135.06890869140625,
+      "x1": 540.3516845703125,
+      "y1": 145.62890625
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": "七、61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_cost",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 114629804596.71,
+    "prior_value": 115477250308.55,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "二、营业总成本 114,629,804,596.71 115,477,250,308.55",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 215.58892822265625,
+      "x1": 540.3516845703125,
+      "y1": 226.14892578125
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-cost_of_revenue",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 105852249768.92,
+    "prior_value": 109164093984.54,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "其中：营业成本 七、61 105,852,249,768.92 109,164,093,984.54",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 235.74896240234375,
+      "x1": 540.3516845703125,
+      "y1": 246.3089599609375
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": "七、61",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-taxes_surcharges",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 741058872.63,
+    "prior_value": 656332603.34,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "税金及附加 七、62 741,058,872.63 656,332,603.34",
+    "bbox": {
+      "x0": 98.42400360107422,
+      "y0": 396.6989440917969,
+      "x1": 540.3478393554688,
+      "y1": 407.2589416503906
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": "七、62",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-selling_expense",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 2670097374.02,
+    "prior_value": 3282924300.3,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "销售费用 七、63 2,670,097,374.02 3,282,924,300.30",
+    "bbox": {
+      "x0": 98.42400360107422,
+      "y0": 416.73895263671875,
+      "x1": 540.3516845703125,
+      "y1": 427.2989501953125
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": "七、63",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-admin_expense",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 4915375491.02,
+    "prior_value": 2932840434.63,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "管理费用 七、64 4,915,375,491.02 2,932,840,434.63",
+    "bbox": {
+      "x0": 98.42400360107422,
+      "y0": 436.9189453125,
+      "x1": 540.3516845703125,
+      "y1": 447.47894287109375
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": "七、64",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-rd_expense",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 2282936122.29,
+    "prior_value": 1281985911.16,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "研发费用 七、65 2,282,936,122.29 1,281,985,911.16",
+    "bbox": {
+      "x0": 98.42400360107422,
+      "y0": 457.0789489746094,
+      "x1": 540.3516845703125,
+      "y1": 467.6389465332031
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": "七、65",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-finance_expense",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -1831913032.17,
+    "prior_value": -1840926925.42,
+    "unit": "元",
+    "page": 127,
+    "printed_page": 127,
+    "snippet": "财务费用 七、66 -1,831,913,032.17 -1,840,926,925.42",
+    "bbox": {
+      "x0": 98.42400360107422,
+      "y0": 477.1189270019531,
+      "x1": 540.3516845703125,
+      "y1": 487.6789245605469
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": "七、66",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-operating_profit",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 12113170090.09,
+    "prior_value": 16657650678.9,
+    "unit": "元",
+    "page": 128,
+    "printed_page": 128,
+    "snippet": "三、营业利润（亏损以“－”号填列） 12,113,170,090.09 16,657,650,678.90",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 115.0289306640625,
+      "x1": 540.3516845703125,
+      "y1": 125.58893585205078
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-total_profit",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 11989167993.75,
+    "prior_value": 16404591124.73,
+    "unit": "元",
+    "page": 128,
+    "printed_page": 128,
+    "snippet": "四、利润总额（亏损总额以“－”号填列） 11,989,167,993.75 16,404,591,124.73",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 175.388916015625,
+      "x1": 540.3516845703125,
+      "y1": 185.94891357421875
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-net_profit",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 10686657614.81,
+    "prior_value": 14762832083.83,
+    "unit": "元",
+    "page": 128,
+    "printed_page": 128,
+    "snippet": "五、净利润（净亏损以“－”号填列） 10,686,657,614.81 14,762,832,083.83",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 215.58892822265625,
+      "x1": 540.3516845703125,
+      "y1": 226.14892578125
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-net_profit_parent",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 10751425556.38,
+    "prior_value": 14811576797.86,
+    "unit": "元",
+    "page": 128,
+    "printed_page": 128,
+    "snippet": "14.8114,762,832,083.832.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）10,751,425,556.3814,811,576,797.862.少数股东损益（净亏损以“-”号填列）-64,767,941.57-48,744,714.03六、其他综合收益的税后净额七、77147,674,243.38468,592,169.69（一）归属母公司所有",
+    "bbox": {
+      "x0": 87.86399841308594,
+      "y0": 343.4189453125,
+      "x1": 540.3516845703125,
+      "y1": 360.8189392089844
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-basic_eps",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 1.42,
+    "prior_value": 1.95,
+    "unit": "元/股",
+    "page": 129,
+    "printed_page": 129,
+    "snippet": "（一）基本每股收益(元/股) 十八、2 1.42 1.95",
+    "bbox": {
+      "x0": 77.42400360107422,
+      "y0": 175.388916015625,
+      "x1": 540.340087890625,
+      "y1": 185.94891357421875
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": "十八、2",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-sales_cash",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 94330066969.94,
+    "prior_value": 100008255063.04,
+    "unit": "元",
+    "page": 131,
+    "printed_page": 131,
+    "snippet": "销售商品、提供劳务收到的现金 94,330,066,969.94 100,008,255,063.04",
+    "bbox": {
+      "x0": 77.42400360107422,
+      "y0": 284.85894775390625,
+      "x1": 526.0416259765625,
+      "y1": 295.4189453125
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-cfo",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 8117363683.48,
+    "prior_value": 24370135419.56,
+    "unit": "元",
+    "page": 132,
+    "printed_page": 132,
+    "snippet": "经营活动产生的现金流量净额 8,117,363,683.48 24,370,135,419.56",
+    "bbox": {
+      "x0": 98.42400360107422,
+      "y0": 101.34893798828125,
+      "x1": 526.0416259765625,
+      "y1": 111.90894317626953
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-cfi",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -5636345549.13,
+    "prior_value": -5051365355.17,
+    "unit": "元",
+    "page": 132,
+    "printed_page": 132,
+    "snippet": "投资活动产生的现金流量净额 -5,636,345,549.13 -5,051,365,355.17",
+    "bbox": {
+      "x0": 98.42400360107422,
+      "y0": 437.5189514160156,
+      "x1": 526.0715942382812,
+      "y1": 448.0789489746094
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-cff",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": 314731203.88,
+    "prior_value": 4299895272.59,
+    "unit": "元",
+    "page": 132,
+    "printed_page": 132,
+    "snippet": "筹资活动产生的现金流量净额 314,731,203.88 4,299,895,272.59",
+    "bbox": {
+      "x0": 98.42400360107422,
+      "y0": 706.2289428710938,
+      "x1": 526.0715942382812,
+      "y1": 716.7889404296875
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-fx_effect",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 523644321.55,
+    "prior_value": 1000924674.24,
+    "unit": "元",
+    "page": 132,
+    "printed_page": 132,
+    "snippet": "四、汇率变动对现金及现金等价物的影响 523,644,321.55 1,000,924,674.24",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 726.2689208984375,
+      "x1": 526.0715942382812,
+      "y1": 736.8289184570312
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-net_cash_increase",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 3319393659.78,
+    "prior_value": 24619590011.22,
+    "unit": "元",
+    "page": 132,
+    "printed_page": 132,
+    "snippet": "五、现金及现金等价物净增加额 七、79 3,319,393,659.78 24,619,590,011.22",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 746.4249267578125,
+      "x1": 526.0416259765625,
+      "y1": 756.9849243164062
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": "七、79",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-beginning_cash",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 51102730599.97,
+    "prior_value": 26483140588.75,
+    "unit": "元",
+    "page": 133,
+    "printed_page": 133,
+    "snippet": "2023年年度报告133/320加：期初现金及现金等价物余额七、7951,102,730,599.9726,483,140,588.75六、期末现金及现金等价物余额七、7954,422,124,259.7551,102,730,599.97公司负责人：李振国主管会计工作负责人：刘学文会计机构负责人：刘学文母公司现金流量表2023年1—12月",
+    "bbox": {
+      "x0": 77.42400360107422,
+      "y0": 44.10896682739258,
+      "x1": 526.0416259765625,
+      "y1": 91.86896514892578
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": "七、79",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601012-2023-ending_cash",
+    "company": {
+      "code": "601012",
+      "name": "隆基绿能科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-30",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219925312.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 54422124259.75,
+    "prior_value": 51102730599.97,
+    "unit": "元",
+    "page": 133,
+    "printed_page": 133,
+    "snippet": "六、期末现金及现金等价物余额 七、79 54,422,124,259.75 51,102,730,599.97",
+    "bbox": {
+      "x0": 66.86399841308594,
+      "y0": 101.34893798828125,
+      "x1": 526.0416259765625,
+      "y1": 111.90894317626953
+    },
+    "source_file": "601012_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": "七、79",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

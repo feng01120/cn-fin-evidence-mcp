@@ -1,0 +1,1552 @@
+[
+  {
+    "evidence_id": "601088-2024-cash",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 142415.0,
+    "prior_value": 149986.0,
+    "unit": "百万元",
+    "page": 136,
+    "printed_page": null,
+    "snippet": "货币资金 五、1 142,415 149,986",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 213.71652221679688,
+      "x1": 531.6282348632812,
+      "y1": 226.65139770507812
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-accounts_receivable",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 12466.0,
+    "prior_value": 11875.0,
+    "unit": "百万元",
+    "page": 136,
+    "printed_page": null,
+    "snippet": "1142,415149,986其中：存放财务公司款项74,91974,466交易性金融资产五、217,302-*应收票据五、33,0367,983应收账款五、412,46611,875应收款项融资1,174254预付款项五、56,2325,999其他应收款五、62,3782,731存货五、712,48212,846其他流动资产五、87,6407,277流动资产合计205,125198,951非流动资产长期股权",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 270.7765197753906,
+      "x1": 531.6307983398438,
+      "y1": 283.7113952636719
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-inventory",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 12482.0,
+    "prior_value": 12846.0,
+    "unit": "百万元",
+    "page": 136,
+    "printed_page": null,
+    "snippet": "367,983应收账款五、412,46611,875应收款项融资1,174254预付款项五、56,2325,999其他应收款五、62,3782,731存货五、712,48212,846其他流动资产五、87,6407,277流动资产合计205,125198,951非流动资产长期股权投资五、959,84055,571其他权益工具投资五、102,7872,486其他非流动金融资产60-固定资产五、11257,149",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 327.8365173339844,
+      "x1": 531.6307983398438,
+      "y1": 340.7713623046875
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_current_assets",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 205125.0,
+    "prior_value": 198951.0,
+    "unit": "百万元",
+    "page": 136,
+    "printed_page": null,
+    "snippet": "流动资产合计 205,125 198,951",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 361.7784423828125,
+      "x1": 531.6282348632812,
+      "y1": 374.3713684082031
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_noncurrent_assets",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 452943.0,
+    "prior_value": 431180.0,
+    "unit": "百万元",
+    "page": 136,
+    "printed_page": null,
+    "snippet": "非流动资产合计 452,943 431,180",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 558.75830078125,
+      "x1": 531.6282348632812,
+      "y1": 571.3514404296875
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_assets",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 658068.0,
+    "prior_value": 630131.0,
+    "unit": "百万元",
+    "page": 136,
+    "printed_page": null,
+    "snippet": "资产总计 658,068 630,131",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 580.3583984375,
+      "x1": 531.6282348632812,
+      "y1": 592.951416015625
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_current_liabilities",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 92620.0,
+    "prior_value": 91585.0,
+    "unit": "百万元",
+    "page": 137,
+    "printed_page": null,
+    "snippet": "流动负债合计 92,620 91,585",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 411.21844482421875,
+      "x1": 531.6307983398438,
+      "y1": 423.8113708496094
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_noncurrent_liabilities",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 61496.0,
+    "prior_value": 60176.0,
+    "unit": "百万元",
+    "page": 137,
+    "printed_page": null,
+    "snippet": "非流动负债合计 61,496 60,176",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 578.618408203125,
+      "x1": 531.6307983398438,
+      "y1": 591.21142578125
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_liabilities",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 154116.0,
+    "prior_value": 151761.0,
+    "unit": "百万元",
+    "page": 137,
+    "printed_page": null,
+    "snippet": "负债合计 154,116 151,761",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 615.7584228515625,
+      "x1": 531.6282348632812,
+      "y1": 628.3514404296875
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-equity_parent",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 426866.0,
+    "prior_value": 408692.0,
+    "unit": "百万元",
+    "page": 138,
+    "printed_page": null,
+    "snippet": "归属于母公司股东权益合计 426,866 408,692",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 354.158447265625,
+      "x1": 531.6282348632812,
+      "y1": 366.7513732910156
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司股东权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_equity",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 503952.0,
+    "prior_value": 478370.0,
+    "unit": "百万元",
+    "page": 138,
+    "printed_page": null,
+    "snippet": "股东权益合计 503,952 478,370",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 421.1784362792969,
+      "x1": 531.6282348632812,
+      "y1": 433.7713623046875
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "股东权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_liabilities_equity",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 658068.0,
+    "prior_value": 630131.0,
+    "unit": "百万元",
+    "page": 138,
+    "printed_page": null,
+    "snippet": "负债和股东权益总计 658,068 630,131",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 458.3784484863281,
+      "x1": 531.6282348632812,
+      "y1": 470.97137451171875
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和股东权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-revenue",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 338375.0,
+    "prior_value": 343074.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "2024 年度 (金额单位：人民币百万元) 附注 2024 年度 2023 年度 一、营业收入 五、35 338,375 343,074",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 112.4955062866211,
+      "x1": 531.6282348632812,
+      "y1": 199.89138793945312
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-cost_of_revenue",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 223192.0,
+    "prior_value": 219922.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "能源股份有限公司合并利润表2024年度(金额单位：人民币百万元)附注2024年度2023年度一、营业收入五、35338,375343,074减：营业成本五、35223,192219,922税金及附加五、3617,78418,385销售费用五、37491425管理费用五、3810,3409,812研发费用六、12,7273,007财务费用五、39129501其中：利息费用2,7002,858利息收入2,7502,",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 201.17654418945312,
+      "x1": 531.6282348632812,
+      "y1": 214.11135864257812
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-taxes_surcharges",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 17784.0,
+    "prior_value": 18385.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "位：人民币百万元)附注2024年度2023年度一、营业收入五、35338,375343,074减：营业成本五、35223,192219,922税金及附加五、3617,78418,385销售费用五、37491425管理费用五、3810,3409,812研发费用六、12,7273,007财务费用五、39129501其中：利息费用2,7002,858利息收入2,7502,616加：其他收益五、40333423投资收",
+    "bbox": {
+      "x0": 123.66000366210938,
+      "y0": 215.45651245117188,
+      "x1": 531.6307983398438,
+      "y1": 228.39138793945312
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-selling_expense",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 491.0,
+    "prior_value": 425.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "3年度一、营业收入五、35338,375343,074减：营业成本五、35223,192219,922税金及附加五、3617,78418,385销售费用五、37491425管理费用五、3810,3409,812研发费用六、12,7273,007财务费用五、39129501其中：利息费用2,7002,858利息收入2,7502,616加：其他收益五、40333423投资收益(损失以“-”号填列)五、414",
+    "bbox": {
+      "x0": 123.66000366210938,
+      "y0": 229.73654174804688,
+      "x1": 531.6292724609375,
+      "y1": 242.67135620117188
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-admin_expense",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 10340.0,
+    "prior_value": 9812.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "管理费用 五、38 10,340 9,812",
+    "bbox": {
+      "x0": 123.66000366210938,
+      "y0": 244.01651000976562,
+      "x1": 531.6343383789062,
+      "y1": 256.9513854980469
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-rd_expense",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 2727.0,
+    "prior_value": 3007.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "本五、35223,192219,922税金及附加五、3617,78418,385销售费用五、37491425管理费用五、3810,3409,812研发费用六、12,7273,007财务费用五、39129501其中：利息费用2,7002,858利息收入2,7502,616加：其他收益五、40333423投资收益(损失以“-”号填列)五、414,8713,815其中：对联营企业的投资收益4,3443,565公允",
+    "bbox": {
+      "x0": 123.66000366210938,
+      "y0": 258.2365417480469,
+      "x1": 531.6343383789062,
+      "y1": 271.1713562011719
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-finance_expense",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": 129.0,
+    "prior_value": 501.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "2税金及附加五、3617,78418,385销售费用五、37491425管理费用五、3810,3409,812研发费用六、12,7273,007财务费用五、39129501其中：利息费用2,7002,858利息收入2,7502,616加：其他收益五、40333423投资收益(损失以“-”号填列)五、414,8713,815其中：对联营企业的投资收益4,3443,565公允价值变动损益(损失以“-”号填列",
+    "bbox": {
+      "x0": 123.66000366210938,
+      "y0": 272.5165100097656,
+      "x1": 531.6292724609375,
+      "y1": 285.4513854980469
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-operating_profit",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 88362.0,
+    "prior_value": 91367.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "二、营业利润 88,362 91,367",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 449.2584533691406,
+      "x1": 531.6307983398438,
+      "y1": 461.85137939453125
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-total_profit",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 85793.0,
+    "prior_value": 87176.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "三、利润总额 85,793 87,176",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 511.5983581542969,
+      "x1": 531.6307983398438,
+      "y1": 524.1912841796875
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-net_profit",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 68865.0,
+    "prior_value": 69598.0,
+    "unit": "百万元",
+    "page": 142,
+    "printed_page": null,
+    "snippet": "四、净利润 68,865 69,598",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 559.598388671875,
+      "x1": 531.6307983398438,
+      "y1": 572.1912841796875
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-net_profit_parent",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 58671.0,
+    "prior_value": 59694.0,
+    "unit": "百万元",
+    "page": 143,
+    "printed_page": null,
+    "snippet": "1. 归属于母公司股东的净利润 58,671 59,694",
+    "bbox": {
+      "x0": 123.66000366210938,
+      "y0": 275.6365051269531,
+      "x1": 531.57080078125,
+      "y1": 288.5713806152344
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-sales_cash",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 349923.0,
+    "prior_value": 345354.0,
+    "unit": "百万元",
+    "page": 147,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 349,923 345,354",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 214.17843627929688,
+      "x1": 531.6282348632812,
+      "y1": 226.77139282226562
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-cfo",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 93348.0,
+    "prior_value": 89687.0,
+    "unit": "百万元",
+    "page": 147,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流量净额 五、47(1) 93,348 89,687",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 423.6565246582031,
+      "x1": 531.6307983398438,
+      "y1": 436.59136962890625
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": "五、47(1)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-cfi",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -85359.0,
+    "prior_value": -36974.0,
+    "unit": "百万元",
+    "page": 148,
+    "printed_page": null,
+    "snippet": "投资活动使用的现金流量净额 (85,359) (36,974)",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 509.5583801269531,
+      "x1": 531.6629638671875,
+      "y1": 522.1513671875
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动使用的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-cff",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -51173.0,
+    "prior_value": -76131.0,
+    "unit": "百万元",
+    "page": 149,
+    "printed_page": null,
+    "snippet": "筹资活动使用的现金流量净额 (51,173) (76,131)",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 466.7784423828125,
+      "x1": 531.6629638671875,
+      "y1": 479.3713684082031
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动使用的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-fx_effect",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 84.0,
+    "prior_value": 134.0,
+    "unit": "百万元",
+    "page": 150,
+    "printed_page": null,
+    "snippet": "合并现金流量表 (续) 2024 年度 (金额单位：人民币百万元) 附注 2024 年度 2023 年度 四、汇率变动对现金及现金等价物的影响 84 134",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 98.21602630615234,
+      "x1": 531.6292724609375,
+      "y1": 212.49136352539062
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-net_cash_increase",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -43100.0,
+    "prior_value": -23284.0,
+    "unit": "百万元",
+    "page": 150,
+    "printed_page": null,
+    "snippet": "五、现金及现金等价物净减少额 五、47(1) (43,100) (23,284)",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 236.75650024414062,
+      "x1": 531.6629638671875,
+      "y1": 249.69137573242188
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净减少额",
+    "note": "五、47(1)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-beginning_cash",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 108174.0,
+    "prior_value": 131458.0,
+    "unit": "百万元",
+    "page": 150,
+    "printed_page": null,
+    "snippet": "加：年初现金及现金等价物余额 108,174 131,458",
+    "bbox": {
+      "x0": 101.45999908447266,
+      "y0": 270.3384704589844,
+      "x1": 531.6282348632812,
+      "y1": 282.9313659667969
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "年初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "601088-2024-ending_cash",
+    "company": {
+      "code": "601088",
+      "name": "中国神华能源股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-22",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-22/1222870380.PDF",
+    "period": "2024",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 65074.0,
+    "prior_value": 108174.0,
+    "unit": "百万元",
+    "page": 150,
+    "printed_page": null,
+    "snippet": "六、年末现金及现金等价物余额 五、47(2) 65,074 108,174",
+    "bbox": {
+      "x0": 79.37999725341797,
+      "y0": 303.7765197753906,
+      "x1": 531.6282348632812,
+      "y1": 316.7113952636719
+    },
+    "source_file": "601088_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "年末现金及现金等价物余额",
+    "note": "五、47(2)",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "600031-2023-cash",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 18071827.0,
+    "prior_value": 21342876.0,
+    "unit": "千元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "货币资金 七、1 18,071,827 21,342,876",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 181.388916015625,
+      "x1": 531.1039428710938,
+      "y1": 191.94891357421875
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "七、1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-accounts_receivable",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 24164729.0,
+    "prior_value": 25022047.0,
+    "unit": "千元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "应收账款 七、6 24,164,729 25,022,047",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 267.57891845703125,
+      "x1": 531.1039428710938,
+      "y1": 278.138916015625
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "七、6",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-inventory",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 19767762.0,
+    "prior_value": 19738362.0,
+    "unit": "千元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "存货 七、11 19,767,762 19,738,362",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 411.21893310546875,
+      "x1": 531.1039428710938,
+      "y1": 421.7789306640625
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "七、11",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_current_assets",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 97633311.0,
+    "prior_value": 105765114.0,
+    "unit": "千元",
+    "page": 91,
+    "printed_page": 91,
+    "snippet": "流动资产合计 97,633,311 105,765,114",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 483.1189270019531,
+      "x1": 531.1077880859375,
+      "y1": 493.6789245605469
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_noncurrent_assets",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 53569009.0,
+    "prior_value": 53156166.0,
+    "unit": "千元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "非流动资产合计 53,569,009 53,156,166",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 107.22894287109375,
+      "x1": 531.1039428710938,
+      "y1": 117.78894805908203
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_assets",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 151202320.0,
+    "prior_value": 158921280.0,
+    "unit": "千元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "资产总计 151,202,320 158,921,280",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 121.62896728515625,
+      "x1": 531.1077880859375,
+      "y1": 132.18896484375
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_current_liabilities",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 54415056.0,
+    "prior_value": 67711911.0,
+    "unit": "千元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "流动负债合计 54,415,056 67,711,911",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 480.83892822265625,
+      "x1": 531.1039428710938,
+      "y1": 491.39892578125
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 27614311.0,
+    "prior_value": 25115730.0,
+    "unit": "千元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "非流动负债合计 27,614,311 25,115,730",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 681.9889526367188,
+      "x1": 531.1039428710938,
+      "y1": 692.5489501953125
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_liabilities",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 82029367.0,
+    "prior_value": 92827641.0,
+    "unit": "千元",
+    "page": 92,
+    "printed_page": 92,
+    "snippet": "负债合计 82,029,367 92,827,641",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 696.388916015625,
+      "x1": 531.1039428710938,
+      "y1": 706.9489135742188
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-equity_parent",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 68039937.0,
+    "prior_value": 65050592.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": 93,
+    "snippet": "归属于母公司所有者权益 （或股东权益）合计 68,039,937 65,050,592",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 207.7889404296875,
+      "x1": 531.1039428710938,
+      "y1": 225.18896484375
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_equity",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 69172953.0,
+    "prior_value": 66093639.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": 93,
+    "snippet": "所有者权益（或股东权 益）合计 69,172,953 66,093,639",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 250.14892578125,
+      "x1": 531.1039428710938,
+      "y1": 274.4189453125
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_liabilities_equity",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 151202320.0,
+    "prior_value": 158921280.0,
+    "unit": "千元",
+    "page": 93,
+    "printed_page": 93,
+    "snippet": "负债和所有者权益 （或股东权益）总计 151,202,320 158,921,280",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 278.138916015625,
+      "x1": 531.1077880859375,
+      "y1": 302.37890625
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_revenue",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 74018936.0,
+    "prior_value": 80838530.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "一、营业总收入 74,018,936 80,838,530",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 422.85894775390625,
+      "x1": 531.7039184570312,
+      "y1": 433.4189453125
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-revenue",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 73221725.0,
+    "prior_value": 80034495.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "其中：营业收入 七、54 73,221,725 80,034,495",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 437.0389404296875,
+      "x1": 531.7039184570312,
+      "y1": 447.59893798828125
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_cost",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 68020951.0,
+    "prior_value": 77112013.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "二、营业总成本 68,020,951 77,112,013",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 493.4389343261719,
+      "x1": 531.7039184570312,
+      "y1": 503.9989318847656
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-cost_of_revenue",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 52934696.0,
+    "prior_value": 60792534.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "其中：营业成本 七、54 52,934,696 60,792,534",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 507.59893798828125,
+      "x1": 531.7039184570312,
+      "y1": 518.158935546875
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-taxes_surcharges",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 423706.0,
+    "prior_value": 368553.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "税金及附加 七、55 423,706 368,553",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 620.5489501953125,
+      "x1": 531.7039184570312,
+      "y1": 631.1089477539062
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-selling_expense",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 6218283.0,
+    "prior_value": 6301590.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "销售费用 七、56 6,218,283 6,301,590",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 634.7089233398438,
+      "x1": 531.7039184570312,
+      "y1": 645.2689208984375
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-admin_expense",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 2650902.0,
+    "prior_value": 2641761.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "管理费用 七、57 2,650,902 2,641,761",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 648.7489013671875,
+      "x1": 531.7039184570312,
+      "y1": 659.3088989257812
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-rd_expense",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 5864595.0,
+    "prior_value": 6922913.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "研发费用 七、58 5,864,595 6,922,913",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 662.908935546875,
+      "x1": 531.7039184570312,
+      "y1": 673.4689331054688
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-finance_expense",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -462904.0,
+    "prior_value": -293592.0,
+    "unit": "千元",
+    "page": 95,
+    "printed_page": 95,
+    "snippet": "财务费用 七、59 -462,904 -293,592",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 677.0689697265625,
+      "x1": 531.7039184570312,
+      "y1": 687.6289672851562
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-operating_profit",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 5342854.0,
+    "prior_value": 4767846.0,
+    "unit": "千元",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "三、营业利润（亏损以“－”号填列） 5,342,854 4,767,846",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 218.46893310546875,
+      "x1": 531.7039184570312,
+      "y1": 229.0289306640625
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-total_profit",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 5316601.0,
+    "prior_value": 4853255.0,
+    "unit": "千元",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "四、利润总额（亏损总额以“－”号填列） 5,316,601 4,853,255",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 260.8066101074219,
+      "x1": 531.7039184570312,
+      "y1": 271.84661865234375
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-net_profit",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 4606157.0,
+    "prior_value": 4422169.0,
+    "unit": "千元",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "五、净利润（净亏损以“－”号填列） 4,606,157 4,422,169",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 290.37896728515625,
+      "x1": 531.7039184570312,
+      "y1": 300.93896484375
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-net_profit_parent",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 4527498.0,
+    "prior_value": 4290386.0,
+    "unit": "千元",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "号填列）4,606,1574,422,1692.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）4,527,4984,290,3862.少数股东损益（净亏损以“-”号填列）78,659131,783六、其他综合收益的税后净额-16,746252,411（一）归属母公司所有者的其他综合收益的税后净额-39,785252,3201．不能重分类进损益的其他综",
+    "bbox": {
+      "x0": 110.9000015258789,
+      "y0": 388.1789245605469,
+      "x1": 531.7039184570312,
+      "y1": 405.5789489746094
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-basic_eps",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 0.5347,
+    "prior_value": 0.5076,
+    "unit": "元/股",
+    "page": 96,
+    "printed_page": 96,
+    "snippet": "（一）基本每股收益(元/股) 0.5347 0.5076",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 739.5849609375,
+      "x1": 531.7000732421875,
+      "y1": 750.1449584960938
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-sales_cash",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 78272597.0,
+    "prior_value": 76650152.0,
+    "unit": "千元",
+    "page": 98,
+    "printed_page": 98,
+    "snippet": "销售商品、提供劳务收到的现金 78,272,597 76,650,152",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 301.178955078125,
+      "x1": 531.7039184570312,
+      "y1": 311.73895263671875
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-cfo",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 5708220.0,
+    "prior_value": 4100859.0,
+    "unit": "千元",
+    "page": 98,
+    "printed_page": 98,
+    "snippet": "经营活动产生的现金流量净额 5,708,220 4,100,859",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 696.5089111328125,
+      "x1": 531.7039184570312,
+      "y1": 707.0689086914062
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-cfi",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -2693824.0,
+    "prior_value": -1840338.0,
+    "unit": "千元",
+    "page": 99,
+    "printed_page": 99,
+    "snippet": "投资活动产生的现金流量净额 -2,693,824 -1,840,338",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 247.14892578125,
+      "x1": 531.7039184570312,
+      "y1": 257.70892333984375
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-cff",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -7529791.0,
+    "prior_value": 4826439.0,
+    "unit": "千元",
+    "page": 99,
+    "printed_page": 99,
+    "snippet": "筹资活动产生的现金流量净额 -7,529,791 4,826,439",
+    "bbox": {
+      "x0": 121.45999908447266,
+      "y0": 416.6189270019531,
+      "x1": 531.7039184570312,
+      "y1": 427.1789245605469
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-fx_effect",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": -38517.0,
+    "prior_value": -85442.0,
+    "unit": "千元",
+    "page": 99,
+    "printed_page": 99,
+    "snippet": "四、汇率变动对现金及现金等价物的影响 -38,517 -85,442",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 430.658935546875,
+      "x1": 531.7039794921875,
+      "y1": 441.21893310546875
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-net_cash_increase",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -4553912.0,
+    "prior_value": 7001518.0,
+    "unit": "千元",
+    "page": 99,
+    "printed_page": 99,
+    "snippet": "五、现金及现金等价物净增加额 -4,553,912 7,001,518",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 444.83892822265625,
+      "x1": 531.7039184570312,
+      "y1": 455.39892578125
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-beginning_cash",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 12695771.0,
+    "prior_value": 5694253.0,
+    "unit": "千元",
+    "page": 99,
+    "printed_page": 99,
+    "snippet": "加：期初现金及现金等价物余额 12,695,771 5,694,253",
+    "bbox": {
+      "x0": 100.45999908447266,
+      "y0": 458.9989318847656,
+      "x1": 531.7039184570312,
+      "y1": 469.5589294433594
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600031-2023-ending_cash",
+    "company": {
+      "code": "600031",
+      "name": "三一重工股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219890100.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 8141859.0,
+    "prior_value": 12695771.0,
+    "unit": "千元",
+    "page": 99,
+    "printed_page": 99,
+    "snippet": "六、期末现金及现金等价物余额 8,141,859 12,695,771",
+    "bbox": {
+      "x0": 89.90399932861328,
+      "y0": 473.0389404296875,
+      "x1": 531.7039184570312,
+      "y1": 483.59893798828125
+    },
+    "source_file": "600031_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

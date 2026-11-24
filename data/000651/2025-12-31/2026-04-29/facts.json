@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "000651-2025-cash",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 110553006650.89,
+    "prior_value": 113900461797.94,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "货币资金 五、1 110,553,006,650.89 113,900,461,797.94",
+    "bbox": {
+      "x0": 56.880001068115234,
+      "y0": 129.2989959716797,
+      "x1": 547.493896484375,
+      "y1": 142.12399291992188
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "五、1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-accounts_receivable",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 15987180598.76,
+    "prior_value": 16831887388.06,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "应收账款 五、4 15,987,180,598.76 16,831,887,388.06",
+    "bbox": {
+      "x0": 56.880001068115234,
+      "y0": 214.37899780273438,
+      "x1": 547.3740234375,
+      "y1": 227.20399475097656
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "五、4",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-inventory",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 28183464259.53,
+    "prior_value": 27910910515.55,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "存货 五、10 28,183,464,259.53 27,910,910,515.55",
+    "bbox": {
+      "x0": 56.880001068115234,
+      "y0": 333.2989807128906,
+      "x1": 547.3740234375,
+      "y1": 346.1239929199219
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "五、10",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_current_assets",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 250943551897.43,
+    "prior_value": 224802908651.88,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "流动资产合计 250,943,551,897.43 224,802,908,651.88",
+    "bbox": {
+      "x0": 47.880001068115234,
+      "y0": 418.95501708984375,
+      "x1": 547.493408203125,
+      "y1": 431.39300537109375
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_noncurrent_assets",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 140428447922.06,
+    "prior_value": 143228795870.98,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "非流动资产合计 140,428,447,922.06 143,228,795,870.98",
+    "bbox": {
+      "x0": 47.880001068115234,
+      "y0": 741.8740234375,
+      "x1": 547.493408203125,
+      "y1": 754.31201171875
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_assets",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 391371999819.49,
+    "prior_value": 368031704522.86,
+    "unit": "元",
+    "page": 86,
+    "printed_page": null,
+    "snippet": "资产总计 391,371,999,819.49 368,031,704,522.86",
+    "bbox": {
+      "x0": 47.880001068115234,
+      "y0": 758.9140014648438,
+      "x1": 547.493408203125,
+      "y1": 771.3519897460938
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_current_liabilities",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 231569831196.26,
+    "prior_value": 201125441381.86,
+    "unit": "元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "68,113,331.5415,577,179,285.89其他流动负债五、4060,214,780,720.5760,338,210,355.36流动负债合计231,569,831,196.26201,125,441,381.86非流动负债：长期借款五、413,134,980,571.7318,229,817,922.13应付债券其中：优先股永续债租赁负债五、42652,797,306.31711,291,189.69长期应付款五",
+    "bbox": {
+      "x0": 48.0,
+      "y0": 362.7950134277344,
+      "x1": 547.493408203125,
+      "y1": 375.2330017089844
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_noncurrent_liabilities",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 10010887948.53,
+    "prior_value": 25392568193.03,
+    "unit": "元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "非流动负债合计 10,010,887,948.53 25,392,568,193.03 负债合",
+    "bbox": {
+      "x0": 48.0,
+      "y0": 528.635009765625,
+      "x1": 547.3740234375,
+      "y1": 541.072998046875
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_liabilities",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 241580719144.79,
+    "prior_value": 226518009574.89,
+    "unit": "元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "6,401,211.232,801,094,669.41其他非流动负债非流动负债合计10,010,887,948.5325,392,568,193.03负债合计241,580,719,144.79226,518,009,574.89股东权益：股本五、465,601,405,741.005,601,405,741.00其他权益工具其中：优先股永续债资本公积五、471,680,630,216.62472,179,369.50减：库存股五",
+    "bbox": {
+      "x0": 48.0,
+      "y0": 541.35498046875,
+      "x1": 547.493408203125,
+      "y1": 553.79296875
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-equity_parent",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 145929297804.02,
+    "prior_value": 137416898946.39,
+    "unit": "元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "18,996.50509,245,480.58未分配利润五、53138,443,151,145.00131,447,496,201.09归属于母公司股东权益合计145,929,297,804.02137,416,898,946.39少数股东权益3,861,982,870.684,096,796,001.58股东权益合计149,791,280,674.70141,513,694,947.97负债和股东权益总计391,371,999,8",
+    "bbox": {
+      "x0": 57.0,
+      "y0": 707.2179565429688,
+      "x1": 547.493408203125,
+      "y1": 719.322998046875
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司股东权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_equity",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 149791280674.7,
+    "prior_value": 141513694947.97,
+    "unit": "元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "145,929,297,804.02137,416,898,946.39少数股东权益3,861,982,870.684,096,796,001.58股东权益合计149,791,280,674.70141,513,694,947.97负债和股东权益总计391,371,999,819.49368,031,704,522.86法定代表人：主管会计工作负责人：会计机构负责人：",
+    "bbox": {
+      "x0": 48.0,
+      "y0": 732.635009765625,
+      "x1": 547.493408203125,
+      "y1": 745.072998046875
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "股东权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_liabilities_equity",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 391371999819.49,
+    "prior_value": 368031704522.86,
+    "unit": "元",
+    "page": 87,
+    "printed_page": null,
+    "snippet": "61,982,870.684,096,796,001.58股东权益合计149,791,280,674.70141,513,694,947.97负债和股东权益总计391,371,999,819.49368,031,704,522.86法定代表人：主管会计工作负责人：会计机构负责人：",
+    "bbox": {
+      "x0": 48.0,
+      "y0": 745.35498046875,
+      "x1": 547.493408203125,
+      "y1": 757.79296875
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和股东权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_revenue",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 171118161275.41,
+    "prior_value": 190038071604.78,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "份有限公司2025年年度报告全文87合并利润表2025年1-12月编制单位：珠海格力电器股份有限公司单位：人民币元项目附注2025年度2024年度一、营业总收入171,118,161,275.41190,038,071,604.78其中：营业收入五、54170,447,058,533.57189,163,654,064.64利息收入五、55671,102,741.84874,417,456.85手续费及佣金收入83.29二、营业总成",
+    "bbox": {
+      "x0": 62.040000915527344,
+      "y0": 106.5949935913086,
+      "x1": 533.3333740234375,
+      "y1": 119.03299713134766
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-revenue",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 170447058533.57,
+    "prior_value": 189163654064.64,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "限公司单位：人民币元项目附注2025年度2024年度一、营业总收入171,118,161,275.41190,038,071,604.78其中：营业收入五、54170,447,058,533.57189,163,654,064.64利息收入五、55671,102,741.84874,417,456.85手续费及佣金收入83.29二、营业总成本137,548,893,694.33154,868,311,110.52其中：营业成本五、5",
+    "bbox": {
+      "x0": 80.04000091552734,
+      "y0": 116.33900451660156,
+      "x1": 533.3333740234375,
+      "y1": 129.04400634765625
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_cost",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 137548893694.33,
+    "prior_value": 154868311110.52,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "533.57189,163,654,064.64利息收入五、55671,102,741.84874,417,456.85手续费及佣金收入83.29二、营业总成本137,548,893,694.33154,868,311,110.52其中：营业成本五、54119,641,353,216.21133,496,119,623.36利息支出五、5526,783,481.38158,700,589.03手续费及佣金支出321,690.1636",
+    "bbox": {
+      "x0": 62.040000915527344,
+      "y0": 150.7550048828125,
+      "x1": 533.334716796875,
+      "y1": 163.1929931640625
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-cost_of_revenue",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 119641353216.21,
+    "prior_value": 133496119623.36,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "74,417,456.85手续费及佣金收入83.29二、营业总成本137,548,893,694.33154,868,311,110.52其中：营业成本五、54119,641,353,216.21133,496,119,623.36利息支出五、5526,783,481.38158,700,589.03手续费及佣金支出321,690.16364,496.62税金及附加五、561,912,423,134.471,798,827,795.",
+    "bbox": {
+      "x0": 80.04000091552734,
+      "y0": 161.4580078125,
+      "x1": 533.333251953125,
+      "y1": 174.28399658203125
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-taxes_surcharges",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 1912423134.47,
+    "prior_value": 1798827795.44,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "9,623.36利息支出五、5526,783,481.38158,700,589.03手续费及佣金支出321,690.16364,496.62税金及附加五、561,912,423,134.471,798,827,795.44销售费用五、578,410,739,569.549,753,022,469.17管理费用五、585,180,260,235.386,057,608,713.94研发费用五、596,463,100,763.66",
+    "bbox": {
+      "x0": 107.04000091552734,
+      "y0": 195.41900634765625,
+      "x1": 533.3341064453125,
+      "y1": 208.24400329589844
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-selling_expense",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 8410739569.54,
+    "prior_value": 9753022469.17,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": ".03手续费及佣金支出321,690.16364,496.62税金及附加五、561,912,423,134.471,798,827,795.44销售费用五、578,410,739,569.549,753,022,469.17管理费用五、585,180,260,235.386,057,608,713.94研发费用五、596,463,100,763.666,904,084,981.92财务费用五、60-4,086,088,396.4",
+    "bbox": {
+      "x0": 107.04000091552734,
+      "y0": 206.69900512695312,
+      "x1": 533.3341064453125,
+      "y1": 219.5240020751953
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-admin_expense",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 5180260235.38,
+    "prior_value": 6057608713.94,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "1,912,423,134.471,798,827,795.44销售费用五、578,410,739,569.549,753,022,469.17管理费用五、585,180,260,235.386,057,608,713.94研发费用五、596,463,100,763.666,904,084,981.92财务费用五、60-4,086,088,396.47-3,300,417,558.96其中：利息费用1,964,864,912.1",
+    "bbox": {
+      "x0": 107.04000091552734,
+      "y0": 217.97900390625,
+      "x1": 533.3341064453125,
+      "y1": 230.8040008544922
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-rd_expense",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 6463100763.66,
+    "prior_value": 6904084981.92,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "8,410,739,569.549,753,022,469.17管理费用五、585,180,260,235.386,057,608,713.94研发费用五、596,463,100,763.666,904,084,981.92财务费用五、60-4,086,088,396.47-3,300,417,558.96其中：利息费用1,964,864,912.152,378,372,721.06利息收入5,885,051,089.405,9",
+    "bbox": {
+      "x0": 107.04000091552734,
+      "y0": 229.25799560546875,
+      "x1": 533.3341064453125,
+      "y1": 242.08399963378906
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-finance_expense",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -4086088396.47,
+    "prior_value": -3300417558.96,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "5,180,260,235.386,057,608,713.94研发费用五、596,463,100,763.666,904,084,981.92财务费用五、60-4,086,088,396.47-3,300,417,558.96其中：利息费用1,964,864,912.152,378,372,721.06利息收入5,885,051,089.405,999,412,762.36加：其他收益五、611,338,729,614.542,",
+    "bbox": {
+      "x0": 107.04000091552734,
+      "y0": 240.53900146484375,
+      "x1": 533.3341064453125,
+      "y1": 253.3629913330078
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-operating_profit",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 34681293552.28,
+    "prior_value": 36988437925.6,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "9-686,819,202.27资产处置收益（损失以“-”号填列）五、6652,212,257.6216,965,090.94三、营业利润（亏损以“-”号填列）34,681,293,552.2836,988,437,925.60加：营业外收入五、6779,301,701.3072,190,967.82减：营业外支出五、68115,936,302.46164,633,045.12四、利润总额（亏损总额以“-”号填列）34,644,6",
+    "bbox": {
+      "x0": 62.040000915527344,
+      "y0": 375.9949951171875,
+      "x1": 533.2139892578125,
+      "y1": 389.1520080566406
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-total_profit",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 34644658951.12,
+    "prior_value": 36895995848.3,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "01,701.3072,190,967.82减：营业外支出五、68115,936,302.46164,633,045.12四、利润总额（亏损总额以“-”号填列）34,644,658,951.1236,895,995,848.30减：所得税费用五、695,781,912,934.964,524,926,560.95五、净利润（净亏损以“-”号填列）28,862,746,016.1632,371,069,287.35（一）按经营持续性",
+    "bbox": {
+      "x0": 62.040000915527344,
+      "y0": 409.95501708984375,
+      "x1": 533.2139892578125,
+      "y1": 423.11199951171875
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-net_profit",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 28862746016.16,
+    "prior_value": 32371069287.35,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": ".1236,895,995,848.30减：所得税费用五、695,781,912,934.964,524,926,560.95五、净利润（净亏损以“-”号填列）28,862,746,016.1632,371,069,287.35（一）按经营持续性分类：1、持续经营净利润（净亏损以“-”号填列）28,884,734,398.1332,311,066,123.102、终止经营净利润（净亏损以“-”号填列）-21,988,381.976",
+    "bbox": {
+      "x0": 62.040000915527344,
+      "y0": 432.5140075683594,
+      "x1": 533.2139892578125,
+      "y1": 445.6730041503906
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-net_profit_parent",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 29003103411.66,
+    "prior_value": 32184570372.28,
+    "unit": "元",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "净利润（净亏损以“-”号填列）-21,988,381.9760,003,164.25（二）按所有权归属分类：1、归属于母公司股东的净利润（净亏损以“-”号填列）29,003,103,411.6632,184,570,372.282、少数股东损益（净亏损以“-”号填列）-140,357,395.50186,498,915.07六、其他综合收益的税后净额五、49343,477,882.27180,264,674.95（一）归属于母公司",
+    "bbox": {
+      "x0": 71.04000091552734,
+      "y0": 489.1789855957031,
+      "x1": 533.2139892578125,
+      "y1": 502.0039978027344
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-basic_eps",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 5.2,
+    "prior_value": 5.83,
+    "unit": "元/股",
+    "page": 88,
+    "printed_page": null,
+    "snippet": "八、每股收益： （一）基本每股收益（元/股） 5.20 5.83 （二）稀释每股收益（元/股）",
+    "bbox": {
+      "x0": 62.040000915527344,
+      "y0": 749.0989990234375,
+      "x1": 533.218994140625,
+      "y1": 761.9230346679688
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-sales_cash",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 180152594833.8,
+    "prior_value": 171937113993.38,
+    "unit": "元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "量表2025年1-12月编制单位：珠海格力电器股份有限公司单位：人民币元项目附注2025年度2024年度一、经营活动产生的现金流量：销售商品、提供劳务收到的现金180,152,594,833.80171,937,113,993.38客户存款和同业存放款项净增加额-97,277,745.4150,560,729.20向中央银行借款净增加额向其他金融机构拆入资金净增加额收取利息、手续费及佣金的现金200,053,993.35690,44",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 122.21900939941406,
+      "x1": 538.733154296875,
+      "y1": 134.32400512695312
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-cfo",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 46383114754.02,
+    "prior_value": 29369250570.66,
+    "unit": "元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "7.4410,924,246,751.62经营活动现金流出小计155,531,661,101.93150,155,050,235.21经营活动产生的现金流量净额46,383,114,754.0229,369,250,570.66二、投资活动产生的现金流量：收回投资收到的现金29,499,539,681.5028,787,096,787.35取得投资收益收到的现金546,108,703.90618,087,953.81处置固定资产、",
+    "bbox": {
+      "x0": 101.63999938964844,
+      "y0": 364.3550109863281,
+      "x1": 538.614013671875,
+      "y1": 376.7929992675781
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-cfi",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -48599499604.72,
+    "prior_value": -15557909615.57,
+    "unit": "元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": ",930.474,440,559,304.93投资活动现金流出小计88,373,499,245.2650,412,775,368.32投资活动产生的现金流量净额-48,599,499,604.72-15,557,909,615.57三、筹资活动产生的现金流量：吸收投资收到的现金90,033,154.1161,239,812.00其中：子公司吸收少数股东投资收到的现金19,004,404.1161,239,812.00取得借款收到的现",
+    "bbox": {
+      "x0": 101.63999938964844,
+      "y0": 530.073974609375,
+      "x1": 538.614013671875,
+      "y1": 542.511962890625
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-cff",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": 8605586089.84,
+    "prior_value": -23703212908.16,
+    "unit": "元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "90,969.80484,846,580.49筹资活动现金流出小计79,204,875,445.9298,261,347,147.86筹资活动产生的现金流量净额8,605,586,089.84-23,703,212,908.16四、汇率变动对现金及现金等价物的影响36,301,630.25118,633,846.78五、现金及现金等价物净增加额6,425,502,869.39-9,773,238,106.29加：期初现金及现金等",
+    "bbox": {
+      "x0": 101.63999938964844,
+      "y0": 683.073974609375,
+      "x1": 538.614013671875,
+      "y1": 695.511962890625
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-fx_effect",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 36301630.25,
+    "prior_value": 118633846.78,
+    "unit": "元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": ",261,347,147.86筹资活动产生的现金流量净额8,605,586,089.84-23,703,212,908.16四、汇率变动对现金及现金等价物的影响36,301,630.25118,633,846.78五、现金及现金等价物净增加额6,425,502,869.39-9,773,238,106.29加：期初现金及现金等价物余额21,140,958,080.1230,914,196,186.41六、期末现金及现金等价",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 695.7949829101562,
+      "x1": 538.7364501953125,
+      "y1": 708.2329711914062
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-net_cash_increase",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 6425502869.39,
+    "prior_value": -9773238106.29,
+    "unit": "元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": ".84-23,703,212,908.16四、汇率变动对现金及现金等价物的影响36,301,630.25118,633,846.78五、现金及现金等价物净增加额6,425,502,869.39-9,773,238,106.29加：期初现金及现金等价物余额21,140,958,080.1230,914,196,186.41六、期末现金及现金等价物余额27,566,460,949.5121,140,958,080.12法定代表人：主",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 708.5139770507812,
+      "x1": 538.734130859375,
+      "y1": 720.9519653320312
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-beginning_cash",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 21140958080.12,
+    "prior_value": 30914196186.41,
+    "unit": "元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "30.25118,633,846.78五、现金及现金等价物净增加额6,425,502,869.39-9,773,238,106.29加：期初现金及现金等价物余额21,140,958,080.1230,914,196,186.41六、期末现金及现金等价物余额27,566,460,949.5121,140,958,080.12法定代表人：主管会计工作负责人：会计机构负责人：",
+    "bbox": {
+      "x0": 65.63999938964844,
+      "y0": 721.4989624023438,
+      "x1": 538.614013671875,
+      "y1": 733.60400390625
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "000651-2025-ending_cash",
+    "company": {
+      "code": "000651",
+      "name": "珠海格力电器股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2025-12-31",
+    "announce_date": "2026-04-29",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250396.PDF",
+    "period": "2025",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 27566460949.51,
+    "prior_value": 21140958080.12,
+    "unit": "元",
+    "page": 89,
+    "printed_page": null,
+    "snippet": "9-9,773,238,106.29加：期初现金及现金等价物余额21,140,958,080.1230,914,196,186.41六、期末现金及现金等价物余额27,566,460,949.5121,140,958,080.12法定代表人：主管会计工作负责人：会计机构负责人：",
+    "bbox": {
+      "x0": 56.63999938964844,
+      "y0": 734.073974609375,
+      "x1": 538.614013671875,
+      "y1": 746.511962890625
+    },
+    "source_file": "000651_2025.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

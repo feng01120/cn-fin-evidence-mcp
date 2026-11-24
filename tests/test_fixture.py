@@ -21,10 +21,11 @@ class TestNormalize(unittest.TestCase):
 class TestFixture(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        d = ROOT / 'data' / '600519' / '2025'
+        d = ROOT / 'data' / '600519' / '2025-12-31' / '2026-04-17'
         cls.facts = json.loads((d / 'facts.json').read_text(encoding='utf-8'))
         cls.ratios = json.loads((d / 'ratios.json').read_text(encoding='utf-8'))
         cls.checks = json.loads((d / 'checks.json').read_text(encoding='utf-8'))
+        cls.meta = json.loads((d / 'meta.json').read_text(encoding='utf-8'))
 
     def test_six_tuple(self):
         for f in self.facts:
@@ -36,6 +37,8 @@ class TestFixture(unittest.TestCase):
             self.assertGreater(f['page'], 0)
             self.assertTrue(f['snippet'])
             self.assertTrue(f['evidence_id'])
+            self.assertEqual(f.get('report_date'), '2025-12-31')
+            self.assertEqual(f.get('announce_date'), '2026-04-17')
 
     def test_unique_ids(self):
         ids = [f['evidence_id'] for f in self.facts]
@@ -63,11 +66,20 @@ class TestFixture(unittest.TestCase):
         self.assertIsNone(roe.value)
         self.assertEqual(roe.quality.status, 'warning')
 
+    def test_subject_match(self):
+        for f in self.facts:
+            self.assertEqual(f['subject_check']['status'], 'pass')
+            self.assertNotEqual(f['quality']['status'], 'fail')
+
+    def test_coverage(self):
+        self.assertGreater(self.meta['coverage_score'], 0.9)
+        self.assertEqual(self.meta['coverage']['snippet_hit_rate'], 1.0)
+
     def test_checks(self):
         self.assertEqual(len([c for c in self.checks if c['status'] == 'fail']), 0)
-        names = {c['check'] for c in self.checks if c['status'] == 'pass'}
-        self.assertEqual(names, {'balance_identity', 'total_le_identity',
-                                 'cash_flow_identity', 'cash_roll', 'growth_anomaly'})
+        names = {c['check'] for c in self.checks}
+        self.assertEqual(names, {'balance_identity', 'total_le_identity', 'cash_flow_identity',
+                                 'cash_roll', 'cash_bs_vs_cf', 'growth_anomaly'})
 
 
 if __name__ == '__main__':

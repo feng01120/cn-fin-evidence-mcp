@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "600309-2023-cash",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 23709958225.37,
+    "prior_value": 18988842959.88,
+    "unit": "元",
+    "page": 72,
+    "printed_page": 72,
+    "snippet": "货币资金 七1 23,709,958,225.37 18,988,842,959.88",
+    "bbox": {
+      "x0": 92.18399810791016,
+      "y0": 201.7889404296875,
+      "x1": 539.99169921875,
+      "y1": 212.34893798828125
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": "七1",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-accounts_receivable",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 9144253100.42,
+    "prior_value": 9060251936.64,
+    "unit": "元",
+    "page": 72,
+    "printed_page": 72,
+    "snippet": "应收账款 七5 9,144,253,100.42 9,060,251,936.64",
+    "bbox": {
+      "x0": 92.18399810791016,
+      "y0": 288.09893798828125,
+      "x1": 539.8717041015625,
+      "y1": 298.658935546875
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": "七5",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-inventory",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 20650136909.64,
+    "prior_value": 18185319479.0,
+    "unit": "元",
+    "page": 72,
+    "printed_page": 72,
+    "snippet": "存货 七10 20,650,136,909.64 18,185,319,479.00",
+    "bbox": {
+      "x0": 92.18399810791016,
+      "y0": 431.73895263671875,
+      "x1": 539.99169921875,
+      "y1": 442.2989501953125
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": "七10",
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_current_assets",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 61864305893.11,
+    "prior_value": 51532428079.77,
+    "unit": "元",
+    "page": 72,
+    "printed_page": 72,
+    "snippet": "流动资产合计 61,864,305,893.11 51,532,428,079.77",
+    "bbox": {
+      "x0": 102.62000274658203,
+      "y0": 503.638916015625,
+      "x1": 539.99169921875,
+      "y1": 514.1989135742188
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_noncurrent_assets",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 191176084952.2,
+    "prior_value": 149310770795.38,
+    "unit": "元",
+    "page": 73,
+    "printed_page": 73,
+    "snippet": "非流动资产合计 191,176,084,952.20 149,310,770,795.38",
+    "bbox": {
+      "x0": 102.62000274658203,
+      "y0": 121.62896728515625,
+      "x1": 539.99169921875,
+      "y1": 132.18896484375
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_assets",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 253040390845.31,
+    "prior_value": 200843198875.15,
+    "unit": "元",
+    "page": 73,
+    "printed_page": 73,
+    "snippet": "资产总计 253,040,390,845.31 200,843,198,875.15",
+    "bbox": {
+      "x0": 113.18000030517578,
+      "y0": 136.0289306640625,
+      "x1": 539.99169921875,
+      "y1": 146.58892822265625
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_current_liabilities",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 108657370719.3,
+    "prior_value": 95017175827.14,
+    "unit": "元",
+    "page": 73,
+    "printed_page": 73,
+    "snippet": "流动负债合计 108,657,370,719.30 95,017,175,827.14",
+    "bbox": {
+      "x0": 102.62000274658203,
+      "y0": 495.23895263671875,
+      "x1": 539.99169921875,
+      "y1": 505.7989501953125
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 49928804392.21,
+    "prior_value": 24489035386.57,
+    "unit": "元",
+    "page": 73,
+    "printed_page": 73,
+    "snippet": "非流动负债合计 49,928,804,392.21 24,489,035,386.57",
+    "bbox": {
+      "x0": 102.62000274658203,
+      "y0": 696.388916015625,
+      "x1": 539.99169921875,
+      "y1": 706.9489135742188
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_liabilities",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 158586175111.51,
+    "prior_value": 119506211213.71,
+    "unit": "元",
+    "page": 73,
+    "printed_page": 73,
+    "snippet": "负债合计 158,586,175,111.51 119,506,211,213.71",
+    "bbox": {
+      "x0": 113.18000030517578,
+      "y0": 710.7889404296875,
+      "x1": 539.99169921875,
+      "y1": 721.3489379882812
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-equity_parent",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 88656204854.29,
+    "prior_value": 76844533840.41,
+    "unit": "元",
+    "page": 74,
+    "printed_page": 74,
+    "snippet": "归属于母公司所有者权益（或股东权 益）合计 88,656,204,854.29 76,844,533,840.41",
+    "bbox": {
+      "x0": 92.18399810791016,
+      "y0": 207.7889404296875,
+      "x1": 539.99169921875,
+      "y1": 225.18896484375
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_equity",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 94454215733.8,
+    "prior_value": 81336987661.44,
+    "unit": "元",
+    "page": 74,
+    "printed_page": 74,
+    "snippet": "所有者权益（或股东权益）合计 94,454,215,733.80 81,336,987,661.44",
+    "bbox": {
+      "x0": 102.62000274658203,
+      "y0": 250.14892578125,
+      "x1": 539.99169921875,
+      "y1": 260.70892333984375
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_liabilities_equity",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 253040390845.31,
+    "prior_value": 200843198875.15,
+    "unit": "元",
+    "page": 74,
+    "printed_page": 74,
+    "snippet": "负债和所有者权益（或股东权 益）总计 253,040,390,845.31 200,843,198,875.15",
+    "bbox": {
+      "x0": 81.6240005493164,
+      "y0": 264.57891845703125,
+      "x1": 539.99169921875,
+      "y1": 288.69891357421875
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_revenue",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 175360935668.36,
+    "prior_value": 165565484373.69,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "一、营业总收入 175,360,935,668.36 165,565,484,373.69",
+    "bbox": {
+      "x0": 75.02400207519531,
+      "y0": 337.4189453125,
+      "x1": 546.7117309570312,
+      "y1": 347.97894287109375
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-revenue",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 175360935668.36,
+    "prior_value": 165565484373.69,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "其中：营业收入 七61 175,360,935,668.36 165,565,484,373.69",
+    "bbox": {
+      "x0": 75.02400207519531,
+      "y0": 351.45892333984375,
+      "x1": 546.7117309570312,
+      "y1": 362.0189208984375
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_cost",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 156439671372.08,
+    "prior_value": 146819414324.38,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "二、营业总成本 156,439,671,372.08 146,819,414,324.38",
+    "bbox": {
+      "x0": 75.02400207519531,
+      "y0": 407.97894287109375,
+      "x1": 546.7117309570312,
+      "y1": 418.5389404296875
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-cost_of_revenue",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 145926359223.32,
+    "prior_value": 138132222629.6,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "其中：营业成本 七61 145,926,359,223.32 138,132,222,629.60",
+    "bbox": {
+      "x0": 75.02400207519531,
+      "y0": 422.1389465332031,
+      "x1": 546.7117309570312,
+      "y1": 432.6989440917969
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-taxes_surcharges",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 959718449.34,
+    "prior_value": 913120262.62,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "税金及附加 七62 959,718,449.34 913,120,262.62",
+    "bbox": {
+      "x0": 106.58000183105469,
+      "y0": 535.0789794921875,
+      "x1": 546.5917358398438,
+      "y1": 545.6389770507812
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-selling_expense",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 1346361619.13,
+    "prior_value": 1152911294.08,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "销售费用 七63 1,346,361,619.13 1,152,911,294.08",
+    "bbox": {
+      "x0": 106.58000183105469,
+      "y0": 549.118896484375,
+      "x1": 546.5917358398438,
+      "y1": 559.6788940429688
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-admin_expense",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 2450051139.77,
+    "prior_value": 1966123396.49,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "管理费用 七64 2,450,051,139.77 1,966,123,396.49",
+    "bbox": {
+      "x0": 106.58000183105469,
+      "y0": 563.2789306640625,
+      "x1": 546.5917358398438,
+      "y1": 573.8389282226562
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-rd_expense",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 4080709256.26,
+    "prior_value": 3420092050.62,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "研发费用 七65 4,080,709,256.26 3,420,092,050.62",
+    "bbox": {
+      "x0": 106.58000183105469,
+      "y0": 577.43896484375,
+      "x1": 546.5917358398438,
+      "y1": 587.9989624023438
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-finance_expense",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": 1676471684.26,
+    "prior_value": 1234944690.97,
+    "unit": "元",
+    "page": 76,
+    "printed_page": 76,
+    "snippet": "财务费用 七66 1,676,471,684.26 1,234,944,690.97",
+    "bbox": {
+      "x0": 106.58000183105469,
+      "y0": 591.4789428710938,
+      "x1": 546.5917358398438,
+      "y1": 602.0389404296875
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-operating_profit",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 20389187101.56,
+    "prior_value": 19838566985.32,
+    "unit": "元",
+    "page": 77,
+    "printed_page": 77,
+    "snippet": "三、营业利润（亏损以“－”号填列） 20,389,187,101.56 19,838,566,985.32",
+    "bbox": {
+      "x0": 75.02400207519531,
+      "y0": 161.94891357421875,
+      "x1": 546.7117309570312,
+      "y1": 172.5089111328125
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-total_profit",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 20009871906.36,
+    "prior_value": 19540649887.7,
+    "unit": "元",
+    "page": 77,
+    "printed_page": 77,
+    "snippet": "四、利润总额（亏损总额以“－”号填列） 20,009,871,906.36 19,540,649,887.70",
+    "bbox": {
+      "x0": 75.02400207519531,
+      "y0": 204.3089599609375,
+      "x1": 546.7117309570312,
+      "y1": 214.86895751953125
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-net_profit",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 18299805216.85,
+    "prior_value": 17041906850.02,
+    "unit": "元",
+    "page": 77,
+    "printed_page": 77,
+    "snippet": "五、净利润（净亏损以“－”号填列） 18,299,805,216.85 17,041,906,850.02",
+    "bbox": {
+      "x0": 75.02400207519531,
+      "y0": 232.5089111328125,
+      "x1": 546.7117309570312,
+      "y1": 243.06890869140625
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-net_profit_parent",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 16815755534.31,
+    "prior_value": 16233626024.32,
+    "unit": "元",
+    "page": 77,
+    "printed_page": 77,
+    "snippet": "16.8517,041,906,850.022.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）16,815,755,534.3116,233,626,024.322.少数股东损益（净亏损以“-”号填列）1,484,049,682.54808,280,825.70六、其他综合收益的税后净额七77360,744,711.69-37,801,008.66（一）归属母公司所",
+    "bbox": {
+      "x0": 96.02400207519531,
+      "y0": 330.33892822265625,
+      "x1": 546.7117309570312,
+      "y1": 347.7389221191406
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-basic_eps",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 5.36,
+    "prior_value": 5.17,
+    "unit": "元/股",
+    "page": 77,
+    "printed_page": 77,
+    "snippet": "（一）基本每股收益(元/股) 二十2 5.36 5.17",
+    "bbox": {
+      "x0": 85.58399963378906,
+      "y0": 722.7889404296875,
+      "x1": 546.7001342773438,
+      "y1": 733.3489379882812
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-sales_cash",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 204912317869.13,
+    "prior_value": 185916434476.07,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "销售商品、提供劳务收到的现金 204,912,317,869.13 185,916,434,476.07",
+    "bbox": {
+      "x0": 78.02400207519531,
+      "y0": 329.3789367675781,
+      "x1": 554.1517944335938,
+      "y1": 339.9389343261719
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-cfo",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 26796752552.51,
+    "prior_value": 36336824920.33,
+    "unit": "元",
+    "page": 79,
+    "printed_page": 79,
+    "snippet": "经营活动产生的现金流量净额 26,796,752,552.51 36,336,824,920.33",
+    "bbox": {
+      "x0": 99.02400207519531,
+      "y0": 682.3489379882812,
+      "x1": 554.1517944335938,
+      "y1": 692.908935546875
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-cfi",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -44830095860.93,
+    "prior_value": -34324606636.65,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "投资活动产生的现金流量净额 -44,830,095,860.93 -34,324,606,636.65",
+    "bbox": {
+      "x0": 99.02400207519531,
+      "y0": 246.18896484375,
+      "x1": 554.03564453125,
+      "y1": 256.74896240234375
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-cff",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": 22809059966.03,
+    "prior_value": -17187540503.08,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "筹资活动产生的现金流量净额 22,809,059,966.03 -17,187,540,503.08",
+    "bbox": {
+      "x0": 99.02400207519531,
+      "y0": 456.95892333984375,
+      "x1": 554.03564453125,
+      "y1": 467.5189208984375
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-fx_effect",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": -91621711.53,
+    "prior_value": -26342410.91,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "四、汇率变动对现金及现金等价物的影响 -91,621,711.53 -26,342,410.91",
+    "bbox": {
+      "x0": 67.46399688720703,
+      "y0": 471.1189270019531,
+      "x1": 554.0317993164062,
+      "y1": 481.6789245605469
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的影响",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-net_cash_increase",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 4684094946.08,
+    "prior_value": -15201664630.31,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "五、现金及现金等价物净增加额 4,684,094,946.08 -15,201,664,630.31",
+    "bbox": {
+      "x0": 67.46399688720703,
+      "y0": 485.158935546875,
+      "x1": 554.03564453125,
+      "y1": 495.71893310546875
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-beginning_cash",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 18812264448.95,
+    "prior_value": 34013929079.26,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "加：期初现金及现金等价物余额 18,812,264,448.95 34,013,929,079.26",
+    "bbox": {
+      "x0": 78.02400207519531,
+      "y0": 499.3189392089844,
+      "x1": 554.1517944335938,
+      "y1": 509.8789367675781
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600309-2023-ending_cash",
+    "company": {
+      "code": "600309",
+      "name": "万华化学集团股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-03-19",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-19/1219331064.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 23496359395.03,
+    "prior_value": 18812264448.95,
+    "unit": "元",
+    "page": 80,
+    "printed_page": 80,
+    "snippet": "六、期末现金及现金等价物余额 23,496,359,395.03 18,812,264,448.95",
+    "bbox": {
+      "x0": 67.46399688720703,
+      "y0": 513.4789428710938,
+      "x1": 554.1517944335938,
+      "y1": 524.0389404296875
+    },
+    "source_file": "600309_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

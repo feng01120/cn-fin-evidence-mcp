@@ -1,0 +1,1702 @@
+[
+  {
+    "evidence_id": "300750-2024-cash",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 303511993.0,
+    "prior_value": 264306515.0,
+    "unit": "千元",
+    "page": 114,
+    "printed_page": null,
+    "snippet": "货币资金 303,511,993 264,306,515",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 233.80101013183594,
+      "x1": 533.041015625,
+      "y1": 243.76400756835938
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-accounts_receivable",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 64135510.0,
+    "prior_value": 64020533.0,
+    "unit": "千元",
+    "page": 114,
+    "printed_page": null,
+    "snippet": "应收账款 64,135,510 64,020,533",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 337.3909606933594,
+      "x1": 533.0440063476562,
+      "y1": 347.3539733886719
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-inventory",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 59835533.0,
+    "prior_value": 45433890.0,
+    "unit": "千元",
+    "page": 114,
+    "printed_page": null,
+    "snippet": "存货 59,835,533 45,433,890",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 509.8509826660156,
+      "x1": 533.0440063476562,
+      "y1": 519.81396484375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_current_assets",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 510142089.0,
+    "prior_value": 449788002.0,
+    "unit": "千元",
+    "page": 114,
+    "printed_page": null,
+    "snippet": "流动资产合计 510,142,089 449,788,002",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 613.4409790039062,
+      "x1": 533.041015625,
+      "y1": 623.4039306640625
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_noncurrent_assets",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 276516035.0,
+    "prior_value": 267380039.0,
+    "unit": "千元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "非流动资产合计 276,516,035 267,380,039",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 317.8309631347656,
+      "x1": 533.041015625,
+      "y1": 327.7939758300781
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_assets",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 786658123.0,
+    "prior_value": 717168041.0,
+    "unit": "千元",
+    "page": 115,
+    "printed_page": null,
+    "snippet": "资产总计 786,658,123 717,168,041",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 335.1109619140625,
+      "x1": 533.041015625,
+      "y1": 345.073974609375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_current_liabilities",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 317171534.0,
+    "prior_value": 287001069.0,
+    "unit": "千元",
+    "page": 116,
+    "printed_page": null,
+    "snippet": "宁德时代新能源科技股份有限公司2024年年度报告全文116流动负债合计317,171,534287,001,069非流动负债：保险合同准备金长期借款81,238,45683,448,982应付债券11,922,62319,237,014其中：优先股永续债租赁负债662,814283,296长期应付款1,606,4801,520,2",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 43.58097457885742,
+      "x1": 538.6600341796875,
+      "y1": 86.32400512695312
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_noncurrent_liabilities",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 196030416.0,
+    "prior_value": 210283821.0,
+    "unit": "千元",
+    "page": 116,
+    "printed_page": null,
+    "snippet": "非流动负债合计 196,030,416 210,283,821",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 317.8309631347656,
+      "x1": 533.041015625,
+      "y1": 327.7939758300781
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_liabilities",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 513201949.0,
+    "prior_value": 497284890.0,
+    "unit": "千元",
+    "page": 116,
+    "printed_page": null,
+    "snippet": "负债合计 513,201,949 497,284,890",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 335.1109619140625,
+      "x1": 533.041015625,
+      "y1": 345.073974609375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-equity_parent",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 246930033.0,
+    "prior_value": 197708052.0,
+    "unit": "千元",
+    "page": 116,
+    "printed_page": null,
+    "snippet": "归属于母公司所有者权益合计 246,930,033 197,708,052",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 559.4110107421875,
+      "x1": 533.041015625,
+      "y1": 569.3739624023438
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_equity",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 273456174.0,
+    "prior_value": 219883151.0,
+    "unit": "千元",
+    "page": 116,
+    "printed_page": null,
+    "snippet": "所有者权益合计 273,456,174 219,883,151",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 593.8809814453125,
+      "x1": 533.041015625,
+      "y1": 603.8439331054688
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_liabilities_equity",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 786658123.0,
+    "prior_value": 717168041.0,
+    "unit": "千元",
+    "page": 116,
+    "printed_page": null,
+    "snippet": "负债和所有者权益总计 786,658,123 717,168,041",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 611.1610107421875,
+      "x1": 533.041015625,
+      "y1": 621.1239624023438
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_revenue",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 362012554.0,
+    "prior_value": 400917045.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "一、营业总收入 362,012,554 400,917,045",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 186.40098571777344,
+      "x1": 533.041015625,
+      "y1": 196.36398315429688
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-revenue",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 362012554.0,
+    "prior_value": 400917045.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "其中：营业收入 362,012,554 400,917,045",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 203.5609588623047,
+      "x1": 533.041015625,
+      "y1": 213.52395629882812
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_cost",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 303303900.0,
+    "prior_value": 350610618.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "二、营业总成本 303,303,900 350,610,618",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 272.5909729003906,
+      "x1": 533.041015625,
+      "y1": 282.5539855957031
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-cost_of_revenue",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 273518959.0,
+    "prior_value": 323982130.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "其中：营业成本 273,518,959 323,982,130",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 289.8709411621094,
+      "x1": 533.041015625,
+      "y1": 299.8339538574219
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-taxes_surcharges",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 2057466.0,
+    "prior_value": 1695508.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "税金及附加 2,057,466 1,695,508",
+    "bbox": {
+      "x0": 98.30400085449219,
+      "y0": 438.93096923828125,
+      "x1": 533.0499877929688,
+      "y1": 448.89398193359375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-selling_expense",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 3562797.0,
+    "prior_value": 3042744.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "销售费用 3,562,797 3,042,744",
+    "bbox": {
+      "x0": 98.30400085449219,
+      "y0": 456.2109680175781,
+      "x1": 533.0499877929688,
+      "y1": 466.1739807128906
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-admin_expense",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 9689839.0,
+    "prior_value": 8461824.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "管理费用 9,689,839 8,461,824",
+    "bbox": {
+      "x0": 98.30400085449219,
+      "y0": 473.3709716796875,
+      "x1": 533.0499877929688,
+      "y1": 483.333984375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-rd_expense",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 18606756.0,
+    "prior_value": 18356108.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "研发费用 18,606,756 18,356,108",
+    "bbox": {
+      "x0": 98.30400085449219,
+      "y0": 490.6509704589844,
+      "x1": 533.0440063476562,
+      "y1": 500.6139831542969
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-finance_expense",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -4131918.0,
+    "prior_value": -4927697.0,
+    "unit": "千元",
+    "page": 119,
+    "printed_page": null,
+    "snippet": "财务费用 -4,131,918 -4,927,697",
+    "bbox": {
+      "x0": 98.30400085449219,
+      "y0": 507.9309387207031,
+      "x1": 533.029052734375,
+      "y1": 517.8939208984375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-operating_profit",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 64051799.0,
+    "prior_value": 53718302.0,
+    "unit": "千元",
+    "page": 120,
+    "printed_page": null,
+    "snippet": "三、营业利润（亏损以“－”号填列） 64,051,799 53,718,302",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 132.88096618652344,
+      "x1": 533.0440063476562,
+      "y1": 142.84396362304688
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-total_profit",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 63182039.0,
+    "prior_value": 53914053.0,
+    "unit": "千元",
+    "page": 120,
+    "printed_page": null,
+    "snippet": "四、利润总额（亏损总额以“－”号填 列） 63,182,039 53,914,053",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 184.12095642089844,
+      "x1": 533.0440063476562,
+      "y1": 200.08395385742188
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-net_profit",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 54006794.0,
+    "prior_value": 46761034.0,
+    "unit": "千元",
+    "page": 120,
+    "printed_page": null,
+    "snippet": "五、净利润（净亏损以“－”号填列） 54,006,794 46,761,034",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 230.0809783935547,
+      "x1": 533.0440063476562,
+      "y1": 240.04397583007812
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-net_profit_parent",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 50744682.0,
+    "prior_value": 44121248.0,
+    "unit": "千元",
+    "page": 120,
+    "printed_page": null,
+    "snippet": "1.归属于母公司股东的净利润 50,744,682 44,121,248",
+    "bbox": {
+      "x0": 80.30400085449219,
+      "y0": 330.43096923828125,
+      "x1": 533.0440063476562,
+      "y1": 340.39398193359375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-basic_eps",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 11.58,
+    "prior_value": 10.06,
+    "unit": "元/股",
+    "page": 121,
+    "printed_page": null,
+    "snippet": "（一）基本每股收益 11.58 10.06",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 110.80101013183594,
+      "x1": 533.1820068359375,
+      "y1": 120.76400756835938
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-sales_cash",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 417943223.0,
+    "prior_value": null,
+    "unit": "千元",
+    "page": 122,
+    "printed_page": null,
+    "snippet": "销售商品、提供劳务收到的现金 417,525,378 417,943,223",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 601.4409790039062,
+      "x1": 533.041015625,
+      "y1": 611.4039306640625
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-cfo",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 96990345.0,
+    "prior_value": 92826124.0,
+    "unit": "千元",
+    "page": 123,
+    "printed_page": null,
+    "snippet": "经营活动产生的现金流量净额 96,990,345 92,826,124",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 335.1109619140625,
+      "x1": 533.0440063476562,
+      "y1": 345.073974609375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-cfi",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -48875311.0,
+    "prior_value": -29187764.0,
+    "unit": "千元",
+    "page": 123,
+    "printed_page": null,
+    "snippet": "投资活动产生的现金流量净额 -48,875,311 -29,187,764",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 604.6809692382812,
+      "x1": 533.1550903320312,
+      "y1": 614.6439208984375
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-cff",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -14524236.0,
+    "prior_value": 14716363.0,
+    "unit": "千元",
+    "page": 124,
+    "printed_page": null,
+    "snippet": "筹资活动产生的现金流量净额 -14,524,236 14,716,363",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 163.3610076904297,
+      "x1": 533.0440063476562,
+      "y1": 173.32400512695312
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-fx_effect",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": -1596552.0,
+    "prior_value": 2181447.0,
+    "unit": "千元",
+    "page": 124,
+    "printed_page": null,
+    "snippet": "四、汇率变动对现金及现金等价物的 影响 -1,596,552 2,181,447",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 178.40895080566406,
+      "x1": 533.0499877929688,
+      "y1": 194.08395385742188
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-net_cash_increase",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": 31994247.0,
+    "prior_value": 80536170.0,
+    "unit": "千元",
+    "page": 124,
+    "printed_page": null,
+    "snippet": "五、现金及现金等价物净增加额 31,994,247 80,536,170",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 204.88096618652344,
+      "x1": 533.0440063476562,
+      "y1": 214.84396362304688
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-beginning_cash",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 238165487.0,
+    "prior_value": 157629317.0,
+    "unit": "千元",
+    "page": 124,
+    "printed_page": null,
+    "snippet": "加：期初现金及现金等价物余额 238,165,487 157,629,317",
+    "bbox": {
+      "x0": 71.30400085449219,
+      "y0": 222.16099548339844,
+      "x1": 533.041015625,
+      "y1": 232.12399291992188
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "300750-2024-ending_cash",
+    "company": {
+      "code": "300750",
+      "name": "宁德时代新能源科技股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2024-12-31",
+    "announce_date": "2025-03-15",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "period": "2024",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 270159734.0,
+    "prior_value": 238165487.0,
+    "unit": "千元",
+    "page": 124,
+    "printed_page": null,
+    "snippet": "六、期末现金及现金等价物余额 270,159,734 238,165,487",
+    "bbox": {
+      "x0": 62.30400085449219,
+      "y0": 239.3209686279297,
+      "x1": 533.041015625,
+      "y1": 249.28396606445312
+    },
+    "source_file": "300750_2024.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match"
+      ],
+      "messages": []
+    }
+  }
+]

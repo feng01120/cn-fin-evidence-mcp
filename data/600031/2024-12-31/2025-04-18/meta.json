@@ -1,0 +1,38 @@
+{
+  "company": {
+    "code": "600031",
+    "name": "三一重工股份有限公司",
+    "short_name": ""
+  },
+  "period": "2024",
+  "report_date": "2024-12-31",
+  "announce_date": "2025-04-18",
+  "dataset_id": "600031-2024-12-31-2025-04-18",
+  "evidence_level": "verified",
+  "source_type": "annual_report_pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223129214.PDF",
+  "source_file": "600031_2024.pdf",
+  "source_sha256": "09b21df2cef24fd85b4efa625579138241ae1de4fa7ad4f2c9fcef0c694a0d1a",
+  "page_count": 255,
+  "extracted_at": "2026-11-24T18:20:47+08:00",
+  "statements": [
+    "合并资产负债表",
+    "合并利润表",
+    "合并现金流量表"
+  ],
+  "fact_count": 34,
+  "row_count": 154,
+  "coverage_score": 0.9444,
+  "coverage": {
+    "metric_coverage": 1.0,
+    "fact_count": 34,
+    "expected_metrics": 31,
+    "all_metrics": 34,
+    "snippet_hit_rate": 1.0,
+    "check_pass_rate": 0.8333,
+    "check_fail": 0,
+    "missing_required": [],
+    "score": 0.9444
+  },
+  "quality_gate": "pass"
+}
