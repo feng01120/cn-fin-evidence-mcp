@@ -5,6 +5,7 @@
 > A 股财报证据链 MCP：**每个返回给 AI 的数字，都能回到年报页码；回不去的，拒答。**
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+[![CI](https://github.com/feng01120/cn-fin-evidence-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/feng01120/cn-fin-evidence-mcp/actions/workflows/ci.yml)
 ![Tests](https://img.shields.io/badge/tests-52%20passed-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Datasets](https://img.shields.io/badge/datasets-60-blueviolet)

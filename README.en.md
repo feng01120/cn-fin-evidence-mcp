@@ -3,6 +3,7 @@
 > An A-share financial-statement evidence MCP: **every number returned to an AI can be traced back to an annual-report page; otherwise it is refused.**
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+[![CI](https://github.com/feng01120/cn-fin-evidence-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/feng01120/cn-fin-evidence-mcp/actions/workflows/ci.yml)
 ![Tests](https://img.shields.io/badge/tests-52%20passed-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Datasets](https://img.shields.io/badge/datasets-60-blueviolet)

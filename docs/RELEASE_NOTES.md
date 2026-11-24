@@ -52,7 +52,8 @@ Release：https://github.com/feng01120/cn-fin-evidence-mcp/releases/tag/v0.2.4
 - `cn-fin-evidence-mcp-v0.2.4-60datasets-with-pdf.zip`：完整数据 + 60 份 PDF。
 - `cn-fin-evidence-mcp-v0.2.4-source.zip`：不含 `data/raw` 的源码包。
 - `RELEASE_AUDIT.md` / `release_audit.json`：完整发布审计报告与机器可读结果。
-- `SHA256SUMS`：资产校验和。
+- `SHA256SUMS`：本地包结构的校验和。
+- `SHA256SUMS.github`：按 GitHub Release 平铺文件名编写的校验和，下载后可直接 `sha256sum -c`。
 
 ## 已知限制
 
