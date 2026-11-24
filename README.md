@@ -82,8 +82,8 @@ MCP 客户端配置（stdio）：
   "data": {
     "verdict": "match",
     "metric": "cash",
-    "claimed_value": 51690610946.5,
-    "actual_value": 51690610946.5,
+    "claimed_value": 151690610946.5,
+    "actual_value": 151690610946.5,
     "difference": 0.0,
     "unit": "元"
   },
