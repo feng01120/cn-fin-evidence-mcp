@@ -16,22 +16,6 @@
     "complete": true
   },
   {
-    "page": 58,
-    "statement": "合并资产负债表",
-    "item": "结算备付金",
-    "note": null,
-    "value": 143.0,
-    "prior_value": null,
-    "snippet": "结算备付金58/143",
-    "bbox": {
-      "x0": 106.22000122070312,
-      "y0": 749.1849365234375,
-      "x1": 325.8529968261719,
-      "y1": 781.14599609375
-    },
-    "complete": true
-  },
-  {
     "page": 59,
     "statement": "合并资产负债表",
     "item": "拆出资金",

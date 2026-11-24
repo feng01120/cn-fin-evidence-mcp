@@ -44,7 +44,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -94,7 +95,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -144,7 +146,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -194,7 +197,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -244,7 +248,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -294,7 +299,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -344,7 +350,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -394,7 +401,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -444,7 +452,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -494,7 +503,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -544,7 +554,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -594,7 +605,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -644,7 +656,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -694,7 +707,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -744,7 +758,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -794,7 +809,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -844,7 +860,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -894,7 +911,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -944,7 +962,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -994,7 +1013,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1044,7 +1064,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1094,7 +1115,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1144,7 +1166,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1194,7 +1217,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1244,7 +1268,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1294,7 +1319,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1344,7 +1370,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1394,7 +1421,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1444,7 +1472,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1469,10 +1498,10 @@
     "unit": "元",
     "page": 127,
     "printed_page": null,
-    "snippet": "海尔智家股份有限公司2025年年度报告127/245筹资活动产生的现金流量净额-17,670,708,963.02-7,703,505,598.14四、汇率变动对现金及现金等价物的影响16,163,321.54-256,390,521.12五、现金及现金等价物净增加额-8,726,907,415.72-1,721,077,388.07加：期初现金及现金",
+    "snippet": "筹资活动产生的现金流量净额 -17,670,708,963.02 -7,703,505,598.14",
     "bbox": {
       "x0": 121.31999969482422,
-      "y0": 42.83599853515625,
+      "y0": 77.8572998046875,
       "x1": 531.2996215820312,
       "y1": 91.56770324707031
     },
@@ -1494,7 +1523,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1544,7 +1574,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1594,7 +1625,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1644,7 +1676,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1694,7 +1727,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }

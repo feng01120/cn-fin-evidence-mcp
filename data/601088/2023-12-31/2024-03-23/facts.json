@@ -44,7 +44,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -94,7 +95,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -144,7 +146,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -194,7 +197,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -244,7 +248,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -294,7 +299,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -344,7 +350,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -394,7 +401,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -444,7 +452,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -494,7 +503,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -544,7 +554,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -594,7 +605,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -622,8 +634,8 @@
     "snippet": "中国神华2023年度报告137中国神华能源股份有限公司合并利润表2023年度(金额单位：人民币百万元)附注2023年度2022年度(已重述)一、营业收入五、34343,074344,533减：营业成本五、34219,922210,059税金及附加五、3518,38519,972销售费用五、36425410管理费用五、379,8129,930研发费用3,0073,722财务费用五、38501877其中：利息费用2",
     "bbox": {
       "x0": 79.46399688720703,
-      "y0": 112.37332153320312,
-      "x1": 531.7899780273438,
+      "y0": 213.91336059570312,
+      "x1": 531.7804565429688,
       "y1": 226.8546142578125
     },
     "source_file": "601088_2023.pdf",
@@ -644,7 +656,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -694,7 +707,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -744,7 +758,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -794,7 +809,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -844,7 +860,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -894,7 +911,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -944,7 +962,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -994,7 +1013,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1044,7 +1064,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1094,7 +1115,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1144,7 +1166,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1194,7 +1217,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1244,7 +1268,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1294,7 +1319,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1344,7 +1370,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1369,11 +1396,11 @@
     "unit": "百万元",
     "page": 145,
     "printed_page": null,
-    "snippet": "合并现金流量表 (续) 2023 年度 (金额单位：人民币百万元) 附注 2023 年度 2022 年度 四、汇率变动对现金及现金等价物的影响 134 337",
+    "snippet": "四、汇率变动对现金及现金等价物的影响 134 337",
     "bbox": {
       "x0": 79.46399688720703,
-      "y0": 98.18331909179688,
-      "x1": 532.0299682617188,
+      "y0": 199.86660766601562,
+      "x1": 531.7900390625,
       "y1": 212.69464111328125
     },
     "source_file": "601088_2023.pdf",
@@ -1394,7 +1421,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1444,7 +1472,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1494,7 +1523,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1544,7 +1574,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }

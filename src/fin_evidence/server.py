@@ -56,6 +56,14 @@ def _subject_quality(fact: Dict[str, Any]):
     return evaluate_fact(fact)
 
 
+def _second_source_status(cross: Dict[str, Any]) -> str:
+    if not cross:
+        return 'missing'
+    if any(cross.get(k) for k in ('warning', 'restatement_material', 'verified_isolated')):
+        return 'warning'
+    return 'pass'
+
+
 def _choose_fact(ds: Dict[str, Any], metric: str) -> Optional[Dict[str, Any]]:
     """优先 verified；verified 缺值或不存在时才用 structured fallback。"""
     fact = find_fact_by_metric(ds, metric)
@@ -89,7 +97,8 @@ def list_companies() -> Dict[str, Any]:
     _audit('list_companies', {}, 'ok')
     return {'data': rows, 'evidence': [],
             'meta': {'count': len(rows),
-                     'structured_count': sum(int(r.get('structured_count') or 0) for r in rows)},
+                     'structured_count': sum(int(r.get('structured_count') or 0) for r in rows),
+                     'second_source_count': sum(int(r.get('second_source_count') or 0) for r in rows)},
             'quality': {'status': 'pass'}}
 
 
@@ -283,6 +292,48 @@ def verify_fact(stock_code: str, period: str, metric: str, claimed_value: float,
 
 
 @mcp.tool()
+def get_source_comparison(stock_code: str, period: str, metric: str = '',
+                          announce_date: str = '') -> Dict[str, Any]:
+    """并排返回 verified / 东方财富 / 新浪三源数值与差异。
+
+    这不是证据替代：verified 仍以年报页码为准；两个结构化源只用于发现
+    口径差异、追溯重述和可能的抽取错误。
+    """
+    ds, err = _load(stock_code, period, announce_date)
+    if err:
+        return err
+    sina = ds.get('sina') or {}
+    rows = sina.get('comparison') if isinstance(sina, dict) else {}
+    if not rows:
+        return _err('SECOND_SOURCE_NOT_FOUND', '该数据集没有第二数据源比对结果')
+    if metric.strip():
+        if metric not in rows:
+            return _err('SOURCE_METRIC_NOT_FOUND', '第二源比对中没有该指标',
+                        metric=metric, available=sorted(rows))
+        rows = {metric: rows[metric]}
+    cross = sina.get('cross_check', {})
+    status = _second_source_status(cross)
+    _audit('get_source_comparison', {'stock_code': stock_code, 'period': period,
+                                     'metric': metric, 'announce_date': announce_date},
+           'ok', [metric] if metric else [])
+    evidence = [{
+        'provider': 'sina',
+        'metric': r.get('metric'),
+        'source_url': (r.get('sina') or {}).get('source_url'),
+        'source_label': (r.get('sina') or {}).get('source_label'),
+        'value': (r.get('sina') or {}).get('value'),
+        'unit': (r.get('sina') or {}).get('unit'),
+    } for r in rows.values()]
+    return {'data': {'metrics': rows, 'cross_check': cross},
+            'evidence': evidence,
+            'meta': {'stock_code': stock_code, 'period': period,
+                     'report_date': ds['meta'].get('report_date', ''),
+                     'announce_date': ds['meta'].get('announce_date', ''),
+                     'provider': 'sina', 'dataset_path': ds['dir']},
+            'quality': {'status': status}}
+
+
+@mcp.tool()
 def get_quality_report(stock_code: str, period: str,
                        announce_date: str = '') -> Dict[str, Any]:
     """返回勾稽校验、科目校验与数据质量结果：哪些通过、哪些失败、哪些数值缺失。"""
@@ -297,10 +348,16 @@ def get_quality_report(stock_code: str, period: str,
                     if _subject_quality(f).status == 'fail']
     _audit('get_quality_report', {'stock_code': stock_code, 'period': period,
                                   'announce_date': announce_date}, 'ok')
-    status = 'fail' if counts['fail'] or subject_fail else ('warning' if counts['warning'] else 'pass')
     structured_doc = ds.get('structured') or {}
     structured_cross = structured_doc.get('cross_check', {}) if isinstance(structured_doc, dict) else {}
-    structured_status = 'warning' if structured_cross.get('warning') or structured_cross.get('missing') else 'pass'
+    structured_status = 'warning' if (structured_cross.get('warning')
+                                      or structured_cross.get('restatement_material')
+                                      or structured_cross.get('missing')) else 'pass'
+    sina = ds.get('sina') or {}
+    second_cross = sina.get('cross_check', {}) if isinstance(sina, dict) else {}
+    second_status = _second_source_status(second_cross)
+    status = 'fail' if counts['fail'] or subject_fail else (
+        'warning' if counts['warning'] or second_status == 'warning' else 'pass')
     return {'data': {'checks': checks, 'counts': counts, 'subject_fail': subject_fail,
                      'coverage': ds['meta'].get('coverage', {}),
                      'coverage_score': ds['meta'].get('coverage_score', 0),
@@ -309,15 +366,20 @@ def get_quality_report(stock_code: str, period: str,
                      'structured_metrics': sorted(f['metric'] for f in ds.get('structured_facts', [])),
                      'structured_overlay': bool(ds.get('structured_facts')),
                      'structured_cross_check': structured_cross,
-                     'structured_quality': structured_status},
+                     'structured_quality': structured_status,
+                     'second_source_count': len(sina.get('metrics', {})) if isinstance(sina, dict) else 0,
+                     'second_source_cross_check': second_cross,
+                     'second_source_status': second_status},
             'evidence': [],
             'meta': {'stock_code': stock_code, 'period': period,
                      'report_date': ds['meta'].get('report_date', ''),
                      'announce_date': ds['meta'].get('announce_date', ''),
                      'evidence_level': ds['meta'].get('evidence_level', 'verified'),
                      'structured_count': len(ds.get('structured_facts', [])),
+                     'second_source_count': len(sina.get('metrics', {})) if isinstance(sina, dict) else 0,
                      'dataset_path': ds['dir']},
-            'quality': {'status': status, 'structured_status': structured_status}}
+            'quality': {'status': status, 'structured_status': structured_status,
+                        'second_source_status': second_status}}
 
 
 def main():

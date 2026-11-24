@@ -1,6 +1,6 @@
 {
   "provider": "eastmoney",
-  "fetched_at": "2026-11-24T18:59:21+08:00",
+  "fetched_at": "2026-11-24T19:26:28+08:00",
   "company": {
     "code": "000333",
     "name": "美的集团股份有限公司",
@@ -18,6 +18,9 @@
       "api_field": "MONETARYFUNDS",
       "report_name": "RPT_DMSK_FN_BALANCE",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -31,7 +34,10 @@
         "status": "pass",
         "verified_value": 81673846.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "accounts_receivable": {
@@ -43,6 +49,9 @@
       "api_field": "ACCOUNTS_RECE",
       "report_name": "RPT_DMSK_FN_BALANCE",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -56,7 +65,10 @@
         "status": "pass",
         "verified_value": 32884739.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "inventory": {
@@ -68,6 +80,9 @@
       "api_field": "INVENTORY",
       "report_name": "RPT_DMSK_FN_BALANCE",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -81,7 +96,10 @@
         "status": "pass",
         "verified_value": 47339255.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "total_assets": {
@@ -93,6 +111,9 @@
       "api_field": "TOTAL_ASSETS",
       "report_name": "RPT_DMSK_FN_BALANCE",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -106,7 +127,10 @@
         "status": "pass",
         "verified_value": 486038184.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "total_liabilities": {
@@ -118,6 +142,9 @@
       "api_field": "TOTAL_LIABILITIES",
       "report_name": "RPT_DMSK_FN_BALANCE",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -131,7 +158,10 @@
         "status": "pass",
         "verified_value": 311738535.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "total_equity": {
@@ -143,6 +173,9 @@
       "api_field": "TOTAL_EQUITY",
       "report_name": "RPT_DMSK_FN_BALANCE",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -156,7 +189,10 @@
         "status": "pass",
         "verified_value": 174299649.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "total_revenue": {
@@ -168,6 +204,9 @@
       "api_field": "TOTAL_OPERATE_INCOME",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -181,7 +220,10 @@
         "status": "pass",
         "verified_value": 373709804.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "total_cost": {
@@ -193,6 +235,9 @@
       "api_field": "TOTAL_OPERATE_COST",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -206,7 +251,9 @@
         "status": "missing",
         "verified_value": null,
         "verified_unit": null,
-        "relative_diff": null
+        "relative_diff": null,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29"
       }
     },
     "cost_of_revenue": {
@@ -218,6 +265,9 @@
       "api_field": "OPERATE_COST",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -225,14 +275,17 @@
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与年报解析值相差 1.07%；保留两套口径，不覆盖 verified"
+          "结构化值与原始年报值相差 1.07%；API 披露日 2025-03-29 晚于数据集公告日 2024-03-28，判定为后发年报追溯/重分类，保留双口径"
         ]
       },
       "cross_check": {
-        "status": "warning",
+        "status": "restatement",
         "verified_value": 273481373.0,
         "verified_unit": "千元",
-        "relative_diff": 0.010707
+        "relative_diff": 0.010707,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "selling_expense": {
@@ -244,6 +297,9 @@
       "api_field": "SALE_EXPENSE",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -251,14 +307,17 @@
         ],
         "messages": [
           "结构化接口数据，无年报页码证据；不得冒充 verified",
-          "结构化值与年报解析值相差 8.39%；保留两套口径，不覆盖 verified"
+          "结构化值与原始年报值相差 8.39%；API 披露日 2025-03-29 晚于数据集公告日 2024-03-28，判定为后发年报追溯/重分类，保留双口径"
         ]
       },
       "cross_check": {
-        "status": "warning",
+        "status": "restatement",
         "verified_value": 34880875.0,
         "verified_unit": "千元",
-        "relative_diff": 0.083944
+        "relative_diff": 0.083944,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "admin_expense": {
@@ -270,6 +329,9 @@
       "api_field": "MANAGE_EXPENSE",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -283,7 +345,10 @@
         "status": "pass",
         "verified_value": 13476908.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "finance_expense": {
@@ -295,6 +360,9 @@
       "api_field": "FINANCE_EXPENSE",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -308,7 +376,9 @@
         "status": "missing",
         "verified_value": null,
         "verified_unit": null,
-        "relative_diff": null
+        "relative_diff": null,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29"
       }
     },
     "operating_profit": {
@@ -320,6 +390,9 @@
       "api_field": "OPERATE_PROFIT",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -333,7 +406,10 @@
         "status": "pass",
         "verified_value": 40317441.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "total_profit": {
@@ -345,6 +421,9 @@
       "api_field": "TOTAL_PROFIT",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -358,7 +437,10 @@
         "status": "pass",
         "verified_value": 40277163.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "net_profit_parent": {
@@ -370,6 +452,9 @@
       "api_field": "PARENT_NETPROFIT",
       "report_name": "RPT_DMSK_FN_INCOME",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -383,7 +468,10 @@
         "status": "pass",
         "verified_value": 33719935.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "sales_cash": {
@@ -395,6 +483,9 @@
       "api_field": "SALES_SERVICES",
       "report_name": "RPT_DMSK_FN_CASHFLOW",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -408,7 +499,10 @@
         "status": "pass",
         "verified_value": 356076005.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "cfo": {
@@ -420,6 +514,9 @@
       "api_field": "NETCASH_OPERATE",
       "report_name": "RPT_DMSK_FN_CASHFLOW",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -433,7 +530,10 @@
         "status": "pass",
         "verified_value": 57902611.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "cfi": {
@@ -445,6 +545,9 @@
       "api_field": "NETCASH_INVEST",
       "report_name": "RPT_DMSK_FN_CASHFLOW",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -458,7 +561,10 @@
         "status": "pass",
         "verified_value": -31219855.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "cff": {
@@ -470,6 +576,9 @@
       "api_field": "NETCASH_FINANCE",
       "report_name": "RPT_DMSK_FN_CASHFLOW",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -483,7 +592,10 @@
         "status": "pass",
         "verified_value": -17910213.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     },
     "net_cash_increase": {
@@ -495,6 +607,9 @@
       "api_field": "CCE_ADD",
       "report_name": "RPT_DMSK_FN_CASHFLOW",
       "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22000333%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2025-03-29",
+      "report_type_code": "001",
+      "data_state": "2",
       "quality": {
         "status": "warning",
         "checks": [
@@ -508,13 +623,18 @@
         "status": "pass",
         "verified_value": 8755292.0,
         "verified_unit": "千元",
-        "relative_diff": 0.0
+        "relative_diff": 0.0,
+        "announce_date": "2024-03-28",
+        "api_notice_date": "2025-03-29",
+        "later_filing": true
       }
     }
   },
   "cross_check": {
     "pass": 16,
-    "warning": 2,
+    "restatement": 2,
+    "restatement_material": 0,
+    "warning": 0,
     "missing": 2
   },
   "errors": []

@@ -299,7 +299,7 @@
   },
   "structured": {
     "datasets": 60,
-    "metrics": 1191,
+    "metrics": 1200,
     "sample": {
       "evidence_id": "600519-2025-cash-structured",
       "evidence_level": "structured",
@@ -309,9 +309,30 @@
     },
     "sample_ok": true
   },
+  "second_source": {
+    "datasets": 60,
+    "metrics": 1920,
+    "sample": {
+      "provider": "sina",
+      "status": "pass",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600519/ctrl/2025/type/1.phtml",
+      "eastmoney_vs_sina_diff": 0.0,
+      "error": null
+    },
+    "sample_ok": true,
+    "cross_check": {
+      "pass": 1840,
+      "restatement": 45,
+      "restatement_material": 10,
+      "verified_isolated": 0,
+      "warning": 0,
+      "unverified": 25,
+      "missing": 120
+    }
+  },
   "row_audit": {
     "error_count": 0,
-    "warning_count": 135,
+    "warning_count": 95,
     "pass": true
   },
   "acceptance": true

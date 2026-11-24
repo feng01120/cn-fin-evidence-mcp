@@ -44,7 +44,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -94,7 +95,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -144,7 +146,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -194,7 +197,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -244,7 +248,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -294,7 +299,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -344,7 +350,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -394,7 +401,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -444,7 +452,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -494,7 +503,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -544,7 +554,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -594,7 +605,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -644,7 +656,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -694,7 +707,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -719,11 +733,11 @@
     "unit": "元",
     "page": 76,
     "printed_page": null,
-    "snippet": "江苏洋河酒厂股份有限公司2024年年度报告全文76二、营业总成本19,512,180,569.5620,151,096,010.15其中：营业成本7,751,218,356.668,200,245,255.42利息支出手续费及佣金支出退保金赔付支出净额提取保险责任合同准备金净额保单红利支出分保费用税金及附加4,826,086,952.6",
+    "snippet": "二、营业总成本 19,512,180,569.56 20,151,096,010.15",
     "bbox": {
       "x0": 62.15999984741211,
-      "y0": 43.74898147583008,
-      "x1": 538.6600341796875,
+      "y0": 76.04896545410156,
+      "x1": 533.3350219726562,
       "y1": 85.16896057128906
     },
     "source_file": "002304_2024.pdf",
@@ -744,7 +758,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -794,7 +809,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -844,7 +860,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -894,7 +911,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -944,7 +962,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -994,7 +1013,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1044,7 +1064,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1094,7 +1115,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1144,7 +1166,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1194,7 +1217,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1244,7 +1268,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1294,7 +1319,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1344,7 +1370,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1394,7 +1421,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1444,7 +1472,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1494,7 +1523,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1544,7 +1574,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1594,7 +1625,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1644,7 +1676,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }
@@ -1694,7 +1727,8 @@
     "subject_check": {
       "status": "pass",
       "checks": [
-        "alias_match"
+        "alias_match",
+        "statement_match"
       ],
       "messages": []
     }

@@ -1,0 +1,981 @@
+{
+  "summary": {
+    "datasets": 60,
+    "ok": 60,
+    "skipped": 0,
+    "no_data": 0,
+    "metrics": 1920,
+    "cross_check": {
+      "pass": 1840,
+      "restatement": 45,
+      "restatement_material": 10,
+      "verified_isolated": 0,
+      "warning": 0,
+      "unverified": 25,
+      "missing": 120
+    },
+    "verified_isolated_datasets": 0
+  },
+  "records": [
+    {
+      "code": "000333",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 28,
+        "restatement": 2,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000333",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000333",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000568",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000568",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000568",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000651",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 2,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000651",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000651",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000858",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000858",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000858",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002304",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002304",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002304",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002594",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 28,
+        "restatement": 1,
+        "restatement_material": 1,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002594",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002594",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002714",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002714",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 2,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002714",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "300750",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 1,
+        "restatement_material": 1,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "300750",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "300750",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "300760",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 2,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "300760",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "300760",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 2,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600031",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 2,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600031",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600031",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600276",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600276",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600276",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600309",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600309",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600309",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600519",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600519",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600519",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600690",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 14,
+        "restatement": 17,
+        "restatement_material": 1,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600690",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 30,
+        "restatement": 2,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600690",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600809",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 31,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 1,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600809",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600809",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600887",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600887",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "600887",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601012",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 31,
+        "restatement": 1,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601012",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601012",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 31,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 1,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601088",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 29,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 3,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601088",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 16,
+        "restatement": 12,
+        "restatement_material": 1,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 3,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601088",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 23,
+        "restatement": 0,
+        "restatement_material": 6,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 3,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601919",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601919",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "601919",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "603288",
+      "period": "2023",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "603288",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 31,
+        "restatement": 1,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "603288",
+      "period": "2025",
+      "status": "ok",
+      "metric_count": 32,
+      "cross_check": {
+        "pass": 32,
+        "restatement": 0,
+        "restatement_material": 0,
+        "verified_isolated": 0,
+        "warning": 0,
+        "unverified": 0,
+        "missing": 2
+      },
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,1081 @@
+{
+  "provider": "sina",
+  "fetched_at": "2026-11-24T19:32:59+08:00",
+  "company": {
+    "code": "600031",
+    "name": "三一重工股份有限公司",
+    "short_name": ""
+  },
+  "report_date": "2023-12-31",
+  "announce_date": "2024-04-29",
+  "metrics": {
+    "cash": {
+      "metric": "cash",
+      "metric_name": "货币资金",
+      "value": 18071827000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "货币资金",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "accounts_receivable": {
+      "metric": "accounts_receivable",
+      "metric_name": "应收账款",
+      "value": 24164729000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "应收账款",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "inventory": {
+      "metric": "inventory",
+      "metric_name": "存货",
+      "value": 19767762000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "存货",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_current_assets": {
+      "metric": "total_current_assets",
+      "metric_name": "流动资产合计",
+      "value": 97633311000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "流动资产合计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_noncurrent_assets": {
+      "metric": "total_noncurrent_assets",
+      "metric_name": "非流动资产合计",
+      "value": 53569009000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "非流动资产合计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_assets": {
+      "metric": "total_assets",
+      "metric_name": "资产总计",
+      "value": 151202320000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "资产总计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_current_liabilities": {
+      "metric": "total_current_liabilities",
+      "metric_name": "流动负债合计",
+      "value": 54415056000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "流动负债合计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_noncurrent_liabilities": {
+      "metric": "total_noncurrent_liabilities",
+      "metric_name": "非流动负债合计",
+      "value": 27614311000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "非流动负债合计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_liabilities": {
+      "metric": "total_liabilities",
+      "metric_name": "负债合计",
+      "value": 82029367000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "负债合计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_equity": {
+      "metric": "total_equity",
+      "metric_name": "所有者权益合计",
+      "value": 69172953000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "所有者权益(或股东权益)合计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_liabilities_equity": {
+      "metric": "total_liabilities_equity",
+      "metric_name": "负债和所有者权益总计",
+      "value": 151202320000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "source_label": "负债和所有者权益(或股东权益)总计",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_revenue": {
+      "metric": "total_revenue",
+      "metric_name": "营业总收入",
+      "value": 74018936000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "一、营业总收入",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "revenue": {
+      "metric": "revenue",
+      "metric_name": "营业收入",
+      "value": 73221725000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "营业收入",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_cost": {
+      "metric": "total_cost",
+      "metric_name": "营业总成本",
+      "value": 68020951000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "二、营业总成本",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "cost_of_revenue": {
+      "metric": "cost_of_revenue",
+      "metric_name": "营业成本",
+      "value": 52934696000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "营业成本",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "taxes_surcharges": {
+      "metric": "taxes_surcharges",
+      "metric_name": "税金及附加",
+      "value": 423706000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "营业税金及附加",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "selling_expense": {
+      "metric": "selling_expense",
+      "metric_name": "销售费用",
+      "value": 6218283000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "销售费用",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "admin_expense": {
+      "metric": "admin_expense",
+      "metric_name": "管理费用",
+      "value": 2650902000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "管理费用",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "finance_expense": {
+      "metric": "finance_expense",
+      "metric_name": "财务费用",
+      "value": -462904000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "财务费用",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "rd_expense": {
+      "metric": "rd_expense",
+      "metric_name": "研发费用",
+      "value": 5864595000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "研发费用",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "operating_profit": {
+      "metric": "operating_profit",
+      "metric_name": "营业利润",
+      "value": 5342854000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "三、营业利润",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "total_profit": {
+      "metric": "total_profit",
+      "metric_name": "利润总额",
+      "value": 5316601000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "四、利润总额",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "net_profit": {
+      "metric": "net_profit",
+      "metric_name": "净利润",
+      "value": 4606157000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "五、净利润",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "net_profit_parent": {
+      "metric": "net_profit_parent",
+      "metric_name": "归属于母公司股东的净利润",
+      "value": 4527498000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "source_label": "归属于母公司所有者的净利润",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "basic_eps": {
+      "metric": "basic_eps",
+      "metric_name": "基本每股收益",
+      "value": 0.5347,
+      "unit": "元/股",
+      "statement": "合并利润表",
+      "source_label": "基本每股收益(元/股)",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "sales_cash": {
+      "metric": "sales_cash",
+      "metric_name": "销售商品、提供劳务收到的现金",
+      "value": 78272597000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "source_label": "销售商品、提供劳务收到的现金",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "cfo": {
+      "metric": "cfo",
+      "metric_name": "经营活动产生的现金流量净额",
+      "value": 5708220000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "source_label": "经营活动产生的现金流量净额",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "cfi": {
+      "metric": "cfi",
+      "metric_name": "投资活动产生的现金流量净额",
+      "value": -2693824000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "source_label": "投资活动产生的现金流量净额",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "cff": {
+      "metric": "cff",
+      "metric_name": "筹资活动产生的现金流量净额",
+      "value": -7529791000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "source_label": "筹资活动产生的现金流量净额",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "fx_effect": {
+      "metric": "fx_effect",
+      "metric_name": "汇率变动对现金及现金等价物的影响",
+      "value": -38517000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "source_label": "四、汇率变动对现金及现金等价物的影响",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "net_cash_increase": {
+      "metric": "net_cash_increase",
+      "metric_name": "现金及现金等价物净增加额",
+      "value": -4553912000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "source_label": "五、现金及现金等价物净增加额",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    },
+    "ending_cash": {
+      "metric": "ending_cash",
+      "metric_name": "期末现金及现金等价物余额",
+      "value": 8141859000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "source_label": "六、期末现金及现金等价物余额",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml",
+      "provider": "sina"
+    }
+  },
+  "comparison": {
+    "accounts_receivable": {
+      "metric": "accounts_receivable",
+      "metric_name": "应收账款",
+      "verified": {
+        "value": 24164729.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-accounts_receivable"
+      },
+      "eastmoney": {
+        "value": 24164729000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 24164729000.0,
+        "unit": "元",
+        "source_label": "应收账款",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    },
+    "admin_expense": {
+      "metric": "admin_expense",
+      "metric_name": "管理费用",
+      "verified": {
+        "value": 2650902.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-admin_expense"
+      },
+      "eastmoney": {
+        "value": 2650981000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 2650902000.0,
+        "unit": "元",
+        "source_label": "管理费用",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 3e-05,
+      "status": "pass"
+    },
+    "basic_eps": {
+      "metric": "basic_eps",
+      "metric_name": "基本每股收益",
+      "verified": {
+        "value": 0.5347,
+        "unit": "元/股",
+        "evidence_id": "600031-2023-basic_eps"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 0.5347,
+        "unit": "元/股",
+        "source_label": "基本每股收益(元/股)",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "beginning_cash": {
+      "metric": "beginning_cash",
+      "metric_name": "期初现金及现金等价物余额",
+      "verified": {
+        "value": 12695771.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-beginning_cash"
+      },
+      "eastmoney": null,
+      "sina": null,
+      "verified_vs_sina_diff": null,
+      "eastmoney_vs_sina_diff": null,
+      "status": "missing"
+    },
+    "cash": {
+      "metric": "cash",
+      "metric_name": "货币资金",
+      "verified": {
+        "value": 18071827.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-cash"
+      },
+      "eastmoney": {
+        "value": 18071827000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 18071827000.0,
+        "unit": "元",
+        "source_label": "货币资金",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    },
+    "cff": {
+      "metric": "cff",
+      "metric_name": "筹资活动产生的现金流量净额",
+      "verified": {
+        "value": -7529791.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-cff"
+      },
+      "eastmoney": {
+        "value": -7529791000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": -7529791000.0,
+        "unit": "元",
+        "source_label": "筹资活动产生的现金流量净额",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    },
+    "cfi": {
+      "metric": "cfi",
+      "metric_name": "投资活动产生的现金流量净额",
+      "verified": {
+        "value": -2693824.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-cfi"
+      },
+      "eastmoney": {
+        "value": -2693824000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": -2693824000.0,
+        "unit": "元",
+        "source_label": "投资活动产生的现金流量净额",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    },
+    "cfo": {
+      "metric": "cfo",
+      "metric_name": "经营活动产生的现金流量净额",
+      "verified": {
+        "value": 5708220.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-cfo"
+      },
+      "eastmoney": {
+        "value": 5708220000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 5708220000.0,
+        "unit": "元",
+        "source_label": "经营活动产生的现金流量净额",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    },
+    "cost_of_revenue": {
+      "metric": "cost_of_revenue",
+      "metric_name": "营业成本",
+      "verified": {
+        "value": 52934696.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-cost_of_revenue"
+      },
+      "eastmoney": {
+        "value": 54051053000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "restatement"
+      },
+      "sina": {
+        "value": 52934696000.0,
+        "unit": "元",
+        "source_label": "营业成本",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.020654,
+      "status": "restatement"
+    },
+    "ending_cash": {
+      "metric": "ending_cash",
+      "metric_name": "期末现金及现金等价物余额",
+      "verified": {
+        "value": 8141859.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-ending_cash"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 8141859000.0,
+        "unit": "元",
+        "source_label": "六、期末现金及现金等价物余额",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "equity_parent": {
+      "metric": "equity_parent",
+      "metric_name": "归属于母公司所有者权益合计",
+      "verified": {
+        "value": 68039937.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-equity_parent"
+      },
+      "eastmoney": null,
+      "sina": null,
+      "verified_vs_sina_diff": null,
+      "eastmoney_vs_sina_diff": null,
+      "status": "missing"
+    },
+    "finance_expense": {
+      "metric": "finance_expense",
+      "metric_name": "财务费用",
+      "verified": {
+        "value": -462904.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-finance_expense"
+      },
+      "eastmoney": {
+        "value": -462936000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": -462904000.0,
+        "unit": "元",
+        "source_label": "财务费用",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 6.9e-05,
+      "status": "pass"
+    },
+    "fx_effect": {
+      "metric": "fx_effect",
+      "metric_name": "汇率变动对现金及现金等价物的影响",
+      "verified": {
+        "value": -38517.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-fx_effect"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": -38517000.0,
+        "unit": "元",
+        "source_label": "四、汇率变动对现金及现金等价物的影响",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "inventory": {
+      "metric": "inventory",
+      "metric_name": "存货",
+      "verified": {
+        "value": 19767762.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-inventory"
+      },
+      "eastmoney": {
+        "value": 19767762000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 19767762000.0,
+        "unit": "元",
+        "source_label": "存货",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    },
+    "net_cash_increase": {
+      "metric": "net_cash_increase",
+      "metric_name": "现金及现金等价物净增加额",
+      "verified": {
+        "value": -4553912.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-net_cash_increase"
+      },
+      "eastmoney": {
+        "value": -4553912000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": -4553912000.0,
+        "unit": "元",
+        "source_label": "五、现金及现金等价物净增加额",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    },
+    "net_profit": {
+      "metric": "net_profit",
+      "metric_name": "净利润",
+      "verified": {
+        "value": 4606157.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-net_profit"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 4606157000.0,
+        "unit": "元",
+        "source_label": "五、净利润",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "net_profit_parent": {
+      "metric": "net_profit_parent",
+      "metric_name": "归属于母公司股东的净利润",
+      "verified": {
+        "value": 4527498.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-net_profit_parent"
+      },
+      "eastmoney": {
+        "value": 4527451000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 4527498000.0,
+        "unit": "元",
+        "source_label": "归属于母公司所有者的净利润",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 1e-05,
+      "status": "pass"
+    },
+    "operating_profit": {
+      "metric": "operating_profit",
+      "metric_name": "营业利润",
+      "verified": {
+        "value": 5342854.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-operating_profit"
+      },
+      "eastmoney": {
+        "value": 5342807000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 5342854000.0,
+        "unit": "元",
+        "source_label": "三、营业利润",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 9e-06,
+      "status": "pass"
+    },
+    "rd_expense": {
+      "metric": "rd_expense",
+      "metric_name": "研发费用",
+      "verified": {
+        "value": 5864595.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-rd_expense"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 5864595000.0,
+        "unit": "元",
+        "source_label": "研发费用",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "revenue": {
+      "metric": "revenue",
+      "metric_name": "营业收入",
+      "verified": {
+        "value": 73221725.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-revenue"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 73221725000.0,
+        "unit": "元",
+        "source_label": "营业收入",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "sales_cash": {
+      "metric": "sales_cash",
+      "metric_name": "销售商品、提供劳务收到的现金",
+      "verified": {
+        "value": 78272597.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-sales_cash"
+      },
+      "eastmoney": {
+        "value": 78272597000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 78272597000.0,
+        "unit": "元",
+        "source_label": "销售商品、提供劳务收到的现金",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    },
+    "selling_expense": {
+      "metric": "selling_expense",
+      "metric_name": "销售费用",
+      "verified": {
+        "value": 6218283.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-selling_expense"
+      },
+      "eastmoney": {
+        "value": 5101926000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "restatement"
+      },
+      "sina": {
+        "value": 6218283000.0,
+        "unit": "元",
+        "source_label": "销售费用",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.218811,
+      "status": "restatement"
+    },
+    "taxes_surcharges": {
+      "metric": "taxes_surcharges",
+      "metric_name": "税金及附加",
+      "verified": {
+        "value": 423706.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-taxes_surcharges"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 423706000.0,
+        "unit": "元",
+        "source_label": "营业税金及附加",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "total_assets": {
+      "metric": "total_assets",
+      "metric_name": "资产总计",
+      "verified": {
+        "value": 151202320.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_assets"
+      },
+      "eastmoney": {
+        "value": 151203358000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 151202320000.0,
+        "unit": "元",
+        "source_label": "资产总计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 7e-06,
+      "status": "pass"
+    },
+    "total_cost": {
+      "metric": "total_cost",
+      "metric_name": "营业总成本",
+      "verified": {
+        "value": 68020951.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_cost"
+      },
+      "eastmoney": {
+        "value": 68020998000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 68020951000.0,
+        "unit": "元",
+        "source_label": "二、营业总成本",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 1e-06,
+      "status": "pass"
+    },
+    "total_current_assets": {
+      "metric": "total_current_assets",
+      "metric_name": "流动资产合计",
+      "verified": {
+        "value": 97633311.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_current_assets"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 97633311000.0,
+        "unit": "元",
+        "source_label": "流动资产合计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "total_current_liabilities": {
+      "metric": "total_current_liabilities",
+      "metric_name": "流动负债合计",
+      "verified": {
+        "value": 54415056.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_current_liabilities"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 54415056000.0,
+        "unit": "元",
+        "source_label": "流动负债合计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "total_equity": {
+      "metric": "total_equity",
+      "metric_name": "所有者权益合计",
+      "verified": {
+        "value": 69172953.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_equity"
+      },
+      "eastmoney": {
+        "value": 69162033000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 69172953000.0,
+        "unit": "元",
+        "source_label": "所有者权益(或股东权益)合计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.000158,
+      "status": "pass"
+    },
+    "total_liabilities": {
+      "metric": "total_liabilities",
+      "metric_name": "负债合计",
+      "verified": {
+        "value": 82029367.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_liabilities"
+      },
+      "eastmoney": {
+        "value": 82041325000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 82029367000.0,
+        "unit": "元",
+        "source_label": "负债合计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.000146,
+      "status": "pass"
+    },
+    "total_liabilities_equity": {
+      "metric": "total_liabilities_equity",
+      "metric_name": "负债和所有者权益总计",
+      "verified": {
+        "value": 151202320.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_liabilities_equity"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 151202320000.0,
+        "unit": "元",
+        "source_label": "负债和所有者权益(或股东权益)总计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "total_noncurrent_assets": {
+      "metric": "total_noncurrent_assets",
+      "metric_name": "非流动资产合计",
+      "verified": {
+        "value": 53569009.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_noncurrent_assets"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 53569009000.0,
+        "unit": "元",
+        "source_label": "非流动资产合计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "total_noncurrent_liabilities": {
+      "metric": "total_noncurrent_liabilities",
+      "metric_name": "非流动负债合计",
+      "verified": {
+        "value": 27614311.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_noncurrent_liabilities"
+      },
+      "eastmoney": null,
+      "sina": {
+        "value": 27614311000.0,
+        "unit": "元",
+        "source_label": "非流动负债合计",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": null,
+      "status": "pass"
+    },
+    "total_profit": {
+      "metric": "total_profit",
+      "metric_name": "利润总额",
+      "verified": {
+        "value": 5316601.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_profit"
+      },
+      "eastmoney": {
+        "value": 5316554000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 5316601000.0,
+        "unit": "元",
+        "source_label": "四、利润总额",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 9e-06,
+      "status": "pass"
+    },
+    "total_revenue": {
+      "metric": "total_revenue",
+      "metric_name": "营业总收入",
+      "verified": {
+        "value": 74018936.0,
+        "unit": "千元",
+        "evidence_id": "600031-2023-total_revenue"
+      },
+      "eastmoney": {
+        "value": 74018936000.0,
+        "unit": "元",
+        "api_notice_date": "2025-04-18",
+        "cross_check": "pass"
+      },
+      "sina": {
+        "value": 74018936000.0,
+        "unit": "元",
+        "source_label": "一、营业总收入",
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/600031/ctrl/2023/type/1.phtml"
+      },
+      "verified_vs_sina_diff": 0.0,
+      "eastmoney_vs_sina_diff": 0.0,
+      "status": "pass"
+    }
+  },
+  "cross_check": {
+    "pass": 30,
+    "restatement": 2,
+    "restatement_material": 0,
+    "verified_isolated": 0,
+    "warning": 0,
+    "unverified": 0,
+    "missing": 2
+  },
+  "errors": []
+}

@@ -4,10 +4,12 @@
     "ok": 60,
     "skipped": 0,
     "no_data": 0,
-    "metrics": 1191,
+    "metrics": 1200,
     "cross_check": {
-      "pass": 1110,
-      "warning": 60,
+      "pass": 1123,
+      "restatement": 46,
+      "restatement_material": 10,
+      "warning": 0,
       "missing": 21
     }
   },
@@ -19,18 +21,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 16,
-        "warning": 2,
-        "missing": 2
-      },
-      "errors": []
-    },
-    {
-      "code": "000333",
-      "period": "2024",
-      "status": "ok",
-      "metric_count": 20,
-      "cross_check": {
-        "pass": 18,
+        "restatement": 2,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 2
       },
@@ -38,11 +30,27 @@
     },
     {
       "code": "000333",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "restatement": 0,
+        "restatement_material": 0,
+        "warning": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "000333",
       "period": "2025",
       "status": "ok",
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 2
       },
@@ -55,6 +63,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -66,8 +76,10 @@
       "status": "ok",
       "metric_count": 20,
       "cross_check": {
-        "pass": 19,
-        "warning": 1,
+        "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -79,6 +91,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -91,7 +105,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
-        "warning": 2,
+        "restatement": 2,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -103,6 +119,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -115,6 +133,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -127,6 +147,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -139,6 +161,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -151,6 +175,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -162,8 +188,10 @@
       "status": "ok",
       "metric_count": 20,
       "cross_check": {
-        "pass": 19,
-        "warning": 1,
+        "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -175,6 +203,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -187,6 +217,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -199,18 +231,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 16,
-        "warning": 2,
-        "missing": 2
-      },
-      "errors": []
-    },
-    {
-      "code": "002594",
-      "period": "2024",
-      "status": "ok",
-      "metric_count": 20,
-      "cross_check": {
-        "pass": 18,
+        "restatement": 1,
+        "restatement_material": 1,
         "warning": 0,
         "missing": 2
       },
@@ -218,11 +240,27 @@
     },
     {
       "code": "002594",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 18,
+        "restatement": 0,
+        "restatement_material": 0,
+        "warning": 0,
+        "missing": 2
+      },
+      "errors": []
+    },
+    {
+      "code": "002594",
       "period": "2025",
       "status": "ok",
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 2
       },
@@ -235,6 +273,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -247,7 +287,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
-        "warning": 2,
+        "restatement": 2,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -259,6 +301,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -271,7 +315,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
-        "warning": 2,
+        "restatement": 1,
+        "restatement_material": 1,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -283,6 +329,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -294,8 +342,10 @@
       "status": "ok",
       "metric_count": 20,
       "cross_check": {
-        "pass": 19,
-        "warning": 1,
+        "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -307,7 +357,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
-        "warning": 2,
+        "restatement": 2,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -319,6 +371,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -331,6 +385,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 2
       },
@@ -343,18 +399,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
-        "warning": 2,
-        "missing": 0
-      },
-      "errors": []
-    },
-    {
-      "code": "600031",
-      "period": "2024",
-      "status": "ok",
-      "metric_count": 20,
-      "cross_check": {
-        "pass": 20,
+        "restatement": 2,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -362,11 +408,27 @@
     },
     {
       "code": "600031",
+      "period": "2024",
+      "status": "ok",
+      "metric_count": 20,
+      "cross_check": {
+        "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
+        "warning": 0,
+        "missing": 0
+      },
+      "errors": []
+    },
+    {
+      "code": "600031",
       "period": "2025",
       "status": "ok",
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -379,6 +441,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -390,8 +454,10 @@
       "status": "ok",
       "metric_count": 20,
       "cross_check": {
-        "pass": 19,
-        "warning": 1,
+        "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -403,6 +469,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -415,6 +483,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -427,6 +497,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -439,6 +511,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -451,6 +525,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -463,6 +539,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -475,6 +553,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -487,7 +567,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 2,
-        "warning": 18,
+        "restatement": 17,
+        "restatement_material": 1,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -499,7 +581,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
-        "warning": 2,
+        "restatement": 2,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -511,6 +595,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -523,6 +609,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -535,6 +623,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -547,6 +637,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -559,6 +651,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -571,6 +665,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -583,6 +679,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -595,7 +693,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 19,
-        "warning": 1,
+        "restatement": 1,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -607,6 +707,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -619,6 +721,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 19,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 1
       },
@@ -631,6 +735,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 18,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 2
       },
@@ -643,7 +749,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 4,
-        "warning": 14,
+        "restatement": 13,
+        "restatement_material": 1,
+        "warning": 0,
         "missing": 2
       },
       "errors": []
@@ -655,7 +763,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 12,
-        "warning": 6,
+        "restatement": 0,
+        "restatement_material": 6,
+        "warning": 0,
         "missing": 2
       },
       "errors": []
@@ -667,6 +777,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -679,6 +791,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -691,6 +805,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -703,6 +819,8 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
@@ -715,7 +833,9 @@
       "metric_count": 20,
       "cross_check": {
         "pass": 19,
-        "warning": 1,
+        "restatement": 1,
+        "restatement_material": 0,
+        "warning": 0,
         "missing": 0
       },
       "errors": []
@@ -724,15 +844,15 @@
       "code": "603288",
       "period": "2025",
       "status": "ok",
-      "metric_count": 11,
+      "metric_count": 20,
       "cross_check": {
-        "pass": 11,
+        "pass": 20,
+        "restatement": 0,
+        "restatement_material": 0,
         "warning": 0,
         "missing": 0
       },
-      "errors": [
-        "RPT_DMSK_FN_INCOME: HTTPSConnectionPool(host='datacenter-web.eastmoney.com', port=443): Read timed out. (read timeout=20)"
-      ]
+      "errors": []
     }
   ]
 }

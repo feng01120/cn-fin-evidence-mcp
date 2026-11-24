@@ -43,7 +43,12 @@ def main() -> int:
     datasets = list_datasets(BASE)
     structured_datasets = 0
     structured_metrics = 0
-    structured_cross = {'pass': 0, 'warning': 0, 'missing': 0}
+    structured_cross = {'pass': 0, 'restatement': 0, 'restatement_material': 0,
+                        'warning': 0, 'missing': 0}
+    second_datasets = 0
+    second_metrics = 0
+    second_cross = {'pass': 0, 'restatement': 0, 'restatement_material': 0,
+                    'verified_isolated': 0, 'warning': 0, 'unverified': 0, 'missing': 0}
     if len(datasets) != 60:
         warnings.append(f'数据集数量为 {len(datasets)}，预期 60')
     keys = []
@@ -185,10 +190,45 @@ def main() -> int:
                 errors.append(f'{sid}: 结构化质量未标记无页码 warning')
             cc = (item.get('cross_check') or {}).get('status', 'missing')
             structured_cross[cc] = structured_cross.get(cc, 0) + 1
-            if cc == 'warning':
-                warnings.append(f'{sid}: 结构化值与年报解析值存在差异，已保留两套口径')
+            if cc in ('warning', 'restatement_material'):
+                warnings.append(f'{sid}: 结构化值与年报解析值存在差异（{cc}），已保留两套口径')
             elif cc == 'missing':
                 warnings.append(f'{sid}: 年报未解析出同指标，无法交叉核对')
+
+        # 第二结构化源：只做交叉核对，不能没有来源或没有比对结果。
+        second_path = d / 'sina.json'
+        if not second_path.exists():
+            errors.append(f'{code}/{period}: sina.json 缺失')
+            continue
+        try:
+            sina = json.loads(second_path.read_text(encoding='utf-8'))
+        except json.JSONDecodeError as e:
+            errors.append(f'{code}/{period}: sina.json 非法 {e}')
+            continue
+        if sina.get('provider') != 'sina':
+            errors.append(f'{code}/{period}: sina provider 非法')
+        second_datasets += 1
+        second_metrics += len(sina.get('metrics', {}))
+        comparisons = sina.get('comparison') or {}
+        if not comparisons:
+            errors.append(f'{code}/{period}: sina comparison 为空')
+        for metric, row in comparisons.items():
+            sid = f'{code}/{period}/sina-{metric}'
+            status = row.get('status', 'missing')
+            if status not in second_cross:
+                errors.append(f'{sid}: 未知比对状态 {status}')
+                continue
+            second_cross[status] += 1
+            sina_metric = row.get('sina') or {}
+            if status not in ('unverified', 'missing'):
+                if not str(sina_metric.get('source_url') or '').startswith('https://'):
+                    errors.append(f'{sid}: sina source_url 缺失')
+                if not sina_metric.get('source_label'):
+                    errors.append(f'{sid}: sina source_label 缺失')
+            if status == 'verified_isolated':
+                errors.append(f'{sid}: verified 与两个结构化源均不一致，疑似抽取错误')
+            elif status in ('warning', 'restatement_material'):
+                warnings.append(f'{sid}: 三源比对差异（{status}），保留两套口径')
     if len(keys) != len(set(keys)):
         errors.append('同一 (code, report_date) 存在多个数据集')
     report = {
@@ -197,6 +237,9 @@ def main() -> int:
         'structured_datasets': structured_datasets,
         'structured_metrics': structured_metrics,
         'structured_cross_check': structured_cross,
+        'second_source_datasets': second_datasets,
+        'second_source_metrics': second_metrics,
+        'second_source_cross_check': second_cross,
         'errors': errors,
         'warnings': warnings,
         'error_count': len(errors),
@@ -207,6 +250,8 @@ def main() -> int:
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({k: report[k] for k in ('datasets', 'companies', 'structured_datasets',
                                               'structured_metrics', 'structured_cross_check',
+                                              'second_source_datasets', 'second_source_metrics',
+                                              'second_source_cross_check',
                                               'error_count', 'warning_count', 'pass')}, ensure_ascii=False))
     if errors:
         print('\n'.join(errors[:20]))

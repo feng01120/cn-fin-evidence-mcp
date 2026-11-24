@@ -5,6 +5,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import fin_evidence.server as srv
+from fin_evidence.sina import build_comparison, parse_report
 from fin_evidence.structured import build_overlay
 from fin_evidence.subject import evaluate, evaluate_fact
 from fin_evidence.store import load_dataset, structured_fact
@@ -65,6 +66,52 @@ class TestStructuredOverlay(unittest.TestCase):
         self.assertEqual(out['cross_check']['pass'], 1)
         self.assertEqual(out['cross_check']['missing'], 1)
         self.assertEqual(out['metrics']['revenue']['cross_check']['status'], 'pass')
+
+    def test_build_overlay_classifies_later_filing_as_restatement(self):
+        facts = [{'metric': 'revenue', 'value': 100.0, 'unit': '元'}]
+        fetched = {'metrics': {
+            'revenue': {'metric': 'revenue', 'value': 108.0, 'unit': '元',
+                        'api_notice_date': '2025-03-28',
+                        'quality': {'status': 'warning', 'checks': ['no_page_evidence'],
+                                    'messages': []}},
+        }, 'provider': 'eastmoney', 'fetched_at': '', 'report_date': '2024-12-31', 'errors': []}
+        out = build_overlay(facts, fetched, '2024-03-28')
+        self.assertEqual(out['cross_check']['restatement'], 1)
+        self.assertEqual(out['metrics']['revenue']['cross_check']['status'], 'restatement')
+        self.assertTrue(out['metrics']['revenue']['cross_check']['later_filing'])
+
+    def test_build_overlay_material_restatement_is_warning(self):
+        facts = [{'metric': 'revenue', 'value': 100.0, 'unit': '元'}]
+        fetched = {'metrics': {
+            'revenue': {'metric': 'revenue', 'value': 150.0, 'unit': '元',
+                        'api_notice_date': '2025-03-28',
+                        'quality': {'status': 'warning', 'checks': ['no_page_evidence'],
+                                    'messages': []}},
+        }, 'provider': 'eastmoney', 'fetched_at': '', 'report_date': '2024-12-31', 'errors': []}
+        out = build_overlay(facts, fetched, '2024-03-28')
+        self.assertEqual(out['metrics']['revenue']['cross_check']['status'], 'restatement_material')
+        self.assertEqual(out['cross_check']['restatement_material'], 1)
+
+    def test_sina_tsv_parser_selects_exact_report_date(self):
+        text = (
+            '报表日期\t20251231\t20250930\t19700101\t\n'
+            '单位\t元\t元\t\t\n'
+            '一、营业总收入\t172054171890.91\t130903889634.88\t0\t\n'
+            '销售商品、提供劳务收到的现金\t183990403487.80\t138791719991.59\t0\t\n'
+            '基本每股收益(元/股)\t65.660000\t51.530000\t0\t\n'
+        )
+        parsed = parse_report(text, '2025-12-31', '合并利润表', '600519', 'https://example.test')
+        self.assertEqual(parsed['metrics']['total_revenue']['value'], 172054171890.91)
+        self.assertEqual(parsed['metrics']['basic_eps']['value'], 65.66)
+
+    def test_three_source_comparison_marks_verified_isolated(self):
+        facts = [{'metric': 'revenue', 'value': 200.0, 'unit': '元'}]
+        east = {'metrics': {'revenue': {'metric': 'revenue', 'value': 100.0, 'unit': '元',
+                                        'api_notice_date': '2025-03-28'}}}
+        sina = {'metrics': {'revenue': {'metric': 'revenue', 'value': 100.0, 'unit': '元',
+                                        'source_label': '营业收入', 'source_url': 'https://x'}}}
+        out = build_comparison(facts, east, sina, '2024-03-28')
+        self.assertEqual(out['rows']['revenue']['status'], 'verified_isolated')
 
     def test_server_falls_back_to_structured_without_page(self):
         with tempfile.TemporaryDirectory() as tmp:

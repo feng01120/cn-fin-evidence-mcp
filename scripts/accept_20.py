@@ -11,7 +11,7 @@ import pymupdf
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 
-from fin_evidence.server import get_evidence, verify_fact  # noqa: E402
+from fin_evidence.server import get_evidence, get_source_comparison, verify_fact  # noqa: E402
 from fin_evidence.store import list_datasets  # noqa: E402
 
 DATA = ROOT / 'data'
@@ -122,6 +122,27 @@ def main() -> int:
             and structured_sample['quality_status'] == 'warning'
         )
 
+    second_datasets = sum(1 for d in datasets if d.get('second_source_count'))
+    second_metrics = sum(int(d.get('second_source_count') or 0) for d in datasets)
+    second_sample = {}
+    second_ok = False
+    second_cross = row_audit.get('second_source_cross_check', {})
+    if sample_ds:
+        sr = get_source_comparison('600519', '2025', 'sales_cash')
+        row = (sr.get('data') or {}).get('metrics', {}).get('sales_cash', {})
+        second_sample = {
+            'provider': (sr.get('meta') or {}).get('provider'),
+            'status': row.get('status'),
+            'source_url': (row.get('sina') or {}).get('source_url'),
+            'eastmoney_vs_sina_diff': row.get('eastmoney_vs_sina_diff'),
+            'error': (sr.get('error') or {}).get('code'),
+        }
+        second_ok = (
+            second_sample['error'] is None
+            and second_sample['status'] == 'pass'
+            and str(second_sample['source_url'] or '').startswith('https://')
+        )
+
     levels = {}
     gates = {}
     for d in datasets:
@@ -148,6 +169,13 @@ def main() -> int:
             'sample': structured_sample,
             'sample_ok': structured_ok,
         },
+        'second_source': {
+            'datasets': second_datasets,
+            'metrics': second_metrics,
+            'sample': second_sample,
+            'sample_ok': second_ok,
+            'cross_check': second_cross,
+        },
         'row_audit': {
             'error_count': row_audit.get('error_count'),
             'warning_count': row_audit.get('warning_count'),
@@ -162,6 +190,9 @@ def main() -> int:
             and row_audit.get('error_count') == 0
             and structured_datasets == len(datasets)
             and structured_ok
+            and second_datasets == len(datasets)
+            and second_ok
+            and int(second_cross.get('verified_isolated', 0)) == 0
         ),
     }
     out = DATA / 'acceptance_report.json'

@@ -14,14 +14,14 @@
   "source_file": "300750_2025.pdf",
   "source_sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
   "page_count": 232,
-  "extracted_at": "2026-11-24T18:20:40+08:00",
+  "extracted_at": "2026-11-24T19:25:43+08:00",
   "statements": [
     "合并资产负债表",
     "合并利润表",
     "合并现金流量表"
   ],
   "fact_count": 34,
-  "row_count": 145,
+  "row_count": 143,
   "coverage_score": 0.9444,
   "coverage": {
     "metric_coverage": 1.0,

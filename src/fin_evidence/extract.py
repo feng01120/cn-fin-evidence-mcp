@@ -140,7 +140,9 @@ def _column_centers(words: Sequence[Word]) -> List[float]:
     if not groups:
         groups = [[x] for x in xs]
     centers = sorted(sum(g) / len(g) for g in groups)
-    return centers[:2]
+    # 三表都是“本期/上期”两列；只有一组中心时无法判断左右列，
+    # 交给固定分栏兜底，避免把右列金额误当本期。
+    return centers[:2] if len(centers) >= 2 else []
 
 
 def page_lines(page, page_index: int) -> List[Line]:
@@ -171,12 +173,18 @@ def page_lines(page, page_index: int) -> List[Line]:
         if m:
             printed = int(m.group(1))
             break
+    # 页码是独立行；留在金额词表里会污染列中心（如“418”被当成右列金额）。
+    grouped = [ws for ws in grouped
+               if not PAGE_NO_RE.match(''.join(w.text for w in ws).strip())]
 
     centers = _column_centers([w for ws in grouped for w in ws])
     fallback_split = page.rect.width * 0.82
     lines: List[Line] = []
     for ws in grouped:
         ws = sorted(ws, key=lambda w: w.x0)
+        # 页脚常见“119”单独一行；不是金额，留在列中心会把右列并向左移。
+        if len(ws) == 1 and ws[0].text.strip().isdigit() and ws[0].y > page.rect.height * 0.9:
+            continue
         item = ''.join(w.text for w in ws if w.x0 < 220)
         note = ''.join(w.text for w in ws if 220 <= w.x0 < 290 and not VALUE_RE.match(w.text))
         cur: List[Word] = []
@@ -235,6 +243,10 @@ def _statement_start(doc, title: str, require_table: bool = True) -> Optional[in
 
 def _line_has_title(line: Line, title: str) -> bool:
     compact = re.sub(r'\s+', '', line.raw)
+    if title.startswith(('公司', '母公司')) and '合并及公司' in compact:
+        # “合并及公司资产负债表(续)”同时包含合并与母公司两列，
+        # 不是母公司表的独立起始页；不能在这里截断合并表。
+        return False
     return any(v in compact for v in TITLE_VARIANTS.get(title, (title,)))
 
 
@@ -296,6 +308,8 @@ def _title_after(doc, title: str, start: int) -> Optional[int]:
     variants = TITLE_VARIANTS.get(title, (title,))
     for i in range(start + 1, doc.page_count):
         compact = re.sub(r'\s+', '', doc[i].get_text())
+        if title.startswith(('公司', '母公司')) and '合并及公司' in compact:
+            continue
         if any(v in compact for v in variants):
             return i
     return None
@@ -332,11 +346,20 @@ def statement_ranges(doc, title: str, lines_by_page: Dict[int, List[Line]]) -> L
         # 这些表的金额列会污染合并表的两列聚类，必须在标题处截断。
         for j in range(begin, end):
             raw = re.sub(r'\s+', '', lines[j].raw)
-            if any(t in raw for t in ('母公司资产负债表', '母公司利润表', '母公司现金流量表',
-                                      '公司资产负债表', '公司利润表', '公司现金流量表',
-                                      '公司所有者权益变动表')):
+            for company_title in ('母公司资产负债表', '母公司利润表', '母公司现金流量表',
+                                  '公司资产负债表', '公司利润表', '公司现金流量表',
+                                  '公司所有者权益变动表'):
+                if company_title not in raw:
+                    continue
+                if company_title.startswith('公司') and '合并及公司' in raw:
+                    # 合并及公司资产负债表(续)同页展示合并/母公司两列，
+                    # 不是母公司表标题，不能截断。
+                    continue
                 end = j
                 break
+            else:
+                continue
+            break
         segments.append((page, _recolumn_lines(lines[begin:end])))
     return segments
 
@@ -360,26 +383,33 @@ def _value_in(lines: Sequence[Line]) -> Tuple[Optional[float], Optional[float], 
 
 def find_metric(segments: Sequence[Tuple[int, List[Line]]],
                 metric: MetricDef) -> Optional[Tuple[float, float, Line, List[Line], List[Word], str]]:
+    """按科目标签锚定数值行。
+
+    报表 PDF 常把一个科目拆成多行：标签行没有金额，金额行没有标签。
+    因此窗口必须从标签行开始向后拼，数值行只能出现在标签行之后。不能从
+    上一行金额反推标签，否则会把“资产处置收益”的金额挂到“营业利润”。
+    """
     aliases = {normalize_label(a) for a in metric.aliases}
     for page, lines in segments:
         for i, line in enumerate(lines):
-            for s in range(max(0, i - 2), i + 1):
-                for e in range(i, min(len(lines), i + 3)):
-                    window = lines[s:e + 1]
-                    combined = normalize_label(''.join(x.item for x in window))
-                    if combined not in aliases:
-                        continue
-                    value_line = None
-                    for j in range(e, s - 1, -1):
-                        if lines[j].current or lines[j].prior:
-                            value_line = j
-                            break
-                    if value_line is None:
-                        continue
-                    value, prior, value_words, note = _value_in([lines[value_line]])
-                    if value is None and prior is None:
-                        continue
-                    return value, prior, lines[value_line], window, value_words, note or ''
+            if not normalize_label(line.item):
+                continue
+            for e in range(i, min(len(lines), i + 3)):
+                window = lines[i:e + 1]
+                combined = normalize_label(''.join(x.item for x in window))
+                if combined not in aliases:
+                    continue
+                value_line = None
+                for j in range(i, e + 1):
+                    if lines[j].current or lines[j].prior:
+                        value_line = j
+                        break
+                if value_line is None:
+                    continue
+                value, prior, value_words, note = _value_in([lines[value_line]])
+                if value is None and prior is None:
+                    continue
+                return value, prior, lines[value_line], window, value_words, note or ''
     return None
 
 

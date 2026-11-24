@@ -14,14 +14,14 @@
   "source_file": "600519_2024.pdf",
   "source_sha256": "5299f4940e2ce4e91084b73dc457d558b9d335fa76fbfee6227e4254eb7f4a30",
   "page_count": 143,
-  "extracted_at": "2026-11-24T18:20:54+08:00",
+  "extracted_at": "2026-11-24T19:25:56+08:00",
   "statements": [
     "合并资产负债表",
     "合并利润表",
     "合并现金流量表"
   ],
   "fact_count": 34,
-  "row_count": 122,
+  "row_count": 121,
   "coverage_score": 0.9444,
   "coverage": {
     "metric_coverage": 1.0,

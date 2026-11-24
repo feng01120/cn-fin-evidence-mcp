@@ -11,6 +11,7 @@
     "value": 31.5092,
     "unit": "%",
     "formula": "(营业收入 - 营业成本) / 营业收入",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "revenue",
@@ -49,6 +50,7 @@
     "value": 6.4003,
     "unit": "%",
     "formula": "净利润 / 营业收入",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "net_profit",
@@ -87,6 +89,7 @@
     "value": 16.8516,
     "unit": "%",
     "formula": "归属于母公司股东的净利润 / 平均归属于母公司所有者权益",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "net_profit_parent",
@@ -125,6 +128,7 @@
     "value": 58.2004,
     "unit": "%",
     "formula": "负债合计 / 资产总计",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "total_liabilities",
@@ -163,6 +167,7 @@
     "value": 1.1054,
     "unit": "倍",
     "formula": "流动资产合计 / 流动负债合计",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "total_current_assets",
@@ -201,6 +206,7 @@
     "value": 9.6632,
     "unit": "%",
     "formula": "经营活动产生的现金流量净额 / 营业收入",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "cfo",
@@ -239,6 +245,7 @@
     "value": 7.3278,
     "unit": "%",
     "formula": "(本期营业收入 - 上期营业收入) / 上期营业收入",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "revenue",
@@ -270,6 +277,7 @@
     "value": 13.5662,
     "unit": "%",
     "formula": "(本期净利润 - 上期净利润) / 上期净利润",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "net_profit",
@@ -301,6 +309,7 @@
     "value": 1.0684,
     "unit": "倍",
     "formula": "营业收入 / 平均资产总计",
+    "value_type": "computed",
     "inputs": [
       {
         "metric": "revenue",

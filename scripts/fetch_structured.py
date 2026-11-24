@@ -51,7 +51,7 @@ def main() -> int:
             print(json.dumps(records[-1], ensure_ascii=False))
             continue
         verified = load_dataset(DATA, ds['code'], ds['period'], ds.get('announce_date', ''))
-        overlay = build_overlay(verified['facts'], fetched)
+        overlay = build_overlay(verified['facts'], fetched, ds.get('announce_date', ''))
         doc = {
             'provider': overlay['provider'],
             'fetched_at': overlay['fetched_at'],
@@ -90,7 +90,7 @@ def main() -> int:
         'metrics': sum(r.get('metric_count', 0) for r in merged),
         'cross_check': {
             k: sum(r.get('cross_check', {}).get(k, 0) for r in merged)
-            for k in ('pass', 'warning', 'missing')
+            for k in ('pass', 'restatement', 'restatement_material', 'warning', 'missing')
         },
     }
     report_path.write_text(

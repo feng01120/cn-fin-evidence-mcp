@@ -14,14 +14,14 @@
   "source_file": "603288_2023.pdf",
   "source_sha256": "e34eb13835855354f5557f305a5e54d8c910bc9e74ed9ca29f52c2a5ebeb9b04",
   "page_count": 206,
-  "extracted_at": "2026-11-24T18:21:10+08:00",
+  "extracted_at": "2026-11-24T19:26:13+08:00",
   "statements": [
     "合并资产负债表",
     "合并利润表",
     "合并现金流量表"
   ],
   "fact_count": 34,
-  "row_count": 117,
+  "row_count": 116,
   "coverage_score": 0.9444,
   "coverage": {
     "metric_coverage": 1.0,

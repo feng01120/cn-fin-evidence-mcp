@@ -128,6 +128,7 @@ def load_dataset(base: Path, code: str, period: str, announce_date: str = '') ->
     structured_doc = _read(d / 'structured.json', {})
     structured = structured_doc.get('metrics', {}) if isinstance(structured_doc, dict) else {}
     structured_facts = [structured_fact(meta, e) for e in structured.values()]
+    sina_doc = _read(d / 'sina.json', {})
     return {
         'meta': meta,
         'facts': _read(d / 'facts.json', []),
@@ -136,6 +137,8 @@ def load_dataset(base: Path, code: str, period: str, announce_date: str = '') ->
         'checks': _read(d / 'checks.json', []),
         'structured': structured_doc,
         'structured_facts': structured_facts,
+        'sina': sina_doc,
+        'second_source': sina_doc.get('comparison', {}) if isinstance(sina_doc, dict) else {},
         'dir': str(d),
     }
 
@@ -158,6 +161,8 @@ def list_datasets(base: Path) -> List[Dict[str, Any]]:
         report_date = meta.get('report_date') or normalize_report_date(meta.get('period', ''))
         structured_doc = _read(d / 'structured.json', {})
         structured_count = len(structured_doc.get('metrics', {})) if isinstance(structured_doc, dict) else 0
+        sina_doc = _read(d / 'sina.json', {})
+        sina_count = len(sina_doc.get('metrics', {})) if isinstance(sina_doc, dict) else 0
         item = {
             'code': meta.get('company', {}).get('code', d.parent.name),
             'period': meta.get('period', ''),
@@ -171,6 +176,7 @@ def list_datasets(base: Path) -> List[Dict[str, Any]]:
             'coverage_score': meta.get('coverage_score', 0),
             'quality_gate': meta.get('quality_gate', ''),
             'structured_count': structured_count,
+            'second_source_count': sina_count,
             'path': str(d),
             'source_file': meta.get('source_file'),
         }

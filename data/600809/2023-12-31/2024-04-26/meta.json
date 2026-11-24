@@ -14,25 +14,27 @@
   "source_file": "600809_2023.pdf",
   "source_sha256": "9b7e133cdb27b568f99a936c0a6f590f12d2d601f047727a7934aa6711c1a53b",
   "page_count": 199,
-  "extracted_at": "2026-11-24T18:20:57+08:00",
+  "extracted_at": "2026-11-24T19:26:00+08:00",
   "statements": [
     "合并资产负债表",
     "合并利润表",
     "合并现金流量表"
   ],
-  "fact_count": 34,
-  "row_count": 115,
-  "coverage_score": 1.0,
+  "fact_count": 33,
+  "row_count": 114,
+  "coverage_score": 0.9892,
   "coverage": {
-    "metric_coverage": 1.0,
-    "fact_count": 34,
+    "metric_coverage": 0.9677,
+    "fact_count": 33,
     "expected_metrics": 31,
     "all_metrics": 34,
     "snippet_hit_rate": 1.0,
     "check_pass_rate": 1.0,
     "check_fail": 0,
-    "missing_required": [],
-    "score": 1.0
+    "missing_required": [
+      "net_profit"
+    ],
+    "score": 0.9892
   },
   "quality_gate": "pass"
 }
