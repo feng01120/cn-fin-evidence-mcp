@@ -1,0 +1,656 @@
+{
+  "provider": "eastmoney",
+  "fetched_at": "2026-11-24T19:27:16+08:00",
+  "company": {
+    "code": "601088",
+    "name": "中国神华能源股份有限公司",
+    "short_name": ""
+  },
+  "report_date": "2024-12-31",
+  "announce_date": "2025-03-22",
+  "metrics": {
+    "cash": {
+      "metric": "cash",
+      "metric_name": "货币资金",
+      "value": 143845000000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "MONETARYFUNDS",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 1.00%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 142415.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.010041,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "accounts_receivable": {
+      "metric": "accounts_receivable",
+      "metric_name": "应收账款",
+      "value": 12569000000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "ACCOUNTS_RECE",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 12466.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.008262,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "inventory": {
+      "metric": "inventory",
+      "metric_name": "存货",
+      "value": 12666000000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "INVENTORY",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 1.47%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 12482.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.014741,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "total_assets": {
+      "metric": "total_assets",
+      "metric_name": "资产总计",
+      "value": 668022000000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "TOTAL_ASSETS",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 1.51%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 658068.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.015126,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "total_liabilities": {
+      "metric": "total_liabilities",
+      "metric_name": "负债合计",
+      "value": 171377000000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "TOTAL_LIABILITIES",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 11.20%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 154116.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.112,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "total_equity": {
+      "metric": "total_equity",
+      "metric_name": "所有者权益合计",
+      "value": 496645000000.0,
+      "unit": "元",
+      "statement": "合并资产负债表",
+      "api_field": "TOTAL_EQUITY",
+      "report_name": "RPT_DMSK_FN_BALANCE",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 1.45%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 503952.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.014499,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "total_revenue": {
+      "metric": "total_revenue",
+      "metric_name": "营业总收入",
+      "value": 339788000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "TOTAL_OPERATE_INCOME",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "missing",
+        "verified_value": null,
+        "verified_unit": null,
+        "relative_diff": null,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31"
+      }
+    },
+    "total_cost": {
+      "metric": "total_cost",
+      "metric_name": "营业总成本",
+      "value": 256760000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "TOTAL_OPERATE_COST",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "missing",
+        "verified_value": null,
+        "verified_unit": null,
+        "relative_diff": null,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31"
+      }
+    },
+    "cost_of_revenue": {
+      "metric": "cost_of_revenue",
+      "metric_name": "营业成本",
+      "value": 223923000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "OPERATE_COST",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": 223192.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.003275,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "selling_expense": {
+      "metric": "selling_expense",
+      "metric_name": "销售费用",
+      "value": 574000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "SALE_EXPENSE",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 16.90%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 491.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.169043,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "admin_expense": {
+      "metric": "admin_expense",
+      "metric_name": "管理费用",
+      "value": 10924000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "MANAGE_EXPENSE",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 5.65%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 10340.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.05648,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "finance_expense": {
+      "metric": "finance_expense",
+      "metric_name": "财务费用",
+      "value": 382000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "FINANCE_EXPENSE",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "fail",
+        "checks": [
+          "no_page_evidence",
+          "cross_source_fail"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 196.12%；虽为后发年报追溯，但差异超过 25%，需人工核对合并范围/会计政策变更",
+          "已升级为 fail：后发年报重大追溯差异，需人工核对合并范围/会计政策变更"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement_material",
+        "verified_value": 129.0,
+        "verified_unit": "百万元",
+        "relative_diff": 1.96124,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true,
+        "severity": "fail"
+      }
+    },
+    "operating_profit": {
+      "metric": "operating_profit",
+      "metric_name": "营业利润",
+      "value": 87082000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "OPERATE_PROFIT",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 1.45%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 88362.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.014486,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "total_profit": {
+      "metric": "total_profit",
+      "metric_name": "利润总额",
+      "value": 82928000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "TOTAL_PROFIT",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 3.34%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 85793.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.033394,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "net_profit_parent": {
+      "metric": "net_profit_parent",
+      "metric_name": "归属于母公司股东的净利润",
+      "value": 55805000000.0,
+      "unit": "元",
+      "statement": "合并利润表",
+      "api_field": "PARENT_NETPROFIT",
+      "report_name": "RPT_DMSK_FN_INCOME",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 4.88%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 58671.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.048849,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "sales_cash": {
+      "metric": "sales_cash",
+      "metric_name": "销售商品、提供劳务收到的现金",
+      "value": 356763000000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "SALES_SERVICES",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 1.95%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 349923.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.019547,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "cfo": {
+      "metric": "cfo",
+      "metric_name": "经营活动产生的现金流量净额",
+      "value": 91086000000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "NETCASH_OPERATE",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 2.42%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": 93348.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.024232,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "cfi": {
+      "metric": "cfi",
+      "metric_name": "投资活动产生的现金流量净额",
+      "value": -86095000000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "NETCASH_INVEST",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": -85359.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.008622,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "cff": {
+      "metric": "cff",
+      "metric_name": "筹资活动产生的现金流量净额",
+      "value": -48590000000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "NETCASH_FINANCE",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified",
+          "结构化值与原始年报值相差 5.05%；API 披露日 2026-03-31 晚于数据集公告日 2025-03-22，判定为后发年报追溯/重分类，保留双口径"
+        ]
+      },
+      "cross_check": {
+        "status": "restatement",
+        "verified_value": -51173.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.050476,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    },
+    "net_cash_increase": {
+      "metric": "net_cash_increase",
+      "metric_name": "现金及现金等价物净增加额",
+      "value": -43515000000.0,
+      "unit": "元",
+      "statement": "合并现金流量表",
+      "api_field": "CCE_ADD",
+      "report_name": "RPT_DMSK_FN_CASHFLOW",
+      "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+      "api_notice_date": "2026-03-31",
+      "report_type_code": "001",
+      "data_state": "2",
+      "quality": {
+        "status": "warning",
+        "checks": [
+          "no_page_evidence"
+        ],
+        "messages": [
+          "结构化接口数据，无年报页码证据；不得冒充 verified"
+        ]
+      },
+      "cross_check": {
+        "status": "pass",
+        "verified_value": -43100.0,
+        "verified_unit": "百万元",
+        "relative_diff": 0.009629,
+        "announce_date": "2025-03-22",
+        "api_notice_date": "2026-03-31",
+        "later_filing": true
+      }
+    }
+  },
+  "cross_check": {
+    "pass": 4,
+    "restatement": 13,
+    "restatement_material": 1,
+    "warning": 0,
+    "missing": 2
+  },
+  "errors": []
+}

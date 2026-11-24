@@ -15,7 +15,10 @@ from .subject import evaluate_fact
 from .structured import UNIT_FACTORS
 from . import review
 
-BASE = Path(os.environ.get('FIN_EVIDENCE_DATA', str(Path(__file__).resolve().parents[2] / 'data')))
+_REPO_DATA = Path(__file__).resolve().parents[2] / 'data'
+_DEMO_DATA = Path(__file__).resolve().parent / 'demo_data'
+_DEFAULT_DATA = _REPO_DATA if _REPO_DATA.exists() else _DEMO_DATA
+BASE = Path(os.environ.get('FIN_EVIDENCE_DATA', str(_DEFAULT_DATA)))
 mcp = FastMCP('cn-fin-evidence')
 
 CODE_RE = re.compile(r'^\d{6}$')

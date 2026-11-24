@@ -1,0 +1,1736 @@
+[
+  {
+    "evidence_id": "600519-2023-cash",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "cash",
+    "metric_name": "货币资金",
+    "value": 69070136376.12,
+    "prior_value": 58274318733.23,
+    "unit": "元",
+    "page": 58,
+    "printed_page": 58,
+    "snippet": "货币资金 1 69,070,136,376.12 58,274,318,733.23",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 749.1849365234375,
+      "x1": 525.3215942382812,
+      "y1": 759.7449340820312
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "货币资金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-accounts_receivable",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "accounts_receivable",
+    "metric_name": "应收账款",
+    "value": 60373410.41,
+    "prior_value": 20937144.0,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "应收账款 5 60,373,410.41 20,937,144.00",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 150.3089599609375,
+      "x1": 525.3477783203125,
+      "y1": 160.86895751953125
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "应收账款",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-inventory",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "inventory",
+    "metric_name": "存货",
+    "value": 46435185061.53,
+    "prior_value": 38824374236.24,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "存货 9 46,435,185,061.53 38,824,374,236.24",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 294.09893798828125,
+      "x1": 525.3215942382812,
+      "y1": 304.658935546875
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "存货",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_current_assets",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_current_assets",
+    "metric_name": "流动资产合计",
+    "value": 225172517821.28,
+    "prior_value": 216611435672.92,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "流动资产合计 225,172,517,821.28 216,611,435,672.92",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 365.85894775390625,
+      "x1": 525.3215942382812,
+      "y1": 376.4189453125
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_noncurrent_assets",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_assets",
+    "metric_name": "非流动资产合计",
+    "value": 47527142270.97,
+    "prior_value": 37889390423.1,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "非流动资产合计 47,527,142,270.97 37,889,390,423.10",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 667.5889282226562,
+      "x1": 525.3215942382812,
+      "y1": 678.14892578125
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动资产合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_assets",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_assets",
+    "metric_name": "资产总计",
+    "value": 272699660092.25,
+    "prior_value": 254500826096.02,
+    "unit": "元",
+    "page": 59,
+    "printed_page": 59,
+    "snippet": "资产总计 272,699,660,092.25 254,500,826,096.02",
+    "bbox": {
+      "x0": 127.22000122070312,
+      "y0": 681.9889526367188,
+      "x1": 525.3215942382812,
+      "y1": 692.5489501953125
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "资产总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_current_liabilities",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_current_liabilities",
+    "metric_name": "流动负债合计",
+    "value": 48697611501.2,
+    "prior_value": 49065668798.38,
+    "unit": "元",
+    "page": 60,
+    "printed_page": 60,
+    "snippet": "流动负债合计 48,697,611,501.20 49,065,668,798.38",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 351.45892333984375,
+      "x1": 525.3215942382812,
+      "y1": 362.0189208984375
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_noncurrent_liabilities",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_noncurrent_liabilities",
+    "metric_name": "非流动负债合计",
+    "value": 345579296.23,
+    "prior_value": 497076033.78,
+    "unit": "元",
+    "page": 60,
+    "printed_page": 60,
+    "snippet": "非流动负债合计 345,579,296.23 497,076,033.78",
+    "bbox": {
+      "x0": 116.66000366210938,
+      "y0": 552.7189331054688,
+      "x1": 525.3477783203125,
+      "y1": 563.2789306640625
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "非流动负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_liabilities",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_liabilities",
+    "metric_name": "负债合计",
+    "value": 49043190797.43,
+    "prior_value": 49562744832.16,
+    "unit": "元",
+    "page": 60,
+    "printed_page": 60,
+    "snippet": "负债合计 49,043,190,797.43 49,562,744,832.16",
+    "bbox": {
+      "x0": 127.22000122070312,
+      "y0": 566.9989013671875,
+      "x1": 525.3215942382812,
+      "y1": 577.5588989257812
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-equity_parent",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "equity_parent",
+    "metric_name": "归属于母公司所有者权益合计",
+    "value": 215668571607.43,
+    "prior_value": 197480041239.46,
+    "unit": "元",
+    "page": 61,
+    "printed_page": 61,
+    "snippet": "归属于母公司所有者权益 （或股东权益）合计 215,668,571,607.43 197,480,041,239.46",
+    "bbox": {
+      "x0": 106.22000122070312,
+      "y0": 78.5289306640625,
+      "x1": 525.3215942382812,
+      "y1": 95.82892608642578
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "归属于母公司所有者权益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_equity",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_equity",
+    "metric_name": "所有者权益合计",
+    "value": 223656469294.82,
+    "prior_value": 204938081263.86,
+    "unit": "元",
+    "page": 61,
+    "printed_page": 61,
+    "snippet": "所有者权益（或股东权 益）合计 223,656,469,294.82 204,938,081,263.86",
+    "bbox": {
+      "x0": 95.66400146484375,
+      "y0": 120.908935546875,
+      "x1": 525.3215942382812,
+      "y1": 145.0289306640625
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "所有者权益合计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_liabilities_equity",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_liabilities_equity",
+    "metric_name": "负债和所有者权益总计",
+    "value": 272699660092.25,
+    "prior_value": 254500826096.02,
+    "unit": "元",
+    "page": 61,
+    "printed_page": 61,
+    "snippet": "负债和所有者权益 （或股东权益）总计 272,699,660,092.25 254,500,826,096.02",
+    "bbox": {
+      "x0": 95.66400146484375,
+      "y0": 148.86895751953125,
+      "x1": 525.3215942382812,
+      "y1": 172.98895263671875
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并资产负债表",
+    "item_raw": "负债和所有者权益总计",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_revenue",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_revenue",
+    "metric_name": "营业总收入",
+    "value": 150560330316.45,
+    "prior_value": 127553959355.97,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "一、营业总收入 150,560,330,316.45 127,553,959,355.97",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 236.82891845703125,
+      "x1": 526.0416259765625,
+      "y1": 247.388916015625
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-revenue",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "revenue",
+    "metric_name": "营业收入",
+    "value": 147693604994.14,
+    "prior_value": 124099843771.99,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "其中：营业收入 40 147,693,604,994.14 124,099,843,771.99",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 250.86895751953125,
+      "x1": 526.0416259765625,
+      "y1": 261.428955078125
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业收入",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_cost",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_cost",
+    "metric_name": "营业总成本",
+    "value": 46960889468.54,
+    "prior_value": 39748309616.85,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "二、营业总成本 46,960,889,468.54 39,748,309,616.85",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 307.4189453125,
+      "x1": 526.0416259765625,
+      "y1": 317.97894287109375
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业总成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-cost_of_revenue",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "cost_of_revenue",
+    "metric_name": "营业成本",
+    "value": 11867273851.78,
+    "prior_value": 10093468616.63,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "其中：营业成本 40 11,867,273,851.78 10,093,468,616.63",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 321.5789489746094,
+      "x1": 526.0416259765625,
+      "y1": 332.1389465332031
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业成本",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-taxes_surcharges",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "taxes_surcharges",
+    "metric_name": "税金及附加",
+    "value": 22234175898.6,
+    "prior_value": 18495818534.22,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "税金及附加 42 22,234,175,898.60 18,495,818,534.22",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 434.4989318847656,
+      "x1": 526.0416259765625,
+      "y1": 445.0589294433594
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "税金及附加",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-selling_expense",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "selling_expense",
+    "metric_name": "销售费用",
+    "value": 4648613585.82,
+    "prior_value": 3297724190.94,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "销售费用 43 4,648,613,585.82 3,297,724,190.94",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 448.5589294433594,
+      "x1": 526.0715942382812,
+      "y1": 459.1189270019531
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "销售费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-admin_expense",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "admin_expense",
+    "metric_name": "管理费用",
+    "value": 9729389252.31,
+    "prior_value": 9012191073.63,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "管理费用 44 9,729,389,252.31 9,012,191,073.63",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 462.71893310546875,
+      "x1": 526.0715942382812,
+      "y1": 473.2789306640625
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "管理费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-rd_expense",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "rd_expense",
+    "metric_name": "研发费用",
+    "value": 157371873.01,
+    "prior_value": 135185680.4,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "研发费用 45 157,371,873.01 135,185,680.40",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 476.8789367675781,
+      "x1": 526.0677490234375,
+      "y1": 487.4389343261719
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "研发费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-finance_expense",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "finance_expense",
+    "metric_name": "财务费用",
+    "value": -1789503701.48,
+    "prior_value": -1391805826.72,
+    "unit": "元",
+    "page": 63,
+    "printed_page": 63,
+    "snippet": "财务费用 46 -1,789,503,701.48 -1,391,805,826.72",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 490.9189453125,
+      "x1": 526.0715942382812,
+      "y1": 501.47894287109375
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "财务费用",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-operating_profit",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "operating_profit",
+    "metric_name": "营业利润",
+    "value": 103708655208.38,
+    "prior_value": 87879521782.39,
+    "unit": "元",
+    "page": 64,
+    "printed_page": 64,
+    "snippet": "三、营业利润（亏损以“－”号填 列） 103,708,655,208.38 87,879,521,782.39",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 106.0289306640625,
+      "x1": 526.0416259765625,
+      "y1": 123.30896759033203
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "营业利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-total_profit",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "total_profit",
+    "metric_name": "利润总额",
+    "value": 103662553689.81,
+    "prior_value": 87701489748.18,
+    "unit": "元",
+    "page": 64,
+    "printed_page": 64,
+    "snippet": "四、利润总额（亏损总额以“－”号 填列） 103,662,553,689.81 87,701,489,748.18",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 161.94891357421875,
+      "x1": 526.0416259765625,
+      "y1": 179.34893798828125
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "利润总额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-net_profit",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "net_profit",
+    "metric_name": "净利润",
+    "value": 77521476277.8,
+    "prior_value": 65376039957.88,
+    "unit": "元",
+    "page": 64,
+    "printed_page": 64,
+    "snippet": "五、净利润（净亏损以“－”号填 列） 77,521,476,277.80 65,376,039,957.88",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 203.82891845703125,
+      "x1": 526.0416259765625,
+      "y1": 221.22894287109375
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-net_profit_parent",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "net_profit_parent",
+    "metric_name": "归属于母公司股东的净利润",
+    "value": 74734071550.75,
+    "prior_value": 62717467870.12,
+    "unit": "元",
+    "page": 64,
+    "printed_page": 64,
+    "snippet": "77.8065,376,039,957.882.终止经营净利润（净亏损以“－”号填列）（二）按所有权归属分类1.归属于母公司股东的净利润（净亏损以“-”号填列）74,734,071,550.7562,717,467,870.122.少数股东损益（净亏损以“-”号填列）2,787,404,727.052,658,572,087.76六、其他综合收益的税后净额554,715,179.822,240,973.45（一）归属母公司所有者的",
+    "bbox": {
+      "x0": 116.54000091552734,
+      "y0": 315.33892822265625,
+      "x1": 526.0416259765625,
+      "y1": 332.6189270019531
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "归属于母公司股东的净利润",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-basic_eps",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "basic_eps",
+    "metric_name": "基本每股收益",
+    "value": 59.49,
+    "prior_value": 49.93,
+    "unit": "元/股",
+    "page": 65,
+    "printed_page": 65,
+    "snippet": "（一）基本每股收益(元/股) 59.49 49.93",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 120.06890869140625,
+      "x1": 526.06005859375,
+      "y1": 130.62890625
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并利润表",
+    "item_raw": "基本每股收益",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-sales_cash",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "sales_cash",
+    "metric_name": "销售商品、提供劳务收到的现金",
+    "value": 163699909417.62,
+    "prior_value": 140691678592.0,
+    "unit": "元",
+    "page": 66,
+    "printed_page": 66,
+    "snippet": "销售商品、提供劳务收到的现金 163,699,909,417.62 140,691,678,592.00",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 538.198974609375,
+      "x1": 526.0416259765625,
+      "y1": 548.7589721679688
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "销售商品、提供劳务收到的现金",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-cfo",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "cfo",
+    "metric_name": "经营活动产生的现金流量净额",
+    "value": 66593247721.09,
+    "prior_value": 36698595830.03,
+    "unit": "元",
+    "page": 67,
+    "printed_page": 67,
+    "snippet": "经营活动产生的现金流量净额 66,593,247,721.09 36,698,595,830.03",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 205.2689208984375,
+      "x1": 526.0416259765625,
+      "y1": 215.82891845703125
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "经营活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-cfi",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "cfi",
+    "metric_name": "投资活动产生的现金流量净额",
+    "value": -9724414015.16,
+    "prior_value": -5536826334.9,
+    "unit": "元",
+    "page": 67,
+    "printed_page": 67,
+    "snippet": "投资活动产生的现金流量净额 -9,724,414,015.16 -5,536,826,334.90",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 457.4389343261719,
+      "x1": 526.0715942382812,
+      "y1": 467.9989318847656
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "投资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-cff",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "cff",
+    "metric_name": "筹资活动产生的现金流量净额",
+    "value": -58889101991.94,
+    "prior_value": -57424528979.83,
+    "unit": "元",
+    "page": 67,
+    "printed_page": 67,
+    "snippet": "筹资活动产生的现金流量净额 -58,889,101,991.94 -57,424,528,979.83",
+    "bbox": {
+      "x0": 127.0999984741211,
+      "y0": 667.7089233398438,
+      "x1": 526.0416259765625,
+      "y1": 678.2689208984375
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "筹资活动产生的现金流量净额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-fx_effect",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "fx_effect",
+    "metric_name": "汇率变动对现金及现金等价物的影响",
+    "value": 1718255.65,
+    "prior_value": 911088.01,
+    "unit": "元",
+    "page": 67,
+    "printed_page": 67,
+    "snippet": "四、汇率变动对现金及现金等价物的 影响 1,718,255.65 911,088.01",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 681.8689575195312,
+      "x1": 526.0639038085938,
+      "y1": 699.2689208984375
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "汇率变动对现金及现金等价物的",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-net_cash_increase",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "net_cash_increase",
+    "metric_name": "现金及现金等价物净增加额",
+    "value": -2018550030.36,
+    "prior_value": -26261848396.69,
+    "unit": "元",
+    "page": 67,
+    "printed_page": 67,
+    "snippet": "五、现金及现金等价物净增加额 -2,018,550,030.36 -26,261,848,396.69",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 709.5889282226562,
+      "x1": 526.0416259765625,
+      "y1": 720.14892578125
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "现金及现金等价物净增加额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-beginning_cash",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "beginning_cash",
+    "metric_name": "期初现金及现金等价物余额",
+    "value": 152378738982.83,
+    "prior_value": 178640587379.52,
+    "unit": "元",
+    "page": 67,
+    "printed_page": 67,
+    "snippet": "加：期初现金及现金等价物余额 152,378,738,982.83 178,640,587,379.52",
+    "bbox": {
+      "x0": 106.0999984741211,
+      "y0": 723.7489624023438,
+      "x1": 526.0416259765625,
+      "y1": 734.3089599609375
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期初现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  },
+  {
+    "evidence_id": "600519-2023-ending_cash",
+    "company": {
+      "code": "600519",
+      "name": "贵州茅台酒股份有限公司",
+      "short_name": ""
+    },
+    "report_date": "2023-12-31",
+    "announce_date": "2024-04-03",
+    "evidence_level": "verified",
+    "source_type": "annual_report_pdf",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+    "period": "2023",
+    "metric": "ending_cash",
+    "metric_name": "期末现金及现金等价物余额",
+    "value": 150360188952.47,
+    "prior_value": 152378738982.83,
+    "unit": "元",
+    "page": 67,
+    "printed_page": 67,
+    "snippet": "六、期末现金及现金等价物余额 150,360,188,952.47 152,378,738,982.83",
+    "bbox": {
+      "x0": 95.54399871826172,
+      "y0": 737.784912109375,
+      "x1": 526.0416259765625,
+      "y1": 748.3449096679688
+    },
+    "source_file": "600519_2023.pdf",
+    "statement": "合并现金流量表",
+    "item_raw": "期末现金及现金等价物余额",
+    "note": null,
+    "value_type": "disclosed",
+    "zero_type": null,
+    "formula": null,
+    "inputs": null,
+    "quality": {
+      "status": "pass",
+      "checks": [
+        "value_present"
+      ],
+      "messages": []
+    },
+    "subject_check": {
+      "status": "pass",
+      "checks": [
+        "alias_match",
+        "statement_match"
+      ],
+      "messages": []
+    }
+  }
+]

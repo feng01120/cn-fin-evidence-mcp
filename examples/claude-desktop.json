@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cn-fin-evidence": {
+      "command": "fin-evidence",
+      "args": ["--data", "/absolute/path/to/cn-fin-evidence-mcp/data", "serve"]
+    }
+  }
+}

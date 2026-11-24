@@ -1,0 +1,16 @@
+.git
+.github
+.vscode
+build
+dist
+data/raw
+data/_staging
+data/_legacy
+data/audit.jsonl
+**/__pycache__
+*.pyc
+*.egg-info
+.pytest_cache
+tests
+docs
+scripts

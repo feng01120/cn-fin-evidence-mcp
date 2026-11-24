@@ -201,7 +201,7 @@
 ## 复跑
 
 ```bash
-cd /home/user/Doubao/chats/38456275306143746/fin-evidence-mcp
+cd cn-fin-evidence-mcp
 PYTHONPATH=src python scripts/build_material_review.py
 # 输出 10 items / 10 confirmed / evidence_errors 0 / pass true
 ```

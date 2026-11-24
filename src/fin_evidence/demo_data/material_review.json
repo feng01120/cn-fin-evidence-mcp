@@ -1,0 +1,862 @@
+{
+  "version": "0.2.4",
+  "generated_at": "2026-11-24",
+  "scope": "10 material restatement differences in the 20-company pilot",
+  "summary": {
+    "total": 10,
+    "confirmed_restatement": 10,
+    "extraction_errors": 0,
+    "as_reported_values_changed": 0,
+    "limited_disclosure": 1,
+    "reasons": 4,
+    "gate_changes": {
+      "before": {
+        "acceptance": false,
+        "error_count": 20,
+        "warning_count": 75,
+        "material_failure_count": 10,
+        "note": "改造前：所有 >25% 的 restatement_material 一律 fail；东方财富与新浪两侧各记一次 error。"
+      },
+      "after": {
+        "acceptance": true,
+        "error_count": 0,
+        "warning_count": 75,
+        "material_failure_count": 0,
+        "reviewed_material_count": 10,
+        "note": "改造后：已复核 material 记为 pass_with_restatement，不再计 error；未复核 material 仍 fail。原始 quality=fail 保留在结构化源文件中作为审计信号。"
+      }
+    }
+  },
+  "reasons": [
+    {
+      "code": "accounting_policy_interpretation_18",
+      "label": "会计政策变更：解释第18号",
+      "items": [
+        "002594/2023/selling_expense",
+        "300750/2023/selling_expense"
+      ]
+    },
+    {
+      "code": "same_control_logistics",
+      "label": "同一控制下企业合并：物流业务",
+      "items": [
+        "600690/2023/net_cash_increase"
+      ]
+    },
+    {
+      "code": "same_control_hujin",
+      "label": "同一控制下企业合并：杭锦能源",
+      "items": [
+        "601088/2024/finance_expense"
+      ]
+    },
+    {
+      "code": "same_control_business_combination_2026",
+      "label": "同一控制下企业合并：2026年12家标的",
+      "items": [
+        "601088/2025/accounts_receivable",
+        "601088/2025/cash",
+        "601088/2025/inventory",
+        "601088/2025/total_assets",
+        "601088/2025/total_equity",
+        "601088/2025/total_liabilities"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "002594/2023/selling_expense",
+      "code": "002594",
+      "period": "2023",
+      "metric": "selling_expense",
+      "metric_name": "销售费用",
+      "report_date": "2023-12-31",
+      "announce_date": "2024-03-27",
+      "as_reported": {
+        "value": 25211395.0,
+        "unit": "千元",
+        "value_yuan": 25211395000.0,
+        "page": 140,
+        "source_file": "data/raw/002594_2023.pdf",
+        "evidence_id": "002594-2023-selling_expense",
+        "snippet": "销售费用 47 25,211,395 15,060,676"
+      },
+      "restated_comparative": {
+        "value": 15370800000.0,
+        "unit": "元",
+        "value_yuan": 15370800000.0,
+        "api_notice_date": "2025-03-25",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22002594%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 27,
+        "comparison_source": "data/raw/002594_2024.pdf"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 25211395000.0,
+        "unit": "元",
+        "value_yuan": 25211395000.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/002594/ctrl/2023/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": -9840595000.0,
+        "pct_of_as_reported": -0.390323,
+        "pct_of_restated": -0.640214,
+        "direction": "restated_lower"
+      },
+      "reason": {
+        "code": "accounting_policy_interpretation_18",
+        "label": "会计政策变更：解释第18号",
+        "detail": "保证类质量保证由“销售费用”改列“营业成本”，并追溯调整比较数据。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "data/raw/002594_2024.pdf",
+          "page": 25,
+          "must_contain": [
+            "解释第 18 号",
+            "追溯调整财务报表比较数据"
+          ]
+        },
+        {
+          "source": "data/raw/002594_2024.pdf",
+          "page": 27,
+          "must_contain": [
+            "15,370,800,000.00"
+          ]
+        },
+        {
+          "source": "data/raw/002594_2024.pdf",
+          "page": 145,
+          "must_contain": [
+            "15,370,800"
+          ]
+        }
+      ],
+      "reclass_check": {
+        "cost_as_reported_yuan": 480558350000.0,
+        "cost_restated_yuan": 490398945000.0,
+        "note": "营业成本增加 9,840,595 千元，销售费用同额减少，属于重分类而非新增成本。"
+      },
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    },
+    {
+      "id": "300750/2023/selling_expense",
+      "code": "300750",
+      "period": "2023",
+      "metric": "selling_expense",
+      "metric_name": "销售费用",
+      "report_date": "2023-12-31",
+      "announce_date": "2024-03-16",
+      "as_reported": {
+        "value": 1795444.05,
+        "unit": "万元",
+        "value_yuan": 17954440500.0,
+        "page": 120,
+        "source_file": "data/raw/300750_2023.pdf",
+        "evidence_id": "300750-2023-selling_expense",
+        "snippet": "销售费用 1,795,444.05 1,109,940.12"
+      },
+      "restated_comparative": {
+        "value": 3042744000.0,
+        "unit": "元",
+        "value_yuan": 3042744000.0,
+        "api_notice_date": "2025-03-15",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300750%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 24,
+        "comparison_source": "data/raw/300750_2024.pdf"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 17954440500.0,
+        "unit": "元",
+        "value_yuan": 17954440500.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/300750/ctrl/2023/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": -14911696500.0,
+        "pct_of_as_reported": -0.83053,
+        "pct_of_restated": -4.90074,
+        "direction": "restated_lower"
+      },
+      "reason": {
+        "code": "accounting_policy_interpretation_18",
+        "label": "会计政策变更：解释第18号",
+        "detail": "保证类质量保证由“销售费用”改列“营业成本”，并追溯调整比较数据。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "data/raw/300750_2024.pdf",
+          "page": 24,
+          "must_contain": [
+            "3,042,744"
+          ]
+        },
+        {
+          "source": "data/raw/300750_2024.pdf",
+          "page": 119,
+          "must_contain": [
+            "3,042,744"
+          ]
+        },
+        {
+          "source": "data/raw/300750_2024.pdf",
+          "page": 162,
+          "must_contain": [
+            "解释第18 号",
+            "追溯调整"
+          ]
+        }
+      ],
+      "reclass_check": {
+        "cost_as_reported_yuan": 309070434000.0,
+        "cost_restated_yuan": 323982130000.0,
+        "note": "营业成本增加约 14,911,696 千元，销售费用同额减少，属于重分类。"
+      },
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    },
+    {
+      "id": "600690/2023/net_cash_increase",
+      "code": "600690",
+      "period": "2023",
+      "metric": "net_cash_increase",
+      "metric_name": "现金及现金等价物净增加额",
+      "report_date": "2023-12-31",
+      "announce_date": "2024-03-28",
+      "as_reported": {
+        "value": 585100793.62,
+        "unit": "元",
+        "value_yuan": 585100793.62,
+        "page": 117,
+        "source_file": "data/raw/600690_2023.pdf",
+        "evidence_id": "600690-2023-net_cash_increase",
+        "snippet": "五、现金及现金等价物净增加额 585,100,793.62 8,190,466,576.88"
+      },
+      "restated_comparative": {
+        "value": 1525740888.35,
+        "unit": "元",
+        "value_yuan": 1525740888.35,
+        "api_notice_date": "2025-03-28",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=ALL&filter=%28SECURITY_CODE%3D%22600690%22%29%28REPORT_DATE%3D%272023-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 126,
+        "comparison_source": "data/raw/600690_2024.pdf"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 585100793.62,
+        "unit": "元",
+        "value_yuan": 585100793.62,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_CashFlow/displaytype/4/stockid/600690/ctrl/2023/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": 940640094.73,
+        "pct_of_as_reported": 1.607655,
+        "pct_of_restated": 0.616514,
+        "direction": "restated_higher"
+      },
+      "reason": {
+        "code": "same_control_logistics",
+        "label": "同一控制下企业合并：物流业务",
+        "detail": "2024年12月并入优瑾（上海）企业管理有限公司45%权益，按同一控制下企业合并追溯调整比较报表。",
+        "quantified": false,
+        "quantified_note": "可确认2023年比较数被重述，但年报未单列现金流量表调整明细，无法逐行复算940,640,094.73元。",
+        "disclosure_quality": "limited"
+      },
+      "evidence": [
+        {
+          "source": "data/raw/600690_2024.pdf",
+          "page": 12,
+          "must_contain": [
+            "物流业务的并表（同一控制下企业合并）"
+          ]
+        },
+        {
+          "source": "data/raw/600690_2024.pdf",
+          "page": 126,
+          "must_contain": [
+            "1,525,740,888.35"
+          ]
+        },
+        {
+          "source": "data/raw/600690_2024.pdf",
+          "page": 137,
+          "must_contain": [
+            "同时对比较报表的相关项目进行调整"
+          ]
+        },
+        {
+          "source": "data/raw/600690_2024.pdf",
+          "page": 214,
+          "must_contain": [
+            "优瑾（上海）企业管理有限公司",
+            "18,423,619,653.79"
+          ]
+        }
+      ],
+      "reclass_check": null,
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement",
+        "note": "原因方向已确认，但年报未单列该现金流项目的调整明细；不把差额扩展成无法复核的精确结论。"
+      },
+      "disclosure_quality": "limited"
+    },
+    {
+      "id": "601088/2024/finance_expense",
+      "code": "601088",
+      "period": "2024",
+      "metric": "finance_expense",
+      "metric_name": "财务费用",
+      "report_date": "2024-12-31",
+      "announce_date": "2025-03-22",
+      "as_reported": {
+        "value": 129.0,
+        "unit": "百万元",
+        "value_yuan": 129000000.0,
+        "page": 142,
+        "source_file": "data/raw/601088_2024.pdf",
+        "evidence_id": "601088-2024-finance_expense",
+        "snippet": "2税金及附加五、3617,78418,385销售费用五、37491425管理费用五、3810,3409,812研发费用六、12,7273,007财务费用五、39129501其中：利息费用2,7002,858利息收入2,7502,616加：其他收益五、40333423投资收益(损失以“-”号填列)五、414,8713,815其中：对联营企业的投资收益4,3443,565公允价值变动损益(损失以“-”号填列"
+      },
+      "restated_comparative": {
+        "value": 382000000.0,
+        "unit": "元",
+        "value_yuan": 382000000.0,
+        "api_notice_date": "2026-03-31",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272024-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 155,
+        "comparison_source": "data/raw/601088_2025.pdf"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 129000000.0,
+        "unit": "元",
+        "value_yuan": 129000000.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_ProfitStatement/displaytype/4/stockid/601088/ctrl/2024/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": 253000000.0,
+        "pct_of_as_reported": 1.96124,
+        "pct_of_restated": 0.662304,
+        "direction": "restated_higher"
+      },
+      "reason": {
+        "code": "same_control_hujin",
+        "label": "同一控制下企业合并：杭锦能源",
+        "detail": "2025年2月11日完成收购杭锦能源100%股权，按同一控制下企业合并追溯调整比较期财务报表。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "data/raw/601088_2025.pdf",
+          "page": 9,
+          "must_contain": [
+            "2025 年2 月11 日",
+            "杭锦能源100%股",
+            "同一控制下的企业合并"
+          ]
+        },
+        {
+          "source": "data/raw/601088_2025.pdf",
+          "page": 155,
+          "must_contain": [
+            "(已重述）",
+            "财务费用",
+            "382"
+          ]
+        }
+      ],
+      "reclass_check": null,
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    },
+    {
+      "id": "601088/2025/accounts_receivable",
+      "code": "601088",
+      "period": "2025",
+      "metric": "accounts_receivable",
+      "metric_name": "应收账款",
+      "report_date": "2025-12-31",
+      "announce_date": "2026-03-31",
+      "as_reported": {
+        "value": 13225.0,
+        "unit": "百万元",
+        "value_yuan": 13225000000.0,
+        "page": 147,
+        "source_file": "data/raw/601088_2025.pdf",
+        "evidence_id": "601088-2025-accounts_receivable",
+        "snippet": "应收账款 五、4 13,225 12,569"
+      },
+      "restated_comparative": {
+        "value": 16566000000.0,
+        "unit": "元",
+        "value_yuan": 16566000000.0,
+        "api_notice_date": "2026-10-24",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 13,
+        "comparison_source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 13225000000.0,
+        "unit": "元",
+        "value_yuan": 13225000000.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/601088/ctrl/2025/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": 3341000000.0,
+        "pct_of_as_reported": 0.252628,
+        "pct_of_restated": 0.201678,
+        "direction": "restated_higher"
+      },
+      "reason": {
+        "code": "same_control_business_combination_2026",
+        "label": "同一控制下企业合并：2026年12家标的",
+        "detail": "2026年上半年完成收购国家能源集团及西部能源持有的12家标的公司股权，除晋神能源外11家纳入合并范围，按同一控制下企业合并追溯调整2025年比较数。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 2,
+          "must_contain": [
+            "12 家标的公司股权",
+            "11 家标的公司",
+            "同一控制下的企业合并",
+            "903,830"
+          ]
+        },
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 13,
+          "must_contain": [
+            "16,566",
+            "141,013",
+            "15,280"
+          ]
+        }
+      ],
+      "reclass_check": null,
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    },
+    {
+      "id": "601088/2025/cash",
+      "code": "601088",
+      "period": "2025",
+      "metric": "cash",
+      "metric_name": "货币资金",
+      "report_date": "2025-12-31",
+      "announce_date": "2026-03-31",
+      "as_reported": {
+        "value": 96772.0,
+        "unit": "百万元",
+        "value_yuan": 96772000000.0,
+        "page": 147,
+        "source_file": "data/raw/601088_2025.pdf",
+        "evidence_id": "601088-2025-cash",
+        "snippet": "货币资金 五、1 96,772 143,845"
+      },
+      "restated_comparative": {
+        "value": 141013000000.0,
+        "unit": "元",
+        "value_yuan": 141013000000.0,
+        "api_notice_date": "2026-10-24",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 13,
+        "comparison_source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 96772000000.0,
+        "unit": "元",
+        "value_yuan": 96772000000.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/601088/ctrl/2025/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": 44241000000.0,
+        "pct_of_as_reported": 0.457167,
+        "pct_of_restated": 0.313737,
+        "direction": "restated_higher"
+      },
+      "reason": {
+        "code": "same_control_business_combination_2026",
+        "label": "同一控制下企业合并：2026年12家标的",
+        "detail": "2026年上半年完成收购国家能源集团及西部能源持有的12家标的公司股权，除晋神能源外11家纳入合并范围，按同一控制下企业合并追溯调整2025年比较数。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 2,
+          "must_contain": [
+            "12 家标的公司股权",
+            "11 家标的公司",
+            "同一控制下的企业合并",
+            "903,830"
+          ]
+        },
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 13,
+          "must_contain": [
+            "16,566",
+            "141,013",
+            "15,280"
+          ]
+        }
+      ],
+      "reclass_check": null,
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    },
+    {
+      "id": "601088/2025/inventory",
+      "code": "601088",
+      "period": "2025",
+      "metric": "inventory",
+      "metric_name": "存货",
+      "report_date": "2025-12-31",
+      "announce_date": "2026-03-31",
+      "as_reported": {
+        "value": 11850.0,
+        "unit": "百万元",
+        "value_yuan": 11850000000.0,
+        "page": 147,
+        "source_file": "data/raw/601088_2025.pdf",
+        "evidence_id": "601088-2025-inventory",
+        "snippet": "存货 五、7 11,850 12,666"
+      },
+      "restated_comparative": {
+        "value": 15280000000.0,
+        "unit": "元",
+        "value_yuan": 15280000000.0,
+        "api_notice_date": "2026-10-24",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 13,
+        "comparison_source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 11850000000.0,
+        "unit": "元",
+        "value_yuan": 11850000000.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/601088/ctrl/2025/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": 3430000000.0,
+        "pct_of_as_reported": 0.289451,
+        "pct_of_restated": 0.224476,
+        "direction": "restated_higher"
+      },
+      "reason": {
+        "code": "same_control_business_combination_2026",
+        "label": "同一控制下企业合并：2026年12家标的",
+        "detail": "2026年上半年完成收购国家能源集团及西部能源持有的12家标的公司股权，除晋神能源外11家纳入合并范围，按同一控制下企业合并追溯调整2025年比较数。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 2,
+          "must_contain": [
+            "12 家标的公司股权",
+            "11 家标的公司",
+            "同一控制下的企业合并",
+            "903,830"
+          ]
+        },
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 13,
+          "must_contain": [
+            "16,566",
+            "141,013",
+            "15,280"
+          ]
+        }
+      ],
+      "reclass_check": null,
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    },
+    {
+      "id": "601088/2025/total_assets",
+      "code": "601088",
+      "period": "2025",
+      "metric": "total_assets",
+      "metric_name": "资产总计",
+      "report_date": "2025-12-31",
+      "announce_date": "2026-03-31",
+      "as_reported": {
+        "value": 627761.0,
+        "unit": "百万元",
+        "value_yuan": 627761000000.0,
+        "page": 148,
+        "source_file": "data/raw/601088_2025.pdf",
+        "evidence_id": "601088-2025-total_assets",
+        "snippet": "资产总计 627,761 668,022"
+      },
+      "restated_comparative": {
+        "value": 903830000000.0,
+        "unit": "元",
+        "value_yuan": 903830000000.0,
+        "api_notice_date": "2026-10-24",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 13,
+        "comparison_source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 627761000000.0,
+        "unit": "元",
+        "value_yuan": 627761000000.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/601088/ctrl/2025/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": 276069000000.0,
+        "pct_of_as_reported": 0.439768,
+        "pct_of_restated": 0.305444,
+        "direction": "restated_higher"
+      },
+      "reason": {
+        "code": "same_control_business_combination_2026",
+        "label": "同一控制下企业合并：2026年12家标的",
+        "detail": "2026年上半年完成收购国家能源集团及西部能源持有的12家标的公司股权，除晋神能源外11家纳入合并范围，按同一控制下企业合并追溯调整2025年比较数。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 2,
+          "must_contain": [
+            "12 家标的公司股权",
+            "11 家标的公司",
+            "同一控制下的企业合并",
+            "903,830"
+          ]
+        },
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 13,
+          "must_contain": [
+            "903,830"
+          ]
+        }
+      ],
+      "reclass_check": null,
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    },
+    {
+      "id": "601088/2025/total_equity",
+      "code": "601088",
+      "period": "2025",
+      "metric": "total_equity",
+      "metric_name": "所有者权益合计",
+      "report_date": "2025-12-31",
+      "announce_date": "2026-03-31",
+      "as_reported": {
+        "value": 481451.0,
+        "unit": "百万元",
+        "value_yuan": 481451000000.0,
+        "page": 151,
+        "source_file": "data/raw/601088_2025.pdf",
+        "evidence_id": "601088-2025-total_equity",
+        "snippet": "股东权益合计 481,451 496,645"
+      },
+      "restated_comparative": {
+        "value": 603627000000.0,
+        "unit": "元",
+        "value_yuan": 603627000000.0,
+        "api_notice_date": "2026-10-24",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 14,
+        "comparison_source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 481451000000.0,
+        "unit": "元",
+        "value_yuan": 481451000000.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/601088/ctrl/2025/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": 122176000000.0,
+        "pct_of_as_reported": 0.253766,
+        "pct_of_restated": 0.202403,
+        "direction": "restated_higher"
+      },
+      "reason": {
+        "code": "same_control_business_combination_2026",
+        "label": "同一控制下企业合并：2026年12家标的",
+        "detail": "2026年上半年完成收购国家能源集团及西部能源持有的12家标的公司股权，除晋神能源外11家纳入合并范围，按同一控制下企业合并追溯调整2025年比较数。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 2,
+          "must_contain": [
+            "12 家标的公司股权",
+            "11 家标的公司",
+            "同一控制下的企业合并",
+            "903,830"
+          ]
+        },
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 14,
+          "must_contain": [
+            "603,627"
+          ]
+        }
+      ],
+      "reclass_check": null,
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    },
+    {
+      "id": "601088/2025/total_liabilities",
+      "code": "601088",
+      "period": "2025",
+      "metric": "total_liabilities",
+      "metric_name": "负债合计",
+      "report_date": "2025-12-31",
+      "announce_date": "2026-03-31",
+      "as_reported": {
+        "value": 146310.0,
+        "unit": "百万元",
+        "value_yuan": 146310000000.0,
+        "page": 150,
+        "source_file": "data/raw/601088_2025.pdf",
+        "evidence_id": "601088-2025-total_liabilities",
+        "snippet": "负债合计 146,310 171,377"
+      },
+      "restated_comparative": {
+        "value": 300203000000.0,
+        "unit": "元",
+        "value_yuan": 300203000000.0,
+        "api_notice_date": "2026-10-24",
+        "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=ALL&filter=%28SECURITY_CODE%3D%22601088%22%29%28REPORT_DATE%3D%272025-12-31%27%29&pageNumber=1&pageSize=1&source=WEB&client=WEB",
+        "provider": "eastmoney",
+        "comparison_page": 14,
+        "comparison_source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF"
+      },
+      "second_source": {
+        "provider": "sina",
+        "value": 146310000000.0,
+        "unit": "元",
+        "value_yuan": 146310000000.0,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vDOWN_BalanceSheet/displaytype/4/stockid/601088/ctrl/2025/type/1.phtml",
+        "agrees_with_as_reported": true
+      },
+      "difference": {
+        "amount_yuan": 153893000000.0,
+        "pct_of_as_reported": 1.051828,
+        "pct_of_restated": 0.51263,
+        "direction": "restated_higher"
+      },
+      "reason": {
+        "code": "same_control_business_combination_2026",
+        "label": "同一控制下企业合并：2026年12家标的",
+        "detail": "2026年上半年完成收购国家能源集团及西部能源持有的12家标的公司股权，除晋神能源外11家纳入合并范围，按同一控制下企业合并追溯调整2025年比较数。",
+        "quantified": true
+      },
+      "evidence": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 2,
+          "must_contain": [
+            "12 家标的公司股权",
+            "11 家标的公司",
+            "同一控制下的企业合并",
+            "903,830"
+          ]
+        },
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF",
+          "page": 14,
+          "must_contain": [
+            "300,203"
+          ]
+        }
+      ],
+      "reclass_check": null,
+      "review": {
+        "verdict": "confirmed_restatement",
+        "extraction_error": false,
+        "data_action": "保留 as_reported 原值；新增 restated_comparative 引用；不覆盖原值。",
+        "gate_recommendation": "pass_with_restatement"
+      },
+      "disclosure_quality": "direct"
+    }
+  ],
+  "validation": {
+    "evidence_errors": [],
+    "pass": true
+  }
+}

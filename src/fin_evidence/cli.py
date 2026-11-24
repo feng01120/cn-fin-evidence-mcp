@@ -3,6 +3,7 @@
 
 import argparse
 import json
+import os
 from pathlib import Path
 
 from .extract import build_dataset, snippet_hit_rate
@@ -79,7 +80,15 @@ def cmd_list(args):
     print(json.dumps(list_datasets(Path(args.data)), ensure_ascii=False, indent=2))
 
 
+def cmd_demo(args):
+    from .demo import main as demo_main
+    return demo_main()
+
+
 def cmd_serve(args):
+    data_path = Path(args.data)
+    if data_path.exists():
+        os.environ['FIN_EVIDENCE_DATA'] = str(data_path.resolve())
     from .server import main
     main()
 
@@ -107,6 +116,9 @@ def main():
 
     l = sub.add_parser('list', help='列出数据集')
     l.set_defaults(func=cmd_list)
+
+    d = sub.add_parser('demo', help='30 秒证据链演示（无需 PDF）')
+    d.set_defaults(func=cmd_demo)
 
     s = sub.add_parser('serve', help='启动 MCP Server（stdio）')
     s.set_defaults(func=cmd_serve)

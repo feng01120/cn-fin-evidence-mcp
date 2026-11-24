@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "cn-fin-evidence": {
+      "type": "stdio",
+      "command": "fin-evidence",
+      "args": ["--data", "${workspaceFolder}/data", "serve"]
+    }
+  }
+}

@@ -125,7 +125,7 @@ def main():
     lines.append('## 复跑')
     lines.append('')
     lines.append('```bash')
-    lines.append('cd /home/user/Doubao/chats/38456275306143746/fin-evidence-mcp')
+    lines.append('cd cn-fin-evidence-mcp')
     lines.append('PYTHONPATH=src python scripts/build_material_review.py')
     lines.append('# 输出 10 items / 10 confirmed / evidence_errors 0 / pass true')
     lines.append('```')
