@@ -2,6 +2,9 @@
 
 发布日期：2026-11-24
 
+GitHub：https://github.com/feng01120/cn-fin-evidence-mcp  
+Release：https://github.com/feng01120/cn-fin-evidence-mcp/releases/tag/v0.2.4
+
 ## 一句话
 
 10 条重大追溯差异逐项复核完毕；已复核的真实追溯按 `pass_with_restatement` 通过门禁，未复核仍 fail。同时补齐 GitHub 发布形态、CI、Docker、30 秒 demo 和完整发布审计。
@@ -39,6 +42,7 @@
 | 验收 | `acceptance=true` |
 | 三源门禁 | pass 55 + pass_with_restatement 5 |
 | 测试 | 52 / 52 |
+| GitHub Actions CI | Python 3.10 / 3.11 / 3.12 全部通过 |
 | MCP stdio 冒烟 | 7 tools；证据与重述核对通过 |
 
 ## 资产
@@ -46,6 +50,8 @@
 - `cn_fin_evidence-0.2.4-py3-none-any.whl`：Python wheel，内置 demo 数据。
 - `cn_fin_evidence-0.2.4.tar.gz`：源码分发包。
 - `cn-fin-evidence-mcp-v0.2.4-60datasets-with-pdf.zip`：完整数据 + 60 份 PDF。
+- `cn-fin-evidence-mcp-v0.2.4-source.zip`：不含 `data/raw` 的源码包。
+- `RELEASE_AUDIT.md` / `release_audit.json`：完整发布审计报告与机器可读结果。
 - `SHA256SUMS`：资产校验和。
 
 ## 已知限制
@@ -55,4 +61,4 @@
 - 600690/2023 现金净增加额披露颗粒度有限；601088/2025 六项后发证据来自 2026 年三季报比较数，不是 2025 年报页码。
 - PDF 解析依赖 PyMuPDF（AGPL-3.0 或商业许可）；闭源商业分发需单独处理。
 - Dockerfile 已提供，但本次构建环境没有 Docker daemon，未实际构建镜像。
-- 未创建 GitHub remote / 未推送到 GitHub；发布步骤见 `docs/GITHUB_RELEASE_CHECKLIST.md`。
+- 已发布到 GitHub `feng01120/cn-fin-evidence-mcp`；`v0.2.4` Release 含 wheel、sdist、完整离线包、源码包与审计报告。
